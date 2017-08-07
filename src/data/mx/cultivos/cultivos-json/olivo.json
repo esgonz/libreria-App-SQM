@@ -1,0 +1,49 @@
+{   
+  "id":"0017",
+  "nombre" :"Olivo",
+  "background":"olivo.jpg",
+  
+  "etapas":"olivo.jpg",
+  "desordenes":[
+   {
+      "elemento":"potasio",
+      "imagenes":[
+         {
+            "img":"k_01_olive-big.jpg",
+            "span":"Sistema de deficiencia de potasio en las hojas del olivo."
+            
+         },
+         {
+            "img":"k_02_olive-big.jpg",
+            "span":"Deficiencia de potasio en las hojas del olivo (aumenta la severidad de izquierda a derecha)."
+            
+         },
+         {
+            "img":"k_03_olive-big.jpg",
+            "span":"Sintomas de iniciales de deficiencia de potasio en olivo."
+            
+         },
+         {
+            "img":"k_04_olive-big.jpg",
+            "span":"Sintomas avanzados de deficiencia de potasio en olivo."
+            
+         }
+      ]
+
+   },
+   {
+      "elemento":"Hierro",
+      "imagenes":[
+         {
+            "img":"fe_01_olive-big.jpg",
+            "span":"Hojas de Olivo. Izquierda- hojas de un árbol sano. Derecha- hojas de un árbol con deficiencia de Hierro."
+            
+         }
+      ]
+
+   }
+
+],
+  "variedadesTecnicas":[],
+  "variedades":[]
+}

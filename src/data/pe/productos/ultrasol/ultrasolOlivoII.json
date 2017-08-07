@@ -1,0 +1,15 @@
+{   "id":"0025",
+    "nombre" :"Ultrasol Olivo II",
+    "presentacion":"25kg",
+    "descripcionCorta":"Producto Estrella",
+    "img":"ultrasol-olivoii.png",
+    "marcaID":"ultrasol",
+    "marca":"Ultrasol",
+    "lineaID":"ultCultivos",
+    "linea":"cultivos",
+    "cultivos":["olivo"],
+    "metaTags":["ultrasol","Oxido de Fosforo","Fosfato Monoamonico","Nitrogeno"],
+    "descripcion":"<p>Producto formulado con el adecuado balance nutricional para las etapas tanto de crecimiento de fruto, así como para el desarrollo del brote para la siguiente campaña. Su alta concentración de K favorecerá un rápido e intenso crecimiento del fruto.</p><p>Contiene 70% de Nitrógeno Nítrico y 30% de Nitrógeno Amoniacal, balance ideal para la nutrición del cultivo en ésta etapa.</p><corte><p>Formulado específicamente también para las condiciones de aguas alcalinas de la costa Peruana, tiene un fuerte efecto ácido que permitirá incluso alcanzar valores de pH de 2,4 (solución al 10%). Ultrasol® Olivo II tiene una solubilidad máxima de 576 g/L (23 °C) lo cual le da propiedades de alta solubilidad y disponibilidad en forma inmediata.</p> <ul> <li>Posee un alto nivel de Potasio el cual favorece la producción, calidad y tamaño de la aceituna acelerando su madurez.</li> <li>Posee el adecuado balance nutricional para asegurar el crecimiento del brote de la próxima campaña, sin descuidar el crecimiento del fruto.</li> <li>Contiene 70% de Nitrógeno Nítrico y 30% Amoniacal balance ideal para la nutrición del cultivo en esta etapa.</li> <li>Genera un alto nivel de acidez en la solución (pH ácido).</li> <li>Bajo nivel de salinidad, libre de cloruro, sodio e impurezas.</li> </ul>",
+    "informacionTecnica":"<table class='table table-striped'>  <tr> <th colspan=\"2\">ESPECIFICACIONES</th> </tr> <tr> <td>Apariencia</td> <td>Sólido Soluble Cristalizado</td> </tr> <tr> <td>Nitrógeno (N)</td> <td>16%</td> </tr> <tr> <td>Pentóxido de Fósforo (P<sub>2</sub>O<sub>5</sub>)</td> <td>10%</td> </tr> <tr> <td>Oxido de Potasio (K<sub>2</sub>O)</td> <td>30%</td> </tr> <tr> <td>Azufre (S)</td> <td>0,3%</td> </tr> <tr> <td>Solubilidad (T = 23° C)</td> <td>576,2 g/l</td> </tr> <tr> <td>pH (a 10 g/l 20° C)</td> <td>2,37</td> </tr> <tr> <td>CE (1/1000 a 25° C)</td> <td>1,14 dS/m</td> </tr> </table> ",
+    "hojaProducto": "<table class='table table-striped'>  <tr> <th>Caracteristicas</th> <th>Valores</th> </tr> <tr> <td>Grado Agrícola - Soluble</td> <td>16 - 10 - 30</td> </tr> <tr> <td>Apariencia</td> <td>Sólido Soluble Cristalizado</td> </tr> <tr> <td>Código Interno</td> <td>UOLII</td> </tr> <tr> <td>Nitrogeno Total N</td> <td>16%</td> </tr> <tr> <td>Fosforo P<sub>2</sub>O<sub>5</sub></td> <td>10%</td> </tr> <tr> <td>Potasio K<sub>2</sub>O</td> <td>30%</td> </tr> <tr> <td>Azufre S</td> <td>0,3%</td> </tr> <tr> <td>Solubilidad T=23&deg; C</td> <td>576,2 g/l</td> </tr> <tr> <td>pH a 10 g/l 24&deg; C</td> <td>2,37</td> </tr> <tr> <td>C.E. 1/1000 a 25&deg; C</td> <td>1,14 dS/m</td> </tr> </table> "
+}

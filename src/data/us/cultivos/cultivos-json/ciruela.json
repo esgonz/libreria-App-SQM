@@ -1,0 +1,150 @@
+{
+   "id":"0032",
+   "nombre" :"Plum",
+   "background":"ciruela.jpg",
+   "productos":["producto_id","producto_id2"],
+   "descripcion":"<p>Ask your local SQM agronomist for a Specialty Plant Nutrition programme in accordance with your local needs and requirements.</p>",
+   "etapas":[
+   ],
+   "desordenes":[
+      {
+         "elemento":"nitrogen",
+         "imagenes":[
+            {
+               "img":"n_01_carozo-big.jpg",
+               "span":"A la izquierda, duraznero fertilizado con nitrógeno dentro de un huerto muy carente de este elemento."
+
+            },
+            {
+               "img":"n_02_carozo-big.jpg",
+               "span":"Brotes de duraznero con sintomas severos de deficiencia de nitrógeno en primavera."
+
+            },
+            {
+               "img":"n_03_carozo-big.jpg",
+               "span":"Ramillas de duraznero. A la izquierda, de arbol normal: a la derecha, de árbol muy deficiente en nitrógeno."
+
+            }
+         ]
+
+      },
+      {
+         "elemento":"potassium",
+         "imagenes":[
+            {
+               "img":"k_01_carozo-big.jpg",
+               "span":"Deficiencia de potassium en duraznero."
+
+            },
+            {
+               "img":"k_02_carozo-big.jpg",
+               "span":"Sintomas de deficiencia de potassium en damasco."
+
+            },
+            {
+               "img":"k_03_carozo-big.jpg",
+               "span":"Ciruelo cv. D' Age sintomas de deficiencia de potassium a mediados de verano. Fotografia, gentileza Ing. Agrónomo Sr. Thomas Ficher."
+
+            }
+         ]
+
+      },
+      {
+         "elemento":"magnesium",
+         "imagenes":[
+            {
+               "img":"mg_01_carozo-big.jpg",
+               "span":"Hojas de durazno con síntomas de deficiencia de Mg."
+
+            },
+            {
+               "img":"mg_02_carozo-big.jpg",
+               "span":"Deficiencia de magnesium en cerezo Mahaleb desarrollado en invernadero en solución nutritiva carente de magnesium."
+
+            }
+         ]
+
+      },
+      {
+         "elemento":"iron",
+         "imagenes":[
+            {
+               "img":"fe_01_carozo-big.jpg",
+               "span":"Hojas del Durazno con chloridesis de Fe. Arriba- hojas sanas."
+
+            },
+            {
+               "img":"fe_02_carozo-big.jpg",
+               "span":"Duraznero afectado por deficiencia de iron."
+
+            },
+            {
+               "img":"fe_03_carozo-big.jpg",
+               "span":"Brote de ciruelo cv. D' Agen con síntomas de deficiencia de iron."
+
+            },
+            {
+               "img":"fe_04_carozo-big.jpg",
+               "span":"Sector de un duraznero definciente en iron."
+
+            },
+            {
+               "img":"fe_05_carozo-big.jpg",
+               "span":"Duraznero afectados por severa deficiencia de iron."
+
+            },
+            {
+               "img":"fe_06_carozo-big.jpg",
+               "span":"Duraznero afectado simultaneamente por deficiencia de iron y zinc."
+
+            }
+         ]
+
+      },
+      {
+         "elemento":"manganese",
+         "imagenes":[
+            {
+               "img":"mn_01_carozo-big.jpg",
+               "span":"Hojas de durazno con sintomas de deficiencia de Mn."
+
+            }
+         ]
+
+      },
+      {
+         "elemento":"zinc",
+         "imagenes":[
+            {
+               "img":"zn_01_carozo-big.jpg",
+               "span":"Ramilla con 'roseta' apical proveniente de duraznero con deficiencia de zinc."
+
+            },
+            {
+               "img":"zn_02_carozo-big.jpg",
+               "span":"Ramilla de cieruelo japonés fuertemente afectadas por deficiencia de zinc."
+
+            },
+            {
+               "img":"zn_03_carozo-big.jpg",
+               "span":"Duraznero contiguo a un gallinero. La mitad de la copa, alimentada por raíces cercanas a éste presenta severa deficiencia de zinc y iron."
+
+            },
+            {
+               "img":"zn_04_carozo-big.jpg",
+               "span":"Ciruelo cv. D' Agen severamente afectado por deficiencia de zinc en primavera."
+
+            },
+            {
+               "img":"zn_05_carozo-big.jpg",
+               "span":"Ramillas de ciruelo cv. D' Agen. La de la derecha con fuertes síntomas de deficiencia de zinc."
+
+            }
+         ]
+
+      }
+
+   ],
+   "variedadesTecnicas":[],
+   "variedades":[]
+}

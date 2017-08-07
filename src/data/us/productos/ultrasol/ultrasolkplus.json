@@ -1,0 +1,15 @@
+{   "id":"0001",
+    "nombre" :"Ultrasol K Plus",
+    "presentacion":"25kg",
+    "descripcionCorta":"Producto Estrella",
+    "img":"ulkplus.png",
+    "marcaID":"ultrasol",
+    "marca":"Ultrasol",
+    "lineaID":"macronutrients",
+    "linea":"Macronutrients",
+    "cultivos":[],
+    "metaTags":["Bulldog","Oxido de Fosforo","Fosfato Monoamonico","Nitrogeno"],
+    "descripcion":"<p>Ultrasol® K Plus is the leader potassium source for all growth stages with additional nitrate nitrogen for a quick absorption by the plant. Free of chloride and mixable with all water - soluble sources. This combination makes Ultrasol® K Plus the most all- round and the most efficient water- soluble K- source of its kind.</p><ul><li>Ultrasol® K Plus is very low in chloride, sodium and heavy metals.</li><li>It`s a free- flowing, fine crystalline powder that quickly dissolves in water.</li><li>Can be mixed with all water-soluble fertilizers and it`s also compatible with the majority of pesticides in foliar application.</li><li>Nitrate nitrogen is non-volatile and enhances the uptake of other cations (K<sup>+</sup>, Ca<sub>2</sub><sup>+</sup>, Mg<sub>2</sub><sup>+</sup>).</li><li>Ultrasol® K Plus can be used to cover the potassium needs of a crop without supplying excess of sulphate or chloride.</li><li>Due to its low N/K ratio, Ultrasol® K Plus is suitable for all crops and growth stages, including flowering and ripening stages.</li></ul></p>",
+    "informacionTecnica": "<table class='table table-striped table-bordered'> <tr> <td>Nitrate nitrogen (N - NO<sub>3</sub>)</td> <td>13,7% (min.)</td> </tr> <tr> <td>Potassium (K<sub>2</sub>O)</td> <td>46,3% (min.)</td></tr> <tr> <td>Potassium (K)</td> <td>38,4% (min.)</td></tr> <tr> <td>Chloride (Cl)</td> <td>< 0,2%</td> </tr> <tr> <td>Solubility (g/l a 20°C)</td> <td>316</td> </tr> <tr> <td>Insolubles</td> <td>< 0,005%</td> </tr> <tr> <td>pH (solución al 5%)</td> <td>8 - 10</td> </tr> <tr> <td>Form</td> <td>Crystalline, odourless powder</td></tr> <tr> <td>Colour</td> <td>White</td> </tr></table>",
+    "hojaProducto": "ulkplus.jpg" 
+}

@@ -1,0 +1,50 @@
+
+
+<div  ng-controller="programaController">
+	
+	<!--Programa cultivos-->
+	<div class="row"  id="programaContent2" style="margin-top:2em;margin-bottom:2em;" >
+		<!-- encabezado-->
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+				<h4>
+					<img src="src/img/icons/cultivos/{{filtrosActivosPrograma.cultivo.iconColor}}" alt="" class="cultivo-icon"> 
+					{{ strings.cultivo_programa_nutricional }} : {{ filtrosActivosPrograma.cultivo.nombre }}
+				</h4>
+				
+				<div ng-if="(!estadoPograma)">
+				
+					<h5><span class="glyphicon glyphicon-stop"></span>{{strings.app_sin_informacion}}</h5>
+				</div>
+
+			</div>
+		</div>
+		
+
+		<!-- tabla-->
+		<div class="row" ng-if="(estadoPograma)">
+			<div class="col-md-12" ng-if="programaTipo == 1">
+				<img class="programa-img" src="src/data/mx/programas/programas-img/{{programas[0].imgUrl}}" alt="">
+			</div>				
+		</div>
+		<!-- /tabla-->
+
+
+
+		
+		<!-- boton-->
+		<div class="row"  ng-if="(estadoPograma)">
+			<div class="col-md-12">
+				<a class="btn btn-success" id="btn-imprimir-programaContent">
+					<span class= "glyphicon glyphicon-camera" aria-hidden="true"></span>
+					<!--<span class="" id="cultivo-btn-volver-spans" ng-click="crearPDF();">Enviar por Correo</span>-->
+					<span class="" id="cultivo-btn-volver-spans" ng-click="sharePhoto();">Enviar Captura de Pantalla</span>
+					
+				</a>
+				<span class="small" id=""><i>  La captura de pantalla, se almacena en la galeria de fotos del Dispositivo.</i></span>
+			</div>
+		</div>
+		<!-- /boton -->
+	</div>
+	<!--Programa cultivos-->
+</div>

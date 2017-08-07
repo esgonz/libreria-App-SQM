@@ -1,0 +1,25 @@
+ {
+                "id": "0026",
+                "nombre": "Ultrasol® Azul Especial",
+                "file": "ultrasolAzulEspecial.json",
+                "verbose": "ultrasolAzulEspecial",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "ultrasol",
+                    "Fosforo"
+                ]
+            },
+
+            , {
+                "id": "0025",
+                "nombre": "Ultrasol® Solucion Nutritiva",
+                "file": "ultrasolSolucionNutritiva.json",
+                "verbose": "ultrasolSolucionNutritiva",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "ultrasol",
+                    "Fosforo"
+                ]
+            }

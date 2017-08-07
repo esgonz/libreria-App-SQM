@@ -1,0 +1,87 @@
+{   
+    "id":"0016",
+    "nombre" :"Frutos Secos",
+    "background":"frutossecos.jpg",
+    
+    "descripcion":"<p>El nogal es un árbol grande de hoja caduca, con médula en el centro del tronco y hojas compuestas de folíolos impares, sus frutos “las nueces” son comestibles y de cáscara leñosa. Adicionalmente, la madera del nogal tiene una hermosa veta, siendo muy importante en la industria maderera.</p><p>Requerimientos del Cultivo<br>Suelo y Agua</p><p>Las características físicas y químicas del suelo deben asegurar las mejores condiciones para proveer de agua y nutrientes a los árboles durante el período de vida de un huerto. Algunos de los atributos de los suelos, más importantes de considerar, son la textura y su composición química.</p><p>Los frutales de nuez son exigentes en cuanto a profundidad y aireación del suelo. Las raíces se desarrollan de mejor forma en suelos de textura media que no tengan limitaciones (presencia de napa freática o estrata impermeable), hasta una profundidad de 1,5 m.</p><p>Las características químicas de los suelos, tales como pH, (índice de acidez o alcalinidad de un suelo) contenido de materia orgánica y elementos nutritivos, así como la presencia de sales y cal activa, determinarán el comportamiento de los árboles. En relación con el pH, los frutales de nuez prefieren suelos con pH ligeramente ácido a ligeramente alcalino (6,0 a 7,5). La materia orgánica es fundamental para mantener una buena estructura del suelo y estimular el crecimiento de las raíces. Un buen contenido de materia orgánica se considera entre 2 y 3% en los primeros 20 cm de suelo.</p><p>Los frutales de nuez, sin excepción, son sensibles al agua de riego de mala calidad. El agua que contiene más de 1.000 ppm de sales totales disueltas, o más de 300 ppm de cloruros, o más de 0,5 ppm de boro, puede causar toxicidad en las hojas y algún grado de defoliación, especialmente durante el período de verano en que se riega abundantemente.</p><p>La falta de agua por un manejo inadecuado del riego puede afectar el crecimiento de los árboles, disminuir la producción y afectar la calidad de la nuez. Una vez que las flores han sido polinizadas, en las pequeñas nueces ocurre un período de rápido crecimiento como resultado de una activa división celular. Este período dura entre 4 a 6 semanas. La falta de agua en esta fase tiende a acortar este período, afectando negativamente el tamaño final de las nueces.</p>",
+    "etapas":[],
+    "desordenes":[
+        {
+          "elemento":"magnesio",
+          "imagenes":[
+           {
+            "img":"mg_01_walnut-big.jpg",
+            "span":"Sintomas de deficiena de magnesio en las hojas de nogal (foto por cortesía de Rafael Ruiz)."
+            
+        }
+    ]
+
+      },
+      {
+          "elemento":"cloro",
+          "imagenes":[
+           {
+            "img":"cl_01_walnut-big.jpg",
+            "span":"Sintomas de exceso de cloro en las hojas de nogal."
+            
+        },
+        {
+            "img":"cl_02_walnut-big.jpg",
+            "span":"Hojas de nogal en primavera revelan síntomas iniciales de exceso de cloro."
+            
+        },
+        {
+            "img":"cl_03_walnut-big.jpg",
+            "span":"Toxicidad- Hojas de nogal con sintomas iniciales de toxicidad de cloruro en primavera."
+            
+        },
+        {
+            "img":"cl_04_walnut-big.jpg",
+            "span":"Toxicidad- de cloruro en nogal a fines de verano."
+            
+        }
+    ]
+
+      },
+      {
+          "elemento":"zinc",
+          "imagenes":[
+           {
+            "img":"zn_01_walnut-big.jpg",
+            "span":"Ramilla de almendro proveniente de árbol deficiente en zinc."
+            
+        },
+        {
+            "img":"zn_02_walnut-big.jpg",
+            "span":"Sintomas severos de deficiencia de zinc de almendro en primavera."
+            
+        }
+    ]
+
+      },
+      {
+          "elemento":"boro",
+          "imagenes":[
+           {
+            "img":"b_01_walnut-big.jpg",
+            "span":"Almendro afectado por deficiencia de boro en primavera."
+            
+        },
+        {
+            "img":"b_02_walnut-big.jpg",
+            "span":"Ramilla proveniente de almendro con fuerte deficiencia de boro."
+            
+        },
+        {
+            "img":"b_03_walnut-big.jpg",
+            "span":"Ramillas de frutos en almendro deficiente en boro."
+            
+        }
+    ]
+
+      }
+
+  ],
+    "variedadesTecnicas":[],
+    "variedades":[]
+}

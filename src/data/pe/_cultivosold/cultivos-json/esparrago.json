@@ -1,0 +1,61 @@
+{   
+  "id":"0009",
+  "nombre" :"Espárrago",
+  "background":"esparrago.jpg",
+  
+  "descripcion":"<p>El espárrago (Asparagus officinalis L.) es una hortaliza de la familia de las Liliáceas. Es una planta perenne que se cultiva principalmente en zonas de climas templados y con inviernos moderados.<br><br>Su ciclo de producción depende de la variedad, de las condiciones climáticas y principalmente del manejo cultural aplicado al cultivo. Prefiere días largos y altas intensidades de luz más bien que altas temperaturas; sin embargo, se ha observado que la luz no tiene un efecto directo en el crecimiento del turión.<br><br>La temperatura media óptima de crecimiento es de 19°C con una amplitud de +-7°C de variación, llegándose a afectar el crecimiento de los espárragos en zonas más frías (bajo 10 - 15°C).<br><br>El cultivo tiene una vida útil de entre 6 y 12 años, dependiendo del número de cosechas por año que se realicen. Con una cosecha anual, la planta dura usualmente entre 8 y 10 años, pudiéndose encontrar algunos cultivos con edades mayores, mientras que con dos cosechas por año, la planta dura entre 6 y 7 años.<br><br>La planta se constituye de dos partes: La parte aérea o “fronde”, conformada por tallos, ramas, hojas, flores, frutos y semillas; y la parte subterránea, en la cual se presentan dos tipos de raíces: Las principales, que actúan como órganos almacenadores de carbohidratos y las raicillas, responsables de la absorción del agua y de los nutrientes. Entre la raíz y el tallo se encuentra la corona, que es el nexo entre ambas partes, y es una especie de tallo horizontal subterráneo (rizoma) sobre el cual brotan las yemas vegetativas que darán lugar a los turiones (la parte comestible).<br><br>Las reservas formadas en la parte aérea son acumuladas en las raíces principales. Estas reservas juegan un rol fundamental en la emisión de turiones para la siguiente temporada. Esto debido a que el rendimiento del espárrago no es resultado de los productos fotosintéticos generados en la temporada actual, sino que está en función directa de la cantidad de reservas acumuladas la temporada anterior.<br><br>El espárrago se cultiva en una amplia gama de tipos de suelos, obteniéndose los mejores resultados en suelos francos, francos arenosos, roturados y mullidos con buen drenaje. El cultivo tolera suelos salinos, pero es susceptible a los suelos ácidos.</p>",
+  "etapas":[
+    {
+      "nombre":"Brotamiento",
+      "id":"etapa1",
+      "img":"esparrago-01.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"Ramificación",
+      "id":"etapa2",
+      "img":"esparrago-02.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"Floración",
+      "id":"etapa3",
+      "img":"esparrago-03.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"Desarrollo de Fruto",
+      "id":"etapa4",
+      "img":"esparrago-04.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"Maduración",
+      "id":"etapa5",
+      "img":"esparrago-05.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"Cosecha",
+      "id":"etapa6",
+      "img":"esparrago-06.jpg",
+      "descripcion":""
+    }
+  ],
+  "desordenes":[],
+  "variedadesTecnicas": [
+    {   
+      "variedadTecnicaId":"41",
+      "condicionId":"1",
+      "tecnificacionId":"1",
+      "fertilizacion":false  
+    },
+    {   
+      "variedadTecnicaId":"42",
+      "condicionId":"2",
+      "tecnificacionId":"1",
+      "fertilizacion":false  
+    }
+  ],
+  "variedades":[]
+}

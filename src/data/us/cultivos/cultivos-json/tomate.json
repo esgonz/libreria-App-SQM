@@ -1,0 +1,193 @@
+{
+    "id":"0023",
+    "nombre" :"Tomato",
+    "background":"tomate.jpg",
+    "productos":["producto_id","producto_id2"],
+    "descripcion":"<p>The tomato (Lycopersicon esculentum Mill.) belongs to the solanaceas family.</p><p>This is a warm season crop, being the temperature a key factor in certain critical periods of the crop, such as flowering.</p><p>The range of optimum growing temperatures is from 18° to the 27°C. Outside this range the production can be seriously affected, since temperatures below 10°C affect flowering and similarly temperatures too high, combined with low humidity, can produce flower abortion, affecting the pollen viability due to lower environmental humidity.</p><p>The sunshine conditions also are important for the crop development, requiring al least a direct light quantity of 6 hours for flowering. With additional light, the plant will be better prepared to sustain and develop the fruits, which improves crop yields.</p><p>For an optimum crop growing and development, it is important to maintain an adequate quantity of moisture through irrigation and to regulate the soil pH (ideal: 6.0 – 6.5) for assuring the availability of all nutrients.</p><p>Despite tomato is relative tolerant to salinity, this is an important factor to consider, due to high levels make difficult the crop nutrition through the roots.</p><p>There are varieties of determinate and indeterminate types. The first once are those in which the principal and lateral stems stop growing, ending in an inflorescence. Besides, in the indeterminate varieties, the principal and lateral stems continue their vegetative (leaves, sprouts) and reproductive growing (flowers and fruits).</p><p>The indeterminate varieties are directed to the fresh market, being harvested manually. On the other hand, the determinate varieties are for industrial purpose, which are generally harvested in a mechanized form, being important their crop and fruit uniformity (size and maturity). The crop length period is commonly longer in the indeterminate varieties (greenhouse), covering between 150 – 300 DAT (days after transplant) differing from tomatoes for industrial purpose (open field), which the period takes between 90 – 150 DAT).</p><p>Among different tomato types, the most distinguished are 4: cherry tomato (small, with two lobules), pear tomato (medium size y with two lobules), common tomato (4 to 6 lobules) and beefsteak tomato (6 lobules).</p><p>The market requirements differ according the type of tomato, fresh consumption or industrial use. In the first case, the important attributes are flavor, color, shape, texture (firm fruits) and the fruit form and size uniformity; while for industrial tomato the main requirements are strong red color, uniform and free of defects such as cracks and blows.</p>",
+    "etapas":[
+        {
+            "nombre":"Establishment",
+            "id":"etapa1",
+            "img":"tomate-01.jpg",
+            "descripcion":"<p>1- Ultrasol&reg; Tomate N&deg; Applications 15, kg/ha/appli 4.0, Total kg/ha 60.</p><p>2- Ultrasol&reg; Nit One N&deg; Applications 15, kg/ha/appli 4.0, Total kg/ha 60</p>"
+        },
+        {
+            "nombre":"Development & Veg. Growth",
+            "id":"etapa2",
+            "img":"tomate-02.jpg",
+            "descripcion":"<p>1- Ultrasol&reg; Tomate N&deg; Applications 30, kg/ha/appli 9.5, Total kg/ha 285.</p><p>2- Ultrasol&reg; Calcium N&deg; Applications 30, kg/ha/appli 4.5, Total kg/ha 135</p>"
+        },
+        {
+            "nombre":"First Flowering & Fruit set",
+            "id":"etapa3",
+            "img":"tomate-03.jpg",
+            "descripcion":"<p>1- Ultrasol&reg; Tomate N&deg; Applications 30, kg/ha/appli 14.0, Total kg/ha 420.</p>"
+        },
+        {
+            "nombre":"First phase fruit dev.",
+            "id":"etapa4",
+            "img":"tomate-04.jpg",
+            "descripcion":"<p>1- Ultrasol&reg; Tomate N&deg; Applications 25, kg/ha/appli 16.0, Total kg/ha 400.</p><p>2- Ultrasol&reg; Calcium N&deg; Applications 25, kg/ha/appli 6.0, Total kg/ha 120</p>"
+        },
+        {
+            "nombre":"Harvest Initiation",
+            "id":"etapa5",
+            "img":"tomate-05.jpg",
+            "descripcion":"<p>1- Ultrasol&reg; Tomate N&deg; Applications 25, kg/ha/appli 16.0, Total kg/ha 400.</p><p>2- Ultrasol&reg; Calcium N&deg; Applications 25, kg/ha/appli 6.0, Total kg/ha 120</p>"
+        },
+        {
+            "nombre":"Full harvest",
+            "id":"etapa6",
+            "img":"tomate-06.jpg",
+            "descripcion":"<p>1- Ultrasol&reg; Tomate N&deg; Applications 25, kg/ha/appli 16.0, Total kg/ha 400.</p><p>2- Ultrasol&reg; Calcium N&deg; Applications 25, kg/ha/appli 6.0, Total kg/ha 120</p>"
+        }
+    ],
+    "desordenes":[
+        {
+            "elemento":"nitrogen",
+            "imagenes":[
+                {
+                    "img":"n_01_tomato-big.jpg",
+                    "span":"Nitrogen deficiency imbalance."
+                }
+            ]
+        },
+        {
+            "elemento":"phosphorus",
+            "imagenes":[
+                {
+                    "img":"p_01_tomato-big.jpg",
+                    "span":"Phosphorous deficiency imbalance."
+                }
+            ]
+        },
+        {
+            "elemento":"potassium",
+            "imagenes":[
+                {
+                    "img":"k_01_tomato-big.jpg",
+                    "span":"Potassium deficiency imbalance."
+                },
+                {
+                    "img":"k_02_tomato-big.jpg",
+                    "span":"Lack of colouring."
+                },
+                {
+                    "img":"k_03_tomato-big.jpg",
+                    "span":"Peel cracking."
+                },
+                {
+                    "img":"k_04_tomato-big.jpg",
+                    "span":"Potassium deficiency in leaf."
+                }
+            ]
+        },
+        {
+            "elemento":"calcium",
+            "imagenes":[
+                {
+                    "img":"ca_01_tomato-big.jpg",
+                    "span":"Calcium deficiency imbalance."
+                },
+                {
+                    "img":"ca_02_tomato-big.jpg",
+                    "span":"Calcium excess imbalance (goldspeck) caused by calcium oxalate accumulation under the skin, shown as small spots on the shoulder of the fruit."
+                }
+            ]
+        },
+        {
+            "elemento":"magnesium",
+            "imagenes":[
+                {
+                    "img":"mg_01_tomato-big.jpg",
+                    "span":"Magnesium deficiency imbalance."
+                }
+            ]
+        },
+        {
+            "elemento":"sulphur",
+            "imagenes":[
+                {
+                    "img":"s_01_tomato-big.jpg",
+                    "span":"Sulphur deficiency imbalance."
+                }
+            ]
+        },
+        {
+            "elemento":"iron",
+            "imagenes":[
+                {
+                    "img":"fe_01_tomato-big.jpg",
+                    "span":"Iron deficiency imbalance."
+                },
+                {
+                    "img":"fe_02_tomato-big.jpg",
+                    "span":"Iron deficiency imbalance."
+                }
+            ]
+        },
+        {
+            "elemento":"zinc",
+            "imagenes":[
+                {
+                    "img":"zn_01_tomato-big.jpg",
+                    "span":"Zinc deficiency imbalance."
+                },
+                {
+                    "img":"zn_02_tomato-big.jpg",
+                    "span":"Zinc excess imbalance with interveinal yellowing on the leaflets."
+                }
+            ]
+        },
+        {
+            "elemento":"manganese",
+            "imagenes":[
+                {
+                    "img":"mn_01_tomato-big.jpg",
+                    "span":"Manganese deficiency imbalance."
+                },
+                {
+                    "img":"mn_02_tomato-big.jpg",
+                    "span":"Manganese excess imbalance, normally shown as black deposits (not shown here) around the veins, with yellowing in the surrounding tissue, which gradually spreads across the leaf."
+                }
+            ]
+        },
+        {
+            "elemento":"boron",
+            "imagenes":[
+                {
+                    "img":"b_01_tomato-big.jpg",
+                    "span":"Boron deficiency imbalance."
+                },
+                {
+                    "img":"b_02_tomato-big.jpg",
+                    "span":"Boron deficiency imbalance."
+                },
+                {
+                    "img":"b_03_tomato-big.jpg",
+                    "span":"Boron excess imbalance with small brown spots along the margins of the leaflets."
+                }
+            ]
+        },
+        {
+            "elemento":"copper",
+            "imagenes":[
+                {
+                    "img":"cu_01_tomato-big.jpg",
+                    "span":"Copper deficiency imbalance."
+                }
+            ]
+        },
+        {
+            "elemento":"molybdenum",
+            "imagenes":[
+                {
+                    "img":"mo_01_tomato-big.jpg",
+                    "span":"Molybdenum deficiency imbalance."
+                }
+            ]
+        }
+    ],
+"variedadesTecnicas":[],
+"variedades":[]
+}

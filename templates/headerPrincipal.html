@@ -1,0 +1,125 @@
+<div class="navbar navbar-default navbar-fixed-top" ng-class="{true:'color-allganic', false:''}[currentPage=='allganic']">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <span ng-if=" (currentPage=='allganic')">
+              <img class="nav-logo-icon-allganic"  src="src/img/icons/marcas/{{mercado.id}}/img_allganic1.png">
+            </span>
+
+            <span ng-if=" (currentPage!='allganic')">
+              <img class="nav-logo-icon"  src="src/img/icons/logosqm.jpg">
+            </span>
+            
+
+          </div>
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-main">
+          <ul class="nav navbar-nav nav-app-left">
+          
+           
+
+          </ul>
+          
+          <ul class="nav navbar-nav navbar-right"   ng-class="{true:'mostrar', false:'esconder'}[currentPage!='login']">
+          <!--Atras-->
+           <li ng-class="{true:'mostrar', false:'esconder'}[currentPage!='']">
+              <a class="btn btn-link btn-nav-app" id="btn-atras" ng-click="atrasFunc()">
+                      <img src="src/img/icons/ui/img_atras_dark.png">      
+              </a> 
+            </li>
+            <!--BUSCAR-->
+            
+            <li class="li-nav-buscar">
+              <form class="form-inline btn-nav-app " ng-submit="buscar(inputBuscar);" id="header-form-buscar">                
+                  <input  type="text" class="form-control nav-input-buscar" ng-model="inputBuscar" placeholder="Buscar Producto o cultivo">
+                  <img id="btn-nav-app-buscar" ng-click="buscar(inputBuscar);" src="src/img/icons/ui/img_buscar_gris.png">
+              </form>
+            </li>
+
+             <!--HOME-->
+            <li>
+              <a href="index.html#/menu" class="btn btn-link btn-nav-app">
+                  <img class="" src="src/img/icons/ui/img_home_dark.png">
+                                 
+              </a> 
+            </li>
+            
+            <!--CULTIVOS -->
+            <li>
+              <a href="#menu-toggle" target="self" class="btn btn-link btn-nav-app" id="menu-toggle-cultivo" ng-click="verCultivosMenu();">
+                <img class="" src="src/img/icons/ui/img_cultivo_dark.png">                
+              </span>
+              </a>
+            </li>
+
+           
+            
+            <!--LOGIN-->
+          
+            <li>
+              <!--<a href="index.html#/login" class="btn btn-link btn-nav-app">
+                  <span class="">
+                    <img class="" src="src/img/icons/ui/img_login2.png">
+                  </span>
+                  <div class="">
+                    <small class="btn-nav-app-label">Login</small>   
+                </div>    
+              </a> -->
+            </li>
+
+            <li>
+             <a href="#menu-toggle" target="self" class="btn btn-link" id="menu-toggle" ng-click="verProductosMenu();"><span class="glyphicon glyphicon-menu-hamburger dark" aria-hidden="true" style="font-size:2em;"></span></a>
+            </li>
+
+
+          </ul>
+        </div>
+      </div>
+    </div>
+
+        <script type="text/javascript">
+
+
+        
+
+    </script>
+
+         <!-- Menu Toggle Script -->
+     <script>
+       /**/
+       $("#menu-toggle").click(function(e) {
+          e.preventDefault();
+          $("#sidebar-wrapper").toggleClass("toggled");
+        });
+
+        $("#menu-toggle-cultivo").click(function(e) {
+          e.preventDefault();
+          $("#sidebar-wrapper").toggleClass("toggled");
+        });   
+      
+        
+       /*clic fuera de menu lateral- en body-*/
+       $("#content-wrapper").click(function(e) {      
+        
+        var toggled = $("#sidebar-wrapper").attr('class');
+        if (toggled ==  "lateralMenu ng-scope toggled") {
+          $("#sidebar-wrapper").toggleClass("toggled");
+        }
+        
+      });
+
+       /*cerrar menu principal en pantallas pequeñas*/
+      $(".navbar-toggle").click(function(e) {
+        var toggled = $("#sidebar-wrapper").attr('class');
+        if (toggled ==  "lateralMenu ng-scope toggled") {
+          $("#sidebar-wrapper").toggleClass("toggled");
+        }
+        
+      });
+
+     </script>

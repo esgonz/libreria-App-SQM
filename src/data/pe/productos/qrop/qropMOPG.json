@@ -1,0 +1,15 @@
+{   "id":"0031",
+    "nombre" :"Qrop MOP-G",
+    "presentacion":"25kg",
+    "descripcionCorta":"Producto Estrella",
+    "img":"qrop-mopgs.png",
+    "marcaID":"qrop",
+    "marca":"Qrop",
+    "lineaID":"qropMacro",
+    "linea":"macronutrientes",
+    "cultivos":[],
+    "metaTags":["ultrasol","Oxido de Fosforo","Fosfato Monoamonico","Nitrogeno"],
+    "descripcion":"<p>El cloruro de potasio (KCl) es una rica fuente natural de potasio, para una amplia gama de cultivos, como por ejemplo Soya, Maíz, Algodón, Café, Cacao, Menestras, Hortalizas, Granos (Arroz, Trigo, Cebada), Caña de azucar, Papas, Cítricos, Eucaliptos, Alcachofas y Palma Aceitera.</p><p>El rol del potasio se relaciona directamente con la calidad y la producción. El potasio está involucrado en más de 50 actividades o funciones dentro de las plantas, transformándolo en un elemento esencial para lograr una buena nutrición en los cultivos.</p><corte><ul> <li>El potasio hace que las plantas produzcan más rápido las proteínas que necesitan (conversión más rápida a proteínas).</li> <li>El potasio hace que las plantas aprovechen mejor el sol (mayor asimilación de CO<sub>2</sub> y más azúcares).</li> <li>El potasio hace que las plantas transporten mas rápido y en mayor cantidad lo que producen las hojas hacia los frutos (fotosintatos).</li> <li>El potasio hace que las plantas absorban nutrientes por un tiempo más prolongado (mejor calidad de fruta).</li> <li>El potasio hace que las plantas usen mejor el fertilizante nitrogenado.</li> <li>El potasio hace que las plantas usen mejor el agua (menos agua requerida/kg de planta).</li> <li>Regula la apertura y cierre de estomas (células de guarda).</li> <li>El potasio es responsable de mejorar el color de las frutas y hortalizas, por la síntesis de licopeno (color rojo).</li> <li>El potasio mejora el número de frutos y el peso de cada fruto.</li> <li>El potasio aumenta el grosor de la pared celular, reduciendo la aparición de enfermedades.</li> <li>El potasio aumenta la cantidad de frutos de alta calidad.</li> </ul>",
+    "informacionTecnica":"<table class='table table-striped'>  <tr> <th colspan=\"2\">ESPECIFICACIONES QROP® MOP-G</th> </tr> <tr> <td>Apariencia</td> <td>Gránulos Blancos / Grisáceos</td> </tr> <tr> <td>Pentóxido de Potasio (K<sub>2</sub>O)</td> <td>60% min</td> </tr> <tr> <td>Pureza (KCl)</td> <td>95% min</td> </tr> <tr> <td>Humedad (H<sub>2</sub>O)</td> <td>0,4%</td> </tr> </table>  ",
+    "hojaProducto": "<table class='table table-striped'>  <tr> <th>Caracteristicas MOP-G</th> <th>Valores</th> </tr> <tr> <td>Grado Agrícola - Estándar</td> <td>0 - 0 - 60</td> </tr> <tr> <td>Fórmula Química</td> <td>KCl</td> </tr> <tr> <td>Apariencia</td> <td>Granulos Blancos</td> </tr> <tr> <td>Código Interno</td> <td>MOP-G</td> </tr> <tr> <td>Potasio K<sub>2</sub>O</td> <td>60% min</td> </tr> <tr> <td>Pureza KCl</td> <td>85% min</td> </tr> <tr> <td>Potasio K<sub>2</sub>O</td> <td>61%</td> </tr> <tr> <td>Humedad H<sub>2</sub>O</td> <td>0,4%</td> </tr> <tr> <td>Densidad (HULK)</td> <td>1,1 ton(metric) / m&sup3;</td> </tr> <tr> <td>Angulo de Reposo</td> <td>31&deg;</td> </tr> </table>  "
+}

@@ -1,0 +1,9 @@
+[
+	{	"programaId":"1",
+		"programaFile":"programa001.json",
+		"programaCultivos":["1023","11302"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[0,1,2,3,4],
+	    "programaTecnificaciones":[0,1,2,3,4]
+	}
+]

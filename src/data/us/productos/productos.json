@@ -1,0 +1,587 @@
+{  
+  "indice":{  
+    "ultrasol":[  
+      0,
+      {  
+        "ultMacro":0,
+        "ultAcida":1,
+        "ultSoluble":2
+      }
+    ],
+    "qrop":[  
+      1,
+      {  
+        "qropStraight":0,
+        "qropRelease":1
+      }
+    ],
+    "bulldog":[  
+      2,
+      {  
+        "bulldogSoluble":0,
+        "bulldogStable":1
+      }
+    ]
+  },
+  "lista":[  
+    {  
+      "id":"ultrasol",
+      "nombre":"Ultrasol®",
+      "baseUrl":"src/data/us/productos/ultrasol/",
+      "cssclass":"menuPrincipal-fondoultrasol",
+      "img":"img_ultrasol2.png",
+      "imgBlanco":"img_ultrasol1.png",
+      "lineas":[  
+        {  
+          "id":"ultMacro",
+          "nombre":"Macronutrients",
+          "tipo":"Macronutrients",
+          "img":"img_macro.png",
+          "productos":[  
+            {  
+              "id":"0001",
+              "nombre":"Ultrasol® K Plus",
+              "file":"ultrasolkplus.json",
+              "verbose":"ulkplus",
+              "estado":"activado",
+              "cultivos":[],
+              "metaTags":[  
+                "ultrasol",
+                "Nitrato de Potasio",
+                "Potasio",
+                "Calcio",
+                "Magnesio"
+              ]
+            },
+            {  
+              "id":"0002",
+              "nombre":"Ultrasol® MOP",
+              "file":"ultrasolmop.json",
+              "verbose":"ulmop",
+              "estado":"activado",
+              "cultivos":[],
+              "metaTags":[  
+                "ultrasol",
+                "Magnesio"
+              ]
+            },
+            {  
+              "id":"0003",
+              "nombre":"Ultrasol® SOP-52",
+              "file":"ultrasolsop52.json",
+              "verbose":"ulsop52",
+              "estado":"activado",
+              "cultivos":["palta","arandano","limon","manzano","naranja","pera","pimiento"],
+
+              "metaTags":[  
+                "ultrasol",
+                "Potasio"
+              ]
+            }            
+          ]
+        },
+        {  
+          "id":"ultAcida",
+          "nombre":"Acid Line",
+          "tipo":"Acid",
+          "img":"img_lineaacida.png",
+          "productos":[  
+            {  
+              "id":"0004",
+              "nombre":"Ultrasol® Magnum p44",
+              "file":"ultrasolmagnump44.json",
+              "verbose":"ulmagnump44",
+              "estado":"activado",
+              "cultivos":[],
+              "metaTags":[  
+                "ultrasol",
+                "Fosforo"
+              ]
+            }
+          ]
+        },
+        {  
+          "id":"ultSoluble",
+          "nombre":"Water Soluble NPK",
+          "tipo":"soluble",
+          "img":"img_soluble.png",
+          "productos":[  
+            {  
+              "id":"0005",
+              "nombre":"Ultrasol® Hydroponic Plus",
+              "file":"ultrasolhydroponicplus.json",
+              "verbose":"ulhydroponicplus",
+              "estado":"activado",
+              "cultivos":[],
+              "metaTags":[  
+                "ultrasol",
+                "arandano"
+              ]
+            },
+            {  
+              "id":"0006",
+              "nombre":"Ultrasol® Premium Starter",
+              "file":"ultrasolpremiumstarter.json",
+              "verbose":"ulpremiumstarter",
+              "estado":"activado",
+              "cultivos":[],
+              "metaTags":[  
+                "ultrasol",
+                "quinua"
+              ]
+            },
+            {  
+              "id":"0007",
+              "nombre":"Ultrasol® Finisher",
+              "file":"ultrasolfinisher.json",
+              "verbose":"ulfinisher",
+              "estado":"activado",
+              "cultivos":[],
+              "metaTags":[  
+                "ultrasol",
+                "tomate"
+              ]
+            },
+            {  
+              "id":"0008",
+              "nombre":"Ultrasol® Multipurpose Plus",
+              "file":"ultrasolmultipurposeplus.json",
+              "verbose":"ulmultipurposeplus",
+              "estado":"activado",
+              "cultivos":[],
+              "metaTags":[  
+                "ultrasol",
+                "tomate",
+                "olivo"
+              ]
+            },
+            {  
+              "id":"0009",
+              "nombre":"Ultrasol® Hi Calcium Plus",
+              "file":"ultrasolhicalciumplus.json",
+              "verbose":"ulhicalciumplus",
+              "estado":"activado",
+              "cultivos":[],
+              "metaTags":[  
+                "ultrasol",
+                "tomate"
+              ]
+            },
+            {  
+              "id":"0010",
+              "nombre":"Ultrasol® Premium",
+              "file":"ultrasolpremium.json",
+              "verbose":"ulpremium",
+              "estado":"activado",
+              "cultivos":[],
+              "metaTags":[  
+                "ultrasol",
+                "tomate"
+              ]
+            },
+            {  
+              "id":"0012",
+              "nombre":"Ultrasol® Hi K",
+              "file":"ultrasolhik.json",
+              "verbose":"ulhik",
+              "estado":"activado",
+              "cultivos":[],
+              "metaTags":[  
+                "ultrasol",
+                "tomate"
+              ]
+            },
+            {  
+              "id":"0013",
+              "nombre":"Ultrasol® Starter",
+              "file":"ultrasolstarter.json",
+              "verbose":"ulstarter",
+              "estado":"activado",
+              "cultivos":[],
+              "metaTags":[  
+                "ultrasol",
+                "tomate"
+              ]
+            },
+            {  
+              "id":"0014",
+              "nombre":"Ultrasol® Seeding Plus",
+              "file":"ultrasolseedingplus.json",
+              "verbose":"ulseedingplus",
+              "estado":"activado",
+              "cultivos":[],
+              "metaTags":[  
+                "ultrasol",
+                "tomate"
+              ]
+            },
+            {  
+              "id":"0015",
+              "nombre":"Ultrasol® High Acid Plus",
+              "file":"ultrasolhighacidplus.json",
+              "verbose":"ulhighacidplus",
+              "estado":"activado",
+              "cultivos":[],
+              "metaTags":[  
+                "ultrasol",
+                "tomate"
+              ]
+            },
+            {  
+              "id":"0011",
+              "nombre":"Ultrasol® Blueberry",
+              "file":"ultrasolblueberry.json",
+              "verbose":"ulblueberry",
+              "estado":"activado",
+              "cultivos":[],
+              "metaTags":[  
+                "ultrasol",
+                "tomate"
+              ]
+            },
+            {  
+              "id":"0017",
+              "nombre":"Ultrasol® Greenhouse Plus",
+              "file":"ultrasolgreenhouseplus.json",
+              "verbose":"ulgreenhouseplus",
+              "estado":"activado",
+              "cultivos":[],
+              "metaTags":[  
+                "ultrasol",
+                "tomate"
+              ]
+            },
+            {  
+              "id":"0018",
+              "nombre":"Ultrasol® Super Foliar",
+              "file":"ultrasolsuperfoliar.json",
+              "verbose":"ulsuperfoliar",
+              "estado":"activado",
+              "cultivos":[],
+              "metaTags":[  
+                "ultrasol",
+                "tomate"
+              ]
+            }
+          ]
+        }
+      ]
+},
+{  
+  "id":"qrop",
+  "nombre":"Qrop®",
+  "baseUrl":"src/data/us/productos/qrop/",
+  "cssclass":"menuPrincipal-fondoqrop",
+  "img":"img_qrop2.png",
+  "imgBlanco":"img_qrop1.png",
+  "lineas":[  
+    {  
+      "id":"qropStraight",
+      "nombre":"Straight",
+      "tipo":"straight",
+      "img":"img_macro.png",
+      "productos":[  
+        {  
+          "id":"0019",
+          "nombre":"Qrop® K",
+          "file":"qropk.json",
+          "verbose":"qrk",
+          "estado":"activado",
+          "cultivos":["palta","arandano","cafe","durazno","esparrago","manzano","papa","pimiento","tomate","uva"],
+
+          "metaTags":[  
+            "qrop",
+            "Calcio"
+          ]
+        },
+        {  
+          "id":"0020",
+          "nombre":"Qrop® MOP",
+          "file":"qropmop.json",
+          "verbose":"qrmop",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[  
+            "qrop",
+            "cloro",
+            "nitrato de potasio"
+          ]
+        },
+        {  
+          "id":"0021",
+          "nombre":"Qrop® SOP",
+          "file":"qropsop.json",
+          "verbose":"qrsop",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[  
+            "qrop",
+            "cloro",
+            "nitrato de potasio"
+          ]
+        },  
+        {  
+          "id":"0023",
+          "nombre":"Qrop® KS",
+          "file":"qropks.json",
+          "verbose":"qrks",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[  
+            "qrop",
+            "Calcio"
+          ]
+        },  
+        {  
+          "id":"0024",
+          "nombre":"Qrop® KN",
+          "file":"qropkn.json",
+          "verbose":"qrkn",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[  
+            "qrop",
+            "Calcio"
+          ]
+        }
+      ]
+    },
+    {  
+      "id":"qropRelease",
+      "nombre":"Contr. Release",
+      "tipo":"release",
+      "img":"img_release.png",
+      "productos":[  
+        {  
+          "id":"0022",
+          "nombre":"Qrop® CR",
+          "file":"qropcr.json",
+          "verbose":"qrkcr",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[  
+            "qrop",
+            "Calcio"
+          ]
+        }
+      ]
+    }
+  ]
+},
+{  
+  "id":"bulldog",
+  "nombre":"Bulldog®",
+  "baseUrl":"src/data/us/productos/bulldog/",
+  "cssclass":"menuPrincipal-fondobulldog",
+  "img":"img_bulldog2.png",
+  "imgBlanco":"img_bulldog1.png",
+  "lineas":[  
+    {  
+      "id":"bulldogSoluble",
+      "nombre":"Water Soluble NPK",
+      "tipo":"soluble",
+      "img":"img_soluble.png",
+      "productos":[ 
+        {  
+          "id":"0025",
+          "nombre":"Bulldog® 25-0-25 No Phosphate Plus",
+          "file":"bulldog25025.json",
+          "verbose":"25025bulldog",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[]
+        },
+        {  
+          "id":"0026",
+          "nombre":"Bulldog® 15-15-30 K Plus",
+          "file":"bulldog151530.json",
+          "verbose":"151530bulldog",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[]
+        },
+        {  
+          "id":"0027",
+          "nombre":"Bulldog® 17-4-28 High Potash Plus",
+          "file":"bulldog17428.json",
+          "verbose":"17428bulldog",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[]
+        },
+        {  
+          "id":"0028",
+          "nombre":"Bulldog® 14-0-15 K Cal Mag Plus",
+          "file":"bulldog14015.json",
+          "verbose":"14015bulldog",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[]
+        },
+        {  
+          "id":"0029",
+          "nombre":"Bulldog® 21-7-7 High Acid Special",
+          "file":"bulldog2177.json",
+          "verbose":"2177bulldog",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[]
+        },
+        {  
+          "id":"0030",
+          "nombre":"Bulldog® 15-0-40 Potassium Nitrate Plus",
+          "file":"bulldog15040.json",
+          "verbose":"15040bulldog",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[]
+        },
+        {  
+          "id":"0031",
+          "nombre":"Bulldog® 30-10-10 Landscape Plus",
+          "file":"bulldog301010.json",
+          "verbose":"301010bulldog",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[]
+        },
+        {  
+          "id":"0032",
+          "nombre":"Bulldog® 16-32-16 Hydroseed Plus",
+          "file":"bulldog163216.json",
+          "verbose":"163216bulldog",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[]
+        },
+        {  
+          "id":"0033",
+          "nombre":"Bulldog® 25-5-20 Bermudagrass Plus",
+          "file":"bulldog25520.json",
+          "verbose":"25520bulldog",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[]
+        },
+        {  
+          "id":"0034",
+          "nombre":"Bulldog® 28-8-18 Bentgrass Plus",
+          "file":"bulldog28818.json",
+          "verbose":"28818bulldog",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[]
+        },
+        {  
+          "id":"0035",
+          "nombre":"Bulldog® 17-17-17 General Purpose Plus",
+          "file":"bulldog171717.json",
+          "verbose":"171717bulldog",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[]
+        },
+        {  
+          "id":"0036",
+          "nombre":"Bulldog® 20-20-20 Multi Purpose Plus",
+          "file":"bulldog202020.json",
+          "verbose":"202020bulldog",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[]
+        },
+        {  
+          "id":"0037",
+          "nombre":"Bulldog® 9-45-15 Turf Started",
+          "file":"bulldog94515.json",
+          "verbose":"94515bulldog",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[]
+        },
+        {  
+          "id":"0045",
+          "nombre":"Bulldog® 18-0-28 C4 Pro Dwarf",
+          "file":"bulldog18028.json",
+          "verbose":"18028bulldog",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[]
+        }
+      ]
+    },
+    {  
+      "id":"bulldogStable",
+      "nombre":"Stable N",
+      "tipo":"stablen",
+      "img":"img_stablen.png",
+      "productos":[
+        {  
+          "id":"0038",
+          "nombre":"Bulldog® StableN 21-7-7",
+          "file":"bulldog2177stablen.json",
+          "verbose":"2177bulldogstablen",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[]
+        },
+        {  
+          "id":"0039",
+          "nombre":"Bulldog® StableN 20-20-20",
+          "file":"bulldog202020stablen.json",
+          "verbose":"202020bulldogstablen",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[]
+        },
+        {  
+          "id":"0040",
+          "nombre":"Bulldog® StableN 25-5-20",
+          "file":"bulldog25520stablen.json",
+          "verbose":"25520bulldogstablen",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[]
+        },
+        {  
+          "id":"0041",
+          "nombre":"Bulldog® StableN 30-10-10",
+          "file":"bulldog301010stablen.json",
+          "verbose":"301010bulldogstablen",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[]
+        },
+        {  
+          "id":"0042",
+          "nombre":"Bulldog® StableN 25-0-25",
+          "file":"bulldog25025stablen.json",
+          "verbose":"25025bulldogstablen",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[]
+        },
+        {  
+          "id":"0043",
+          "nombre":"Bulldog® StableN 28-8-18",
+          "file":"bulldog28818stablen.json",
+          "verbose":"28818bulldogstablen",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[]
+        },
+        {  
+          "id":"0044",
+          "nombre":"Bulldog® StableN 20-10-20",
+          "file":"bulldog201020stablen.json",
+          "verbose":"201020bulldogstablen",
+          "estado":"activado",
+          "cultivos":[],
+          "metaTags":[]
+        }
+      ]
+    }
+  ]
+}
+]
+}

@@ -1,0 +1,15 @@
+{   "id":"0030",
+    "nombre" :"Qrop K",
+    "presentacion":"25kg",
+    "descripcionCorta":"Producto Estrella",
+    "img":"qrop-k.png",
+    "marcaID":"qrop",
+    "marca":"Qrop",
+    "lineaID":"qropMacro",
+    "linea":"macronutrientes",
+    "cultivos":[],
+    "metaTags":["ultrasol","Oxido de Fosforo","Fosfato Monoamonico","Nitrogeno"],
+    "descripcion":"<p>Qrop® K es una fuente de potasio de rápida disponibilidad, la que además aporta nitrógeno nítrico, la fuente de nitrógeno preferida por las plantas. De esta manera es la fuente de mayor relevancia en los rendimientos de los cultivos.</p><p>Qrop® K es una solución nutricional elaborada a partir de materias primas que se obtienen de forma natural en el norte de Chile, a través de un proceso amigable con el medio ambiente.</p><p>Qrop® K es una fuente libre de cloro y debido a su baja higrocospicidad puede ser utilizado bajo cualquier condición climática, en cualquier parte del mundo.</p><corte><ul> <li>Es la fuente más concentrada que aporta nitrógeno y potasio al mismo tiempo.</li> <li>Es la fuente potásica de más rápida acción, acompañado de nitrógeno nítrico, de disponibilidad inmediata.</li> <li>Este producto se puede mezclar con prácticamente todas las materias primas fertilizantes utilizadas en la agricultura.</li> <li>Por sus características, al aportar directamente nitrógeno nítrico, no tienen lugar las reacciones que liberan protones y acidifican el suelo, como ocurre con el amonio.</li> <li>Por los elementos que aporta y su baja salinidad puede ser utilizado en una amplia gama de cultivos y en cualquiera de sus fases de crecimiento.</li> <li>El nitrógeno nítrico, además de ser la fuente preferida de las plantas, sobre el 80 % del nitrógeno que consumen lo absorben de esta forma.</li> </ul>",
+    "informacionTecnica":"<table class='table table-striped'>  <tr> <th colspan=\"2\">ESPECIFICACIONES</th> </tr> <tr> <td>Apariencia</td> <td>Gránulos Blancos</td> </tr> <tr> <td>Nitrógeno nítrico (N - NO<sub>3</sub>)</td> <td>13,5%</td> </tr> <tr> <td>Oxido de potasio (K<sub>2</sub>O)</td> <td>45,3%</td> </tr> <tr> <td>Cloro (Cl)</td> <td>0,59%</td> </tr> <tr> <td>Solubilidad (en agua a 20° C)</td> <td>31,6 g/100 cm³</td> </tr> </table> ",
+    "hojaProducto": "<table class='table table-striped'>  <tr> <th>Caracteristicas</th> <th>Valores</th> </tr> <tr> <td>Grado Agrícola - Granulado</td> <td>13,5 - 0 - 45</td> </tr> <tr> <td>Fórmula Química</td> <td>KNO<sub>3</sub></td> </tr> <tr> <td>Apariencia</td> <td>Granulos Blancos</td> </tr> <tr> <td>Código Interno</td> <td>NPP</td> </tr> <tr> <td>Nitrogeno Nítrico N</td> <td>13,5%</td> </tr> <tr> <td>Potasio soluble en agua K<sub>2</sub>O</td> <td>45,3%</td> </tr> <tr> <td>Cloro Cl</td> <td>0,59%</td> </tr> <tr> <td>Peso Molecular</td> <td>101,1</td> </tr> <tr> <td>Punto de Fusión</td> <td>333 &deg;C</td> </tr> <tr> <td>Solubilidad (en agua a 20&deg; C)</td> <td>31,6 cm&sup3;</td> </tr> <tr> <td>Densidad</td> <td>1,190 tm/m&sup3;</td> </tr> <tr> <td>Angulo de Reposo</td> <td>21&deg;</td> </tr> <tr> <td>Gravedad específica</td> <td>2,110</td> </tr> </table> "
+}

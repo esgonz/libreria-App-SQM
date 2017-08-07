@@ -1,0 +1,78 @@
+{
+    "id":"0024",
+    "nombre" :"Wheat",
+    "background":"trigo.jpg",
+    "productos":["producto_id","producto_id2"],
+    "descripcion":"<p>Ask your local SQM agronomist for a Specialty Plant Nutrition programme in accordance with your local needs and requirements.</p>",
+    "etapas":[
+        {
+            "nombre":"Emergence",
+            "id":"etapa1",
+            "img":"trigo-01.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Two leaf",
+            "id":"etapa2",
+            "img":"trigo-02.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Tillering begins",
+            "id":"etapa3",
+            "img":"trigo-03.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Advanced tillering",
+            "id":"etapa4",
+            "img":"trigo-04.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Jointing",
+            "id":"etapa5",
+            "img":"trigo-05.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Flag leaf emerging",
+            "id":"etapa6",
+            "img":"trigo-06.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Flag leaf fully emerged",
+            "id":"etapa7",
+            "img":"trigo-07.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Booting",
+            "id":"etapa8",
+            "img":"trigo-08.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Head emergence",
+            "id":"etapa9",
+            "img":"trigo-09.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Flowering",
+            "id":"etapa10",
+            "img":"trigo-10.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Maturation",
+            "id":"etapa11",
+            "img":"trigo-11.jpg",
+            "descripcion":""
+        }
+    ],
+    "desordenes":[],
+    "variedadesTecnicas":[],
+    "variedades":[]
+}

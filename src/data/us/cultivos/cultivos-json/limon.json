@@ -1,0 +1,187 @@
+{
+    "id":"0033",
+    "nombre" :"Lemon",
+    "background":"limon.jpg",
+    "productos":["producto_id","producto_id2"],
+    "descripcion":"<p>Citrus crops, particularly lemon trees, are sensible to frosts. This damage can be very detrimental at fruit formation initiation stage, being affected with temperatures between -0.9°C and -1.4°C. The rest of citrus crops (mandarins, grape fruits and orange tress) are tolerant to temperatures until approximately -2.5°C.</p><p>The location of crops is important, since the optimum temperature accumulation (degree days) for growing species directly influences the fruits soluble solid content (sugar content); consequently in warm spring locations, an early and excellent fruit quality is possible to obtain.</p><p>In relation to soil requirements, citrus crops need good drainage soils and with an effective depth of 80 cm to develop normal roots, being common to utilize ridges, which allow to establish these crops in thinner soils.</p><p>For citrus crops, it is common to utilize technified irrigation for controlling moisture stress, which is particularly damaging at the flowering stage. Also, the utilization of drippers and permanent soil washing to avoid excess salinity at the root zone, due to these crops are very sensible to salinity, being important to avoid water with salt concentration higher than 2mmhos/cm.</p><p>Besides, in the irrigation water, carbonates and bicarbonates’ concentrations superior to 2 meq/l requires to acidifying the water to avoid drippers’ blockage. Under the technified irrigation system, it is required about 6.000 m3/ha/year of water in the Quillota zone, Chile.</p><p>For a correct rootstock selection, some important criteria to be considered are: the adaptation to the present soil conditions, the productivity looking for, fruit caliber and frost resistance and/or resistance to certain diseases that affect the crop. The rootstock diversity existing in Chile allows finding the best combination to be adapted to different soil conditions in the country.</p>",
+    "etapas":[
+        {
+            "nombre":"Pre- Bloom",
+            "id":"etapa1",
+            "img":"limon-01.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Full- Bloom",
+            "id":"etapa2",
+            "img":"limon-02.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Post Bloom (Fruit set)",
+            "id":"etapa3",
+            "img":"limon-03.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Fruit Growth",
+            "id":"etapa4",
+            "img":"limon-04.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Fruit Growth (Until colour change)",
+            "id":"etapa5",
+            "img":"limon-05.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Post Fruit Colouring",
+            "id":"etapa6",
+            "img":"limon-06.jpg",
+            "descripcion":""
+        }
+    ],
+    "desordenes":[
+        {
+            "elemento":"nitrogen",
+            "imagenes":[
+                {
+                    "img":"n_01_citrus-big.jpg",
+                    "span":"Lemon leaves: left- N- deficient leaf. Right- normal leaf concerning N- status."
+                },
+                {
+                    "img":"n_02_citrus-big.jpg",
+                    "span":"Severe N- deficiency in lemon."
+                },
+                {
+                    "img":"n_03_citrus-big.jpg",
+                    "span":"Branches of lemon trees have symptoms of nitrogen deficiency."
+                },
+                {
+                    "img":"n_04_citrus-big.jpg",
+                    "span":"Orange trees affected by severe nitrogen deficiency."
+                }
+            ]
+        },
+        {
+            "elemento":"magnesium",
+            "imagenes":[
+                {
+                    "img":"mg_01_citrus-big.jpg",
+                    "span":"Shoot removed from a Mg- deficient lemon tree."
+                },
+                {
+                    "img":"mg_02_citrus-big.jpg",
+                    "span":"Branches of a lemon tree with magnesium deficiency."
+                }
+            ]
+        },
+        {
+            "elemento":"iron",
+            "imagenes":[
+                {
+                    "img":"fe_01_citrus-big.jpg",
+                    "span":"Leaf symptoms of Fe- deficiency in lemon tree."
+                },
+                {
+                    "img":"fe_02_citrus-big.jpg",
+                    "span":"Fe- deficiency young lemon tree."
+                },
+                {
+                    "img":"fe_03_citrus-big.jpg",
+                    "span":"Lemon shoot showing symptoms of Fe- deficiency."
+                },
+                {
+                    "img":"fe_04_citrus-big.jpg",
+                    "span":"Lemon shoots. Left- from on Fe- deficient tree. Right- from a Mg- deficient tree."
+                },
+                {
+                    "img":"fe_05_citrus-big.jpg",
+                    "span":"Lemon shoot showing symptoms of Fe- deficiency."
+                },
+                {
+                    "img":"fe_06_citrus-big.jpg",
+                    "span":"Partial recovery response of lemon leaves to a foliar spray containing Fe- sylfate."
+                },
+                {
+                    "img":"fe_07_citrus-big.jpg",
+                    "span":"Young lemon tree with iron chlorosis."
+                },
+                {
+                    "img":"fe_08_citrus-big.jpg",
+                    "span":"Leaves of a young lemon tree with iron chlorosis."
+                },
+                {
+                    "img":"fe_09_citrus-big.jpg",
+                    "span":"Leaves of the lemon trees with chlorosis show partial response to spray applications of iron-based fertilizer."
+                }
+            ]
+        },
+        {
+            "elemento":"manganese",
+            "imagenes":[
+                {
+                    "img":"mn_01_citrus-big.jpg",
+                    "span":"Lemon leaves: Left- N- deficient leaf. Right- normal leaf concerning N- status."
+                },
+                {
+                    "img":"mn_02_citrus-big.jpg",
+                    "span":"Severe N- deficiency in lemon."
+                },
+                {
+                    "img":"mn_03_citrus-big.jpg",
+                    "span":"Branches of lemon trees have symptoms of nitrogen deficiency."
+                },
+                {
+                    "img":"mn_04_citrus-big.jpg",
+                    "span":"Oranges affected by severe nitrogen deficiency."
+                },
+                {
+                    "img":"mn_05_citrus-big.jpg",
+                    "span":"Oranges affected by severe nitrogen deficiency."
+                },
+                {
+                    "img":"mn_06_citrus-big.jpg",
+                    "span":"Oranges affected by severe nitrogen deficiency."
+                }
+            ]
+        },
+        {
+            "elemento":"zinc",
+            "imagenes":[
+                {
+                    "img":"zn_01_citrus-big.jpg",
+                    "span":"Orange fruit bearing shoots: Left- from an healthy tree. Right- from a Zn- deficient tree."
+                },
+                {
+                    "img":"zn_02_citrus-big.jpg",
+                    "span":"Leaf symptomas of Zn- deficiency in 'Thomson Navel' orange."
+                },
+                {
+                    "img":"zn_03_citrus-big.jpg",
+                    "span":"Orange leaves. Right- leaf symptoms of Zn- deficiency. Leaf- healthy leaf."
+                },
+                {
+                    "img":"zn_04_citrus-big.jpg",
+                    "span":"Deficiency symptoms of Man and Zn in orange."
+                },
+                {
+                    "img":"zn_05_citrus-big.jpg",
+                    "span":"Lemon leaves. From left to right- leaves with symptoms of Mg-, Mn-, Fe- and Zn- deficiency, respectively."
+                }
+            ]
+        },
+        {
+            "elemento":"chloride",
+            "imagenes":[
+                {
+                    "img":"mg_01_citrus-big.jpg",
+                    "span":"Mandarin tree leaves showing chloride excess symptoms resulting from high irrigation water chloride levels."
+                }
+            ]
+        }
+    ],
+"variedadesTecnicas":[],
+"variedades":[]
+}

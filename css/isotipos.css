@@ -1,0 +1,463 @@
+.isotipos-marcas {
+  background-image: url('../src/img/icons/marcas-mexico-ok.png');
+  background-repeat: no-repeat;
+}
+
+.isotipo-0012 {
+  height: 20px;
+  width: 208px;
+  background-position: 0px -6px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0027 {
+  height: 20px;
+  width: 65px;
+  background-position: -210px -6px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0033 {
+  height: 20px;
+  width: 65px;
+  background-position: -275px -6px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0026 {
+  height: 20px;
+  width: 164px;
+  background-position: -340px -6px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-calmag {
+  height: 20px;
+  width: 112px;
+  background-position: -505px -6px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0006 {
+  height: 20px;
+  width: 112px;
+  background-position: -618px -6px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0013 {
+  height: 20px;
+  width: 192px;
+  background-position: -731px -6px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0008 {
+  height: 20px;
+  width: 85px;
+  background-position: -922px -6px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0019 {
+  height: 20px;
+  width: 142px;
+  background-position: -1005px -6px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0017 {
+  height: 20px;
+  width: 180px;
+  background-position: 0px -31px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0034 {
+  height: 20px;
+  width: 105px;
+  background-position: -180px -31px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0005 {
+  height: 20px;
+  width: 168px;
+  background-position: -284px -31px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0035 {
+  height: 20px;
+  width: 98px;
+  background-position: -453px -31px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0039 {
+  height: 20px;
+  width: 146px;
+  background-position: -552px -31px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0036 {
+  height: 20px;
+  width: 146px;
+  background-position: -701px -31px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0011 {
+  height: 20px;
+  width: 73px;
+  background-position: -847px -31px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0044 {
+  height: 20px;
+  width: 135px;
+  background-position: -922px -31px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0007 {
+  height: 20px;
+  width: 82px;
+  background-position: -1058px -31px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0021 {
+  height: 20px;
+  width: 141px;
+  background-position: -5px -55px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0038 {
+  height: 20px;
+  width: 104px;
+  background-position: -148px -55px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0045 {
+  height: 20px;
+  width: 137px;
+  background-position: -254px -55px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-flowerfruit {
+  height: 20px;
+  width: 209px;
+  background-position: -391px -55px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0016 {
+  height: 20px;
+  width: 185px;
+  background-position: -601px -55px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0014 {
+  height: 20px;
+  width: 185px;
+  background-position: -786px -55px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0043 {
+  height: 20px;
+  width: 172px;
+  background-position: -971px -55px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0025 {
+  height: 20px;
+  width: 209px;
+  background-position: -5px -80px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0022 {
+  height: 20px;
+  width: 181px;
+  background-position: -214px -80px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0042 {
+  height: 20px;
+  width: 172px;
+  background-position: -396px -80px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0023 {
+  height: 20px;
+  width: 118px;
+  background-position: -569px -80px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0040 {
+  height: 20px;
+  width: 134px;
+  background-position: -688px -80px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0020 {
+  height: 20px;
+  width: 149px;
+  background-position: -822px -80px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0030 {
+  height: 20px;
+  width: 159px;
+  background-position: -971px -80px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0031 {
+  height: 20px;
+  width: 181px;
+  background-position: -5px -105px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0015 {
+  height: 20px;
+  width: 191px;
+  background-position: -186px -105px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0037 {
+  height: 20px;
+  width: 132px;
+  background-position: -377px -105px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0004 {
+  height: 20px;
+  width: 176px;
+  background-position: -510px -105px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0032 {
+  height: 20px;
+  width: 132px;
+  background-position: -687px -105px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0010 {
+  height: 20px;
+  width: 80px;
+  background-position: -820px -105px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0018 {
+  height: 20px;
+  width: 93px;
+  background-position: -900px -105px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0024 {
+  height: 20px;
+  width: 118px;
+  background-position: -994px -105px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0001 {
+  height: 20px;
+  width: 113px;
+  background-position: -5px -130px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0002 {
+  height: 20px;
+  width: 110px;
+  background-position: -118px -130px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0028 {
+  height: 20px;
+  width: 107px;
+  background-position: -229px -130px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0003 {
+  height: 20px;
+  width: 107px;
+  background-position: -337px -130px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0029 {
+  height: 20px;
+  width: 88px;
+  background-position: -445px -130px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0041 {
+  height: 20px;
+  width: 210px;
+  background-position: -390px -55px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0046 {
+  height: 20px;
+  width: 80px;
+  background-position: -534px -130px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0009 {
+  height: 20px;
+  width: 82px;
+  background-position: -615px -130px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-nitrogen {
+  height: 24px;
+  width: 112px;
+  background-position: -697px -130px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0047 {
+  height: 24px;
+  width: 137px;
+  background-position: -808px -130px;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+
+.isotipo-0048 {
+    height: 25px;
+    width: 100px;
+    background-position: -940px -130px;
+    display: inline-block;
+    position: relative;
+    top: 15px;
+}

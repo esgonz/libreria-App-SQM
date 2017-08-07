@@ -1,0 +1,147 @@
+
+				<!--Tabla recomendacion-->				
+				<div class="table-responsive">
+					<table class="table table-striped table-bordered" id="render_me">
+						<thead class="bg-color-{{cultivoIndexData.verbose}} cultivo-table-programa-head">
+							
+
+
+
+							<tr colspan="" rowspan="" headers="" scope="">
+
+								
+
+								<td colspan="" rowspan="3" headers="">Fertilizante</td>
+
+								<td colspan="5" rowspan="2" headers="">
+									Contenido Nutricional
+								</td>
+								<td colspan="4" rowspan="" headers="">
+									Etapa
+								</td>
+
+							</tr>
+
+							<tr colspan="" rowspan="" headers="" scope="">
+
+								
+								<td colspan="4" rowspan="" headers="">Kg/100m3 de Agua de riego</td>
+
+				
+							</tr>
+
+							<tr colspan="" rowspan="" headers="" scope="">
+
+								
+								<td colspan="" rowspan="" headers="">N</td>
+								<td colspan="" rowspan="" headers="">P<sub>2</sub>O<sub>5</sub></td>
+								<td colspan="" rowspan="" headers="">K<sub>2</sub>O</td>
+								<td colspan="" rowspan="" headers="">CaO</td>
+								<td colspan="" rowspan="" headers="">MgO</td>
+								
+								<td colspan="" rowspan="" headers="">SN Vegetativa</td>
+								<td colspan="" rowspan="" headers="">SN Media</td>
+								<td colspan="" rowspan="" headers="">SN Generativa 1</td>
+								<td colspan="" rowspan="" headers="">SN Generativa 2</td>
+
+
+				
+							</tr>
+
+
+
+						</thead>
+
+						<tbody>
+							<tr ng-repeat="elemento in programaTablaData" >
+								
+									<td class="cultivo-table-programa-producto"  colspan="" rowspan="" headers="">
+										
+
+						
+											{{elemento.producto}}
+	
+									</td>
+
+									<td colspan="" rowspan="" headers="">
+										
+					
+											{{elemento.contN}}
+									
+									</td>
+
+									<td colspan="" rowspan="" headers="">
+										
+		
+					
+											{{elemento.contP2O5}}
+										
+									</td>
+
+									<td colspan="" rowspan="" headers="">
+										
+								
+											{{elemento.contK2O}}
+										
+
+									
+									</td>
+
+									<td colspan="" rowspan="" headers="">
+										
+												
+											{{elemento.contCaO}}
+										
+									</td>
+
+									<td colspan="" rowspan="" headers="">
+										
+														
+											{{elemento.contMgO}}
+										
+									</td>
+
+									<td colspan="" rowspan="" headers="">
+										
+														
+											{{elemento.snVegetativa}}
+										
+									</td>
+									<td colspan="" rowspan="" headers="">
+										
+														
+											{{elemento.snMedia}}
+										
+									</td>
+									<td colspan="" rowspan="" headers="">
+										
+														
+											{{elemento.snGenerativa1}}
+										
+									</td>
+									<td colspan="" rowspan="" headers="">
+										
+														
+											{{elemento.snGenerativa2}}
+										
+									</td>
+
+								
+
+
+
+
+									
+					
+							</tr>
+
+							
+					</table>
+				</div> 
+				
+				<div ng-if="(programas.length<1)">
+					<h5  ng-if="(cultivo.etapas.length <1)"><span class="glyphicon glyphicon-stop"></span>{{strings.app_sin_informacion}}</h5>
+				</div>
+
+				<!--Tabla recomendacion-->
+			

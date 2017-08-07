@@ -1,0 +1,95 @@
+{
+    "id":"0003",
+    "nombre" :"Arándano",
+    "background":"arandano.jpg",
+    "descripcion":"<p>Los cultivos del genero Vaccinium Pertenecen a la familia de las Ericaceas. Sus especies se encuentran ampliamente distribuidas en Europa y USA. Los Vaccinium se clasifican en dos grupos, los Arándanos (Blueberries, heildelbeere )y las Arándanas (Cranberries, Poiselbeere, Airelles).<br><br>Se distinguen principalmente dos tipos: arándanos arbusto alto (highbush), ojo de conejo (rabbiteyes)<br><br>El primero se caracteriza por ser autofértil, por lo tanto las plantaciones pueden ser establecidas como un solo cultivar, sin embargo se ha visto que al poner dos o tres variedades en el huerto, se obtienen frutos de mayor tamaño y de maduración más temprana. En cambio los cultivares de arándanos ojo de conejo no son auto fértiles, esto implica que se deben intercalar dos o más cultivos de floración simultánea para obtener una buena polinización cruzada.<br><br>El arándano de arbusto alto es la especie que primero se llevó a condiciones de cultivo y es la que produce fruta de mejor calidad en cuanto a tamaño y sabor. Los cultivares ojo de conejo a pesar de considerarse de menor importancia económica, tienen la ventaja de requerir un invierno corto, no son tan exigentes en suelos y son más resistentes a pH alcalino, al calor y a la sequía.<br><br>Suelo: Las características del suelo son determinantes para un buen desarrollo de los Berries, en cuanto a sus características; físicas nos determinan el desarrollo de raíces y capacidad de retención de agua para el cultivo y respecto de sus características químicas nos determinan la disponibilidad de nutrientes esenciales para el crecimiento y producción y en algunos casos problemas de toxicidad por presencia de algún elemento que provoca problemas para el cultivo. El pH es una característica del suelo que nos determina la disponibilidad de nutrientes para el cultivo.<br><br>Los Arándanos crecen mejor en suelos húmedos, ácidos (pH 4-5.5), arenosos, turbo arenoso o arcillosos no muy profundos y de baja fertilidad. En general, debido a las exigencias de humedad y oxigenación, el suelo debe tener buen drenaje, gran capacidad de retención de agua y ser poroso para la debida aireación. Cuando la condición de acidez de los suelos no es la adecuada para el cultivo de arándano (pH más alto). Por tanto, es necesario realizar prácticas de manejo que permitan aumentar la acidez (disminuir el pH del suelo), dentro de las cuales una de las más eficientes y económicamente convenientes es la aplicación de azufre (azufre elemental). Sin embargo tener presente que una alteración del pH del suelo afecta la disponibilidad de nutrientes de este para el cultivo.</p>",
+    "etapas":"arandano.jpg",
+    "desordenes":[
+        {
+            "elemento":"fosforo",
+            "imagenes":[
+                {
+                    "img":"p_01_berries-big.jpg",
+                    "span":"Arándano con sintomas de deficiencia de P."
+
+                }
+            ]
+
+        },
+        {
+            "elemento":"nitrogeno",
+            "imagenes":[
+                {
+                    "img":"n_01_berries-big.jpg",
+                    "span":"Frente- planta de frutilla que crece en un sustrato con deficiencia de N. Atrás- plantas de frutilla que han sido fertilizados con N."
+
+                },
+                {
+                    "img":"n_02_berries-big.jpg",
+                    "span":"Plantas de frambueso. Izquierda, normal. Derecha, con deficiencia de nitrogeno."
+
+                }
+            ]
+
+        },
+        {
+            "elemento":"potasio",
+            "imagenes":[
+                {
+                    "img":"k_01_berries-big.jpg",
+                    "span":"Hojas de guindo revelan síntomas de deficiencia de K."
+
+                }
+            ]
+
+        },
+        {
+            "elemento":"magnesio",
+            "imagenes":[
+                {
+                    "img":"mg_01_berries-big.jpg",
+                    "span":"Portainjertos de cerezo 'Mahaleb' que han crecido en invernaderos revelan sintomas de deficiencias de Mg en las hojas."
+
+                }
+            ]
+
+        },
+        {
+            "elemento":"hierro",
+            "imagenes":[
+                {
+                    "img":"fe_01_berries-big.jpg",
+                    "span":"Frutillas con sintomas de deficiencia de Fe."
+
+                },
+                {
+                    "img":"fe_02_berries-big.jpg",
+                    "span":"Hojas de frambuesas con sintomas de deficiencia de Fe."
+
+                },
+                {
+                    "img":"fe_03_berries-big.jpg",
+                    "span":"Deficiencia de Fe en una planta joven de arándano."
+
+                }
+            ]
+
+        },
+        {
+            "elemento":"manganeso",
+            "imagenes":[
+                {
+                    "img":"mn_01_berries-big.jpg",
+                    "span":"Hojas de frambuesas con sintomas de deficiencia de Mn."
+
+                }
+            ]
+
+        }
+
+    ],
+    "variedadesTecnicas":[],
+    "variedades":[]
+
+
+}

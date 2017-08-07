@@ -1,0 +1,11 @@
+{   
+  "id":"0022",
+  "nombre" :"Sandia",
+  "background":"sandia.jpg",
+  
+  "descripcion":"<p>Solicite a su agrónomo local de SQM asesoría para formular un programa de nutrición vegetal de especialidad de acuerdo con sus necesidades locales y requerimientos de cultivo.</p>",
+  "etapas":"sandia.jpg",
+  "desordenes":[],
+  "variedadesTecnicas":[],
+  "variedades":[]
+}

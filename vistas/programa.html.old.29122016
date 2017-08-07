@@ -1,0 +1,52 @@
+
+
+<div  ng-controller="programaController">
+	
+	<!--Programa cultivos-->
+	<div class="row"  id="programaContent2" style="margin-top:2em;margin-bottom:2em;" >
+		<!-- encabezado-->
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+				<h4>
+					<img src="src/img/icons/cultivos/{{filtrosActivosPrograma.cultivo.iconColor}}" alt="" class="cultivo-icon"> 
+					{{ strings.cultivo_programa_nutricional }} : {{ filtrosActivosPrograma.cultivo.nombre }}
+				</h4>
+				
+				<div ng-if="(!estadoPograma)">
+				
+					<h5><span class="glyphicon glyphicon-stop"></span>{{strings.app_sin_informacion}}</h5>
+				</div>
+
+			</div>
+		</div>
+		<!-- tabla-->
+		<div class="row" ng-if="(estadoPograma)">
+			<div class="col-md-12" ng-if="programaTipo == 1" ng-include="'templates/cultivo/clvo_tablaSuelo.html'" scope="" onload="">
+				
+			</div>				
+		</div>
+		<!-- /tabla-->
+
+
+		<!-- tabla 2-->
+		<div class="row"  ng-if="(estadoPograma)">
+			
+			<div class="col-md-12" ng-if="programaTipo == 2" ng-include="'templates/cultivo/clvo_tablaHidroponica.html'" scope="" onload=""></div>
+
+			<div class="col-md-12" ng-if="programaTipo == 2" ng-include="'templates/cultivo/clvo_tablaHidroponicaSN.html'" scope="" onload=""></div>				
+		</div>
+		<!-- /tabla 2-->
+		
+		<!-- boton-->
+		<div class="row"  ng-if="(estadoPograma)">
+			<div class="col-md-12">
+				<a class="btn btn-success" id="btn-imprimir-programaContent">
+					<span class= "glyphicon glyphicon-paperclip" aria-hidden="true"></span>
+					<span class="" id="cultivo-btn-volver-spans" ng-click="crearPDF();">Enviar por Correo</span>
+				</a>
+			</div>
+		</div>
+		<!-- /boton -->
+	</div>
+	<!--Programa cultivos-->
+</div>

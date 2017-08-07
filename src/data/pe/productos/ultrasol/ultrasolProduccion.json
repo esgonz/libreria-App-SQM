@@ -1,0 +1,15 @@
+{   "id":"0021",
+    "nombre" :"Ultrasol Produccion",
+    "presentacion":"25kg",
+    "descripcionCorta":"Producto Estrella",
+    "img":"ultrasol-produccion.png",
+    "marcaID":"ultrasol",
+    "marca":"Ultrasol",
+    "lineaID":"ultEtapas",
+    "linea":"etapas",
+    "cultivos":["ajo","algodon","arandano","cranberry","durazno","esparrago","fresa","kiwi","lima","limon","maiz","mango","naranja","pera","pimiento","pomelo","tomate","trigo","uva"],
+    "metaTags":["ultrasol","Oxido de Fosforo","Fosfato Monoamonico","Nitrogeno"],
+    "descripcion":"<p>Ultrasol® Producción es una fórmula líder dentro de la línea Ultrasol®, especialmente diseñada para el proceso más intensivo en el ciclo del cultivo: desde la floración hasta la formación del fruto, donde el potasio es responsable del transporte de carbohidratos desde las hojas a los órganos reproductivos (fruta, semilla, tubérculo) para obtener mayor calibre, mejor calidad y peso. Es una fuente clave de nutrientes en la producción floral</p><corte><ul> <li>Fórmula nutricionalmente superior, concentrada, fuente de potasio virtualmente libre de cloro, 100% soluble y lista para usarse.</li> <li>Fósforo en forma de fosfato de mayor movilidad.</li> <li>Aporte balanceado de nitrógeno nítrico y amoniacal.</li> <li>Mayor rapidez y seguridad en la dosificación de los nutrientes.</li> <li>Acidifica directamente la solución, disminuyendo uso de ácidos.</li> <li>No cristaliza ni produce depósitos de sales en goteros y red de riego.</li> </ul>",
+    "informacionTecnica":"<table class='table table-striped'>  <tr> <th colspan=\"2\">ESPECIFICACIONES</th> </tr> <tr> <td>Apariencia</td> <td>Polvo</td> </tr> <tr> <td>Nitrógeno (N)</td> <td>13%</td> </tr> <tr> <td>Pentóxido de fósforo (P<sub>2</sub>O<sub>5</sub>)</td> <td>6%</td> </tr> <tr> <td>Oxido de potasio (K<sub>2</sub>O)</td> <td>40,2%</td> </tr> <tr> <td>Solubilidad (15°C)</td> <td>345 g/l</td> </tr> <tr> <td>CE (1 g/l 20° C)</td> <td>1,33 dS/m</td> </tr> <tr> <td>pH (1 g/l 20° C)</td> <td>5,15</td> </tr> </table> ",
+    "hojaProducto": "<table class='table table-striped'>  <tr> <th>Caracteristicas</th> <th>Valores</th> </tr> <tr> <td>Grado Agrícola - Soluble</td> <td>13 - 06 - 40</td> </tr> <tr> <td>Apariencia</td> <td>Polvo</td> </tr> <tr> <td>Código Interno</td> <td>5714 AA</td> </tr> <tr> <td>Nitrogeno Total N</td> <td>13%</td> </tr> <tr> <td>Fosforo P<sub>2</sub>O<sub>5</sub></td> <td>6%</td> </tr> <tr> <td>Potasio K<sub>2</sub>O</td> <td>40,2%</td> </tr> <tr> <td>Solubilidad (15&deg; C)</td> <td>345 g/l</td> </tr> <tr> <td>C.E. (1 g/l 20&deg; C)</td> <td>1,33 dS/m</td> </tr> <tr> <td>pH (1 g/l 20&deg; C)</td> <td>5,15</td> </tr> </table> "
+}

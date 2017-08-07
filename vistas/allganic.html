@@ -1,0 +1,151 @@
+
+<style type="text/css" media="screen">
+	.allganic-logo{
+		width: 75%;
+    max-height: 5em;
+	}
+	.producto-descripcion{
+		padding-top: 2em;
+		padding-bottom: 2em;
+		height: 600px;
+		
+	}
+	.allganic-saco{
+		max-width: 80%;
+		position: relative;
+		margin: 12em auto;
+	}
+  .allganic-descripcion{
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: solid .6em #cad400;
+  }
+</style>
+<div class="col-md-12" id="vistaAllganic" ng-controller="allganicController">
+
+   <!--row marca descripcion-->
+   <div class="row">
+    <div class=" col-xs-12 col-sm-12 col-md-10 col-lg-10 col-md-offset-1 texto allganic-descripcion">
+      <p>Allganic®, es la familia de fertilizantes totalmente orgánicos de SQM Organic.<br />Todos los fertilizantes de Allganic® son naturales y amigables con el medio ambiente, proporcionando macro y micro nutrientes esenciales.<br />Allganic® mejora la vida del suelo en suelos orgánicos bien balanceados para obtener cosechas de alta calidad y, por lo tanto, producir alimentos sanos y nutritivos para una calidad de vida mejor.<br />Allganic®, haciendo la vida mejor.</p>
+    </div>
+  </div>
+
+  <!--row productos-->
+  <div class="row">
+    <!-- allganic potassium-->
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+      <!--info producto-->
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 texto producto-descripcion" >
+          <img class="allganic-logo" src="src/img/icons/marcas/{{mercado.id}}/img_allganicpotassium.png">
+          <p>Para una nutrición más completa, Allganic® Potassium proporciona sulfato de potasio natural, la única fuente de potasio natural sin cloruro, el cual se complementa con Allganic® Nitrogen para lograr cultivos de alta calidad y con nutrientes equilibrados.<br />El potasio es necesario para producir frutas y vegetales más sabrosos, de mejor color y saludables, con una vida útil más larga. El azufre y un equilibrio natural de microelementos, tanto como su cantidad, son esenciales para producir alimentos más nutritivos con proteínas de alta calidad.</p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <img class="allganic-saco" src="src/img/sacos/{{mercado.id}}/allganic-potassium.png" alt="">
+        </div>
+      </div>
+      <!--tabla-->
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="table-responsive">
+            <table class="table table-striped table-hover ">
+              <thead>
+                <tr>
+                  <th colspan="2">Riqueza Porcentual</th>
+                </tr>
+              </thead>
+              <tbody class="texto">
+                <tr>
+                  <td>K<sub>2</sub>O</td>
+                  <td>52.0%</td>
+                </tr>
+                <tr>
+                  <td>S</td>
+                  <td>18.0%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- allganic special-->
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" ng-if="mercado.id=='mx'">
+      <!--info producto-->
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 texto producto-descripcion" >
+          <img class="allganic-logo" src="src/img/icons/marcas/{{mercado.id}}/img_allganicspecial.png">
+          <p>Allganic® Special División orgánica de SQM de fertilizantes minerales de origen natural, aprobada para uso en cultivos orgánicos, certificados por USDA. La nutrición vegetal basada en Allganic® ayuda a producir alimentos saliudables de alta calidad de manera responsable con el ambiente. Toda la gama contiene Nitrógeno-nitrico y Potasio.<br /><br /></p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <img class="allganic-saco" src="src/img/sacos/{{mercado.id}}/allganic-special.png" alt="">
+        </div>
+      </div>
+      <!--tabla-->
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="table-responsive">
+            <table class="table table-striped table-hover ">
+            <thead>
+                <tr>
+                  <th colspan="2">Riqueza Porcentual</th>
+                </tr>
+              </thead>
+              <tbody class="texto">
+              <tr><td colspan="" rowspan="" headers="">sin Información</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- allganic nitrogen-->
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" ng-if="mercado.id=='pe'">
+      <!--info producto-->
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 texto producto-descripcion" >
+          <img class="allganic-logo" src="src/img/icons/marcas/{{mercado.id}}/img_allganicnitrogen.png">
+          <p>Allganic™ Nitrogen contiene 16% de nitrógeno y es rico en micro – nutrientes muy importantes para el suelo. Es 100% Nitrato de Sodio natural, la única fuente de nitrógeno mineral no sintética. Es un hecho conocido que la producción orgánica nacional está hoy limitada en parte por la falta de disponibilidad de fuentes apropiadas de nitrógeno. De hecho, en ciertas etapas del crecimiento, la sincronización entre las necesidades de nitrógeno del cultivo y su liberación por parte del suelo es crítica. El empleo oportuno de Allganic™ Nitrogen lo ayudará a superar estas etapas, permitiendo lograr mayores rendimientos y mejor calidad de su cosecha.<br /><br /></p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+          <img class="allganic-saco" src="src/img/sacos/{{mercado.id}}/allganic-nitrogen.png" alt="">
+        </div>
+      </div>
+      <!--tabla-->
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <div class="table-responsive">
+            <table class="table table-striped table-hover ">
+            <thead>
+                <tr>
+                  <th colspan="2">Riqueza Porcentual</th>
+                </tr>
+              </thead>
+              <tbody class="texto">
+              <tr><td colspan="" rowspan="" headers="">sin Información</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!--/end row producto-->
+</div><!--/end col-md-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

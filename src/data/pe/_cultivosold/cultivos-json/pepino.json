@@ -1,0 +1,62 @@
+{   
+  "id":"0019",
+  "nombre" :"Pepino",
+  "background":"pepino.jpg",
+  
+  "descripcion":"<p>Aspectos Fisiológicos del Pepino(Cucumis Sativus)</p><p>La duración de cada estado fenológico del cultivo del pepino es muy variable dependiendo del tipo (Caipira, Aodai, Japonés o de Conserva); del método de cultivo y conducción (campo abierto o invernadero, cultivo tutorado o rastrero). En este cultivo, al contrario de lo que sucede con la mayoría de los cultivos anuales, las fases fenológicas se confunden. El desarrollo vegetal, la floración y crecimiento, y la madurez de los frutos ocurren simultáneamente después del inicio del florecimiento. La senescencia ocurre mientras el cultivo aún se encuentra en fase de producción y el final del ciclo es definido por la reducción y no por la paralización de la producción.</p>",
+  "etapas":[
+    {
+      "nombre":"Germinación",
+      "id":"etapa1",
+      "img":"pepino-01.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"Desarollo Vegetativo",
+      "id":"etapa2",
+      "img":"pepino-02.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"Floración",
+      "id":"etapa3",
+      "img":"pepino-03.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"Madurez",
+      "id":"etapa4",
+      "img":"pepino-04.jpg",
+      "descripcion":""
+    }
+  ],
+  "desordenes":[],
+  "variedadesTecnicas": [
+    {   
+      "variedadTecnicaId":"13",
+      "condicionId":"1",
+      "tecnificacionId":"1",
+      "fertilizacion":false  
+    },
+    {   
+      "variedadTecnicaId":"14",
+      "condicionId":"2",
+      "tecnificacionId":"1",
+      "fertilizacion":false  
+    },
+    {   
+      "variedadTecnicaId":"15",
+      "condicionId":"1",
+      "tecnificacionId":"2",
+      "fertilizacion":false  
+    },
+    {   
+      "variedadTecnicaId":"16",
+      "condicionId":"2",
+      "tecnificacionId":"2",
+      "fertilizacion":false  
+    }
+
+  ],
+  "variedades":[]
+}

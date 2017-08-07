@@ -1,0 +1,198 @@
+{
+   "id":"0006",
+   "nombre" :"Cherry",
+   "background":"cereza.jpg",
+   "productos":["producto_id","producto_id2"],
+   "descripcion":[],
+   "etapas":[
+      {
+         "nombre":"Dormant",
+         "id":"etapa1",
+         "img":"cerezo-01.jpg",
+         "descripcion":""
+      },
+      {
+         "nombre":"Green tip",
+         "id":"etapa2",
+         "img":"cerezo-02.jpg",
+         "descripcion":""
+      },
+      {
+         "nombre":"First white",
+         "id":"etapa3",
+         "img":"cerezo-03.jpg",
+         "descripcion":""
+      },
+      {
+         "nombre":"First bloom",
+         "id":"etapa4",
+         "img":"cerezo-04.jpg",
+         "descripcion":""
+      },
+      {
+         "nombre":"Full bloom",
+         "id":"etapa5",
+         "img":"cerezo-05.jpg",
+         "descripcion":""
+      },
+      {
+         "nombre":"Fruit set",
+         "id":"etapa6",
+         "img":"cerezo-06.jpg",
+         "descripcion":""
+      },
+      {
+         "nombre":"Calyx fall",
+         "id":"etapa7",
+         "img":"cerezo-07.jpg",
+         "descripcion":""
+      },
+      {
+         "nombre":"Tender fruit / maturity",
+         "id":"etapa8",
+         "img":"cerezo-08.jpg",
+         "descripcion":""
+      }
+   ],
+   "desordenes":[
+      {
+         "elemento":"nitrogen",
+         "imagenes":[
+            {
+               "img":"n_01_carozo-big.jpg",
+               "span":"Leaf- N- fertilized peach tree in a highly N- deficiency orchard."
+
+            },
+            {
+               "img":"n_02_carozo-big.jpg",
+               "span":"Symptoms of severe N- deficiency in peach shoots developing in spring."
+
+            },
+            {
+               "img":"n_03_carozo-big.jpg",
+               "span":"Branches of a peach tree. Left, a normal tree. Right, a tree with severe nitrogen deficiency."
+
+            }
+         ]
+
+      },
+      {
+         "elemento":"potassium",
+         "imagenes":[
+            {
+               "img":"k_01_carozo-big.jpg",
+               "span":"Leaf symptoms of K- deficiency in peach."
+
+            },
+            {
+               "img":"k_02_carozo-big.jpg",
+               "span":"Apricot tree with symptoms of potassium deficiency."
+
+            },
+            {
+               "img":"k_03_carozo-big.jpg",
+               "span":"D’Agen Prune cv.  Symptoms of potassium deficiency, during midsummer. Photography courtesy of Mr. Thomas Ficher, Agronomist."
+
+            }
+         ]
+
+      },
+      {
+         "elemento":"magnesium",
+         "imagenes":[
+            {
+               "img":"mg_01_carozo-big.jpg",
+               "span":"Leaf symptoms of Mg- deficiency in peach."
+
+            },
+            {
+               "img":"mg_02_carozo-big.jpg",
+               "span":"Mahaleb cherry with magnesium deficiency, grown in a greenhouse using a nutritive solution but without magnesium."
+
+            }
+         ]
+
+      },
+      {
+         "elemento":"iron",
+         "imagenes":[
+            {
+               "img":"fe_01_carozo-big.jpg",
+               "span":"Peach leaves with Fe- chlorosis. Top- healthy leaf."
+
+            },
+            {
+               "img":"fe_02_carozo-big.jpg",
+               "span":"Peach tree deficient in Fe."
+
+            },
+            {
+               "img":"fe_03_carozo-big.jpg",
+               "span":"D`Agen Prune sprout cd. with symptoms of iron deficiency."
+
+            },
+            {
+               "img":"fe_04_carozo-big.jpg",
+               "span":"Peach tree sector has an iron deficiency."
+
+            },
+            {
+               "img":"fe_05_carozo-big.jpg",
+               "span":"Peach trees affected by severe iron deficiency."
+
+            },
+            {
+               "img":"fe_06_carozo-big.jpg",
+               "span":"Peach trees affected simultaneously by iron and zinc deficiency."
+
+            }
+         ]
+
+      },
+      {
+         "elemento":"manganese",
+         "imagenes":[
+            {
+               "img":"mn_01_carozo-big.jpg",
+               "span":"Leaf symptoms of Mn- deficiency in peach."
+
+            }
+         ]
+
+      },
+      {
+         "elemento":"zinc",
+         "imagenes":[
+            {
+               "img":"zn_01_carozo-big.jpg",
+               "span":"Tip rosette removed from a Zn- deficient peach tree."
+
+            },
+            {
+               "img":"zn_02_carozo-big.jpg",
+               "span":"Plum shoots affected by severe Zn- deficiency."
+
+            },
+            {
+               "img":"zn_03_carozo-big.jpg",
+               "span":"Peach trees near chicken house. Half of the treetop is nurtured by its nearest roots, which present severe zinc and iron deficiency."
+
+            },
+            {
+               "img":"zn_04_carozo-big.jpg",
+               "span":"D`Agen Prune cv. severely affected by zinc deficiency, in the Spring."
+
+            },
+            {
+               "img":"zn_05_carozo-big.jpg",
+               "span":"Branches of D`Agen Prune cv. Right, severe symptoms of zinc deficiency."
+
+            }
+         ]
+
+      }
+
+   ],
+   "variedadesTecnicas":[],
+   "variedades":[]
+}

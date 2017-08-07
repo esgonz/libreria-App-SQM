@@ -1,0 +1,657 @@
+var LibreriaAppSQM = angular.module('LibreriaAppSQM', ['LocalStorageModule','ngRoute']);
+var debugMode=true;
+var varMercado="mexico";
+
+//Configurar localstorage
+LibreriaAppSQM.config(function (localStorageServiceProvider) {
+    localStorageServiceProvider
+    .setPrefix('LibreriaAppSQM'+varMercado);
+});
+
+LibreriaAppSQM.config(['$routeProvider',
+    function($routeProvider) {
+        $routeProvider.
+        when('/login', {
+            templateUrl: 'vistas/login.html',
+            controller: 'loginController'
+        }).
+
+        when('/busqueda/:qry', {
+            templateUrl: 'vistas/busqueda.html',
+            controller: 'busquedaController'
+        }).
+
+        when('/producto/:productoId', {
+            templateUrl: 'vistas/producto.html',
+            controller: 'productoController'
+        }).
+
+        when('/cultivo/:cultivoId', {
+            templateUrl: 'vistas/cultivo.html',
+            controller: 'cultivoController'
+        }).
+        when('/menu', {
+            templateUrl: 'vistas/menuPrincipal.html',
+            controller: 'menuController'
+        }).
+        when('/allganic', {
+            templateUrl: 'vistas/allganic.html',
+            controller: 'allganicController'
+        }).
+        when('/programa', {
+            templateUrl: 'vistas/programa.html',
+            controller: 'programaController'
+        }).
+
+        otherwise({
+            redirectTo: '/login'
+        });
+}]);
+
+
+/* Main Activity*/
+LibreriaAppSQM.run(function($rootScope, $http) {
+    $rootScope.mercadosDisponibles={
+        "usa":{
+            "id":"us",
+            "nombre":"USA",
+            "lang":"en",
+            "version":"0.0.2"
+        },
+        "peru":{
+            "id":"pe",
+            "nombre":"Perú",
+            "lang":"es",
+            "version":"0.1.5"
+        },
+        "mexico":{
+            "id":"mx",
+            "nombre":"México",
+            "lang":"es",
+            "version":"0.1.4"
+        }
+    };
+    $rootScope.mercado = $rootScope.mercadosDisponibles[varMercado];
+
+
+    $rootScope.baseUrlProductos   ="src/data/"+$rootScope.mercado.id+"/productos/";
+    $rootScope.baseUrlCultivos    ="src/data/"+$rootScope.mercado.id+"/cultivos/cultivos-json/"; 
+    $rootScope.baseUrlIconos      ="src/img/icons/";
+    $rootScope.currentPage="";
+    $rootScope.volverCollapse="";
+    $rootScope.strings={};
+    //$scope.marcas = null;
+
+
+
+
+    $http.get('src/data/lenguajes/'+$rootScope.mercado.lang+'/strings.json').success (function(dataStrings){
+
+
+        for (var string in dataStrings) {
+            if (dataStrings.hasOwnProperty(string)) {
+                var stringK  =   dataStrings[string];
+                $rootScope.strings[stringK.string_name]=stringK.string_value;
+            }
+
+
+        }
+    //console.log("$rootScope.strings");
+    //console.log($rootScope.strings);
+    });
+
+
+    $http.get('src/data/'+$rootScope.mercado.id+'/productos/productos.json').success (function(data){
+
+        /*Lista con todas las marcas, lineas , productos*/
+
+        $rootScope.marcas = data;
+    //console.log($rootScope.marcas.lista);//log
+
+    var productos=  {};
+
+    for (var i = 0; i < $rootScope.marcas.lista.length; i++) {
+
+        var lineas=$rootScope.marcas.lista[i].lineas;
+    //console.log(lineas);//log
+
+    for (var j = 0; j < lineas.length; j++) {
+
+        var listaProductos=lineas[j].productos;
+    //console.log(listaProductos);//log
+    for (var k = 0; k < listaProductos.length; k++) {
+        var prd               = {};
+        prd.key           = listaProductos[k].id;                
+        prd.obj           = listaProductos[k];
+        prd.obj.baseUrl   = $rootScope.marcas.lista[i].baseUrl;
+        prd.obj.marca     = $rootScope.marcas.lista[i].nombre;
+        prd.obj.linea     = lineas[j].nombre;
+        prd.obj.marcaId   = $rootScope.marcas.lista[i].id;
+        prd.obj.lineaId   = lineas[j].id;
+        prd.obj.lineaTipo = lineas[j].tipo;    
+        prd.obj.marcaImg  = $rootScope.marcas.lista[i].img;          
+        productos[prd.key]=prd.obj; 
+    }            
+    }
+    }
+
+    /*lista con todos los productos*/
+    $rootScope.productos = productos;
+    //console.log("$rootScope.productos");//log  
+    //console.log($rootScope.productos);//log     
+    });
+
+    $http.get('src/data/'+$rootScope.mercado.id+'/cultivos/cultivos.json').success (function(dataCultivo){
+        /*Lista con todos los cultivos*/     
+
+        $rootScope.cultivos = dataCultivo;
+
+        console.log("$rootScope.cultivos");
+        console.log($rootScope.cultivos);
+        //console.log("Buscar productosCultivo");
+        console.log("Cultivos");
+        console.log($rootScope.cultivos);
+        var dictCultivosDisable= {
+
+        };
+        var dictCultivos={};
+        var dictCultivosProductos={};
+        for (var cl in dataCultivo) {
+            if (dataCultivo.hasOwnProperty(cl)) {
+
+                var cultivoK  =   dataCultivo[cl];
+        //console.log(">>recorrer cultivos..");
+        //console.log(cultivoK);
+        dictCultivosProductos[cultivoK.id]=[];
+        for (var pr in $rootScope.productos) {
+            //console.log(">>recorrer productos..");
+
+            if ($rootScope.productos.hasOwnProperty(pr)) {
+                var productoK = $rootScope.productos[pr];
+            //console.log(productoK);
+            //console.log(productoK);
+            for (var i = 0; i < productoK.cultivos.length; i++) {
+                var productoCultivo= productoK.cultivos[i];
+
+
+                if (cultivoK.verbose==productoCultivo) {                      
+                    dictCultivosProductos[cultivoK.id].push(productoK);
+                    //alert("encontre cultivo: "+cultivoK.verbose + " en: "+ productoK.id);
+                }
+
+
+            }             
+
+            }
+            }
+
+        }
+    }
+    //console.log("dictCultivosProductos :");    
+    //console.log(dictCultivosProductos);
+    $rootScope.dictCultivosProductos= dictCultivosProductos;
+
+
+    for (var cl2 in dataCultivo) {
+        if (dataCultivo.hasOwnProperty(cl2)) {
+            var cultivoK2  =   dataCultivo[cl2];
+            dictCultivos[cultivoK2.verbose]=cultivoK2;
+        }
+    }
+    for (var cl3 in dictCultivosDisable) {
+        if (dictCultivosDisable.hasOwnProperty(cl3)) {
+            var cultivoK3  =   dictCultivosDisable[cl3];
+            dictCultivos[cl3]=cultivoK3;
+        }
+    }
+    //console.log("dictCultivos DICT:\n");
+    //console.log(dictCultivos);
+    $rootScope.dictCultivos= dictCultivos;
+    });
+});
+
+
+/*Filtro de texto html*/
+LibreriaAppSQM.filter('to_trusted', ['$sce', function($sce){
+    return function(text) {
+        return $sce.trustAsHtml(text);
+    };
+}]);
+
+
+/*Filtro de busqueda*/
+LibreriaAppSQM.filter('and', function($log) {
+    return function(items, query) {
+        if (!query) return items; // return all items if nothing in query box
+
+        var terms = query.split(' '); //split query terms by space character
+        var arrayToReturn = [];
+
+        items.forEach(function(item){ // iterate through array of items
+        //console.log(item);
+        var passTest = true;
+        terms.forEach(function(term){ // iterate through terms found in query box
+        // if any terms aren't found, passTest is set to and remains false
+
+        passTest = passTest && (item[0].toLowerCase().indexOf(term.toLowerCase()) > -1);
+        });
+        // Add item to return array only if passTest is true -- all search terms were found in item
+        if (passTest) { arrayToReturn.push(item); }
+        });
+
+        return arrayToReturn;
+    };
+});
+
+/*Filtro Order By String */
+LibreriaAppSQM.filter('orderObjectBy', function(){
+    return function(input, attribute) {
+        if (!angular.isObject(input)) return input;
+
+        var array = [];
+        for(var objectKey in input) {
+            array.push(input[objectKey]);
+        }
+
+        array.sort(
+            function (a,b) {
+                if (a[attribute] < b[attribute])
+                    return -1;
+                if (a[attribute] > b[attribute])
+                    return 1;
+                return 0;
+            }
+
+            );
+        return array;
+    };
+});
+
+
+
+
+
+/*MainController*/
+LibreriaAppSQM.controller("mainController", function($scope, $rootScope, $http, $routeParams) {
+
+    $rootScope.filtrosActivosPrograma = {
+        "cultivo"      :     "",
+        "variedad"      :    "",
+        "condicion"     :    "",
+        "tecnificacion" :    ""
+    };
+    $rootScope.opcionesFiltroCultivo  = {};
+    $rootScope.opcionesFiltroVariedad  = {};
+    $rootScope.opcionesFiltroCondicion  = {};
+    $rootScope.opcionesFiltroTecnificacion  = {};
+
+
+    $rootScope.inputBuscar="    ";
+    $scope.inputPassword="";
+    $scope.inputEmail="";
+
+    $scope.buscar = function(qry) {
+
+        qry.replace(" ","+");
+        window.location = "index.html?#/busqueda/+"+qry;
+    };
+
+
+    $scope.login = function( usuario, clave){
+    /*var usuario = document.getElementById("txtUsuario").value;
+    var clave= document.getElementById("txtPassword").value;*/
+    //var loginObj = new Login();
+
+    //var flag= $scope.loginControl(usuario.toLowerCase(), clave.toLowerCase() );
+    console.log("login desde maincontroller");
+    };
+
+    $rootScope.menuType="productos";
+    $rootScope.verCultivosMenu = function() {
+        $rootScope.menuType="cultivos";
+    };
+
+    $rootScope.verProductosMenu = function() {
+        $rootScope.menuType="productos";
+    };
+
+    $rootScope.atrasFunc= function (){
+        if ($rootScope.volverCollapse!="") {
+            $(".basicContent").show();
+
+            $("#etapasContent").hide();
+            $("#programaContent").hide();
+            $("#desordenesContent").hide();
+            $("#extraContent").hide();
+    //alert("volver collapse");     
+
+    $rootScope.volverCollapse="";
+    }else{
+    //alert("volver");
+    parent.history.back();
+    }
+    };
+
+    $rootScope.setVolver = function (pagina, id, divId){
+
+        if ($rootScope.volverCollapse=="") {
+            $rootScope.volverCollapse =pagina+'/'+id;
+            console.log( pagina+"/"+id);
+
+            if (divId=="etapasContent") {
+
+                $("#etapasContent").show();
+                $("#etapasContent").removeClass("esconder");
+
+            }else if (divId=="programaContent") {
+
+                $("#programaContent").show();
+                $("#programaContent").removeClass("esconder");
+
+            }else if(divId=="desordenesContent"){
+
+                $("#desordenesContent").show();
+                $("#desordenesContent").removeClass("esconder");
+
+            }
+            else if(divId=="extraContent"){
+
+                $("#extraContent").show();
+                $("#extraContent").removeClass("esconder");
+
+            }
+
+            $(".basicContent").hide();
+        }else{
+            $rootScope.atrasFunc();
+        }
+    };
+
+
+    $scope.getCultivoObject = function (cultivoIndexObj){
+        console.log("controlador.getCultivoObject()");
+
+
+        //var cultivoObj =  new CultivoNuevo();
+        var cultivoObj = $http.get(  $rootScope.baseUrlCultivos   +  cultivoIndexObj.file).success (function(dataCultivo){      
+            var cultivoObj =  new CultivoNuevo();
+            cultivoObj.setId(dataCultivo.id);
+            cultivoObj.setNombre(dataCultivo.nombre);
+            cultivoObj.setBackground(dataCultivo.background);
+            cultivoObj.setDescripcion(dataCultivo.descripcion);
+            cultivoObj.setEtapas(dataCultivo.etapas);
+            cultivoObj.setDesordenes(dataCultivo.desordenes);
+            cultivoObj.setVariedadesTecnicas(dataCultivo.variedadesTecnicas);
+            cultivoObj.setVariedades(dataCultivo.variedades);
+            cultivoObj.productos = $rootScope.dictCultivosProductos[$routeParams.cultivoId];
+            console.log("cultivoObj success");
+            console.log(cultivoObj);
+            return cultivoObj;
+        });
+        /*cultivoObj.then(
+            function(dataCultivo){
+                console.log("dataCultivo then");
+                console.log(dataCultivo.data);
+                return dataCultivo.data;
+            }
+        );*/
+
+        setTimeout(function (){
+
+            console.log("cultivoObj TIME WAIT");
+            console.log(cultivoObj);
+        }, 5000); 
+    };
+    /*
+    actualiza la lista de filtros segun los selectbox seleccionados variedad, condicion, tecnificacion
+    param indexParametro string indice de la seleccion (select html)
+
+    $scope.filtrarProgramaCultivo =  function (indexParametro, trigger, cultivoObjParametro){
+    console.log("cultivoController.filtrarProgramaCultivo");
+
+
+
+    //setear filtros activos segun el gatillador
+    if (trigger == "cultivo") {
+    console.log("filtrarProgramaCultivo - cultivo");
+    $rootScope.filtrosActivosPrograma.cultivo = cultivoObjParametro.nombre;
+
+    //sera el objeto base para modificar los siguientes filtros
+    $rootScope.opcionesFiltroCultivo = cultivoObjParametro;
+    console.log($rootScope.filtrosActivosPrograma.cultivo);
+    }
+
+    //setear filtros activos segun el gatillador
+    if (trigger == "variedades") {
+    console.log("@>>>filtrarProgramaCultivo - variedades");
+    $rootScope.filtrosActivosPrograma.variedad = indexParametro;
+    console.log($rootScope.filtrosActivosPrograma.variedad);
+    }
+    if (trigger == "condiciones") {
+    console.log("filtrarProgramaCultivo - condiciones");
+    $rootScope.filtrosActivosPrograma.condicion = indexParametro;
+    //console.log($rootScope.filtrosActivosPrograma.condicion);
+    }
+    if (trigger == "tecnificaciones") {
+    //console.log("filtrarProgramaCultivo - tecnificaciones");
+    $rootScope.filtrosActivosPrograma.tecnificacion = indexParametro;
+    //console.log($rootScope.filtrosActivosPrograma.tecnificacion);
+    }
+
+    //asignar la posicion en el arreglo de variedades
+    ////por defecto
+    var index = $rootScope.filtrosActivosPrograma.variedad;
+    var condicionActiva = "";
+
+    //  inspeccionar el cultivo base por variedades tecnicas
+    var cultivoObjetivo = $rootScope.opcionesFiltroCultivo; //desde indexParametro seteado en cultivo anteriormente       
+
+    // Si el indice es mayor a 0, significa selecciono una varedad del cultivo
+    //  inspeccionar VARIEDADES  de las variedades de cultivo
+    if (index >= 0 && trigger == "variedades") {
+    console.log("filtrarProgramaCultivo - inspeccionar variedades tecnicas");
+    cultivoObjetivo = $rootScope.opcionesFiltroCultivo.variedades[index];
+    }
+
+    //set filtro variedad activo para mostrar en el selectbox
+    $rootScope.opcionesFiltroVariedad = cultivoObjetivo;
+
+    console.log(">>>filtrarProgramaCultivo.opcionesFiltroVariedad");
+    console.log($rootScope.opcionesFiltroVariedad);
+
+    console.log(">>>simulacion filtro");
+    console.log($rootScope.opcionesFiltroVariedad[$rootScope.filtrosActivosPrograma.variedad]);
+
+    if (trigger !== "cultivo") {
+    //busco los valores para los siguientes selectbox- basados en la variedad seleccionada
+    for (var varIndex  =  0; varIndex < cultivoObjetivo.variedadesTecnicas.length; varIndex++) {
+    console.log("filtrarProgramaCultivo - for variedadesTecnicas..");
+    var variedadTecnicaSeleccionada  =  cultivoObjetivo.variedadesTecnicas[varIndex];
+
+
+    //auxiliar de condicion
+    if ($rootScope.filtrosActivosPrograma.condicion !== "") {
+    console.log("filtrarProgramaCultivo - if condicionActiva ok");
+    //si ya se definio la condicion activa, defino condicion activa para filtrar tecnificaciones
+    condicionActiva = $rootScope.filtrosActivosPrograma.condicion;
+
+    }
+    else{
+    console.log("filtrarProgramaCultivo - if condicionActiva no ok, buscar todas");
+    //busco en todas las condiciones disponibles tecnificaciones
+    condicionActiva = variedadTecnicaSeleccionada.condicionId;
+    }
+
+
+
+    //Buscar en el arreglo de condiciones, para mostrar en el selectbox
+    for (var condIndex  =  0; condIndex < cultivoObjetivo.condiciones.length; condIndex++) {
+    console.log("filtrarProgramaCultivo - for condiciones..");
+
+    var auxCondicion = cultivoObjetivo.condiciones[condIndex];
+    //si se encuentra en el arreglo de condiciones
+    if (auxCondicion.id == variedadTecnicaSeleccionada.condicionId) {
+    console.log("filtrarProgramaCultivo - encontro condicion buscada");
+    //actualizar el scope filtro condiciones key = value
+    auxCondicion.indexAux = condIndex;
+    $rootScope.opcionesFiltroCondicion[variedadTecnicaSeleccionada.condicionId] = auxCondicion;
+    }
+    }
+
+
+
+    //Buscar en el arreglo de tecnificaciones, para mostrar en selectbox, tecnificaciones  atributo clase cultivo.
+    for (var tecnIndex  =  0; tecnIndex < cultivoObjetivo.tecnificaciones.length; tecnIndex++) {
+    console.log("filtrarProgramaCultivo - for tecnificaciones");
+
+    var auxTecnificacion = cultivoObjetivo.tecnificaciones[tecnIndex];
+
+
+    //Se busca en la variedadTecnica que:
+    //si la tecnificacion corresponde a la indicada en la variedadTecnica
+    //si dicha tecnificacion se empareja con la condicion en variedadTecnica 
+    //SE MUESTRA EN EL SELECTBOX
+    if (auxTecnificacion.id == variedadTecnicaSeleccionada.tecnificacionId && 
+    condicionActiva == variedadTecnicaSeleccionada.condicionId) {
+
+    console.log("filtrarProgramaCultivo - encontro tecnificacion buscada");
+
+    //actualizar el scope filtro tecnificaciones key = value
+    auxTecnificacion.indexAux = tecnIndex;
+    $rootScope.opcionesFiltroTecnica[variedadTecnicaSeleccionada.tecnificacionId] = auxTecnificacion;
+    }
+    }
+    }
+    };
+
+
+    };*/
+
+
+    $scope.aplicarFiltroCultivo = function (cultivoIndexObj){
+
+
+        $http.get(  $rootScope.baseUrlCultivos   +  cultivoIndexObj.file).success (function(dataCultivo){      
+            var cultivoObj =  new CultivoNuevo();
+                cultivoObj.setId(dataCultivo.id);
+                cultivoObj.setNombre(dataCultivo.nombre);
+                cultivoObj.setBackground(dataCultivo.background);
+                cultivoObj.setDescripcion(dataCultivo.descripcion);
+                cultivoObj.setEtapas(dataCultivo.etapas);
+                cultivoObj.setDesordenes(dataCultivo.desordenes);
+                cultivoObj.setVariedadesTecnicas(dataCultivo.variedadesTecnicas);
+                cultivoObj.setVariedades(dataCultivo.variedades);
+                cultivoObj.productos = $rootScope.dictCultivosProductos[$routeParams.cultivoId];
+                console.log("cultivoObj success");
+
+            //filtro activo - cultivo        
+            $rootScope.filtrosActivosPrograma.cultivo = cultivoObj.nombre;
+          
+            //sera el objeto base para modificar los siguientes filtros
+            $rootScope.opcionesFiltroCultivo = cultivoObj;
+            
+            //opciones para el filtro variedades
+            $scope.opcionesFiltroVariedad = cultivoObj.variedades;
+            console.log("$scope.selectArrayVariedades");      
+            console.log($scope.selectArrayVariedades);
+            
+        });
+
+
+    };
+
+    $scope.aplicarFiltroVariedad      = function (indexVariedad){
+        
+
+        //filtro activo - variedad 
+        $rootScope.filtrosActivosPrograma.variedad = indexVariedad;
+        
+
+        //asignar la posicion en el arreglo de variedades
+        ////por defecto
+        var index = $rootScope.filtrosActivosPrograma.variedad;
+
+        //  inspeccionar el cultivo base en busqueda de variedades tecnicas
+        $scope.cultivoObjetivoFiltro = $rootScope.opcionesFiltroCultivo; //desde indexParametro seteado en cultivo anteriormente       
+
+        // Si el indice es mayor a 0, significa selecciono una variedad del cultivo
+        //  inspeccionar VARIEDADES TECNICAS  de las variedades de cultivo
+        if (index >= 0 ) {
+            console.log("filtrarProgramaCultivo - inspeccionar variedades tecnicas");
+            $scope.cultivoObjetivoFiltro = $rootScope.opcionesFiltroCultivo.variedades[index];
+        }
+
+        console.log("$scope.cultivoObjetivoFiltro");
+        console.log($scope.cultivoObjetivoFiltro);
+
+       
+        //buscando condiciones y tecnificaciones en las variedades tecnicas del cultivo objetivo
+        for (var varIndex  =  0; varIndex < $scope.cultivoObjetivoFiltro.variedadesTecnicas.length; varIndex++) {
+           var auxVariedadTecnica  =  $scope.cultivoObjetivoFiltro.variedadesTecnicas[varIndex];
+           
+           $scope.opcionesFiltroCondicion[auxVariedadTecnica.condicionId] = null;
+           
+           
+        }
+        
+
+        //Buscar en el arreglo de condiciones, para mostrar en el selectbox
+        for (var condIndex  =  0; condIndex < $scope.cultivoObjetivoFiltro.condiciones.length; condIndex++) {
+                var auxCondicion = $scope.cultivoObjetivoFiltro.condiciones[condIndex];
+                console.log("auxCondicion");
+                console.log(auxCondicion);
+                $scope.opcionesFiltroCondicion[auxCondicion.id] = auxCondicion;
+        }
+    };
+
+    $scope.aplicarFiltroCondicion      = function (idCondicion){
+        
+
+        //filtro activo - variedad 
+        $rootScope.filtrosActivosPrograma.condicion = idCondicion;
+        
+
+        //opciones para el filtro condiciones
+        var condicionesDisponibles = {};
+        var tecnificacionesDisponibles = {};
+        //buscando condiciones y tecnificaciones en las variedades tecnicas del cultivo objetivo
+        for (var varIndex  =  0; varIndex < $scope.cultivoObjetivoFiltro.variedadesTecnicas.length; varIndex++) {
+            var auxVariedadTecnica  =  $scope.cultivoObjetivoFiltro.variedadesTecnicas[varIndex];
+           
+            
+
+            if (auxVariedadTecnica.condicionId == idCondicion) {
+                $scope.opcionesFiltroTecnificacion[auxVariedadTecnica.tecnificacionId] = null;
+            }
+           
+           
+        }
+        
+
+        //Buscar en el arreglo de condiciones, para mostrar en el selectbox
+        for (var tecIndex  =  0; tecIndex < $scope.cultivoObjetivoFiltro.condiciones.length; tecIndex++) {
+                var auxTecnificacion = $scope.cultivoObjetivoFiltro.tecnificaciones[tecIndex];
+                console.log("auxTecnificacion");
+                console.log(auxTecnificacion);
+                $scope.opcionesFiltroTecnificacion[auxTecnificacion.id] = auxTecnificacion;
+        }
+    };
+
+    $scope.aplicarFiltrotecnificacion      = function (idTecnificacion){
+        
+
+        //filtro activo - variedad 
+        $rootScope.filtrosActivosPrograma.tecnificacion = idTecnificacion;    
+       
+    };
+
+
+
+});
+
+
+
+
+
+
+

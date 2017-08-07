@@ -1,0 +1,147 @@
+[{
+		"string_name": "app_buscar",
+		"string_value": "Buscar"
+	}, {
+		"string_name": "app_sin_informacion",
+		"string_value": "Sin Información"
+	}, {
+		"string_name": "app_anterior",
+		"string_value": "Anterior"
+	}, {
+		"string_name": "app_siguiente",
+		"string_value": "Siguiente"
+	}, {
+		"string_name": "app_volver",
+		"string_value": "Volver"
+	}, {
+		"string_name": "app_ver_mas",
+		"string_value": "Ver más"
+	}, {
+		"string_name": "app_no",
+		"string_value": "No"
+	},
+
+	{
+		"string_name": "app_si",
+		"string_value": "Si"
+	},
+
+
+	{
+		"string_name": "login_ingresar_user_password",
+		"string_value": "Ingresar Usuario y Contraseña"
+	}, {
+		"string_name": "login_iniciar_sesion",
+		"string_value": "Iniciar Sesión"
+	},
+
+
+
+
+
+
+
+	{
+		"string_name": "menu_portafolio_productos",
+		"string_value": "Portafolio Productos SQM"
+	}, {
+		"string_name": "menu_portafolio_cultivos",
+		"string_value": "Cultivos SQM"
+	},
+
+
+	{
+		"string_name": "producto_seleccionar_cultivo",
+		"string_value": "Seleccionar Cultivo:"
+	}, {
+		"string_name": "producto_no_existen_cultivos",
+		"string_value": "No existen Cultivos Relacionados."
+	}, {
+		"string_name": "producto_ver_hoja_producto",
+		"string_value": "Ver hoja producto"
+	}, {
+		"string_name": "producto_informacion_nutrientes",
+		"string_value": "Información de Nutrición:"
+	}, {
+		"string_name": "producto_informacion_tecnica",
+		"string_value": "Información Técnica:"
+	}, {
+		"string_name": "producto_volver_al_producto",
+		"string_value": "Volver al Producto"
+	},
+
+
+	{
+		"string_name": "cultivo_seleccionar_productos_relacionados",
+		"string_value": "Seleccionar Producto Relacionado:"
+	}, {
+		"string_name": "cultivo_buscar_programa",
+		"string_value": "Buscar Programa nutricional:"
+	}, {
+		"string_name": "cultivo_seleccionar_zona",
+		"string_value": "Select Zona"
+	}, {
+		"string_name": "cultivo_seleccionar_cultivo",
+		"string_value": "Seleccionar cultivo"
+	}, {
+		"string_name": "cultivo_seleccionar_variedad",
+		"string_value": "Seleccionar variedad"
+	}, {
+		"string_name": "cultivo_seleccionar_condicion",
+		"string_value": "Seleccionar condición"
+	}, {
+		"string_name": "cultivo_seleccionar_tecnificacion",
+		"string_value": "Seleccionar tecnificación"
+	},
+
+
+	{
+		"string_name": "cultivo_no_existen_productos",
+		"string_value": "No existen Productos relacionados."
+	}, {
+		"string_name": "cultivo_ver_fase_fenologica",
+		"string_value": "Ver Fases Fenologicas"
+	}, {
+		"string_name": "cultivo_fase_fenologica",
+		"string_value": "Fases Fenologicas"
+	}, {
+		"string_name": "cultivo_ver_desordenes",
+		"string_value": "Ver Desordenes Nutricionales"
+	}, {
+		"string_name": "cultivo_desordenes",
+		"string_value": "Desordenes Nutricionales"
+	}, {
+		"string_name": "cultivo_volver_al_cultivo",
+		"string_value": "Volver al Cultivo"
+	}, {
+		"string_name": "cultivo_programa_nutricional",
+		"string_value": "Programa Nutricional"
+	}, {
+		"string_name": "cultivo_descargar_programa",
+		"string_value": "Descargar Programa"
+	},
+
+
+
+	{
+		"string_name": "busqueda_filtros",
+		"string_value": "Filtros:"
+	}, {
+		"string_name": "busqueda_esconder_filtros",
+		"string_value": "Ver/ Ocultar filtros"
+	},
+
+	{
+		"string_name": "busqueda_resultados",
+		"string_value": "Resultado de la busqueda"
+	}, {
+		"string_name": "busqueda_filtros_por_linea",
+		"string_value": "Filtrar por Linea de productos:"
+	}, {
+		"string_name": "busqueda_filtros_por_categoria",
+		"string_value": "Filtrar por categoria de productos:"
+	}
+
+
+
+]

@@ -1,0 +1,15 @@
+{   "id":"0008",
+    "nombre" :"Ultrasol micro Boro",
+    "presentacion":"25kg",
+    "descripcionCorta":"Producto Estrella",
+    "img":"ultrasol-microboro.png",
+    "marcaID":"ultrasol",
+    "marca":"Ultrasol",
+    "lineaID":"ultMicro",
+    "linea":"micronutrientes",
+    "cultivos":[],
+    "metaTags":["ultrasol","Oxido de Fosforo","Fosfato Monoamonico","Nitrogeno"],
+    "descripcion":"<p>Ultrasol® micro Boro ha sido especialmente diseñado para satisfacer las necesidades de boro de los cultivos vía fertirrigación o aspersión foliar. Su solubilidad y alta concentración de Boro permite satisfacer con dosis bajas los requerimientos de este elemento en todos los cultivos, disminuyendo posible problemas de fitotoxicidad por malas dosificaciones. La elevada pureza de Ultrasol® Micro Boro evita la contaminación de la solución nutritiva con elementos.</p><ul> <li>La fuente soluble de Boro más segura del mercado.</li> <li>Para aplicación vía fertirriego y aplicación foliar.</li> </ul>",
+    "informacionTecnica":"<table class='table table-striped'>  <tr> <th colspan=\"2\">ESPECIFICACIONES</th> </tr> <tr> <td>Apariencia</td> <td>Cristales</td> </tr> <tr> <td>Oxido de Boro (B<sub>2</sub>O<sub>3</sub>)</td> <td>56,0% min</td> </tr> <tr> <td>Boro (B)</td> <td>17,4% min</td> </tr> <tr> <td>Solubilidad en agua a 20°</td> <td>50 g/l</td> </tr> <tr> <td>pH</td> <td>5,4</td> </tr> </table> ",
+    "hojaProducto": "<table class='table table-striped'>  <tr> <th>Caracteristicas</th> <th>Valores</th> </tr> <tr> <td>Fórmula Química</td> <td>H<sub>3</sub>BO<sub>3</sub></td> </tr> <tr> <td>Apariencia</td> <td>Cristales</td> </tr> <tr> <td>Código Interno</td> <td>ABO</td> </tr> <tr> <td>Boro B<sub>2</sub>O<sub>3</sub></td> <td>56,0 % min</td> </tr> <tr> <td>Boro B</td> <td>17,4 % min</td> </tr> <tr> <td>Peso Molecular</td> <td>61,83 + F11</td> </tr> <tr> <td>Punto de Fusión</td> <td>169&deg; C</td> </tr> <tr> <td>Solubilidad (en agua a 20&deg;)</td> <td>50 g/l</td> </tr> <tr> <td>pH</td> <td>5,4</td> </tr> <tr> <td>Gravedad Especifica</td> <td>1.512</td> </tr> </table> "
+     }

@@ -1,0 +1,15 @@
+{   "id":"0033",
+    "nombre" :"Qrop SOP-G",
+    "presentacion":"25kg",
+    "descripcionCorta":"Producto Estrella",
+    "img":"qrop-sopgs.png",
+    "marcaID":"qrop",
+    "marca":"Qrop",
+    "lineaID":"qropMacro",
+    "linea":"macronutrientes",
+    "cultivos":[],
+    "metaTags":["ultrasol","Oxido de Fosforo","Fosfato Monoamonico","Nitrogeno"],
+    "descripcion":"<p>Qrop® SOP-G son la fuente de potasio libre de cloro más concentrada del mercado.</p><p>Qrop® SOP-G son de origen natural y su forma de extracción es amigable con el medio ambiente, además ambos poseen un bajo índice salino.</p><p>Qrop® SOP-G poseen potasio y azufre de lenta solubilidad, muy usados a inicios del ciclo de crecimiento de los cultivos.</p><corte><ul> <li>Qrop® SOP-G son dos productos altamente concentrados. Aportan 51 % de óxido de potasio K<sub>2</sub>O y 18 % de azufre (S).</li> <li>Qrop® SOP-G están prácticamente libres de sodio, metales pesados, impurezas y libres de cloro. Con un muy bajo índice salino, especial para aquellos cultivos sensibles al cloro y sensibles a las condiciones salinas en sistemas intensivos de producción.</li> <li>Qrop® SOP-G son extraidos de lagos subterraneos, con tecnologías amigables con el medio ambiente. Para ambos esta permitido su uso en agricultura orgánica.</li> <li>Qrop® SOP-G se pueden aplicar en forma directa al suelo.</li> </ul>",
+    "informacionTecnica":"<table class='table table-striped'>  <tr> <th colspan=\"2\">ESPECIFICACIONES QROP® SOP-G</th> </tr> <tr> <td>Apariencia</td> <td>Gránulos color blanco</td> </tr> <tr> <td>Potasio soluble en agua (K<sub>2</sub>O)</td> <td>50% min</td> </tr> <tr> <td>Azufre (S)</td> <td>17,8% min</td> </tr> <tr> <td>Cloro (Cl)</td> <td>0,4%</td> </tr> <tr> <td>Calcio (CaO)</td> <td>0,13%</td> </tr> <tr> <td>Insolubles</td> <td>0,1</td> </tr> </table> ",
+    "hojaProducto": "<table class='table table-striped'>  <tr> <th>Caracteristicas SOP-G</th> <th>Valores</th> </tr> <tr> <td>Grado Agrícola - Granulado</td> <td>0 - 0 - 50 + 18S</td> </tr> <tr> <td>Fórmula Química</td> <td>K<sub>2</sub>SO<sub>4</sub></td> </tr> <tr> <td>Apariencia</td> <td>Granulos color Blanco</td> </tr> <tr> <td>Origen</td> <td>Salmueras Naturales</td> </tr> <tr> <td>Código Interno</td> <td>SOP-G</td> </tr> <tr> <td>Potasio soluble en agua K<sub>2</sub>O</td> <td>50% min</td> </tr> <tr> <td>Azufre S</td> <td>17,8% min</td> </tr> <tr> <td>Cloro Cl</td> <td>2,06% max</td> </tr> <tr> <td>Potasio soluble en agua K<sub>2</sub>O</td> <td>52%</td> </tr> <tr> <td>Magnesio MgO</td> <td>0,4%</td> </tr> <tr> <td>Calcio CaO</td> <td>0.13%</td> </tr> <tr> <td>Insolubles</td> <td>0.1%</td> </tr> <tr> <td>Perdida de peso (1hr @ 60&deg;C)</td> <td>0.01%</td> </tr> <tr> <td>Perdida de peso (1hr @ 100&deg;C)</td> <td>0,04%</td> </tr> <tr><td>DENSIDAD (BULK)</td><td>1.480 Kg/m&sup3;</td></tr> <tr> <td>Angulo de reposo</td> <td>31&deg;</td> </tr> </table>  "
+}

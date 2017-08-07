@@ -1,0 +1,200 @@
+{
+    "id":"0014",
+    "nombre" :"Pear",
+    "background":"pera.jpg",
+    "productos":["producto_id","producto_id2"],
+    "descripcion":"<p>Apple tree (Malus domestica Borkh.) belongs to the rosaceous family. They are trees with a round shape canopy, straight truck reaching 2 – 2.5 m height, with a smooth bark of green ash color. Branches are inserted in a wide angle to the stem. The tree has oval shape leaves and hermaphrodite flowers with pale rose or white color. Flowering occurs in spring and the fruit is a round pome with short peduncle and many seeds inside of bright brown color. The root system is superficial; as a result trees can survive in shallow soils.</p><p>Apple is once of the sweet fruit species of larger distribution at the world level, due to its easily adaptation to different climates and soils types. It has a large nutritional and therapeutic value, and has a great industrial use.</p><p>The most known varieties are: Royal Gala, Fuji, Pink lady, Granny Smith, Galiaxis, Red Delicious and Golden Delicious, among others. It is planted during the resting sap period, which goes from leaf fall (autumn) until the new sprouting time (spring). The planting frame would depend on the selected variety and formation system, being the most common 2 to 3 m distance. Planting densities fluctuate between 1.500 and 3.000 trees/ha in the axis systems and 1.000 to 1.700 trees/ha in the trellis systems.</p><p>The apple tree withstand low temperatures, it prefers humid climates instead of dried ones. Flowers are sensible to late spring frosts. It requires around 1.000 hours of cold temperature for flowering induction.</p><p>Regarding irrigation, it is important an adequate supply of moisture with frequent irrigations from sprouting initiation to the autumn, avoiding the risk of leaves fall and premature fruits drop.</p><p>Moisture requirements of the apple tree have a critical period, since the flower formation temporarily coincides with buds and fruit formation, consequently the plant needs considerable amount of water between the complete fructification and maturity initiation.</p><p>When fruits have reached their maximum weight and flower buds have finished the first developing phase, it is necessary to detain the year growing which is favors by temperature declining.</p><p>An adult tree requires, in general terms, between 200 and 300 l of water per kg of fruit produced per year.</p>",
+    "etapas":[
+        {
+            "nombre":"Bud swelling",
+            "id":"etapa1",
+            "img":"pera-01.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Bud opening",
+            "id":"etapa2",
+            "img":"pera-02.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Flower bud",
+            "id":"etapa3",
+            "img":"pera-03.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Flowering",
+            "id":"etapa4",
+            "img":"pera-04.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Fruit set",
+            "id":"etapa5",
+            "img":"pera-05.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Fruit development",
+            "id":"etapa6",
+            "img":"pera-06.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Maturation",
+            "id":"etapa7",
+            "img":"pera-07.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Harvest",
+            "id":"etapa8",
+            "img":"pera-08.jpg",
+            "descripcion":""
+        }
+    ],
+    "desordenes":[
+        {
+            "elemento":"nitrogen",
+            "imagenes":[
+                {
+                    "img":"n_01_pomacea-big.jpg",
+                    "span":"'Red Delicious' apple trees: Front- tree with severe N- deficiency. Back- trees having received soil- applied N fertilized."
+                },
+                {
+                    "img":"n_02_pomacea-big.jpg",
+                    "span":"'Granny Smith' apples: Left- harvested from a healthy tree. Right- harvested from a N- deficient tree."
+                },
+                {
+                    "img":"n_03_pomacea-big.jpg",
+                    "span":"Granny Smith Apple tree leaves. Right, normal. Left, nitrogen deficient."
+                },
+                {
+                    "img":"n_04_pomacea-big.jpg",
+                    "span":"Excess– Granny Smith apple tree with excessive vigor."
+                },
+                {
+                    "img":"n_05_pomacea-big.jpg",
+                    "span":"Excess- 'Bitter pit' Granny Smith Apples."
+                },
+                {
+                    "img":"n_06_pomacea-big.jpg",
+                    "span":"Excess- outer 'Bitter pit' in Granny Smith apples."
+                },
+                {
+                    "img":"n_07_pomacea-big.jpg",
+                    "span":"Toxicity- Asian Pear Chojuro, with nitrogen toxicity symptoms due to an excessive application to the soil."
+                }
+            ]
+        },
+        {
+            "elemento":"potassium",
+            "imagenes":[
+                {
+                    "img":"k_01_pomacea-big.jpg",
+                    "span":"Early leaf symptoms of K- deficiency in 'Red Delicius' apple."
+                },
+                {
+                    "img":"k_02_pomacea-big.jpg",
+                    "span":"'Granny Smith' apple leaves showing advanced symptoms of K- deficiency."
+                },
+                {
+                    "img":"k_03_pomacea-big.jpg",
+                    "span":"'Granny Smith' apple leaves showing advanced symptoms of K- deficiency."
+                }
+            ]
+        },
+        {
+            "elemento":"calcium",
+            "imagenes":[
+                {
+                    "img":"ca_01_pomacea-big.jpg",
+                    "span":"Severe 'bitter- pit' in a 'Granny Smith' apple."
+                },
+                {
+                    "img":"ca_02_pomacea-big.jpg",
+                    "span":"'Cork- spot' in apple resulting from insufficient Ca assimilation by the fruits."
+                },
+                {
+                    "img":"ca_03_pomacea-big.jpg",
+                    "span":"'Cork- spot' in 'Red Delicius' apple resulting from localized Ca- deficiency in the fruit pulp."
+                }
+            ]
+        },
+        {
+            "elemento":"magnesium",
+            "imagenes":[
+                {
+                    "img":"mg_01_pomacea-big.jpg",
+                    "span":"Leaf symptoms of Mg- deficiency in 'Granny Smith' apple."
+                },
+                {
+                    "img":"mg_02_pomacea-big.jpg",
+                    "span":"Young 'Red Spur' apple tree affected by Mg- deficiency."
+                },
+                {
+                    "img":"mg_03_pomacea-big.jpg",
+                    "span":"Leaf symptoms of Mg- deficiency of 'Golden Delicious' apple."
+                },
+                {
+                    "img":"mg_04_pomacea-big.jpg",
+                    "span":"Pear leaves showing symptoms of severe Mg- deficiency."
+                },
+                {
+                    "img":"mg_05_pomacea-big.jpg",
+                    "span":"Leaf symptoms of Mg- deficiency in 'Asia' pear."
+                }
+            ]
+        },
+        {
+            "elemento":"iron",
+            "imagenes":[
+                {
+                    "img":"fe_01_pomacea-big.jpg",
+                    "span":"Pear leaves and fruits. Left- from a healthy tree. Right- from an Fe- deficient tree."
+                }
+            ]
+        },
+        {
+            "elemento":"zinc",
+            "imagenes":[
+                {
+                    "img":"zn_01_pomacea-big.jpg",
+                    "span":"Zn- deficiency symptoms in apple during spring."
+                },
+                {
+                    "img":"zn_02_pomacea-big.jpg",
+                    "span":"Pear tree, Zinc deficiency."
+                }
+            ]
+        },
+        {
+            "elemento":"boron",
+            "imagenes":[
+                {
+                    "img":"b_01_pomacea-big.jpg",
+                    "span":"B- deficiency symptoms in young apple fruits."
+                },
+                {
+                    "img":"b_02_pomacea-big.jpg",
+                    "span":"'Salvador' Pears, Left, symptoms of boron deficiency."
+                },
+                {
+                    "img":"b_03_pomacea-big.jpg",
+                    "span":"New fruits and branches of a Winter Nelis pear tree, with symptoms of boron deficiency."
+                },
+                {
+                    "img":"b_04_pomacea-big.jpg",
+                    "span":"Winter Nelis pears, new fruits, detailed photo of fruits with boron deficiency."
+                },
+                {
+                    "img":"b_05_pomacea-big.jpg",
+                    "span":"Apples, symptoms of boron deficiency."
+                }
+            ]
+        }
+    ],
+"variedadesTecnicas":[],
+"variedades":[]
+}

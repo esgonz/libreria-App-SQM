@@ -1,0 +1,59 @@
+<div class="" id="vistaProducto" ng-controller="productoController">
+	<!--templates/Vistas CODE HERE-->
+
+	
+	<!--titulo boton-->
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+			<img class="ultrasol-logo" src="src/img/icons/marcas/{{mercado.id}}/img_{{producto.verbose}}.png">
+		</div>
+
+	</div>
+	<!-- / end titulo boton-->
+
+
+	<div class="basicContent">
+		<!-- imagen / Descripcion -->
+		<div class="row">
+			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+				<img alt="" class="producto-sacos-mx" src="src/img/sacos/{{mercado.id}}/{{producto.img}}"/>
+			</div>
+			<div class="col-xs-9 col-sm-offset-1 col-sm-9 col-md-offset-1 col-md-9 col-lg-offset-1 col-lg-9">
+				
+					<div class="texto" ng-bind-html=" producto.getMinDescripcion(strings.app_ver_mas) | to_trusted">
+					</div>
+				
+			</div>
+		</div>
+		<!-- imagen / Descripcion -->
+		<!-- TEMPLATE Barra PROGRAMAS -->
+
+				<!--<div class="row"  ng-include="'templates/barraBusquedaProgramas.html'" >
+				</div>	-->
+				<!-- / TEMPLATE Barra PROGRAMAS -->
+		
+		<div class="row">
+
+			<!-- informacion tecnica -->
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<h4>
+					<span class="glyphicon glyphicon-stop"></span>
+					{{strings.producto_informacion_tecnica}}
+				</h4>
+				<!--cultivos row1-->
+				<div class="row row-clear">
+					<!-- cultivo Col-->
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-bind-html="producto.informacionBasicaNutrientes | to_trusted">
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-if="producto.informacionBasicaNutrientes==''">
+						<h5>{{strings.app_sin_informacion}}</h5>
+					</div>
+					<!-- cultivo Col-->
+				</div>
+			</div>
+			<!--  / end informacion tecnica -->
+		</div>
+	</div>
+	<!-- end content portafolio Productos-->
+	<!--templates/Vistas CODE HERE-->
+</div>

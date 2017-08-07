@@ -1,0 +1,15 @@
+{   "id":"0023",
+    "nombre" :"Ultrasol Especial",
+    "presentacion":"25kg",
+    "descripcionCorta":"Producto Estrella",
+    "img":"ultrasol-especial.png",
+    "marcaID":"ultrasol",
+    "marca":"Ultrasol",
+    "lineaID":"ultEtapas",
+    "linea":"etapas",
+    "cultivos":[],
+    "metaTags":["ultrasol","Oxido de Fosforo","Fosfato Monoamonico","Nitrogeno"],
+    "descripcion":"<p>SQM VITAS produce a pedido, todo tipo de formulas solubles, según las necesidades y características específicas del cultivo, suelo, agua y rendimiento de estos. Además, SQM VITAS ofrece asesoría especializada en nutrición vegetal, para los agricultores que lo requieran.</p><p>Esto incluye toma especializada de muestras de suelo, agua y planta, además de un sistema de recomendación experto que permite un proceso de programación y aplicación de los nutrientes en forma efectiva y segura.</p><corte><p>Consulte a los profesionales asesores de SQM VITAS y obtenga asistencia y productos diseñados especialmente para sus requerimientos.</p>",
+    "informacionTecnica":"<table class='table table-striped'>  <tr> <td> Sin Información.</td> </tr> </table>",
+    "hojaProducto":"<table class='table table-striped'>  <tr> <td> Sin Información.</td> </tr> </table>"
+}

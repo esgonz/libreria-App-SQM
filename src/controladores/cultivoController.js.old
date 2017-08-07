@@ -1,0 +1,427 @@
+LibreriaAppSQM.controller('cultivoController', function($scope,$rootScope, $http, $routeParams) {
+    $rootScope.currentPage = "cultivos";
+    /*cultivos*/
+
+    $scope.cultivoIndexData  =  $rootScope.cultivos[$routeParams.cultivoId];
+    $scope.busquedaProgramaIsActive = false;
+    if ($rootScope.mercado.id=="mx") {
+        $scope.busquedaProgramaIsActive = true;
+    }
+
+    //console.log($scope.cultivoIndexData);
+    $http.get(  $rootScope.baseUrlCultivos   +  $scope.cultivoIndexData.file).success (function(dataCultivo){
+    //$scope.cultivo  =  new Cultivo(dataCultivo);
+
+    $scope.cultivo  =  new CultivoNuevo();
+    console.log("cree un cultivo");
+    $scope.cultivo.setId(dataCultivo.id);
+    $scope.cultivo.setNombre(dataCultivo.nombre);
+    $scope.cultivo.setBackground(dataCultivo.background);
+    $scope.cultivo.setDescripcion(dataCultivo.descripcion);
+    $scope.cultivo.setEtapas(dataCultivo.etapas);
+    $scope.cultivo.setDesordenes(dataCultivo.desordenes);
+    $scope.cultivo.setVariedadesTecnicas(dataCultivo.variedadesTecnicas);
+    $scope.cultivo.setVariedades(dataCultivo.variedades);
+
+    $scope.programaTotalStyle="";
+
+    $scope.filtrosProgramaActivos = {
+        "variedad"      :    "",
+        "condicion"     :    "",
+        "tecnificacion" :    ""
+    };
+    $scope.filtroProgramaVariedad  = null;
+    $scope.filtroProgramaCondicion  = {};
+    $scope.filtroProgramaTecnica  = {};
+
+
+    $scope.programaTablaData=null;
+    $scope.desorden = $scope.cultivo.desordenes[0];
+
+    $scope.cambiarSlideDesorden =  function (desordenIndex){
+        $scope.desorden =  $scope.cultivo.desordenes[desordenIndex];
+    };
+
+    $scope.filtrarProgramaCultivo =  function (parametro, trigger){
+
+
+        //setear filtros activos segun el gatillador
+        if (trigger == "variedades") {
+            $scope.filtrosProgramaActivos.variedad = parametro;
+        }
+        if (trigger == "condiciones") {
+            $scope.filtrosProgramaActivos.condicion = parametro;
+        }
+        if (trigger == "tecnificaciones") {
+            $scope.filtrosProgramaActivos.tecnificacion = parametro;
+        }
+
+        //asignar la posicion en el arreglo de variedades
+        var index = $scope.filtrosProgramaActivos.variedad;
+
+        //cultovo a inspeccionar
+        //  inspeccionar el cultivo base variedades tecnicas
+        var inpecScopeCultivo = $scope.cultivo;
+
+        var condicionActiva = "";
+
+        //defino si buscar  condiciones y tecnificaciones en :
+        //  inspeccionar variedades tecnicas  de las variedades de cultivo
+        if (index >= 0) {
+            inpecScopeCultivo = $scope.cultivo.variedades[index];
+        }
+
+        //set filtro variedad activo para mostrar en el selectbox
+        $scope.filtroProgramaVariedad = inpecScopeCultivo;
+
+        for (var i  =  0; i < inpecScopeCultivo.variedadesTecnicas.length; i++) {
+            var vartecnicaAux  =  inpecScopeCultivo.variedadesTecnicas[i];
+
+
+            //auxiliar de condicion
+            if ($scope.filtrosProgramaActivos.condicion !== "") {
+            //si ya se definio la condicion activa, defino condicion activa para filtrar tecnificaciones
+            condicionActiva = $scope.filtrosProgramaActivos.condicion;
+
+            }
+            else{
+                //busco en todas las condiciones disponibles tecnificaciones
+                condicionActiva = vartecnicaAux.condicionId;
+            }
+
+
+
+            //Buscar en el arreglo de condiciones
+            for (var j  =  0; j < inpecScopeCultivo.condiciones.length; j++) {
+                var auxCondicion = inpecScopeCultivo.condiciones[j];
+                //si se encuentra en el arreglo de condiciones
+                if (auxCondicion.id == vartecnicaAux.condicionId) {
+                    //actualizar el scope filtro condiciones key = value
+                    auxCondicion.indexAux = j;
+                    $scope.filtroProgramaCondicion[vartecnicaAux.condicionId] = auxCondicion;
+                }
+            }
+
+
+
+                //Buscar en el arreglo de tecnificaciones
+                for (var j  =  0; j < inpecScopeCultivo.tecnificaciones.length; j++) {
+                    var auxTecnificacion = inpecScopeCultivo.tecnificaciones[j];
+
+
+                        //si se encuentra en el arreglo de tecnificaciones
+                        if (auxTecnificacion.id == vartecnicaAux.tecnificacionId && condicionActiva == vartecnicaAux.condicionId) {
+                            //actualizar el scope filtro tecnificaciones key = value
+                            auxTecnificacion.indexAux = j;
+                            $scope.filtroProgramaTecnica[vartecnicaAux.tecnificacionId] = auxTecnificacion;
+                        }
+                }
+        }
+
+    };
+
+    $scope.buscarPrograma  =  function(){
+
+        $scope.programas = [];
+        if ($scope.filtroProgramaVariedad !== null &&
+            $scope.filtroProgramaCondicion[$scope.filtrosProgramaActivos.condicion]!== undefined &&
+            $scope.filtroProgramaTecnica[$scope.filtrosProgramaActivos.tecnificacion]!== undefined) {
+
+            var variedadIdBuscar        =  $scope.filtroProgramaVariedad.id;
+            var condicionIdBuscar       =  $scope.filtroProgramaCondicion[$scope.filtrosProgramaActivos.condicion].id;
+            var tecnificacionIdBuscar   =  $scope.filtroProgramaTecnica[$scope.filtrosProgramaActivos.tecnificacion].id;
+
+            //console.log("variedadIdBuscar");
+            //console.log(variedadIdBuscar);
+            //console.log("condicionIdBuscar");
+            //console.log(condicionIdBuscar);
+            //console.log("tecnificacionIdBuscar");
+            //console.log(tecnificacionIdBuscar);
+            //cargar lista de programas
+            $http.get('src/data/'+$rootScope.mercado.id+'/programas/programas.json').success (function(dataprogramas){
+
+            //covertir el array en un diccionario key (id) - objeto
+            for (var programa in dataprogramas) {
+                if (dataprogramas.hasOwnProperty(programa)) {
+
+                    var programaK   =    dataprogramas[programa];
+
+                    var flagProgramaCultivoExiste =  false;
+                    var flagProgramaCondicionExiste =  false;
+                    var flagProgramaTecnificacionExiste =  false;
+            //revisar si el programa coincide en algun cultivo con el cultivo seleccionado
+            for (var progClIndex  =  0; progClIndex < programaK.programaCultivos.length; progClIndex++) {
+
+                var cultivoIdAux =  programaK.programaCultivos[progClIndex];
+
+                if (cultivoIdAux == variedadIdBuscar) {
+            //console.log("variedadIdBuscar Encontrada");
+            //console.log(variedadIdBuscar);
+            flagProgramaCultivoExiste = true;
+            }
+            }
+
+
+            //revisar si el programa coincide en alguna condicion con la condicion seleccionada
+            for (var progConIndex  =  0; progConIndex < programaK.programaCondiciones.length; progConIndex++) {
+
+                var CondicionIdIndex =  programaK.programaCondiciones[progConIndex];
+
+                if (CondicionIdIndex == condicionIdBuscar) {
+            //console.log("condicionIdBuscar Encontrada");
+            //console.log(condicionIdBuscar);
+            flagProgramaCondicionExiste = true;
+            }
+            }
+
+            //revisar si el programa coincide en alguna tecnificacion con la tecnificacion seleccionada
+            for (var progTecIndex  =  0; progTecIndex < programaK.programaTecnificaciones.length; progTecIndex++) {
+
+                var TecnificacionIdIndex =  programaK.programaTecnificaciones[progTecIndex];
+
+                if (TecnificacionIdIndex == tecnificacionIdBuscar) {
+            //console.log("tecnificacionIdBuscar Encontrada");
+            //console.log(tecnificacionIdBuscar);
+            flagProgramaTecnificacionExiste = true;
+            }
+            }
+
+            //si coincide con los parametros de busuqueda lo agrego al arreglo
+            if (flagProgramaCultivoExiste && flagProgramaCondicionExiste && flagProgramaTecnificacionExiste ) {
+                console.log("programaK");
+                console.log(programaK);
+                $scope.getPrograma(programaK,$http);
+            }
+            }
+            }
+
+        });
+        }else{
+            console.log("filtroPrograma cant be NULL");
+        }
+
+    };
+
+    $scope.getPrograma  =  function(programa, $http){
+        $http.get('src/data/'+$rootScope.mercado.id+'/programas/programas-json/'+programa.programaFile).success (function(programaDataObject){
+            console.log("GET PROGRAMA");
+        //console.log(programaDataObject);
+        $scope.setPrograma(programaDataObject);
+        });
+    };
+
+    $scope.setPrograma = function (programaDataObject){
+        console.log("SET PROGRAMA");
+
+        var programa = new Programa();
+        programa.setId(programaDataObject.programaId);
+        programa.setTipo(programaDataObject.tipo);
+        for (var i = 0; i < programaDataObject.programasEtapas.length; i++) {
+            var auxProgramaEtapa = programaDataObject.programasEtapas[i];
+            programa.setEtapa(auxProgramaEtapa);
+        }
+
+        //console.log("var programa");
+        //console.log(programa);
+        $scope.programas.push(programa);
+        //console.log("$scope.programas");
+        //console.log($scope.programas);
+        //$scope.setProgramaParaTabla(programa);
+        //programa.crearTabla(programa);
+        //
+        $scope.programaTablaData = null;
+        $scope.programaTablaDataDistribucion = null;
+        $scope.programaTipo = 1;
+        if (programa.tipo== 1) {
+            $scope.programaTablaData   = programa.crearTablaSuelo(programa);
+            $scope.programaTablaDataDistribucion   = programa.crearTablaDistribucion(programa);  
+        }else if (programa.tipo== 2){
+            $scope.programaTipo = 2;
+            $scope.programaTablaData   = programa.crearTablaHidroponia(programa);
+            $scope.programaTablaDataSolucionNutritiva   = [];
+                $scope.programaTablaDataSolucionNutritiva.push(["Vegetativa" , programa.crearTablaHidroponiaPorSolucion(programa,"vegetativa")]);
+                $scope.programaTablaDataSolucionNutritiva.push(["Media" , programa.crearTablaHidroponiaPorSolucion(programa,"media")]);
+                $scope.programaTablaDataSolucionNutritiva.push(["Generativa 1" , programa.crearTablaHidroponiaPorSolucion(programa,"generativa1")]);
+                $scope.programaTablaDataSolucionNutritiva.push(["Generativa 2" , programa.crearTablaHidroponiaPorSolucion(programa,"generativa2")]);
+        }
+        
+
+    };
+
+
+
+    $scope.tablaPDF2= function (){
+
+        console.log("tablaPDF");
+        if ($scope.programas[0] ===undefined) {
+            console.log("sin Programa");
+            alert("No se encontró un Programa para enviar por correo.\nAsegúrese de seleccionar variedad de Cultivo, condición y tecnificación.");
+            return false;
+        }else{
+
+            var tituloPrograma = $scope.filtroProgramaVariedad.nombre + '-' + $scope.filtroProgramaCondicion[$scope.filtrosProgramaActivos.condicion].condicion + '-' + $scope.filtroProgramaTecnica[$scope.filtrosProgramaActivos.tecnificacion].tecnificacion;
+            var nombreProgramaAux = Date.now()+'_'+tituloPrograma;
+            var nombrePrograma = nombreProgramaAux.substring(0, 45);
+
+            var pdfformat = null;
+            if ($scope.programaTipo == 1) {
+                pdfformat=$scope.programas[0].tablaPDF(tituloPrograma, $scope.programaTablaData, $scope.programaTablaDataDistribucion);
+            }
+            else if ($scope.programaTipo == 2) {
+                pdfformat=$scope.programas[0].tablaPDFHidroponia(tituloPrograma, $scope.programaTablaData, $scope.programaTablaDataSolucionNutritiva);
+            }
+            
+            if (debugMode) {
+                
+                //para browser
+                pdfformat[1].save('table.pdf');
+            }else{
+
+                //para android
+                $scope.savePDF(nombrePrograma, pdfformat[1]);
+            }
+            
+
+            
+            
+            
+        }
+
+        $scope.programaTablaData   = null;
+        $scope.programaTablaDataDistribucion = null;
+
+
+    };
+
+    $scope.savePDF = function ( vname, doc){
+
+        console.log("savePDF");
+        //var doc = new jsPDF('landscape'); /*se declara el tipo de hoja del Certificado*/
+
+        //Se le asigna el nombre al Certificado de Trabajo --- y el lugar donde se va a almacenar este Certificado
+        //para que luego sea adjuntado al Correo
+
+        var name = vname + ".pdf";
+        //var attach = "file:///storage/sdcard0/" + name; //version oficial no funciona para attach
+        var attach = "file:///sdcard/" + name; //version stackoverflow solucion attach
+        //var attach = "" + name;
+        var pdfOutput = doc.output();
+        //var pdfOutput = "HOLA hola HOWDY howdy";
+        //console.log( pdfOutput );
+
+        //NEXT SAVE IT TO THE DEVICE'S LOCAL FILE SYSTEM
+        //PERSISTENT == MEMORIA SD
+        console.log("file system...");
+        window.requestFileSystem(LocalFileSystem.PERSISTENT, 0, function(fileSystem) {
+
+        //console.log(fileSystem.name);
+        //console.log(fileSystem.root.name);
+        //console.log(fileSystem.root.fullPath);
+
+
+        fileSystem.root.getFile(name, {create: true}, function(entry) {
+            var fileEntry = entry;
+        //console.log(entry);
+
+
+
+        entry.createWriter(function(writer) {
+            writer.onwrite = function(evt) {
+                console.log("write success");
+        //alert("write");
+        //se llama a la funcion para enviar por correo electronico;
+        $scope.attachCorreo( name, attach);
+
+        };
+
+        console.log("writing to file ok");
+        writer.write( pdfOutput );
+
+        }, function(error) {
+            console.log(error);
+        });
+
+        }, function(error){
+            console.log(error);
+        });
+        },
+        function(event){
+            console.log( evt.target.error.code );
+        });
+    };
+    $scope.attachCorreo = function (name, urlAttach){
+        //alert("enviar correo");
+        console.log("attachCorreo");
+        console.log(">>URL: "+urlAttach);
+        // this is the complete list of currently supported params you can pass to the plugin (all optional)
+        var options = {
+        message: 'Su Programa Nutricional "'+ name +'" generado por la Aplicacion SQM.', // not supported on some apps (Facebook, Instagram)
+        subject: 'Programa Nutricional - Aplicacion SQM', // fi. for email
+        chooserTitle: 'Selecciona una Aplicacion Para compartir' // Android only, you can override the default share sheet title
+        };
+
+        /*
+
+        cordova.plugins.email.open({
+
+        attachments: urlAttach, //=> Android
+        });
+
+        // this is the complete list of currently supported params you can pass to the plugin (all optional)
+        var options = {
+        message: 'Su Programa Nutricional '+ name +' generado por la Aplicacion SQM.', // not supported on some apps (Facebook, Instagram)
+        subject: 'Programa Nutricional - Aplicacion SQM', // fi. for email
+        files: [urlAttach], // an array of filenames either locally or remotely
+        url: 'http://www.sqm.com',
+        chooserTitle: 'Selecciona una Aplicacion Para compartir' // Android only, you can override the default share sheet title
+        }
+
+        var onSuccess = function(result) {
+        console.log("Share completed? " + result.completed); // On Android apps mostly return false even while it's true
+        console.log("Shared to app: " + result.app); // On Android result.app is currently empty. On iOS it's empty when sharing is cancelled (result.completed=false)
+        }
+
+        var onError = function(msg) {
+        console.log("Sharing failed with message: " + msg);
+        }
+
+        setTimeout(function () {
+        //"file:///storage/sdcard0/" + name;
+        window.plugins.socialsharing.share(options.message, options.subject, "file:///storage/sdcard0/Testpro.pdf");
+        }, 5000);
+
+        //window.plugins.socialsharing.shareWithOptions(options, onSuccess, onError);
+        //
+        //
+        //*/
+        cordova.plugins.email.open({
+            to:      '',
+            cc:      '',
+            bcc:     [],
+            subject: options.subject,
+            body:    options.message,
+        attachments: urlAttach, //=> Android
+        });
+    };
+
+    //$scope.productosEnCultivo = $rootScope.dictCultivosProductos[$routeParams.cultivoId];
+    $scope.cultivo.productos = $rootScope.dictCultivosProductos[$routeParams.cultivoId];
+    //console.log($scope.cultivo);
+
+    //Quitar clase togled del menu lateral
+    var myEl  =  angular.element( document.querySelector( '#wrapper' ) );
+    myEl.removeClass('toggled');
+
+    //Quitar clase togled del menu lateral
+    var menulateraldiv = angular.element( document.querySelector( '#sidebar-wrapper' ) );
+    menulateraldiv.removeClass('toggled');
+
+    //Quitar clase togled del menu principal
+    var myNavEl  =  angular.element( document.querySelector( '#navbar-main' ) );
+    myNavEl.removeClass('in');
+    });
+
+
+
+
+});

@@ -1,0 +1,42 @@
+{   
+  "id":"0022",
+  "nombre" :"Sandia",
+  "background":"sandia.jpg",
+  
+  "descripcion":"<p>Solicite a su agrónomo local de SQM asesoría para formular un programa de nutrición vegetal de especialidad de acuerdo con sus necesidades locales y requerimientos de cultivo.</p>",
+  "etapas":[
+    {
+      "nombre":"Transplante",
+      "id":"etapa1",
+      "img":"sandia-01.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"Establecimiento y Desarrollo Foliar",
+      "id":"etapa2",
+      "img":"sandia-02.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"Expansión del Follaje",
+      "id":"etapa3",
+      "img":"sandia-03.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"Floración y Cuaja",
+      "id":"etapa4",
+      "img":"sandia-04.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"Madurez",
+      "id":"etapa5",
+      "img":"sandia-05.jpg",
+      "descripcion":""
+    }
+  ],
+  "desordenes":[],
+  "variedadesTecnicas":[],
+  "variedades":[]
+}

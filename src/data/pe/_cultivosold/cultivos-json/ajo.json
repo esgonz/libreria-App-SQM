@@ -1,0 +1,24 @@
+{   
+    "id":"0026",
+    "nombre" :"Ajo",
+    "background":"ajo.jpg",    
+    "descripcion":"<p>Solicite a su agrónomo local de SQM asesoría para formular un programa de nutrición vegetal de especialidad de acuerdo con sus necesidades locales y requerimientos de cultivo.</p>",
+    "etapas":[],
+    "desordenes":[],
+    "variedadesTecnicas": [
+        {   
+            "variedadTecnicaId":"31",
+            "condicionId":"1",
+            "tecnificacionId":"1",
+            "fertilizacion":false  
+        },
+        {   
+            "variedadTecnicaId":"32",
+            "condicionId":"2",
+            "tecnificacionId":"1",
+            "fertilizacion":false  
+        }
+
+    ],
+    "variedades":[]
+}

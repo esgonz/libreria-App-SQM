@@ -1,0 +1,13 @@
+{   "id":"0013",
+    "nombre" :"Ultrasol micro Rexene Zn15",
+    "presentacion":"25kg",
+    "descripcionCorta":"Producto Estrella",
+    "img":"ultrasol-microrexenezn15.png",
+    "marcaID":"ultrasol",
+    "marca":"Ultrasol",
+    "lineaID":"ultMicro",
+    "linea":"micronutrientes",
+    "cultivos":["palta", "ajo", "algodon", "cebolla", "cereza", "ciruela", "durazno", "kiwi", "lima", "limon", "maiz", "mandarina", "mango", "manzano", "melon", "naranja", "papa", "pepino", "pera", "pomelo", "tomate", "uva"], "metaTags":["ultrasol","Oxido de Fosforo","Fosfato Monoamonico","Nitrogeno"],
+    "descripcion":"<p>Ultrasol® micro Rexene® Zn15, es parte de la línea de micronutrientes de SQM VITAS, que optimiza los programas de nutrición aportando los nutrientes necesarios para que la calidad de su cosecha sea total.</p><p>Ultrasol® micro Rexene® Zn15 es un producto formulado para corregir deficiencias de zinc.</p><corte><p>Rexene® es una marca registrada de los grupos de empresas AkzoNobel.</p> <ul> <li>pH Alto.</li> <li>Antagonismo con los nutrientes.</li> <li>Problemas radiculares.</li> <li>Bajo nivel de Zinc en la solución de suelo.</li> </ul>",
+    "informacionTecnica":"<table class='table table-striped'>  <tr> <th colspan=\"2\">ESPECIFICACIONES</th> </tr> <tr> <td>Apariencia</td> <td>Sólidos / Microgránulos</td> </tr> <tr> <td>Zinc quelatado EDTA (Zn)</td> <td>14,8%</td> </tr> <tr> <td>CE (1 g/l 20° C)</td> <td>0,422 dS/m</td> </tr> <tr> <td>pH (1 g/l 20° C)</td> <td>6,23</td> </tr> <tr> <td>Solubilidad (20° C)</td> <td>100 g/l</td> </tr> <tr> <td>Solubilidad Sugerida</td> <td>80 g/l</td> </tr> </table> ",
+    "hojaProducto": "<table class='table table-striped'>  <tr> <th>Caracteristicas</th> <th>Valores</th> </tr> <tr> <td>Fórmula Química</td> <td>C<sub>14</sub>H<sub>12</sub>N<sub>2</sub>O<sub>8</sub> ZnNa<sub>2</sub></td> </tr> <tr> <td>Apariencia</td> <td>Solidos / Microgránulos</td> </tr> <tr> <td>Zinc EDTA</td> <td>14,8%</td> </tr> <tr> <td>CE (1 g/l 20&deg;C)</td> <td>0,422 dS/m</td> </tr> <tr> <td>pH (1% solución)</td> <td>6,23</td> </tr> <tr> <td>Solubilidad (20&deg; C)</td> <td>100 g/l</td> </tr> <tr> <td>Solubilidad Sugerida</td> <td>80 g/l</td> </tr> </table> "}

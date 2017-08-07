@@ -1,0 +1,15 @@
+{   "id":"0035",
+    "nombre" :"Ultrasol micro Mix",
+    "presentacion":["1kg","25kg"],
+    "descripcionCorta":"Producto Estrella",
+    "img":"ultrasol-micromix.png",
+    "marcaID":"ultrasol",
+    "marca":"Ultrasol micro",
+    "lineaID":"micro",
+    "linea":"Boro",
+    "metaTags":["ultrasol","Magnesio"],
+    "descripcion":"<p> Este producto es un complejo de micro-nutrientes quelatados, ideal para la prevención y corrección de deficiencias de microelementos. <p> Ideal para uso de fetirrigación y aspersiones foliares. </p> <p> El agente quelatante de los iones metalicos es EDTA. </p> </p>",
+    "informacionTecnica":"<table class='table table-striped'>  <tbody> <tr> <td colspan=\"3\"> <p> Riqueza Porcentual </p> </td> </tr> <tr> <td> <p> Fierro </p> </td> <td> <p> Fe EDTA </p> </td> <td> <p> 7.5% </p> </td> </tr> <tr> <td> <p> Manganeso </p> </td> <td> <p> Mn EDTA </p> </td> <td> <p> 3.7% </p> </td> </tr> <tr> <td> <p> Boro </p> </td> <td> <p> B </p> </td> <td> <p> 0.4% </p> </td> </tr> <tr> <td> <p> Zinc </p> </td> <td> <p> Zn EDTA </p> </td> <td> <p> 0.6% </p> </td> </tr> <tr> <td> <p> Cobre </p> </td> <td> <p> Cu EDTA </p> </td> <td> <p> 0.3% </p> </td> </tr> <tr> <td> <p> Molibdeno </p> </td> <td> <p> Mo </p> </td> <td> <p> 0.2% </p> </td> </tr> <tr> <td colspan=\"3\"> <p> Especificaciones de Disolución </p> </td> </tr> <tr> <td> <p> CE (1 g / L a 20º C) </p> </td> <td colspan=\"2\"> <p> 0.2 mS/cm </p> </td> </tr> <tr> <td> <p> pH (1 g / L a 20º C) </p> </td> <td colspan=\"2\"> <p> 5.8 </p> </td> </tr> <tr> <td> <p> Solubilidad (20º C) </p> </td> <td colspan=\"2\"> <p> 100 g/ L agua </p> </td> </tr> </tbody> </table>",
+    "hojaProducto":"<table class='table table-striped table-bordered table-condensed'> <tr> <td> Sin Información.</td> </tr> </table>",
+    "informacionBasicaNutrientes":"<div> <table class='table table-striped'>  <tbody> <tr> <td colspan=\"3\"> <p> Riqueza Porcentual </p> </td> </tr> <tr> <td> <p> Fierro </p> </td> <td> <p> Fe EDTA </p> </td> <td> <p> 7.5% </p> </td> </tr> <tr> <td> <p> Manganeso </p> </td> <td> <p> Mn EDTA </p> </td> <td> <p> 3.7% </p> </td> </tr> <tr> <td> <p> Boro </p> </td> <td> <p> B </p> </td> <td> <p> 0.4% </p> </td> </tr> <tr> <td> <p> Zinc </p> </td> <td> <p> Zn EDTA </p> </td> <td> <p> 0.6% </p> </td> </tr> <tr> <td> <p> Cobre </p> </td> <td> <p> Cu EDTA </p> </td> <td> <p> 0.3% </p> </td> </tr> <tr> <td> <p> Molibdeno </p> </td> <td> <p> Mo </p> </td> <td> <p> 0.2% </p> </td> </tr> <tr> <td colspan=\"3\"> <p> Especificaciones de Disolución </p> </td> </tr> <tr> <td> <p> CE (1 g / L a 20º C) </p> </td> <td colspan=\"2\"> <p> 0.2 mS/cm </p> </td> </tr> <tr> <td> <p> pH (1 g / L a 20º C) </p> </td> <td colspan=\"2\"> <p> 5.8 </p> </td> </tr> <tr> <td> <p> Solubilidad (20º C) </p> </td> <td colspan=\"2\"> <p> 100 g/ L agua </p> </td> </tr> </tbody> </table> </div>"
+}

@@ -1,0 +1,15 @@
+{   "id":"0037",
+    "nombre" :"Speedfol K SL",
+    "presentacion":"25kg",
+    "descripcionCorta":"Producto Estrella",
+    "img":"speedfol-ksl.png",
+    "marcaID":"speedfol",
+    "marca":"Speedfol",
+    "lineaID":"spfMacro",
+    "linea":"macronutrientes",
+    "cultivos":[],
+    "metaTags":["ultrasol","Oxido de Fosforo","Fosfato Monoamonico","Nitrogeno"],
+    "descripcion":"<p>Speedfol® K SL consiste en potasio quelatado por ácidos orgánicos, para favorecer la absorción y metabolización por la planta.</p><p>El K estimula el color y llenado de la fruta, además de su tamaño, peso, firmeza y calibre.</p><p>Speedfol® K SL es un fertilizante potásico orgánico soluble en agua, libre de nitrógeno, cloruro y sulfato, para ser usado en fertilización foliar o en fertirrigación en plantas para corregir o prevenir deficiencias de potasio.</p><corte><ul> <li>Speedfol® K SL es libre de nitrógeno, permite que el producto sea usado hasta la cosecha, ya que no estimula el crecimiento vegetativo, lo cual puede tener un impacto negativo en el color y en el llenado de la fruta.</li> <li>Speedfol® K SL es aplicado al cultivo en la fase productiva para promover la flor, formación y crecimiento frutal.</li> <li>Su pH levemente ácido ayuda a reducir el pH alcalino del agua y a aumentar la estabilidad y la eficacia de los tanques de mezclado.</li> <li>Speedfol® K SL tiene un efecto humectante, lo que prolonga el período de mojado de la hoja y mejora la absorción del potasio por la hoja.</li> <li>No contiene cloruro ni metales pesados, por lo tanto disminuye el peligro de contaminación, quemado o fitotoxicidad.</li> <li>Speedfol® K SL cumple con las normas establecidas por EPA, EUREPGAP y BPA para fertilizantes foliares.</li> </ul>",
+    "informacionTecnica":"<table class='table table-striped'>  <tr> <th colspan=\"3\">ESPECIFICACIONES</th> </tr> <tr> <td>Apariencia</td> <td colspan=\"2\">Suspensión Líquida</td> </tr> <tr> <td>Oxido de Potasio (K<sub>2</sub>O)</td> <td>18,5% w/w</td> <td>24,1% w/v</td> </tr> <tr> <td>Pentóxido de Potasio (K<sub>2</sub>O)</td> <td>15,4% w/w</td> <td>20% w/v</td> </tr> <tr> <td>Solubilidad</td> <td colspan=\"2\">Soluble en agua</td> </tr> <tr> <td>pH</td> <td colspan=\"2\">5,5</td> </tr> </table> ",
+    "hojaProducto": "<table class='table table-striped'>  <tr> <th>Caracteristicas</th> <th>Valores</th> </tr> <tr> <td>Grado Agrícola - Líquido</td> <td>0 - 0 - 24</td> </tr> <tr> <td>Apariencia</td> <td>Suspensión Líquida</td> </tr> <tr> <td>Densidad (@ 20&deg;C)</td> <td>1.300 g/l</td> </tr> <tr> <td>Codigo Interno</td> <td>Speedfol&trade; K SL</td> </tr> <tr> <td>Oxido de Potasio K<sub>2</sub>O</td> <td>18,5% w/w - 24,1% wv</td> </tr> <tr> <td>Potasio K</td> <td>15,4% w/w - 20,0% wv</td> </tr> <tr><td>Solubilidad</td><td>Soluble en Agua</td></tr> <tr> <td>pH</td> <td>5,5</td> </tr> </table> "
+}

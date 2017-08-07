@@ -1,0 +1,278 @@
+{
+   "id":"0012",
+   "nombre" :"Mango",
+   "background":"mango.jpg",
+   "descripcion":"<p>Su nombre científico es Mangifera indica L. Pertenece a la familia Anacardiaceae.</p><p>Son árboles perennes de entre 8 a 25 metros de alto. Sus frutos crecen durante los meses de verano y provienen a partir de inflorescencias que se desarrollaron en primavera.</p><p>Crecen en forma descontinuada, el aumento de tamaño resulta a partir de brotes vegetativos que se originan periódicamente. Este crecimiento es limitado en la etapa de floración, ya que las inflorescencias son determinadas y el crecimiento vegetativo se inhibe cuando se están desarrollando los órganos reproductivos. La extensión del período de inhibición es proporcional a la intensidad de la floración y a la carga del cultivo.</p><p>El desarrollo de la inflorescencia terminal ocurre luego de un período de frío asociado con un grado de estrés por sequía. En localidades en las que el invierno no es suficientemente frío para una adecuada inducción de la floración (T° diaria mínima sobre los 15°C), se suele forjar esta inducción a través de la exposición de los árboles a deficiencias de agua en el suelo (estrés por sequía) previo a la floración.</p><p>Son tolerantes a la sequía y pueden soportar inundaciones temporales. La distribución de las lluvias tiene un marcado efecto en el ciclo del cultivo.</p><p>Lluvias durante la floración y el desarrollo del fruto son desfavorables, ya que posibilitan la aparición de enfermedades.</p><p>Temperaturas entre 20 a 30°C favorecen el desarrollo de brotes vegetativos mientras que temperaturas entre 6 y 18°C favorecen el inicio del desarrollo de la inflorescencia.</p><p>lgunas variedades conocidas de mango son Tommy Atkins, Keitt, Kent, Haden and Sensation.</p>",
+   "etapas":[
+      {
+         "nombre":"Brotamiento",
+         "id":"etapa1",
+         "img":"mango-01.jpg",
+         "descripcion":""
+      },
+      {
+         "nombre":"Floración",
+         "id":"etapa2",
+         "img":"mango-02.jpg",
+         "descripcion":""
+      },
+      {
+         "nombre":"Cuajado",
+         "id":"etapa3",
+         "img":"mango-03.jpg",
+         "descripcion":""
+      },
+      {
+         "nombre":"Desarrollo Fruto",
+         "id":"etapa4",
+         "img":"mango-04.jpg",
+         "descripcion":""
+      },
+      {
+         "nombre":"Maduración y Cosecha",
+         "id":"etapa5",
+         "img":"mango-05.jpg",
+         "descripcion":""
+      }
+   ],
+   "desordenes":[
+            {
+                  "elemento":"nitrogeno",
+                  "imagenes":[
+                     {
+                        "img":"n_01_mango-big.jpg",
+                        "span":"Arbol de mango con sintomas de deficiencia de N."
+                     
+                     },
+                     {
+                        "img":"all_10-mango.jpg",
+                        "span":"Color amarillo (clorosis) y necrosis marginal de las hojas resultantes de la deficiencia de nitrógeno y potasio."
+                     
+                     },
+                     {
+                        "img":"all_11-mango.jpg",
+                        "span":"Amarillamiento y marchitamiento de hojas general que resulta de la deficiencia de nitrógeno y prolongado estrés hidrico del suelo."
+                     
+                     }
+                  ]
+
+            },
+            {
+                  "elemento":"boro",
+                  "imagenes":[
+                     {
+                        "img":"b_01_mango-big.jpg",
+                        "span":"Sintomas foliares con exceso de B en el mango."
+                     
+                     },
+                     {
+                        "img":"all_08-mango.jpg",
+                        "span":"Deformación de las hojas y clorosis generalizada como resultado de la deficiencia de manganeso, hierro, zinc, boro y cobre."
+                     
+                     },
+                     {
+                        "img":"all_13-mango.jpg",
+                        "span":"Sintomas foliares con exceso de B en el mango."
+                     
+                     }
+                  ]
+
+            },
+            {
+                  "elemento":"cloruro",
+                  "imagenes":[
+                     {
+                        "img":"cl_01_mango-big.jpg",
+                        "span":"Exceso de cloruro en hojas de mango como resultado de los altos niveles de cloruro en el agua de riego."
+                     
+                     },
+                     {
+                        "img":"all_14-mango.jpg",
+                        "span":"Hoja con margen de necrosis como resultado de un exceso de absorción de cloruro."
+                     
+                     },
+                     {
+                        "img":"all_16-mango.jpg",
+                        "span":"Stunded new shoot development and leadf drop and branch die-back resulting from excess sodium and chloride uptake."
+                     
+                     }
+                  ]
+
+            },
+            {
+                  "elemento":"cobre",
+                  "imagenes":[
+                     {
+                        "img":"all_01-mango.jpg",
+                        "span":"Symptoms resulting from manganese and copper deficiency."
+                     
+                     },
+                     {
+                        "img":"all_03-mango.jpg",
+                        "span":"Leaf curling and stunted growth resulting from manganese and copper deficiency."
+                     
+                     },
+                     {
+                        "img":"all_05-mango.jpg",
+                        "span":"Stunted leaf growth and curling resulting from zinc, copper and manganese deficiency."
+                     
+                     },
+                     {
+                        "img":"all_06-mango.jpg",
+                        "span":"Ribbed, small, marginally curled, chlorotic leaves resulting from iron, zinc, copper and iron deficiency."
+                     
+                     },
+                     {
+                        "img":"all_07-mango.jpg",
+                        "span":"Leaf back- bending and ribbing resulting from manganese and copper deficiency."
+                     
+                     },
+                     {
+                        "img":"all_08-mango.jpg",
+                        "span":"General chlorosis and leaf deformation resulting from copper, iron, manganese, zinc and boron deficiency."
+                     
+                     },
+                     {
+                        "img":"all_09-mango.jpg",
+                        "span":"Leaf curling and ribbing resulting from manganese and copper deficiency."
+                     
+                     }
+                  ]
+
+            },
+            {
+                  "elemento":"hierro",
+                  "imagenes":[
+                     {
+                        "img":"all_02-mango.jpg",
+                        "span":"Mangos con deficiencia de hierro, zinc y manganeso."
+                     
+                     },
+                     {
+                        "img":"all_04-mango.jpg",
+                        "span":"Reduced leaf size and chlorosis resulting from zinc and iron deficiency."
+                     
+                     },
+                     {
+                        "img":"all_06-mango.jpg",
+                        "span":"Ribbed, small, marginally curled, chlorotic leaves resulting from iron, zinc, copper and iron deficiency."
+                     
+                     },
+                     {
+                        "img":"all_08-mango.jpg",
+                        "span":"General chlorosis and leaf deformation resulting from copper, iron, manganese, zinc and boron deficiency."
+                     
+                     }
+                  ]
+
+            },
+            {
+                  "elemento":"zinc",
+                  "imagenes":[
+                     {
+                        "img":"all_02-mango.jpg",
+                        "span":"Mangos con deficiencia de hierro, zinc y manganeso."
+                     
+                     },
+                     {
+                        "img":"all_04-mango.jpg",
+                        "span":"Reduced leaf size and chlorosis resulting from zinc and iron deficiency."
+                     
+                     },
+                     {
+                        "img":"all_05-mango.jpg",
+                        "span":"Stunted leaf growth and curling resulting from zinc, copper and manganese deficiency."
+                     
+                     },
+                     {
+                        "img":"all_06-mango.jpg",
+                        "span":"Ribbed, small, marginally curled, chlorotic leaves resulting from iron, zinc and copper deficiency."
+                     
+                     },
+                     {
+                        "img":"all_08-mango.jpg",
+                        "span":"General chlorosis and leaf deformation resulting from copper, iron, manganese, zinc and boron deficiency."
+                     
+                     }
+                  ]
+
+            },
+            {
+                  "elemento":"manganeso",
+                  "imagenes":[
+                     {
+                        "img":"all_02-mango.jpg",
+                        "span":"Mangos con deficiencia de hierro, zinc y manganeso."
+                     
+                     },
+                     {
+                        "img":"all_03-mango.jpg",
+                        "span":"Hojas encrespadas y retraso del crecimiento como resultado de la deficiencia de manganeso y cobre."
+                     
+                     },
+                     {
+                        "img":"all_05-mango.jpg",
+                        "span":"Hojas encrespadas y retraso del crecimiento como resultado de la deficiencia de zinc, manganeso y cobre."
+                     
+                     },
+                     {
+                        "img":"all_07-mango.jpg",
+                        "span":"Hojas pequeñas, estriadas, ligeramente encrespadas y con clorosis resultantes de la deficiencia de hierro, zinc y cobre."
+                     
+                     },
+                     {
+                        "img":"all_08-mango.jpg",
+                        "span":"Deformación de las hojas y clorosis generalizada como resultado de la deficiencia de manganeso, hierro, zinc, boro y cobre."
+                     
+                     },
+                     {
+                        "img":"all_09-mango.jpg",
+                        "span":"Hojas encrespadas y retraso del crecimiento como resultado de la deficiencia de manganeso y cobre."
+                     
+                     }
+                  ]
+
+            },
+            {
+                  "elemento":"potasio",
+                  "imagenes":[
+                     {
+                        "img":"all_10-mango.jpg",
+                        "span":"Hojas amarillentas (clorosis) y con necrosis marginal como resultado de la deficiencia de nitrógeno y potasio."
+                     
+                     }
+                  ]
+
+            },
+            {
+                  "elemento":"calcio",
+                  "imagenes":[
+                     {
+                        "img":"all_12-mango.jpg",
+                        "span":"Descomposición interna ('semilla gelatinosa') como resultado de la deficiencia de calcio dentro de las propias frutas."
+                     
+                     }
+                  ]
+
+            },
+            {
+                  "elemento":"sodio",
+                  "imagenes":[
+                     {
+                        "img":"all_15-mango.jpg",
+                        "span":"Inhibición en el crecimiento del árbol que resulta de la absorción excesiva de sodio."
+                     
+                     },
+                     {
+                        "img":"all_16-mango.jpg",
+                        "span":"Retraso en el desarrollo de nuevos brotes, caída de hojas y muerte de ramas desde el extremo hacia la base ('die back') que resultan de la absoricón excesiva de sodio y cloro."
+                     
+                     }
+                  ]
+
+            }
+
+   ],
+"variedadesTecnicas":[],
+"variedades":[]
+}

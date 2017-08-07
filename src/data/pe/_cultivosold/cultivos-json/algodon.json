@@ -1,0 +1,10 @@
+{   
+	"id":"0035",
+	"nombre" :"Algodon",
+	"background":"algodon.jpg",	
+	"descripcion":"<p>Solicite a su agrónomo local de SQM asesoría para formular un programa de nutrición vegetal de especialidad de acuerdo con sus necesidades locales y requerimientos de cultivo.</p>",
+	"etapas":[],
+	"desordenes":[],
+	"variedadesTecnicas":[],
+	"variedades":[]
+}

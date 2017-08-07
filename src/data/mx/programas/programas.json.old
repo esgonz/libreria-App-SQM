@@ -1,0 +1,205 @@
+[
+	{	"programaId":"1",
+		"programaFile":"programa001.json",
+		"programaCultivos":["0023"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[2],
+	    "programaTecnificaciones":[1]
+	},
+	{	"programaId":"2",
+		"programaFile":"programa002.json",
+		"programaCultivos":["0023"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[5],
+	    "programaTecnificaciones":[1]
+	},
+	{	"programaId":"3",
+		"programaFile":"programa003.json",
+		"programaCultivos":["0023"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[2],
+	    "programaTecnificaciones":[5]
+	},
+	{	"programaId":"4",
+		"programaFile":"programa004.json",
+		"programaCultivos":["0023"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[5],
+	    "programaTecnificaciones":[5]
+	},
+
+
+	{	"programaId":"5",
+		"programaFile":"programa005.json",
+		"programaCultivos":["0020"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[2],
+	    "programaTecnificaciones":[1]
+	},
+	{	"programaId":"6",
+		"programaFile":"programa006.json",
+		"programaCultivos":["0020"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[5],
+	    "programaTecnificaciones":[1]
+	},
+	{	"programaId":"7",
+		"programaFile":"programa007.json",
+		"programaCultivos":["0020"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[2],
+	    "programaTecnificaciones":[5]
+	},
+
+	{	"programaId":"8",
+		"programaFile":"programa008.json",
+		"programaCultivos":["0020"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[5],
+	    "programaTecnificaciones":[5]
+	},
+
+
+	{	"programaId":"9",
+		"programaFile":"programa009.json",
+		"programaCultivos":["0019"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[2],
+	    "programaTecnificaciones":[1]
+	},
+	{	"programaId":"10",
+		"programaFile":"programa010.json",
+		"programaCultivos":["0019"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[2],
+	    "programaTecnificaciones":[5]
+	},
+	{	"programaId":"11",
+		"programaFile":"programa011.json",
+		"programaCultivos":["0019"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[5],
+	    "programaTecnificaciones":[5]
+	},
+	
+
+	{
+		"programaId":"12",
+		"programaFile":"programa012.json",
+		"programaCultivos":["4001","4002","4003"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[2],
+	    "programaTecnificaciones":[1]
+	},
+	{	"programaId":"13",
+		"programaFile":"programa013.json",
+		"programaCultivos":["4001","4002","4003"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[5],
+	    "programaTecnificaciones":[1]
+	},
+	{
+		"programaId":"14",
+		"programaFile":"programa014.json",
+		"programaCultivos":["4004","4005","4006"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[2],
+	    "programaTecnificaciones":[1]
+	},
+	{	"programaId":"15",
+		"programaFile":"programa015.json",
+		"programaCultivos":["4004","4005","4006"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[5],
+	    "programaTecnificaciones":[1]
+	},
+
+
+	{
+		"programaId":"16",
+		"programaFile":"programa016.json",
+		"programaCultivos":["2302"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[2],
+	    "programaTecnificaciones":[1]
+	},
+	{	"programaId":"17",
+		"programaFile":"programa017.json",
+		"programaCultivos":["2302"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[5],
+	    "programaTecnificaciones":[1]
+	},
+
+
+	{	"programaId":"18",
+		"programaFile":"programa018.json",
+		"programaCultivos":["0027"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[5],
+	    "programaTecnificaciones":[1]
+	},
+	
+
+	{	"programaId":"19",
+		"programaFile":"programa019.json",
+		"programaCultivos":["0005"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[5],
+	    "programaTecnificaciones":[1]
+	},
+
+
+	{	"programaId":"20",
+		"programaFile":"programa020.json",
+		"programaCultivos":["0026"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[5],
+	    "programaTecnificaciones":[1]
+	},
+
+
+	{	"programaId":"21",
+		"programaFile":"programa021.json",
+		"programaCultivos":["0029"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[5],
+	    "programaTecnificaciones":[1]
+	},
+
+
+	{	"programaId":"100",
+		"programaFile":"programa100.json",
+		"programaCultivos":["0023"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[2],
+	    "programaTecnificaciones":[5]
+	},
+
+
+	{	"programaId":"101",
+		"programaFile":"programa101.json",
+		"programaCultivos":["0023"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[5],
+	    "programaTecnificaciones":[5]
+	},
+
+
+	{	"programaId":"102",
+		"programaFile":"programa102.json",
+		"programaCultivos":["0020"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[2],
+	    "programaTecnificaciones":[5]
+	},
+
+
+	{	"programaId":"103",
+		"programaFile":"programa103.json",
+		"programaCultivos":["0020"],
+	    "programasEtapas":[0,1,2,3,4],
+	    "programaCondiciones":[5],
+	    "programaTecnificaciones":[5]
+	}
+]

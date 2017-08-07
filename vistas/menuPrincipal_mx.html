@@ -1,0 +1,203 @@
+<!-- Menu Principal-->
+<!--Content protafolio productos-->
+<div  ng-controller="menuController">
+<div ng-include = "'templates/menuPrincipal.html'"></div>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<h4><span class="glyphicon glyphicon-stop"></span>{{strings.menu_portafolio_productos}} {{mercado.nombre}}</h4>
+		
+		
+
+		
+
+
+		<!--ultrasol row A-->
+		<div class="row nogutten cardUltrasol">
+			
+
+			
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<div class="pull-left">
+						<img class="" src="src/img/icons/marcas/mx/img_ultrasol3.png" alt="">
+						<br>
+						<br>	
+					</div>
+
+			</div>
+
+
+			<!-- Macro -->
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="menuPrincipalCard nogutten cardUltrasolLinea UI-light">
+					<a class="cardContenedor open-menuPrincipal-popup" ng-click="verProductos('ultrasol', 'ultMacro')">
+					<div class="pull-left cardImgIcon">
+						<img class="" src="src/img/icons/marcas/mx/img_macronutrientes_verde.png" alt="">	
+					</div>
+					<span class="textCard">MACRONUTRIENTES</span>
+				</a>	
+				</div>
+			</div>
+
+
+			<!-- npkfep -->
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="menuPrincipalCard nogutten cardUltrasolLinea UI-light">
+					<a class="cardContenedor open-menuPrincipal-popup" ng-click="verProductos('ultrasol', 'ultNpkMe')">
+					<div class="pull-left cardImgIcon">
+						<img class="" src="src/img/icons/marcas/mx/img_npkmefep_verde.png" alt="">	
+					</div>
+					<span class="textCard">NPK+ME FEP</span>
+				</a>	
+				</div>
+			</div>
+
+
+
+			<!-- Color -->
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="menuPrincipalCard nogutten cardUltrasolLinea UI-light">
+					<a class="cardContenedor open-menuPrincipal-popup" ng-click="verProductos('ultrasol', 'ultColor')">
+					<div class="pull-left cardImgIcon">
+						<img class="" src="src/img/icons/marcas/mx/img_color_verde.png" alt="">	
+					</div>
+					<span class="textCard">COLOR</span>
+				</a>
+				</div>
+			</div>
+
+
+
+		
+	
+
+			<!-- npks -->
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="menuPrincipalCard nogutten cardUltrasolLinea UI-light">
+					<a class="cardContenedor open-menuPrincipal-popup" ng-click="verProductos('ultrasol', 'ultNpks')">
+					<div class="pull-left cardImgIcon">
+						<img class="" src="src/img/icons/marcas/mx/img_npks_verde.png" alt="">	
+					</div>
+					<span class="textCard">NPKS</span>
+					</a>
+				</div>
+			</div>
+
+
+			<!-- cultivo -->
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="menuPrincipalCard nogutten cardUltrasolLinea UI-light">
+					<a class="cardContenedor open-menuPrincipal-popup" ng-click="verProductos('ultrasol', 'ultCultivos')">
+					<div class="pull-left cardImgIcon">
+						<img class="" src="src/img/icons/marcas/mx/img_cultivos_verde.png" alt="">	
+					</div>
+					<span class="textCard">CULTIVOS</span>
+				</a>
+				</div>
+			</div>
+
+
+
+
+
+
+
+			<!-- micro -->
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+				<div class="menuPrincipalCard nogutten cardUltrasolLinea UI-light">
+					<a class="cardContenedor open-menuPrincipal-popup" ng-click="verProductos('ultrasol', 'ultMicro')">
+					<div class="pull-left cardImgIcon">
+						<img class="" src="src/img/icons/marcas/mx/img_micronutrientes_verde.png" alt="">	
+					</div>
+					<span class="textCard">MICRONUTRIENTES</span>
+					</a>
+				</div>
+			</div>
+
+
+		</div>
+		
+
+		<!--otras marcas row-->
+		<div class="row">
+
+			<!-- qrop -->
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+				<div class="menuPrincipalCard nogutten cardQrop UI-gris">
+					<a class="cardContenedor open-menuPrincipal-popup" ng-click="verProductos('qrop', 'qrop')">
+						<div class="pull-left cardImgIcon">
+							<img class="" src="src/img/icons/marcas/mx/img_qrop3.png" alt="">	
+						</div>
+					
+					</a>
+				</div>
+			</div>
+				
+			
+			<!-- speedfol -->
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+				<div class="menuPrincipalCard cardSpeedfol UI-gris">
+					<a class="cardContenedor open-menuPrincipal-popup" ng-click="verProductos('speedfol', 'speedfol')">
+						<div class="pull-left cardImgIcon">
+							<img class="" src="src/img/icons/marcas/mx/img_speedfol3.png" alt="">	
+						</div>
+					
+					</a>
+				</div>
+			</div>
+			
+			<!-- allganic-->
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+				<div class="menuPrincipalCard cardAllganic UI-gris">
+					<a class="cardContenedor open-menuPrincipal-popup" ng-click="verProductos('allganic', 'allganic')">
+						<div class="pull-left cardImgIcon">
+							<img class="" src="src/img/icons/marcas/mx/img_allganic3.png" alt="">	
+						</div>
+					
+					</a>
+				</div>
+			</div>
+			
+			<!-- nutrilake-->
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+				<div class="menuPrincipalCard cardNutrilake UI-gris">
+					<a class="cardContenedor open-menuPrincipal-popup" ng-click="verProductos('nutrilake', 'nutrilake')">
+						<div class="pull-left cardImgIcon">
+							<img class="" src="src/img/icons/marcas/mx/img_nutrilake2.png" alt="">	
+						</div>
+					
+					</a>
+				</div>
+			</div>
+
+
+		</div>
+
+		
+	</div><!-- end content portafolio Productos-->
+
+
+	<!--Content protafolio cultivos-->
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<h4>
+			<span class="glyphicon glyphicon-stop"></span>
+			{{strings.menu_portafolio_cultivos}} {{mercado.nombre}}
+		</h4>
+		<!--cultivos row1-->
+		<div class="row">
+			<!-- cultivo Col-->
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 inline-btn" ng-repeat="cultivo in cultivos | orderObjectBy:'nombre'" ng-include = "'templates/menuPrincipal/mp_cultivoBtn.html'">
+				<!--template mp_cultivoBtn-->	       	     
+			</div>
+			<!-- cultivo Col-->
+
+			
+		</div>
+		<!--cultivos row1-->
+		
+	</div>
+
+	<!--MODAL TEMPLATES -->
+    <!--<div ng-include = "'templates/modal_menuPrincipal.html'"></div>-->
+</div>
+
+<!-- Menu Principal-->
+

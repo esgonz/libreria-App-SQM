@@ -1,0 +1,188 @@
+/*loginController*/  
+LibreriaAppSQM.controller("loginController", function($scope, $rootScope, localStorageService) {
+    $rootScope.currentPage="login";
+    $scope.inputUsuario = "";
+    if ($rootScope.mercado.id =="mx") {
+    window.location = "index.html#/menu";
+    }
+
+    $scope.verifSesion = function (){
+        console.log("verificar Sesion");
+        var flag=false;
+        //verificar comtabilidad
+        if($scope.verifCompatibilidad()){
+            console.log("compatibilidad OK");
+            //verificar si esta almacenado
+            if ($scope.getLocalStorage("version")) {
+                console.log("version existe");
+                var versionStorage  =   $scope.getLocalStorage("version");
+                //verificar si esta almacenado ultima version
+                if (versionStorage == $rootScope.mercado.version){
+                    console.log("version corresponde");
+                    flag=true;
+                    window.location = "index.html#/menu";
+                }
+
+            }
+        }
+        if (!flag) {
+            console.log("no existe informacion Local");
+        }
+        return flag;        
+    };
+
+
+    $scope.loginControl= function (usuario,clave){
+        $scope.inputUsuario    =   usuario;
+        console.log("function validateLogin");
+        if (!debugMode) {
+            console.log("validateLogin JAVA");
+            cordova.exec($scope.validateSuccess, $scope.validateFailure, "LoginSQM", "validateLogin", [usuario, clave]);            
+        }else{
+            console.log("validateLogin JS");
+            console.log("no existe informacion Local");
+            //crear localStorage
+            $scope.setLoginUser($scope.inputUsuario);
+            setTimeout(function(){
+                //console.log("WAIT app");
+                window.location = "index.html#/menu";
+            }, 400);
+        }
+    };
+
+
+    $scope.setLoginUser = function (value){
+        if ($scope.verifCompatibilidad()) {
+            $scope.setLocalStorage("user",  value);
+            $scope.setLocalStorage("mercado",   $rootScope.mercado.id);
+            $scope.setLocalStorage("version",   $rootScope.mercado.version);
+            return true;
+        }
+        return false;
+    };
+
+    $scope.verifCompatibilidad = function (){
+        if(localStorageService.isSupported) {
+            return true;
+        }
+        return false;
+    };
+
+    $scope.setLocalStorage = function (key, value){
+        return localStorageService.set(key, value);
+    };
+    $scope.getLocalStorage = function (key){
+        return localStorageService.get(key);
+    };
+
+    $scope.validateSucess = function (data){
+        //alert("validateSuccess");
+        //console.log("user Validate Success");
+        var flag="";
+
+        if (data=="200") {
+            flag= "true";
+        };
+        if (data=="401") {
+            flag= "Clave Incorrecta";
+
+        };
+        if (data=="403") {
+            flag= "Usuario Incorrecto";
+
+        };
+        //console.log(data);
+
+        //alert("flag: "+ flag);
+        if (flag=="true") {
+            //crear localStorage
+            $scope.setLoginUser($scope.inputUsuario);
+            setTimeout(function(){
+                //console.log("WAIT app");
+                window.location = "index.html#/menu";
+            }, 400);
+
+        }else{
+            try{
+                navigator.notification.alert(
+                    flag,  // message
+                    alertDismissed,         // callback
+                    'Permisos de Usuarios',            // title
+                    'Aceptar'                  // buttonName
+                );
+            }catch(error){
+                alert(flag);
+            }
+        }
+    };
+
+    $scope.validateFailure = function (data){
+    };
+
+
+    $scope.verifSesion();
+
+});
+
+
+
+
+
+function ControladorLogin(){
+}
+
+ControladorLogin.prototype.validate= function validate(usuario,clave)
+{
+    //console.log("function validateLogin");
+    cordova.exec(validateSuccess, validateFailure, "LoginSQM", "validateLogin", [usuario, clave]);
+
+
+}
+
+
+function validateSuccess(data) {
+    //alert("validateSuccess");
+    //console.log("user Validate Success");
+    var flag="";
+
+    if (data=="200") {
+        flag= "true";
+    };
+    if (data=="401") {
+        flag= "Clave Incorrecta";
+
+    };
+    if (data=="403") {
+        flag= "Usuario Incorrecto";
+
+    };
+    //console.log(data);
+
+    //alert("flag: "+ flag);
+    if (flag=="true") {
+        setTimeout(function(){
+    //console.log("WAIT app");
+    window.location = "index.html#/menu";
+    }, 400);
+    }else{
+        try{
+            navigator.notification.alert(
+    flag,  // message
+    alertDismissed,         // callback
+    'Permisos de Usuarios',            // title
+    'Aceptar'                  // buttonName
+    );
+        }catch(error){
+            alert(flag);
+        }
+    }
+}
+
+function validateFailure(data) {
+//alert("validateFailure");
+//console.log("user Validate Error");
+//console.log(data);
+}
+var ctrlLogin    = new ControladorLogin();
+
+

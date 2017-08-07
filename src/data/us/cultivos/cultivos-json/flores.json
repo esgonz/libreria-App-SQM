@@ -1,0 +1,11 @@
+{
+	"id":"0039",
+	"nombre" :"Flowers",
+	"background":"flores.jpg",
+	"productos":["producto_id","producto_id2"],
+	"descripcion":"<p>Ask your local SQM agronomist for a Specialty Plant Nutrition programme in accordance with your local needs and requirements.</p>",
+	"etapas":[],
+	"desordenes":[],
+	"variedadesTecnicas":[],
+	"variedades":[]
+}

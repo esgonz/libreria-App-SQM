@@ -1,0 +1,158 @@
+<div class="" id="vistaProducto" ng-controller="productoController">
+	<!--templates/Vistas CODE HERE-->
+
+	
+	<!--titulo boton-->
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+			<img class="ultrasol-logo" src="src/img/icons/marcas/{{mercado.id}}/img_{{producto.verbose}}.png">
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+			<a class="btn btn-default pull-right" ng-click="setVolver(currentPage,currentPageId, 'extraContent');">
+				<img class="producto-icon-verHoja pull-left" src="src/img/icons/ui/img_hojaproducto.png" alt="">
+				<span class="pull-right" id="producto-btn-verHoja-span">{{strings.producto_ver_hoja_producto}}</span>
+			</a>
+		</div>
+	</div>
+	<!-- / end titulo boton-->
+
+
+	<div class="basicContent">
+		<!-- imagen / Descripcion -->
+		<div class="row">
+			<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+				<img alt="" class="producto-sacos" src="src/img/sacos/{{mercado.id}}/{{producto.img}}"/>
+			</div>
+			<div class="col-xs-9 col-sm-offset-1 col-sm-9 col-md-offset-1 col-md-9 col-lg-offset-1 col-lg-9">
+				
+					<div class="texto" ng-bind-html=" producto.getMinDescripcion(strings.app_ver_mas) | to_trusted">
+					</div>
+				
+			</div>
+		</div>
+		<!-- imagen / Descripcion -->
+		
+		<!-- barra de busqueda tabla nutricional PERU -->
+		<div ng-if="mercado.id!='us'" class="row">
+			<!-- cultivos relacionados-->
+			<!--<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+				<h4><span class="glyphicon glyphicon-stop"></span> {{strings.producto_seleccionar_cultivo}}</h4>-->
+				<!--cultivos row1-->
+				<!--<div class="row row-clear">-->
+					<!-- cultivo Col-->
+					<!--<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3" ng-repeat="cultivo in producto.cultivos | orderObjectBy:'nombre'" ng-include = "'templates/producto/prd_cultivoBtn.html'">-->
+						<!--template mp_lineaBtn-->
+					<!--</div>
+					<div class="col-md-12" ng-if="producto.cultivos.length < 1">
+						<h5>{{strings.producto_no_existen_cultivos}}</h5>
+					</div>-->
+					<!-- cultivo Col-->
+				<!--</div>
+			</div>-->
+			<!-- / end cultivos relacionados--> 
+			
+			<!-- informacion nutrientes -->
+			<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+				<!-- TEMPLATE Barra PROGRAMAS -->
+
+				<!--<div class="row"  ng-include="'templates/barraBusquedaProgramas.html'" >
+				</div>-->	
+				<!-- / TEMPLATE Barra PROGRAMAS -->
+			</div>
+			<!--  / end informacion nutrientes -->
+
+
+
+			<!-- informacion tecnica -->
+			<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+				<h4>
+					<span class="glyphicon glyphicon-stop"></span>
+					{{strings.producto_informacion_tecnica}}
+				</h4>
+				<!--cultivos row1-->
+				<div class="row row-clear">
+					<!-- cultivo Col-->
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-bind-html="producto.informacionTecnica | to_trusted">
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-if="producto.informacionTecnica==''">
+						<h5>{{strings.app_sin_informacion}}</h5>
+					</div>
+					<!-- cultivo Col-->
+				</div>
+			</div>
+			<!--  / end informacion tecnica -->
+		</div>
+		<!-- /end barra de busqueda tabla nutricional PERU-->
+
+
+		<!--tabla nutricional USA -->
+		<div ng-if="mercado.id=='us'" class="row">
+			<!-- informacion tecnica -->
+			<div class="col-xs-12 col-sm-12 ccol-md-12 col-lg-12">
+				<h4>
+					<span class="glyphicon glyphicon-stop"></span>
+					{{strings.producto_informacion_tecnica}}
+				</h4>
+				<!--cultivos row1-->
+				<div class="row row-clear">
+					<!-- cultivo Col-->
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-bind-html="producto.informacionTecnica | to_trusted">
+					</div>
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-if="producto.informacionTecnica==''">
+						<h5>{{strings.app_sin_informacion}}</h5>
+					</div>
+					<!-- cultivo Col-->
+				</div>
+			</div>
+			<!--  / end informacion tecnica -->
+		</div>
+		<!--/ tabla nutricional USA -->
+
+
+	</div>
+	<div class="row esconder" id="extraContent">
+		<br>
+		<br>
+
+		<!-- cultivo Col-->
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-if="mercado.id !='us'" ng-bind-html="producto.hojaProducto | to_trusted">
+			<!--template mp_lineaBtn-->
+		</div>
+
+		<!-- cultivo Col-->
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-if="mercado.id =='us'">
+
+			<center><img class="img-responsive" src="src/data/us/productlabel/{{producto.hojaProducto}}"/></center>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-if="producto.hojaProducto==''">
+			<h5>{{strings.app_sin_informacion}}</h5>
+		</div>
+	</div>
+	<!-- end content portafolio Productos-->
+	<!--templates/Vistas CODE HERE-->
+</div>
+<script type="text/javascript">
+	/*$("#revelar-extraContent").click(function(){
+		var sttus = $("#revelar-extraContent").attr( "data-estado" );
+		if(sttus=="false")
+		{
+			$(".basicContent").hide();
+			$("#revelar-extraContent").attr({
+				"data-estado" : "true",
+			});
+			$("#producto-btn-verHoja-span").text = "{{strings.producto_volver_al_producto}}";
+		}else{
+			$(".basicContent").show();
+			$("#revelar-extraContent").attr({
+				"data-estado" : "false",
+			});
+			$("#producto-btn-verHoja-span").text = "{{strings.producto_ver_hoja_producto}}";
+		}
+	});*/
+/*
+	$("revelar-extraContent").click(function(){
+		var sttus= $("revelar-extraContent").attr( "data-estado" );
+		alert(sttus);
+	});
+*/
+</script>

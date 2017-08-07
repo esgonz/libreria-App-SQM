@@ -1,0 +1,15 @@
+{   "id":"0029",
+    "nombre" :"Ultrasol Sandia",
+    "presentacion":"25kg",
+    "descripcionCorta":"Producto Estrella",
+    "img":"ultrasol-sandia.png",
+    "marcaID":"ultrasol",
+    "marca":"Ultrasol",
+    "lineaID":"UltCultivos",
+    "linea":"cultivos",
+    "cultivos":["sandia"],
+    "metaTags":["ultrasol","Oxido de Fosforo","Fosfato Monoamonico","Nitrogeno"],
+    "descripcion":"<p>Ultrasol® Sandía es una formulación específica y completa diseñada para una adecuada fertirrigación en el cultivo de sandía y cucurbitáceas afines.</p><p>Ultrasol® Sandía lleva los nutrientes esenciales en un balance y equilibrio acorde a la demanda del cultivo. Producto de elevada solubilidad, efecto antisalino, y carácter marcadamente ácido.</p><corte><ul> <li>Elevado aporte de Nitrógeno Nítrico (NO<sub>3</sub><sup>-</sup>) que favorece el efecto anti salino en el ambiente radicular. También facilita la absorción de Ca, Mg y K.</li> <li>Fuerte efecto ácido.</li> <li>Relación N:K:Mg acorde a las demandas específicas en el ciclo vegetativo de sandías y otras cucurbitáceas.</li> <li>Magnesio de alta solubilidad.</li> <li>Producto nutricionalmente equilibrado y balanceado.</li> <li>Ultrasol® Sandía es totalmente soluble en agua.</li> </ul>",
+    "informacionTecnica":"<table class='table table-striped'>  <tr> <th colspan=\"2\">ESPECIFICACIONES</th> </tr> <tr> <td>Nitrógeno</td> <td>16%</td> </tr> <tr> <td>Fósforo (P<sub>2</sub>O<sub>5</sub>)</td> <td>6%</td> </tr> <tr> <td>Potasio (K<sub>2</sub>O)</td> <td>20%</td> </tr> <tr> <td>Magnesio (MgO)</td> <td>6%</td> </tr> <tr> <td>pH</td> <td>2.77</td> </tr> </table> ",
+    "hojaProducto":"<table class='table table-striped'>  <tr> <td> Sin Información.</td> </tr> </table>"
+}

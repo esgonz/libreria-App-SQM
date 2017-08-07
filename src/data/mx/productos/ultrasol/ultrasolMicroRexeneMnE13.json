@@ -1,0 +1,15 @@
+{   "id":"0040",
+    "nombre" :"Ultrasol micro Rexene Mn 13",
+    "presentacion":["1kg","25kg"],
+    "descripcionCorta":"Producto Estrella",
+    "img":"ultrasol-micromn13.png",
+    "marcaID":"ultrasol",
+    "marca":"Ultrasol micro",
+    "lineaID":"micro",
+    "linea":"Rexene Mn13",
+    "metaTags":["ultrasol","Manganeso"],
+    "descripcion":"<p>Producto ideal para prevenir y corregir deficiencias de Manganeso, en un amplio rango de condiciones de pH. Se puede utilizar en aplicaciones foliares y fertirriego en cultivos en suelo e hidróponicos.</p>",
+    "informacionTecnica":"<table class='table table-striped'>  <tbody> <tr> <td colspan=\"3\"> <p> Riqueza Porcentual </p> </td> </tr> <tr> <td> <p> Fierro </p> </td> <td> <p> EDTA-Mn </p> </td> <td> <p> 13.0% </p> </td> </tr> <tr> <td colspan=\"3\"> <p> Especificaciones de Disolución </p> </td> </tr> <tr> <td> <p> CE (1 g / L a 20º C) </p> </td> <td colspan=\"2\"> <p> 0.3 mS/cm </p> </td> </tr> <tr> <td> <p> pH (1 g / L a 20º C) </p> </td> <td colspan=\"2\"> <p> 6 - 7 </p> </td> </tr> <tr> <td> <p> Solubilidad (20º C) </p> </td> <td colspan=\"2\"> <p> 800g /L agua </p> </td> </tr> </tbody> </table>",
+    "hojaProducto":"<table class='table table-striped table-bordered table-condensed'> <tr> <td> Sin Información.</td> </tr> </table>",
+    "informacionBasicaNutrientes":"<div> <table class='table table-striped'>  <tbody> <tr> <td colspan=\"3\"> <p> Riqueza Porcentual </p> </td> </tr> <tr> <td> <p> Fierro </p> </td> <td> <p> EDTA-Mn </p> </td> <td> <p> 13.0% </p> </td> </tr> <tr> <td colspan=\"3\"> <p> Especificaciones de Disolución </p> </td> </tr> <tr> <td> <p> CE (1 g / L a 20º C) </p> </td> <td colspan=\"2\"> <p> 0.3 mS/cm </p> </td> </tr> <tr> <td> <p> pH (1 g / L a 20º C) </p> </td> <td colspan=\"2\"> <p> 6 - 7 </p> </td> </tr> <tr> <td> <p> Solubilidad (20º C) </p> </td> <td colspan=\"2\"> <p> 800g /L agua </p> </td> </tr> </tbody> </table> </div>"
+}

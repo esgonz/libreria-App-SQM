@@ -1,0 +1,37 @@
+<div id="vistaLogin" ng-controller="loginController">
+
+	<!--templates/Vistas CODE HERE-->
+	<div class="row basicContent">
+
+              <form class="form-horizontal" ng-submit="loginControl(inputEmail, inputPassword);">
+                <fieldset>
+                  <legend>{{strings.login_ingresar_user_password}}</legend>
+                  <div class="form-group">
+                    <img src="src/img/icons/ui/img_usuario.png" class="col-lg-2" style="max-width:5em;" alt="">
+
+                      <div class="col-lg-4">
+                        <input type="text" class="form-control" ng-model="inputEmail"  id="inputEmail" placeholder="Email">
+                      </div>
+
+
+                    <img src="src/img/icons/ui/img_login.png" class="col-lg-2" style="max-width:5em;" alt="">
+
+                      <div class="col-lg-4">
+                        <input type="password" class="form-control" ng-model="inputPassword" id="inputPassword" placeholder="Password">
+                      </div>                    
+                      <div class="col-lg-2">
+                        <button type="submit" class="btn btn-success">{{strings.login_iniciar_sesion}}</button>
+                      </div>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+	</div>
+  <span style="display:block;float:right;">Version: {{mercado.version}}</span>
+
+
+</div>
+<!--templates/Vistas-->
+
+
+

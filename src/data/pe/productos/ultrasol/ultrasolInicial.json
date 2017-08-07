@@ -1,0 +1,15 @@
+{   "id":"0018",
+    "nombre" :"Ultrasol Inicial",
+    "presentacion":"25kg",
+    "descripcionCorta":"Producto Estrella",
+    "img":"ultrasol-inicial.png",
+    "marcaID":"ultrasol",
+    "marca":"Ultrasol",
+    "lineaID":"ultEtapas",
+    "linea":"etapas",
+    "cultivos":["palta","ajo","algodon","arandano","cranberry","frambuesa","fresa","kiwi","melon","pepino","pimiento","uva"],
+    "metaTags":["ultrasol","Oxido de Fosforo","Fosfato Monoamonico","Nitrogeno"],
+    "descripcion":"<p>Ultrasol® Inicial es una fórmula diseñada para estimular la brotación y desarrollo de raíces, tallos y hojas, gracias a sus nutrientes balanceados y alto contenido de fosfato para ser usado específicamente durante las primeras semanas del ciclo vegetativo.</p><p>La relación nitrato-amonio en esta fórmula, da como resultado un desarrollo bien balanceado de las partes vegetativas antes de que la planta entre en las etapas de floración y cuaja, evitando así un crecimiento demasiado vigoroso.</p><corte><ul> <li>Favorece la síntesis de nuevos tejidos radiculares mejorando la masa de raíces del cultivo.</li> <li>Es un producto 100% soluble, listo para utilizarse.</li> <li>Especialmente diseñado para riegos presurizados.</li> <li>No cristaliza ni produce depósitos de sales en goteros y red de riego.</li> </ul>",
+    "informacionTecnica":"<table class='table table-striped'>  <tr> <th colspan=\"2\">ESPECIFICACIONES</th> </tr> <tr> <td>Especificaciones</td> <td>Polvo</td> </tr> <tr> <td>Nitrógeno (N)</td> <td>15%</td> </tr> <tr> <td>Nitrógeno Nítrico (NO<sub>3</sub>)</td> <td>7%</td> </tr> <tr> <td>Nitrógeno Amoniacal (NH<sub>4</sub>)</td> <td>8%</td> </tr> <tr> <td>Pentóxido de fósforo (P<sub>2</sub>O<sub>5</sub>)</td> <td>30%</td> </tr> <tr> <td>Oxido de potasio (K<sub>2</sub>O)</td> <td>15%</td> </tr> <tr> <td>Solubilidad (en agua desionizada 30° C)</td> <td>811 g/l</td> </tr> <tr> <td>pH (en agua destilada 1 g/l a 20° C)</td> <td>4,84</td> </tr> <tr> <td>CE (en agua destilada 1 g/l a 20°C)</td> <td>1,28 dS/m</td> </tr> </table> ",
+    "hojaProducto": "<table class='table table-striped'>  <tr> <th>Caracteristicas</th> <th>Valores</th> </tr> <tr> <td>Grado Agrícola - Soluble</td> <td>15 - 30 - 15 + ME</td> </tr> <tr> <td>Apariencia</td> <td>Polvo</td> </tr> <tr> <td>Código Interno</td> <td>5711 AA</td> </tr> <tr> <td>Nitrogeno Total N</td> <td>15%</td> </tr> <tr> <td>Nitrogeno Nitrico NO<sub>3</sub></td> <td>7%</td> </tr> <tr> <td>Nitrogeno Amoniacal NH<sub>4</sub></td> <td>8%</td> </tr> <tr> <td>Fosforo P<sub>2</sub>O<sub>5</sub></td> <td>30%</td> </tr> <tr> <td>Potasio K<sub>2</sub>O</td> <td>15%</td> </tr> <tr> <td>Solubilidad en agua desinizada 30&deg; C</td> <td>811 g/l</td> </tr> <tr> <td>pH en agua destilada 1 g/l a 20&deg; C</td> <td>4,84</td> </tr> <tr> <td>CE en agua destilada 1 g/l a 20&deg; C</td> <td>1,28 dS/m</td> </tr> </table> "
+}

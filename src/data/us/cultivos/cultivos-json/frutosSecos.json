@@ -1,0 +1,72 @@
+{
+    "id":"0016",
+    "nombre" :"Dried Fruit",
+    "background":"frutossecos.jpg",
+    "productos":["producto_id","producto_id2"],
+    "descripcion":"<p>The walnut is a big and deciduous tree with a cord in the truck center and with compound leaves formed with odd leaflets. Nuts (walnut fruits) are edible and with a woody shell. Additionally, the walnut wood has a beautiful grain, being very important in the wood industry.</p><p>Crop´s requirements<br>Soil and Water</p><p>Physical and chemical charateristics of the soil must assure the best conditions for providing water and nutrients to the trees during the life spand of the orchard. Some of the most important features to be considered are the soil texture and the its chemical composition.</p><p>Walnut trees are demanding in relation to soil depth and airation. Root are best developed in medium texture soils without limitations (presence of water table or impermeable layer) up to 1.5 m depth.</p><p>Chemical characteristics of soils, such as pH (soil´s acidity or alkalinity index), organic matter content and nutritive elements, as well as the presence of salts and active lime, determine the threes´ behavior. In relation to pH, walnut trees prefer soils with slightly acid to moderate alkaline pH (6.0 to 7.5). The organic matter is fundamental for maintaining a good soil structure and for stimulating roots´ growth. A good organic matter content is considered to be between 2 to 3% in the first 20 cm of the soil.</p><p>Walnut trees, without exception, are sensible to low quality irrigation water. Water that contains more than 1.000 ppm of total disolved salts, or more than 300 ppm of chlorides, or more than 0.5 ppm of born, can cause toxicity to the leaves and certain defoliation grade, especially during the summer period when irrigation is abundant.</p><p>The lack of water due to a inappropriate irrigation management can affect the growth of the trees, reduce the production and affect the nut quality. Once flowers has been pollinated, there is a rapid growth period of the nuts as a result of an active cellular division. This period takes between 4 to 6 weeks. The lack of water in this phase tends to shorten this perior, negative affecting the nuts´ final size.</p>",
+    "etapas":[],
+    "desordenes":[
+        {
+            "elemento":"magnesium",
+            "imagenes":[
+                {
+                    "img":"mg_01_walnut-big.jpg",
+                    "span":"Leaf symptoms of Mg- deficiency in walnut (photo courtesy Rafael Ruiz)."
+                }
+            ]
+        },
+        {
+            "elemento":"chloride",
+            "imagenes":[
+                {
+                    "img":"cl_01_walnut-big.jpg",
+                    "span":"Leaf symptoms of chloride excess in walnut."
+                },
+                {
+                    "img":"cl_02_walnut-big.jpg",
+                    "span":"Walnut leaves in spring showing initial symptoms of chloride excess."
+                },
+                {
+                    "img":"cl_03_walnut-big.jpg",
+                    "span":"Toxicity- Leaves of a walnut tree with initial symptoms of chloride toxicity, during spring."
+                },
+                {
+                    "img":"cl_04_walnut-big.jpg",
+                    "span":"Toxicity- walnut tree with chloride toxicity, at the end of summer."
+                }
+            ]
+        },
+        {
+            "elemento":"zinc",
+            "imagenes":[
+                {
+                    "img":"zn_01_walnut-big.jpg",
+                    "span":"Branches of a walnut tree with zinc deficiency."
+                },
+                {
+                    "img":"zn_02_walnut-big.jpg",
+                    "span":"Walnut tree with severe symptoms of zinc deficiency, during the spring."
+                }
+            ]
+        },
+        {
+            "elemento":"boron",
+            "imagenes":[
+                {
+                    "img":"b_01_walnut-big.jpg",
+                    "span":"Walnut tree affected by boron deficiency, during the spring."
+                },
+                {
+                    "img":"b_02_walnut-big.jpg",
+                    "span":"Branches of a walnut tree with severe boron deficiency."
+                },
+                {
+                    "img":"b_03_walnut-big.jpg",
+                    "span":"Branches and fruit of walnut tree with boron deficiency."
+                }
+            ]
+        }
+    ],
+    "variedadesTecnicas":[],
+    "variedades":[]
+}

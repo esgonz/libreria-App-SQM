@@ -1,0 +1,44 @@
+    <div class="row">
+    <h4 class="filtro-titulo">{{strings.busqueda_filtros}}</h4>
+    <a class="btn btn-block btn-link visible-xs visible-sm" id="busqueda-filtro-toggle"><span class="caret" style="font-size:1.5em;"></span>{{strings.busqueda_esconder_filtros}}</a>
+    </div>
+
+  <div id="busqueda-filtros-wrapper">
+      <!--filtros linea de producto-->
+    <div class="row">
+      <h5 class="filtro-subtitulo">{{strings.busqueda_filtros_por_linea}}</h5>
+      <!--Ultrasol -->
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" ng-repeat="marca in filtros.marcas" ng-include = "'templates/busqueda/bsq_marcaBtn.html'">
+      </div>
+    </div>
+
+
+
+    <!--filtros categoria de producto-->
+    <div class="row">
+      <h5 class="filtro-subtitulo">{{strings.busqueda_filtros_por_categoria}}</h5>
+      <!--Macronutrientes -->
+      <div  ng-repeat="linea in filtros.lineas" ng-include = "'templates/busqueda/bsq_lineaBtn.html'">
+      </div>
+    </div>
+
+
+    <!--filtros cultivo-->
+    <!--<div class="row">
+      <h5 class="filtro-subtitulo">Filtrar por Cultivos:</h5>
+      Citricos Naranja 
+      <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" ng-repeat="cultivo in cultivos" ng-include = "'templates/busqueda/bsq_cultivoBtn.html'">
+      </div>
+    </div>-->
+  </div>
+  
+
+
+  <script type="text/javascript">
+    $("#busqueda-filtro-toggle").click(function(e) {
+          e.preventDefault();
+          $("#busqueda-filtros-wrapper").toggleClass("toggled");
+          $(".busqueda-filtros-container").toggleClass("toggled");
+        });  
+  </script>
+

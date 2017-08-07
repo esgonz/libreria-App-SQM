@@ -1,0 +1,39 @@
+{   
+	"id":"0042",
+	"nombre" :"Fresa",
+	"background":"fresa.jpg",
+	
+	"descripcion":"<p>Solicite a su agrónomo local de SQM asesoría para formular un programa de nutrición vegetal de especialidad de acuerdo con sus necesidades locales y requerimientos de cultivo.</p>",
+	"etapas":[
+	],
+	"desordenes":[
+
+	],
+	"variedadesTecnicas": [
+		{   
+			"variedadTecnicaId":"37",
+			"condicionId":"1",
+			"tecnificacionId":"1",
+			"fertilizacion":false  
+		},
+		{   
+			"variedadTecnicaId":"38",
+			"condicionId":"2",
+			"tecnificacionId":"1",
+			"fertilizacion":false  
+		},
+		{   
+			"variedadTecnicaId":"39",
+			"condicionId":"1",
+			"tecnificacionId":"4",
+			"fertilizacion":false  
+		},
+		{   
+			"variedadTecnicaId":"40",
+			"condicionId":"2",
+			"tecnificacionId":"4",
+			"fertilizacion":false  
+		}
+	],
+	"variedades":[]
+}

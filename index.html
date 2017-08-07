@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html ng-app="LibreriaAppSQM" ng-controller = "mainController">
+<head>
+  <meta charset="utf-8" />
+        <!--<meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+         WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323--> 
+         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+         <!--<link rel="stylesheet" type="text/css" href="css/index.css" />-->
+         <link rel="stylesheet" type="text/css" href="libs/bootstrap/dist/css/bootstrap.min.css" />
+         <link rel="stylesheet" type="text/css" href="libs/bootstrap/dist/css/bootstrap-paper.min.css" />
+         <!-- Custom CSS -->
+         <link rel="stylesheet" type="text/css" href="css/aplicacion.css" />
+         <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+         
+        <!--Modelos -->
+         <script type="text/javascript" src="src/modelos/producto.js"></script>
+         <script type="text/javascript" src="src/modelos/cultivo.js"></script>
+         <script type="text/javascript" src="src/modelos/cultivovariedad.js"></script>
+         <script type="text/javascript" src="src/modelos/variedadtecnica.js"></script>
+         <script type="text/javascript" src="src/modelos/programa.js"></script>
+         <script type="text/javascript" src="src/modelos/programaetapa.js"></script>
+         <script type="text/javascript" src="src/modelos/programafertilizante.js"></script>
+         <script type="text/javascript" src="src/modelos/programafertilizanteHidroponia.js"></script>
+         <!--<script type="text/javascript" src="src/modelos/login.js"></script>-->
+        <!--Librerias -->
+         <script src="libs/jspdf/jspdf.min.js"></script> 
+         <script src="libs/jspdf/jspdf.plugin.autotable.js"></script>
+         <script src="libs/jquery/dist/jquery.min.js"></script>
+         <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+         <script src="libs/angular/angular.min.js"></script>
+
+         
+         <script src="libs/angular-local-storage-master/dist/angular-local-storage.min.js"></script>
+         <script src="libs/angular-route/angular-route.min.js"></script>
+         <!--Controladores -->
+         <script type="text/javascript" src="src/controladores/controlador.js"></script>
+         <script type="text/javascript" src="src/controladores/programaController.js"></script>
+         <script type="text/javascript" src="src/controladores/menuController.js"></script>
+         <script type="text/javascript" src="src/controladores/menuLateralController.js"></script>
+         <script type="text/javascript" src="src/controladores/productoController.js"></script>
+         <script type="text/javascript" src="src/controladores/cultivoController.js"></script>
+         
+         <script type="text/javascript" src="src/controladores/busquedaController.js"></script>
+
+         <script type="text/javascript" src="src/controladores/allganicController.js"></script>
+         <script type="text/javascript" src="src/controladores/loginController.js"></script>
+
+         <!--Controladores -->
+
+         <title>Aplicación Libreria SQM {{mercado.nombre}}</title>
+    
+       </head>
+      <body id="body" class="body-espera-{{mercado.id}} body-espera">
+        <div id="deviceready" class="deviceready-espera"> 
+        <!-- <body id="body">
+        <div id="deviceready"> -->
+        
+          <!--template headerPrincipal-->
+          <div ng-include = "'templates/headerPrincipal.html'"></div>
+          
+          
+
+          
+
+            <!-- Sidebar -->
+            
+              <!--template menuLateral-->
+              <div ng-if="mercado.id !='mx'" id="sidebar-wrapper" class="lateralMenu" ng-include = "'templates/menuLateral.html'"></div>
+              <div ng-if="mercado.id =='mx'" id="sidebar-wrapper" class="lateralMenu" ng-include = "'templates/menuLateral_mx.html'"></div>
+              
+            
+            <!-- /#sidebar-wrapper -->
+
+            <!-- Page Content -->
+            <div id="content-wrapper" class="container">
+              
+
+
+              <!--templates/Vistas-->
+              <!--automatico via Angular Route-->
+              <div ng-view class="row">
+               <!--templates/Vistas CODE HERE-->
+               </div>
+             <!--automatico via Angular Route-->      
+  
+             <!--templates/Vistas-->
+             <img class="element-icon pull-right hidden-xs hidden-sm" src="src/img/icons/elementq.svg">   
+           </div>
+         
+       </div>
+
+
+     </body>
+     <script type="text/javascript" src="cordova.js"></script>
+     <script type="text/javascript" src="js/index.js"></script>
+     <script type="text/javascript">
+      app.initialize();
+     </script>
+     <script type="text/javascript">
+     $( document ).ready(function() {
+      setTimeout( function(){
+        document.getElementById("body").removeAttribute("class");
+        document.getElementById("deviceready").removeAttribute("class");
+      }, 460);        
+
+    });
+
+
+
+     </script>
+     </html>
+
+
+
+

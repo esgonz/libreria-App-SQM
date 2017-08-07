@@ -1,0 +1,131 @@
+{
+    "id":"0002",
+    "nombre" :"Banana",
+    "background":"banana.jpg",
+    "productos":["producto_id","producto_id2"],
+    "descripcion":"<p>Ask your local SQM agronomist for a Specialty Plant Nutrition programme in accordance with your local needs and requirements.</p>",
+    "etapas":[
+        {
+            "nombre":"Sucker growth",
+            "id":"etapa1",
+            "img":"banana-01.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Inflorescence",
+            "id":"etapa2",
+            "img":"banana-02.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Flowering",
+            "id":"etapa3",
+            "img":"banana-03.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Bunch Development",
+            "id":"etapa4",
+            "img":"banana-04.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Maturation & Sucker Development",
+            "id":"etapa5",
+            "img":"banana-05.jpg",
+            "descripcion":""
+        }
+    ],
+    "desordenes":[
+        {
+            "elemento":"nitrogen",
+            "imagenes":[
+                {
+                    "img":"n_01_banana-big.jpg",
+                    "span":"Sections of a banana leaf: left- leaf section form a N- deficient plant. Right- leaf section from a normal plant concerning N- status."
+                }
+            ]
+        },
+        {
+            "elemento":"potassium",
+            "imagenes":[
+                {
+                    "img":"k_01_banana-big.jpg",
+                    "span":"K- deficiency in a banana leaf (photo courtesy CORBANA and INPOFOS)."
+                },
+                {
+                    "img":"k_02_banana-big.jpg",
+                    "span":"Leaf symptoms of K- deficiency in banana (photo courtesy CORBANA and INPOFOS)."
+                },
+                {
+                    "img":"k_03_banana-big.jpg",
+                    "span":"Leaf symptoms of severe K- deficiency in banana."
+                }
+            ]
+        },
+        {
+            "elemento":"magnesium",
+            "imagenes":[
+                {
+                    "img":"mg_01_banana-big.jpg",
+                    "span":"Banana leaf deficient in Mg (photo courtesy CORBANA and INPOFOS)."
+                },
+                {
+                    "img":"mg_01_banana-big.jpg",
+                    "span":"Leaf symptoms of Mg- deficiency in banana (photo courtesy CORBANA and INPOFOS)."
+                }
+            ]
+        },
+        {
+            "elemento":"iron",
+            "imagenes":[
+                {
+                    "img":"fe_01_banana-big.jpg",
+                    "span":"Leaf symptoms of Fe- deficiency in banana (photo courtesy CORBANA and INPOFOS)."
+                }
+            ]
+        },
+        {
+            "elemento":"manganese",
+            "imagenes":[
+                {
+                    "img":"mn_01_banana-big.jpg",
+                    "span":"Leaf symptoms of Mn- deficiency in banana (photo courtesy CORBANA and INPOFOS)."
+                }
+            ]
+        },
+        {
+            "elemento":"zinc",
+            "imagenes":[
+                {
+                    "img":"zn_01_banana-big.jpg",
+                    "span":"Banana leaf deficient in Zn (photo courtesy CORBANA and INPOFOS)."
+                },
+                {
+                    "img":"zn_02_banana-big.jpg",
+                    "span":"Banana bunch showing symptoms of Zn- deficiency (photo courtesy CORBANA and INPOFOS)."
+                }
+            ]
+        },
+        {
+            "elemento":"boron",
+            "imagenes":[
+                {
+                    "img":"b_01_banana-big.jpg",
+                    "span":"Bunch symptoms of B- deficiency in banana (photo courtesy CORBANA and INPOFOS)."
+                }
+            ]
+        },
+        {
+            "elemento":"chloride",
+            "imagenes":[
+                {
+                    "img":"cl_01_banana-big.jpg",
+                    "span":"Banana chloride toxicity."
+                }
+            ]
+        }
+    ],
+    "variedadesTecnicas":[],
+    "variedades":[]
+}

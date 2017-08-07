@@ -1,0 +1,78 @@
+{   
+  "id":"0024",
+  "nombre" :"Trigo",
+  "background":"trigo.jpg",
+  
+  "descripcion":"<p>Solicite a su agrónomo local de SQM asesoría para formular un programa de nutrición vegetal de especialidad de acuerdo con sus necesidades locales y requerimientos de cultivo.</p>",
+  "etapas":[
+    {
+      "nombre":"Emergencia",
+      "id":"etapa1",
+      "img":"trigo-01.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"Segunda hoja",
+      "id":"etapa2",
+      "img":"trigo-02.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"Comienzo Macollaje",
+      "id":"etapa3",
+      "img":"trigo-03.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"Macollaje Avanzado",
+      "id":"etapa4",
+      "img":"trigo-04.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"Ensamblaje",
+      "id":"etapa5",
+      "img":"trigo-05.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"Hoja Bandera emergiendo",
+      "id":"etapa6",
+      "img":"trigo-06.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"Hoja Bandera Emergida",
+      "id":"etapa7",
+      "img":"trigo-07.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"Arranque",
+      "id":"etapa8",
+      "img":"trigo-08.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"Surgimiento Cabeza",
+      "id":"etapa9",
+      "img":"trigo-09.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"Florecimiento",
+      "id":"etapa10",
+      "img":"trigo-10.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"Madurez",
+      "id":"etapa11",
+      "img":"trigo-11.jpg",
+      "descripcion":""
+    }
+  ],
+  "desordenes":[],
+  "variedadesTecnicas":[],
+  "variedades":[]
+}

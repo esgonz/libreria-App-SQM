@@ -1,0 +1,182 @@
+{
+    "id": "0023",
+    "nombre": "Tomate",
+    "background": "tomate.jpg",
+    "descripcion": "<p>El tomate (Lycopersicon esculentum Mill.) pertenece a la familia de las solanáceas.</p><p>Es un cultivo de estación cálida, siendo la temperatura un factor clave en ciertos períodos críticos del cultivo, como la floración.</p><p>El rango de temperaturas óptimas de crecimiento va desde los 18° a los 27°C. Fuera de este rango se puede ver afectada seriamente la producción, ya que temperaturas bajo 10°C afectan la floración y asimismo, temperaturas demasiado altas, combinadas con baja humedad, pueden producir aborto floral, afectando también la viabilidad del polen al contar con una menor humedad ambiental.</p><p>Las condiciones de luminosidad también son importantes para el desarrollo del cultivo, requiriendo al menos una cantidad de 6 horas diarias de luz directa para florecer. Al contar con una mayor disposición de luz, la planta estará más capacitada para soportar los frutos, con lo cual mejora el rendimiento del cultivo.</p><p>Para un óptimo crecimiento y desarrollo del cultivo, es importante mantener a disposición una adecuada cantidad de agua de riego y regular el pH del suelo (ideal: 6,0 – 6,5) para asegurar la disponibilidad de todos los nutrientes.</p><p>Pese a que el tomate es relativamente tolerante a la salinidad, esta es un factor importante a considerar, debido a que niveles altos dificulta la nutrición del cultivo por medio de las raíces.</p><p>Existen variedades de tipos determinadas e indeterminadas. La primeras, son aquellas en las cuales los tallos principales y laterales dejan de crecer, terminando en una inflorescencia. Por su parte, en las variedades indeterminadas, los tallos principales y laterales continúan su crecimiento vegetativo (hojas, brotes) y reproductivo (flores y frutos).</p><p>La variedades indeterminadas son destinadas para mercado fresco, cosechándose en forma manual. Por su parte, las variedades determinadas, son para fines industriales, por lo cual se cosechan generalmente en forma mecanizada, siendo importante la uniformidad del cultivo y de la fruta (tamaño y madurez). La duración del cultivo suele ser más larga en variedades indeterminadas (invernadero), abarcando entre 150 – 300 DDT (días después del trasplante) a diferencia de los tomates para fines industriales (aire libre), cuyo período dura entre los 90 a 150 DDT.</p><p>Dentro de los tipos de tomate, se distinguen comúnmente 4: tomate cherry (pequeños, con dos lóculos), tomate pera (tamaño medio y con dos lóculos también), tomate común (4 a 6 lóculos) y el beefsteak (6 lóculos).</p><p>Los requerimientos del mercado difieren según sea tomate para consumo fresco o para uso industrial; en el primer caso, son importantes atributos como el sabor, color, forma, textura (frutos firmes) y la uniformidad en la forma y el tamaño de los frutos, mientras que para tomate industrial se exige principalmente un color rojo fuerte, uniforme, y que estén libres de defectos como grietas y golpes.</p>",
+    "etapas": "tomate.jpg",
+    "desordenes": [{
+            "elemento": "nitrogeno",
+            "imagenes": [{
+                "img": "n_01_tomato-big.jpg",
+                "span": "Desequilibrio por deficiencia de nitrógeno."
+
+            }]
+
+            }, {
+                "elemento": "fosforo",
+                "imagenes": [
+                {
+                    "img": "p_01_tomato-big.jpg",
+                    "span": "Desequilibrio por deficiencia de fósforo."
+
+                }]
+
+            }, {
+                "elemento": "potasio",
+                "imagenes": [{
+                    "img": "k_01_tomato-big.jpg",
+                    "span": "Desequilibrio por deficiencia de potasio."
+
+                }, {
+                    "img": "k_02_tomato-big.jpg",
+                    "span": "Falta de color."
+
+                }, {
+                    "img": "k_03_tomato-big.jpg",
+                    "span": "Piel partida ('cracking')."
+
+                }, {
+                    "img": "k_04_tomato-big.jpg",
+                    "span": "Deficiencia de potasio en la hoja."
+
+                }]
+
+            }, {
+                "elemento": "calcio",
+                "imagenes": [{
+                    "img": "ca_01_tomato-big.jpg",
+                    "span": "Desequilibrio por deficiencia de calcio."
+
+                }, {
+                    "img": "ca_02_tomato-big.jpg",
+                    "span": "Desequilibrio por exceso de calcio (mancha dorada, 'goldspeck') causado por acumulación de oxalata de calcio bajo la piel, se muestra como manchas pequeñas en el hombro de la fruta."
+
+                }]
+
+            }, {
+                "elemento": "magnesio",
+                "imagenes": [{
+                    "img": "mg_01_tomato-big.jpg",
+                    "span": "Desequilibrio por deficiencia de magnesio."
+
+                }]
+
+            }, {
+                "elemento": "azufre",
+                "imagenes": [{
+                        "img": "s_01_tomato-big.jpg",
+                        "span": "Desequilibrio por deficiencia de azufre."
+
+                    }
+
+                ]
+
+            }, {
+                "elemento": "hierro",
+                "imagenes": [{
+                    "img": "fe_01_tomato-big.jpg",
+                    "span": "Desequilibrio por deficiencia de hierro."
+
+                }, {
+                    "img": "fe_02_tomato-big.jpg",
+                    "span": "Desequilibrio por deficiencia de hierro."
+
+                }]
+
+            }, {
+                "elemento": "zinc",
+                "imagenes": [{
+                    "img": "zn_01_tomato-big.jpg",
+                    "span": "Desequilibrio por deficiencia de zinc."
+
+                }, {
+                    "img": "zn_02_tomato-big.jpg",
+                    "span": "Desequilibrio por exceso de zinc con amarillamiento intervenal en las hojas."
+
+                }]
+
+            }, {
+                "elemento": "manganeso",
+                "imagenes": [{
+                    "img": "mn_01_tomato-big.jpg",
+                    "span": "Desequilibrio por deficiencia de manganeso."
+
+                }, {
+                    "img": "mn_02_tomato-big.jpg",
+                    "span": "Desequilibrio por exceso de manganeso, normalmente aparece como depositos negros (no mostrados aquí) alrededor de las venas con amarillamiento en el tejido circundante, el que gradualmente se extiende por la hoja."
+
+                }]
+
+            }, {
+                "elemento": "boro",
+                "imagenes": [{
+                    "img": "b_01_tomato-big.jpg",
+                    "span": "Desequilibrio por deficiencia de boro."
+
+                }, {
+                    "img": "b_02_tomato-big.jpg",
+                    "span": "Desequilibrio por deficiencia de boro."
+
+                }, {
+                    "img": "b_03_tomato-big.jpg",
+                    "span": "Desequilibrio por exceso de boro con pequeñas manchas cafe a lo largo de los margenes de las hojas."
+
+                }]
+
+            }, {
+                "elemento": "cobre",
+                "imagenes": [{
+                    "img": "cu_01_tomato-big.jpg",
+                    "span": "Desequilibrio por deficiencia de cobre."
+
+                }]
+
+            }, {
+                "elemento": "molibdeno",
+                "imagenes": [{
+                    "img": "mo_01_tomato-big.jpg",
+                    "span": "Desequilibrio por deficiencia de molibdeno."
+
+                }]
+
+            }
+
+        ],
+        "variedadesTecnicas": [{
+            "variedadTecnicaId": "1",
+            "condicionId": "2",
+            "tecnificacionId": "1",
+            "fertilizacion": false
+        }, {
+            "variedadTecnicaId": "2",
+            "condicionId": "5",
+            "tecnificacionId": "1",
+            "fertilizacion": false
+        }, {
+            "variedadTecnicaId": "3",
+            "condicionId": "2",
+            "tecnificacionId": "5",
+            "fertilizacion": false
+        }, {
+            "variedadTecnicaId": "4",
+            "condicionId": "5",
+            "tecnificacionId": "5",
+            "fertilizacion": false
+        }],
+        "variedades": [{
+            "variedadId": "2302",
+            "variedadNombre": "Tomate Verde (tomate de Cascara)",
+            "verbose": "tomateverde",
+            "variedadesTecnicas": [{
+                "variedadTecnicaId": "25",
+                "condicionId": "2",
+                "tecnificacionId": "1",
+                "fertilizacion": false
+            }, {
+                "variedadTecnicaId": "26",
+                "condicionId": "5",
+                "tecnificacionId": "1",
+                "fertilizacion": false
+            }]
+        }]
+}

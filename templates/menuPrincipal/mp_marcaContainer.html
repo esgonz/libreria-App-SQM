@@ -1,0 +1,22 @@
+	<!--productos -->  
+
+		<div class="row">
+		<!--logo marca color-->
+				<div class="col-md-12 hidden-sm hidden-md">  
+					<img class="menuPrincipal-productos-marca-icon pull-left" src="src/img/icons/marcas/{{mercado.id}}/{{ marca.img }}" />		
+				</div>             
+		</div>
+
+
+		<div class="row {{ marca.cssclass }}">
+		<!--logo marca blanco-->
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 hidden-xs hidden-lg">  
+					<img class="menuPrincipal-productos-marca-icon pull-left" src="src/img/icons/marcas/{{mercado.id}}/{{ marca.imgBlanco }}" />		
+			</div>
+
+			<!-- linea Col-->		
+			<div class="col-xs-12 col-sm-2 col-md-2 col-lg-2 menuPrincipal-producto-col" ng-repeat="linea in marca.lineas" ng-include = "'templates/menuPrincipal/mp_lineaBtn.html'">
+				<!--template mp_lineaBtn-->
+			</div>
+			<!-- linea Col-->
+		</div>

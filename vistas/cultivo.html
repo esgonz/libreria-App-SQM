@@ -1,0 +1,185 @@
+<div id="vistaCultivo" ng-controller="cultivoController">
+
+	<!--templates/Vistas CODE HERE-->
+	<div class="row titulo-producto">
+		<h4><img class="vistaCultivo-header-icon" src="src/img/icons/cultivos/{{cultivoIndexData.iconColor}}" alt="">{{cultivoFicha.nombre | uppercase}}</h4>
+	</div>
+
+	<!-- TEMPLATE Barra PROGRAMAS -->
+		<div class="row"  ng-include="'templates/barraBusquedaProgramas.html'" >						
+		</div>	
+	<!-- / TEMPLATE Barra PROGRAMAS -->
+
+	<div class="row basicContent">	
+			
+			
+			<!--/ Boton Etapas-->
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+				<span></span>
+
+				<div>
+					<h4><span class="glyphicon glyphicon-stop" style="color:#649d37;"></span> {{strings.cultivo_ver_fase_fenologica}}</h4>
+				</div>
+				
+				<a class="btn btn-default btn-block" id="revelar-etapasContent" ng-click="setVolver(currentPage, currentPageId, 'etapasContent');">
+				<img src="src/img/icons/ui/verfasefenologica.png"  class="img-responsive" alt="">
+				</a>
+			</div>
+			<!--/ Boton Etapas-->
+			
+			<!--/ Boton Desordenes-->
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+				<span></span>
+
+				<div>
+					<h4><span class="glyphicon glyphicon-stop" style="color:#649d37;"></span>{{strings.cultivo_ver_desordenes}}</h4>
+				</div>
+
+				<a class="btn btn-default btn-block" id="revelar-desordenesContent" >
+
+					<img src="src/img/icons/ui/verdesordenesnutricionales.png" class="img-responsive" alt=""  ng-click="setVolver(currentPage, currentPageId, 'desordenesContent');">
+				</a>
+
+			</div>
+			<!--/ Boton Desordenes-->
+
+	</div>
+
+
+			
+		<!--DIVS Ocultos -->
+			<!--Desordenes cultivos-->
+			<div class="row esconder" id="desordenesContent" style="margin-top:2em;margin-bottom:2em;">
+
+				<h4 ><span class="glyphicon glyphicon-stop"></span> {{strings.cultivo_desordenes}}  - {{cultivoFicha.nombre}}</h4>
+
+				<h5  ng-if="(cultivoFicha.desordenes.length <=0)"><span class="glyphicon glyphicon-stop"></span>{{strings.app_sin_informacion}}</h5>
+
+				<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3" >
+
+					<div class="row" >
+
+						<div class="list-group table-of-contents">
+							<a class="list-group-item" target="_self" ng-repeat="desorden in cultivoFicha.desordenes" ng-click="cambiarSlideDesorden($index);">
+								{{desorden.elemento  | uppercase}}<span class="glyphicon glyphicon-chevron-right"></span>
+							</a>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+					
+					
+
+
+					<h5   ng-if="(cultivoFicha.desordenes.length >0)">{{desorden.elemento  | uppercase}}</h5>
+					<div id="carousel-{{desorden.elemento}}" class="carousel slide" data-ride="carousel" style="display:block !important;">
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+							<div class="item" ng-repeat="imagen in desorden.imagenes"    ng-class="{active: $index ==0 }" >
+								<img src="src/img/deficiencia/{{imagen.img}}" class="img-responsive" alt="{{imagen.span}}">
+
+								<div class="carousel-caption" style="background:rgba(0,0,0,.4);padding:.5em 1em .5em 1em;font-size:16px;color:#fff;font-weight:bold;">
+									{{imagen.span}}
+								</div>
+							</div>
+						</div>
+
+						<!-- Controls -->
+
+						<a class="left carousel-control" href="#carousel-{{desorden.elemento}}" target="_self" role="button" data-slide="prev" ng-if="desorden.imagenes.length > 1">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">{{strings.app_anterior}}</span>
+						</a>
+						<a class="right carousel-control" href="#carousel-{{desorden.elemento}}" target="_self"  role="button" data-slide="next" ng-if="desorden.imagenes.length > 1">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">{{strings.app_siguiente}}</span>
+						</a >
+					</div>
+
+					<br>
+
+					<!--<a class="btn btn-success" id="btn-esconder-desordenesContent" data-estado="false" data-toggle="collapse" aria-expanded="false" aria-controls="#desordenesContent" data-target="#desordenesContent">
+						<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+						<span class="" id="cultivo-btn-volver-span">{{strings.app_volver}}</span>
+					</a>-->
+				</div>
+			</div>
+			<!--/ Desordenes cultivos-->
+
+			<!--Etapas cultivos-->
+			<div class="row esconder"  id="etapasContent" style="margin-top:2em;margin-bottom:2em;">
+
+				<h5  ng-if="(cultivoFicha.etapas.length <1)"><span class="glyphicon glyphicon-stop"></span>{{strings.app_sin_informacion}}</h5>
+				<!--<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 cultivo-etapas-div" ng-repeat="etapa in cultivoFicha.etapas" >
+
+					<span class="label label-primary center-block cultivo-etapas-label">
+						{{etapa.nombre | uppercase}}
+					</span>
+
+					<img src="src/img/fenologia/{{etapa.img}}" class="img-responsive center-block cultivo-etapas-img">
+
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<a class="btn btn-success" id="btn-esconder-etapasContent" data-estado="false" data-toggle="collapse" aria-expanded="false" aria-controls="#etapasContent" data-target="#etapasContent">
+					<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+					<span class="" id="cultivo-btn-volver-span">{{strings.app_volver}}</span>
+					</a>
+				</div>-->
+				<style type="text/css" media="screen">
+					#span-desliza{
+						position: absolute;
+						top: 50%;
+						left: 40%;
+					}
+					.showbox {
+						float: right;
+						-webkit-transition: 400ms ease-in-out;
+						-moz-transition: 400ms ease-in-out;
+						-o-transition: 400ms ease-in-out;
+						transition: 400ms ease-in-out;
+					}
+					.showbox.slideright {
+						-webkit-transform: translate(-10em,0);
+						-moz-transform: translate(-10em,0);
+						-o-transform: translate(-10em,0);
+						-ms-transform: translate(-10em,0);
+						transform: translate(-10em,0);
+
+					}
+
+				</style>
+				<div class="col-md-12">
+					<div class="cultivo-fenologia-block" ng-if="cultivoFicha.etapas!=''">
+						<img  id="img-fenologia" src="src/img/fenologia/{{cultivoFicha.etapas}}" alt="">	
+						<!--<span id="span-desliza" class="showbox">
+							<img src="src/img/icons/ui/mano.png" alt="">	
+						</span>-->
+					</div>
+					<div class="cultivo-fenologia-block" ng-if="cultivoFicha.etapas==''">
+						Sin Información
+					</div>
+				</div>
+				<!--<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<a class="btn btn-success" id="btn-esconder-etapasContent" data-estado="false" data-toggle="collapse" aria-expanded="false" aria-controls="#etapasContent" data-target="#etapasContent">
+					<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+					<span class="" id="cultivo-btn-volver-span">{{strings.app_volver}}</span>
+					</a>
+				</div>-->
+			</div>
+			<!--Etapas cultivos-->
+		
+		<!-- /DIVS Ocultos -->
+
+
+
+
+	<!--templates/Vistas CODE HERE-->
+</div>
+<!--templates/Vistas-->
+
+
+
+

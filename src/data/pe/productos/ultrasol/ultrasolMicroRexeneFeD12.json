@@ -1,0 +1,15 @@
+{   "id":"0011",
+    "nombre" :"Ultrasol micro Rexene FeD12",
+    "presentacion":"25kg",
+    "descripcionCorta":"Producto Estrella",
+    "img":"ultrasol-microrexenefed12.png",
+    "marcaID":"ultrasol",
+    "marca":"Ultrasol",
+    "lineaID":"ultMicro",
+    "linea":"micronutrientes",
+    "cultivos":[],
+    "metaTags":["ultrasol","Oxido de Fosforo","Fosfato Monoamonico","Nitrogeno"],
+    "descripcion":"<p>Ultrasol® micro Rexene® FeD12 es un producto quelatado con DTPA, totalmente libre de sulfatos. Además es ideal para su uso en hidroponía. Posee una muy buena estabilidad de pH neutros a levemente alcalinos (6,7 - 7,5).</p><p>Ultrasol® micro Rexene® FeD12, es parte de la línea de micronutrientes de SQM VITAS, que optimiza los programas de nutrición aportando los nutrientes necesarios para que la calidad de su cosecha sea total.</p><corte><p>Rexene® es una marca registrada de los grupos de empresas AkzoNobel.</p> <ul> <li>Buena fuente de hierro para la planta.</li> <li>Producto completamente soluble en agua.</li> </ul>",
+    "informacionTecnica":"<table class='table table-striped'>  <tr> <th colspan=\"2\">ESPECIFICACIONES</th> </tr> <tr> <td>Apariencia</td> <td>Sólido / Microgránulos color amarillo</td> </tr> <tr> <td>Fierro quelatado DTPA (Fe)</td> <td>11,6%</td> </tr> <tr> <td>Ce (1 g/l 20° C)</td> <td>0,34 dS/m</td> </tr> <tr> <td>Solubilidad (20° C</td> <td>110</td> </tr> <tr> <td>pH (1 g/l 20° C)</td> <td>3,4</td> </tr> <tr> <td>Solubilidad Sugerid</td> <td>90 g/l</td> </tr> </table> ",
+    "hojaProducto": "<table class='table table-striped'>  <tr> <th>Caracteristicas</th> <th>Valores</th> </tr> <tr> <td>Fórmula Química</td> <td>C<sub>14</sub>H<sub>18</sub>N<sub>3</sub>O<sub>10</sub> FeHNa</td> </tr> <tr> <td>Apariencia</td> <td>Sólido/Microgránulos color amarillo</td> </tr> <tr> <td>Fierro DTPA Fe</td> <td>11,6%</td> </tr> <tr> <td>CE (1 g/l 20&deg; C)</td> <td>0,34 dS/m</td> </tr> <tr> <td>pH (1% solución)</td> <td>3.4</td> </tr> <tr> <td>Solubilidad (20&deg; C)</td> <td>110 g/l</td> </tr> <tr> <td>Solubilidad Sugerida</td> <td>90 g/l</td> </tr> </table> "
+}

@@ -1,0 +1,169 @@
+[
+	{
+		"string_name":"app_buscar",
+		"string_value":"Search"
+	},
+	{
+		"string_name":"app_sin_informacion",
+		"string_value":"No information."
+	},
+	{
+		"string_name":"app_anterior",
+		"string_value":"Last"
+	},
+	{
+		"string_name":"app_siguiente",
+		"string_value":"Next"
+	},
+	{
+		"string_name":"app_volver",
+		"string_value":"Return"
+	},
+	{
+		"string_name":"app_ver_mas",
+		"string_value":"See More"
+	},
+	{
+		"string_name":"app_no",
+		"string_value":"No"
+	},
+
+	{
+		"string_name":"app_si",
+		"string_value":"Yes"
+	},
+
+
+	{
+		"string_name":"login_ingresar_user_password",
+		"string_value":"Enter user and password"
+	},
+	{
+		"string_name":"login_iniciar_sesion",
+		"string_value":"Login"
+	},
+
+	{
+		"string_name":"menu_portafolio_productos",
+		"string_value":"Product portfolio SQM"
+	},
+	{
+		"string_name":"menu_portafolio_cultivos",
+		"string_value":"Crops SQM"
+	},
+
+
+	{
+		"string_name":"producto_seleccionar_cultivo",
+		"string_value":"Select Crop:"
+	},
+	{
+		"string_name":"producto_no_existen_cultivos",
+		"string_value":"There are no related crops."
+	},
+	{
+		"string_name":"producto_ver_hoja_producto",
+		"string_value":"See product label"
+	},
+	{
+		"string_name":"producto_informacion_nutrientes",
+		"string_value":"Nutrient information:"
+	},
+	{
+		"string_name":"producto_volver_al_producto",
+		"string_value":"Back to product"
+	},
+	{
+		"string_name":"producto_informacion_tecnica",
+		"string_value":"Guaranteed Analysis:"
+	},
+
+	{
+		"string_name":"cultivo_seleccionar_productos_relacionados",
+		"string_value":"Select Related Products:"
+	},
+	{
+		"string_name":"cultivo_buscar_programa",
+		"string_value":"Search Plans nutritions:"
+	},
+	{
+		"string_name":"cultivo_seleccionar_zona",
+		"string_value":"Select Area"
+	},
+	{
+		"string_name":"cultivo_seleccionar_cultivo",
+		"string_value":"Select crop"
+	},
+	{
+		"string_name":"cultivo_seleccionar_variedad",
+		"string_value":"Select variety"
+	},
+	{
+		"string_name":"cultivo_seleccionar_condicion",
+		"string_value":"Select condition"
+	},
+	{
+		"string_name":"cultivo_seleccionar_tecnificacion",
+		"string_value":"Select technical"
+	},
+	
+
+	{
+		"string_name":"cultivo_no_existen_productos",
+		"string_value":"There are no related Products."
+	},
+	{
+		"string_name":"cultivo_ver_fase_fenologica",
+		"string_value":"See Phenological Phases"
+	},
+	{
+		"string_name":"cultivo_fase_fenologica",
+		"string_value":"Phenological Phases"
+	},
+	{
+		"string_name":"cultivo_ver_desordenes",
+		"string_value":"See Nutritional Disorders"
+	},
+	{
+		"string_name":"cultivo_desordenes",
+		"string_value":"Nutritional Disorders"
+	},
+	{
+		"string_name":"cultivo_volver_al_cultivo",
+		"string_value":"Back to crop"
+	},
+	{
+		"string_name":"cultivo_programa_nutricional",
+		"string_value":"Plan Nutrition"
+	},
+	{
+		"string_name":"cultivo_descargar_programa",
+		"string_value":"Download Plan"
+	},
+
+	{
+		"string_name":"busqueda_filtros",
+		"string_value":"Filters:"
+	},
+	{
+		"string_name":"busqueda_esconder_filtros",
+		"string_value":"Toggle Filters"
+	},
+	
+	{
+		"string_name":"busqueda_resultados",
+		"string_value":"Results"
+	},
+	{
+		"string_name":"busqueda_filtros_por_linea",
+		"string_value":"Filter by line:"
+	},
+	{
+		"string_name":"busqueda_filtros_por_categoria",
+		"string_value":"Filter by category:"
+	}	
+
+	
+]
+
+

@@ -1,0 +1,72 @@
+<div  ng-controller="menuLateralController"> 
+  <div class="col-md-12 hidden-md hidden-lg">
+    <a type="button" class="close-lateral" ng-click="cerrarMenu();">
+        <span aria-hidden="true">&nbsp;
+          <img style="height:1.5em !important;" src="src/img/icons/ui/cerrar-blanco.png" />
+        </span>
+      </a>
+
+
+  </div>
+  
+
+  <div ng-class="{hidden: menuType == 'cultivos'}">
+    
+    <!--ultrasol-->
+    <div class="row menuLateral-marca-container">
+      <div class="menuLateral-marca-box borde-{{marcasMenuLateral.lista[0].id}}" >
+        <img class="center-block" src="src/img/icons/marcas/{{mercado.id}}/img_{{marcasMenuLateral.lista[0].id}}3.png">
+      </div>
+
+      <div ng-repeat="lineax in marcasMenuLateral.lista[0].lineas">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 borde-light-{{marcasMenuLateral.lista[0].id}}">
+          <a class="btn btn-link lateralModal-linea-btn-link color-text-{{marcasMenuLateral.lista[0].id}}" role="button" data-toggle="collapse" href="#collapse-{{marcasMenuLateral.lista[0].id}}-{{lineax.id}}" target="_self" aria-expanded="false" aria-controls="collapse-{{marcasMenuLateral.lista[0].id}}-{{lineax.id}}">
+            {{lineax.nombre}}
+          </a>
+          <div class="collapse" id="collapse-{{marcasMenuLateral.lista[0].id}}-{{lineax.id}}">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="producto in lineax.productos | orderBy:'id'">
+
+                <a class="btn btn-block btn-link btn-link-min  color-text-{{marcasMenuLateral.lista[0].id}} link-producto-{{producto.id}}" ng-href="#/producto/{{producto.id}}"   id="lateralModal-producto-{{producto.id}}">{{producto.nombre}}
+                </a>
+            </div>
+          </div>
+
+
+        </div>                
+      </div>
+
+    </div>
+
+    <!--repeat otras marcas-->
+    <div class="row menuLateral-marca-container" ng-repeat="marcax in marcasMenuLateral.lista | startFrom :1">
+
+      <div ng-repeat="lineax in marcax.lineas">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 menuLateral-marca-box borde-{{marcax.id}}">
+          
+          <a class="btn btn-link lateralModal-linea-btn-link color-text-{{marcax.id}}" role="button" data-toggle="collapse" href="#collapse-{{marcax.id}}-{{lineax.id}}" target="_self" aria-expanded="false" aria-controls="collapse-{{marcax.id}}-{{lineax.id}}">
+            <img class="center-block" src="src/img/icons/marcas/{{mercado.id}}/img_{{marcax.id}}3.png">
+          </a>
+          <div class="collapse" id="collapse-{{marcax.id}}-{{lineax.id}}">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="producto in lineax.productos | orderBy:'id'">
+
+                <a class="btn btn-block btn-link btn-link-min  color-text-{{marcax.id}} link-producto-{{producto.id}}" ng-href="#/producto/{{producto.id}}"   id="lateralModal-producto-{{producto.id}}">{{producto.nombre}}
+                </a>
+            </div>
+          </div>
+
+
+        </div>                
+      </div>
+
+    </div>
+  </div>
+  
+  <!--cultivos-->
+  <div class="row" ng-class="{hidden: menuType != 'cultivos'}">
+    <div class="col-md-3" ng-repeat="cultivo in cultivos | orderObjectBy:'nombre'" ng-include = "'templates/menuPrincipal/mp_cultivoBtn.html'">
+    </div>
+
+  </div>
+</div>
+
+

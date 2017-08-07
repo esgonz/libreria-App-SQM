@@ -1,0 +1,16 @@
+{   "id":"0017",
+    "nombre" :"Ultrasol Magnum Phoscal",
+    "presentacion":"25kg",
+    "descripcionCorta":"Producto Estrella",
+    "img":"ultrasol-magnumphoscal.png",
+    "marcaID":"ultrasol",
+    "marca":"Ultrasol",
+    "lineaID":"ultAcida",
+    "linea":"linea acida",
+    "cultivos":[],
+    "metaTags":["ultrasol","Oxido de Fosforo","Fosfato Monoamonico","Nitrogeno"],
+    "descripcion":"<p>Ultrasol® Magnum Phoscal es una fuente potente de P, Ca y N ácida y de alto análisis para la fertirrigación de cultivos en suelo. Gracias a su acción ácida, aumenta la disponibilidad de nutrientes en la solución de suelo, mejora la eficiencia de la absorción de nutrientes y ayuda a prevenir el bloqueo de sistemas de riego.</p><p>Ultrasol® Magnum Phoscal mantiene en solución a los iones de calcio y fosfato sin generar un precipitado de fosfato de calcio insoluble.</p><corte><ul> <li>Ultrasol® Magnum Phoscal es particularmente conveniente para suelos de condiciones calcáreas y alcalinas. Ultrasol® Magnum Phoscal ayuda a traer y mantener micronutrientes, magnesio, calcio y fosfatos en sus formas iónicas en la solución de suelo, fácilmente disponibles para su absorción por la planta. Esto aumenta la eficiencia en la captación de nutrientes por la planta, la cual produce más clorofila en la hoja y mayor fotosíntesis neta, y como consecuencia una productividad del cultivo más alta.</li> <li>Ayuda a prevenir el bloqueo de cañerías y boquillas del sistema de riego que particularmente podría ocurrir con agua dura.</li> <li>Puede usarse en fertirrigación a lo largo del completo ciclo de crecimiento de cultivos en suelo para satisfacer continuamente la demanda de fósforo de la planta y, además, una parte considerable de la demanda de calcio y nitrógeno de la planta. Se recomienda usar Ultrasol® Calcium para completar la demanda de calcio de la planta.</li> <li>Es muy bajo en cloro, sodio y metales pesados.</li> </ul>",
+    "informacionTecnica":"<table class='table table-striped'>  <tr> <th colspan=\"2\">ESPECIFICACIONES</th> </tr> <tr> <td>Nitrógeno (N)</td> <td>10,0 % mínimo</td> </tr> <tr> <td>Nitrógeno ureico (N)</td> <td>10,0 % mínimo</td> </tr> <tr> <td>Pentóxido de fósforo (P<sub>2</sub>O<sub>5</sub>)</td> <td>50,0 % mínimo, soluble en agua</td> </tr> <tr> <td>Fósforo (P)</td> <td>18,7 % mínimo, soluble en agua</td> </tr> <tr> <td>Oxido de calcio (CaO)</td> <td>10,0 % mínimo</td> </tr> <tr> <td>Calcio (Ca)</td> <td>7,1 % mínimo</td> </tr> <tr> <td>Insolubles</td> <td>< 0,1 %</td> </tr> <tr> <td>CE (1 g/l a 25°C, en mS/cm)</td> <td>0,87</td> </tr> <tr> <td>pH (1 - 10 % solución)</td> <td>2,2</td> </tr> <tr> <td>pH (0,1 % solución)</td> <td>2,6</td> </tr> <tr> <td>Acidez</td> <td>4,3 mmole H<sup>+</sup>/gram</td> </tr> <tr> <td>Poder neutralizante del bicarbonato</td> <td>4,3 mmole HCO<sub>3</sub><sup>-</sup>/gram - 262 ppm HCO<sub>3</sub><sup>-</sup>/gram</td> </tr> <tr> <td>Forma</td> <td>Polvo cristalino e inodoro</td> </tr> <tr> <td>Color</td> <td>Blanco</td> </tr> </table> ",
+    "hojaProducto":"<table class='table table-striped'>  <tr> <td> Sin Información.</td> </tr> </table>"
+
+}

@@ -1,0 +1,16 @@
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 busqueda-resultado-container-inner">
+      <h4 class="text-center">{{strings.busqueda_resultados}}</h4>
+
+       <input type="hidden" ng-model="QueryFiltro" style="display:none !important;">
+       <!-- <input type="text" ng-model="QueryFiltro" >
+      <input class="form-control" type="text" ng-model="search.$">
+			<input class="form-control" type="text" ng-model="search.marca">
+			<input class="form-control" type="text" ng-model="search.linea">
+       div ng-repeat="item in resultados | filter:search " ng-include="'templates/busqueda/bsq_itemResult.html'">
+        resultados -->
+
+        <div ng-repeat="item in resultados | and:QueryFiltro " ng-include="'templates/busqueda/bsq_itemResult.html'">
+        </div>
+      </div>
+    </div>

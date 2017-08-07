@@ -1,0 +1,233 @@
+{
+    "id":"0013",
+    "nombre" :"Manzano",
+    "background":"manzano.jpg",
+    "descripcion":"<p>El manzano (Malus domestica Borkh.) pertenece a la familia de las rosáceas. Son árboles de copa globosa, tronco derecho que alcanza los 2 – 2.5 metros de altura, con una corteza lisa de color ceniciento verdoso. Las ramas se insertan en ángulo abierto sobre el tallo. Las hojas son ovaladas y las flores grandes, de color rosa pálido o blancas y son hermafroditas. La floración ocurre en primavera y el fruto es un pomo globoso, con pedúnculo corto y numerosas semillas de color pardo brillante. El sistema radical es superficial, por lo cual pueden vivir en terrenos poco profundos.</p><p>Es una de las especies de fruta dulce de mayor distribución a nivel mundial, debido a que se adapta fácilmente a distintos tipos de climas y suelos, tiene gran valor alimenticio y terapéutico, y tiene una gran utilidad en agroindustria.</p><p>Dentro de las variedades más conocidas se encuentran: Royal Gala, Fuji, Pink lady, Granny Smith, Galiaxis, Red Delicious y Golden Delicious, entre otras.</p><p>Se plantan en el período de reposo de la savia, el cual va desde la caída de hojas (otoño) hasta la nueva brotación (primavera). Los marcos de plantación dependerán de la variedad escogida y de la formación, siendo lo más común una distancia entre 2-3 m. Las densidades de plantación oscilan entre los 1.500 y los 3.000 árboles/ha en los sistemas en eje y densidades de 1.000 a 1.700 árboles/ha en sistemas en espaldera.</p><p>El manzano resiste bajas temperaturas, prefiere los climas húmedos a los secos. Las flores son sensibles a heladas tardías en la primavera. Requiere alrededor de 1000 horas frío para la inducción de la floración.</p><p>En cuanto al riego, es importante un suministro adecuado de riego abundante y frecuente desde la entrada en brotación hasta el otoño, evitando así correr el riesgo de caída de hojas y la caída prematura de frutos.</p><p>Las necesidades hídricas del manzano tienen un período crítico, ya que la formación de flores coincide temporalmente con la formación de brotes y frutos, por lo cual la planta necesita considerables cantidades de agua entre la fructificación completa y el principio de la maduración.</p><p>Cuando los frutos han alcanzado su peso máximo y las yemas florales han finalizado la primera fase de su desarrollo, se hace necesaria la detención del crecimiento del año que se ve favorecido por el descenso de la temperatura.</p><p>Un árbol adulto requiere, a modo general, entre 200 y 300 litros de agua/kg fruta producida/año.</p>",
+    "etapas":[
+        {
+            "nombre":"Hinchazon de Yemas",
+            "id":"etapa1",
+            "img":"manzana-01.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Apertura de Yemas",
+            "id":"etapa2",
+            "img":"manzana-02.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Boton floral",
+            "id":"etapa3",
+            "img":"manzana-03.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Florecimiento",
+            "id":"etapa4",
+            "img":"manzana-04.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Cuajado",
+            "id":"etapa5",
+            "img":"manzana-05.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Desarrollo de Fruto",
+            "id":"etapa6",
+            "img":"manzana-06.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Desarrollo",
+            "id":"etapa7",
+            "img":"manzana-07.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Maduración",
+            "id":"etapa8",
+            "img":"manzana-08.jpg",
+            "descripcion":""
+        }
+    ],
+   "desordenes":[
+      {
+         "elemento":"nitrogeno",
+         "imagenes":[
+            {
+               "img":"n_01_pomacea-big.jpg",
+               "span":"Manzanos cv. Granny Smith. En primer plano árbol muy deficiente en nitrógeno. Atrás, árboles que recibieron fertilizante nitrogenado aplicado al suelo."
+
+            },
+            {
+               "img":"n_02_pomacea-big.jpg",
+               "span":"Manzanas Granny Smith. Izquierda- proveniente de árbol fertilizado con nitrógeno. Derecha- proveniente de árbol sin fertilizar."
+
+            },
+            {
+               "img":"n_03_pomacea-big.jpg",
+               "span":"Hojas de manzano cv. Granny Smith. Derecha, normal. Izquierda, con deficiencia de nitrógeno."
+
+            },
+            {
+               "img":"n_04_pomacea-big.jpg",
+               "span":"Exceso- Manzano cv. Granny Smith con exceso de vigor."
+
+            },
+            {
+               "img":"n_05_pomacea-big.jpg",
+               "span":"Exceso- 'Bitter pit' en manzanas Granny Smith."
+
+            },
+            {
+               "img":"n_06_pomacea-big.jpg",
+               "span":"Exceso- 'Bitter pit' externo en manzana Granny Smith."
+
+            },
+            {
+               "img":"n_07_pomacea-big.jpg",
+               "span":"Toxicidad- Peral asiático cv. Chojuro, con sintomas de toxicidad de nitrógeno por aplicación excesiva al suelo."
+
+            }
+         ]
+
+      },
+      {
+         "elemento":"potasio",
+         "imagenes":[
+            {
+               "img":"k_01_pomacea-big.jpg",
+               "span":"Deficiencia incipiente de potasio en manzano cv. Red Delicious."
+
+            },
+            {
+               "img":"k_02_pomacea-big.jpg",
+               "span":"Hojas de manzano cv. Granny Smith con síntomas de deficiencia de potasio."
+
+            },
+            {
+               "img":"k_03_pomacea-big.jpg",
+               "span":"Hojas de manzanas 'Granny Smith' revelan síntomas avanzados de deficiencia de potasio."
+
+            }
+         ]
+
+      },
+      {
+         "elemento":"calcio",
+         "imagenes":[
+            {
+               "img":"ca_01_pomacea-big.jpg",
+               "span":"Manzanas 'Granny Smith' con pepita amarga severa ('bitter- pit')."
+
+            },
+            {
+               "img":"ca_02_pomacea-big.jpg",
+               "span":"Manzanas con corazón acorchado ('Cork- spot') como resultado de la insuficiente asimilación de calcio en las frutas."
+
+            },
+            {
+               "img":"ca_03_pomacea-big.jpg",
+               "span":"Manzanas 'Red Delicious' con corazón acorchado ('Cork- spot') como resultado la insuficiencia localizada de calcio en la pulpa de la fruta."
+
+            }
+         ]
+
+      },
+      {
+         "elemento":"magnesio",
+         "imagenes":[
+            {
+               "img":"mg_01_pomacea-big.jpg",
+               "span":"Hojas de manzano cv. Granny Smith con síntomas de deficiencia de magnesio."
+
+            },
+            {
+               "img":"mg_02_pomacea-big.jpg",
+               "span":"Manzano joven cv. Red Spur afectado por deficiencia de magnesio."
+
+            },
+            {
+               "img":"mg_03_pomacea-big.jpg",
+               "span":"Síntomas de deficiencia de magnesio en manzano cv. Golden Delicious."
+
+            },
+            {
+               "img":"mg_04_pomacea-big.jpg",
+               "span":"Hojas de peras revelan síntomas de deficiencia severa en magnesio."
+
+            },
+            {
+               "img":"mg_05_pomacea-big.jpg",
+               "span":"Deficiencia de magnesio en hojas de peral asiático."
+
+            }
+         ]
+
+      },
+      {
+         "elemento":"hierro",
+         "imagenes":[
+            {
+               "img":"fe_01_pomacea-big.jpg",
+               "span":"Hojas de peras y frutos. Izquierda- desde un árbol sano. Derecha- desde un árbol con deficiencia de hierro."
+
+            }
+         ]
+
+      },
+      {
+         "elemento":"zinc",
+         "imagenes":[
+            {
+               "img":"zn_01_pomacea-big.jpg",
+               "span":"Deficiencia de zinc en manzano."
+
+            },
+            {
+               "img":"zn_02_pomacea-big.jpg",
+               "span":"Deficiencia de zin en peral."
+
+            }
+         ]
+
+      },
+      {
+         "elemento":"boro",
+         "imagenes":[
+            {
+               "img":"b_01_pomacea-big.jpg",
+               "span":"Manzanas provenientes de árbol carente de boro."
+
+            },
+            {
+               "img":"b_02_pomacea-big.jpg",
+               "span":"Peras Salvador. Izquierda- con sintomas de deficiencia de boro."
+
+            },
+            {
+               "img":"b_03_pomacea-big.jpg",
+               "span":"Frutos nuevos y rama de peral cv. Winter Nelis con síntomas de deficiencia de boro."
+
+            },
+            {
+               "img":"b_04_pomacea-big.jpg",
+               "span":"Detalle de frutos nuevos de peral cv. Winter nelis con deficiencia de boro."
+
+            },
+            {
+               "img":"b_05_pomacea-big.jpg",
+               "span":"Sintoma de deficiencia de boro en manzana."
+
+            }
+         ]
+
+      }
+
+   ],
+"variedadesTecnicas":[],
+"variedades":[]
+}

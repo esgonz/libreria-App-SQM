@@ -1,0 +1,12 @@
+
+<div  ng-if="filtroActivo.marca!=0">
+	<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6" ng-if="filtroActivo.marca==linea[0].marcaRef">
+		<a class="btn btn-link btn-block busqueda-btn-filtro busqueda-btn-filtro-linea" ng-class="{true:'busqueda-btn-filtro-active', false:''}[linea[0].tipo==filtroActivo.linea]" ng-click="modificarFiltroLinea(linea[0].tipo )">
+		                            
+		        <img class="" src="src/img/icons/marcas/{{mercado.id}}/{{verLineaFiltro(linea[0].marcaRef, linea[0].lineaRef).img}}">  
+		        <span class="">{{ linea[0].tipo}}</span>                         
+		        <small class="pull-right">({{ linea[1]}})</small>
+
+		</a> 
+	</div>
+</div>

@@ -1,0 +1,90 @@
+{
+   "id":"0010",
+   "nombre" :"Kiwi",
+   "background":"kiwi.jpg",
+   "productos":["producto_id","producto_id2"],
+   "descripcion":"<p>Kiwi (Actinidia deliciosa var. deliciosa C. Liang and A. R. Ferguson) is a climbing deciduous dioecious brush (separate sexes in male and female plants), that produces a berry type fruit with numerous seeds and that live for many years (perennial plant, commercial plantings can produce over 20 years).</p>",
+   "etapas":[],
+   "desordenes":[
+      {
+         "elemento":"potassium",
+         "imagenes":[
+            {
+               "img":"k_01_kiwi-big.jpg",
+               "span":"Kiwifruit leaves showing initial signs of K- deficiency."
+            },
+            {
+               "img":"k_02_kiwi-big.jpg",
+               "span":"Leaf symptoms of K- deficiency in kiwifruit at the time of fruit set."
+            }
+         ]
+      },
+      {
+         "elemento":"iron",
+         "imagenes":[
+            {
+               "img":"fe_01_kiwi-big.jpg",
+               "span":"Leaf Fe- deficiency symptoms in kiwifruit (left)."
+            },
+            {
+               "img":"fe_02_kiwi-big.jpg",
+               "span":"Leaf Fe- deficiency symptoms in kiwifruit."
+            },
+            {
+               "img":"fe_03_kiwi-big.jpg",
+               "span":"Kiwifruit leaves and fruits. Left- from a healthy"
+            }
+         ]
+      },
+      {
+         "elemento":"manganese",
+         "imagenes":[
+            {
+               "img":"mn_01_kiwi-big.jpg",
+               "span":"Leaf symptoms of Mn- deficiency in kiwifruit."
+            },
+            {
+               "img":"mn_03_kiwi-big.jpg",
+               "span":"Kiwi leaf with symptoms of severe deficiency of manganese."
+            },
+            {
+               "img":"mn_02_kiwi-big.jpg",
+               "span":"Leaf symptoms of Mn- deficiency in kiwifruit."
+            },
+            {
+               "img":"mn_04_kiwi-big.jpg",
+               "span":"Kiwi simultaneously affected deficiency and toxicity of manganese chloride."
+            }
+         ]
+      },
+      {
+         "elemento":"nitrogen",
+         "imagenes":[
+            {
+               "img":"n_01_kiwi-big.jpg",
+               "span":"Kiwi leaves with phytotoxicity due to excessive applications of nitrogen fertilizer to the soil."
+            }
+         ]
+      },
+      {
+         "elemento":"boron",
+         "imagenes":[
+            {
+               "img":"b_01_kiwi-big.jpg",
+               "span":"Induced B- excess leaf symptoms in kiwifruit."
+            }
+         ]
+      },
+      {
+         "elemento":"chloride",
+         "imagenes":[
+            {
+               "img":"cl_01_kiwi-big.jpg",
+               "span":"Leaf symptoms of chloride excess in kiwifruit."
+            }
+         ]
+      }
+   ],
+   "variedadesTecnicas":[],
+   "variedades":[]
+}

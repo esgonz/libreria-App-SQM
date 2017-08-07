@@ -1,0 +1,414 @@
+@media screen and (min-device-width: 768px)  and (orientation: portrait) { 
+	.producto-sacos {
+		width: 26%;
+	}
+	.cultivo-img-bg-pimiento{
+		background-image: url("../src/img/fondo/marcas/pimiento-fondo-768.png");
+	}
+
+	.producto-img-bg-ultrasol{
+		background-image: url("../src/img/fondo/marcas/ultrasol-fondo-768.png");
+	}
+	.producto-img-bg-qrop{
+		background-image: url("../src/img/fondo/marcas/qrop-fondo-768.png");
+	}
+	.producto-img-bg-speedfol{
+		background-image: url("../src/img/fondo/marcas/speedfol-fondo-768.png");
+	}
+	.producto-img-bg-allganic{
+		background-image: url("../src/img/fondo/marcas/allganic-fondo-768.png");
+	}
+	.producto-img-bg-plantacote{
+		background-image: url("../src/img/fondo/marcas/plantacote-fondo-768.png");
+	}
+
+	.cultivo-img-bg{
+	  background:#477626;
+	  background-size: cover !important;
+	}
+	.mainModal-central > .modal-dialog, .lateralModal-central > .modal-dialog, .mainModal-cultivo > .modal-dialog{
+		width:90% !important;
+		
+	}
+	.mainModal-cultivo > .modal-dialog{
+		left: 2.188%;
+		
+	}
+
+}
+
+/* Small devices (tablets, 768px and up) */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 240px) and (max-device-width : 600px)  and (orientation: portrait) {
+	/* Styles */
+
+	/*HEADER*/
+	#btn-nav-app-buscar{
+            top:.5em;
+            right:.5em;
+          }
+
+	/*LATERAL*/
+	.lateralMenu.toggled{
+		display: block;
+		visibility: visible;
+		position: fixed;
+		top: 0em;
+		width: 100%;
+		padding-bottom: 22em;
+
+	}
+	/*VISTA MENU PRINCIPAL*/
+	.menuPrincipal-fondoultrasol {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#477626+70,979797+70 */
+		background: #477626 !important; /* Old browsers */
+		
+		
+		padding: 4px 2px 1px 2px;
+	}
+	.menuPrincipal-fondoqrop {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#76bd1e+70,979797+70 */
+		background: #76bd1e !important; /* Old browsers */
+		
+		
+		padding: 4px 2px 1px 2px;
+	}
+
+	.menuPrincipal-fondospeedfol {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#047832+70,979797+70 */
+		background: #047832 !important; /* Old browsers */
+		padding: 2px 1px 1px 1px;
+	}
+
+	.menuPrincipal-fondoallganic {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d25d12+70,979797+70 */
+		background: #d25d12 !important; /* Old browsers */
+		padding: 2px 1px 1px 1px;
+	}
+	.menuPrincipal-fondovferti {
+	  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d25d12+70,979797+70 */
+	  background: #131c4e !important; /* Old browsers */
+	  padding: 2px 1px 1px 1px;
+	}
+	.menuPrincipal-fondobulldog {
+	    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d25d12+70,979797+70 */
+	    background: #0B5C9A !important; /* Old browsers */
+	    padding: 2px 1px 1px 1px;
+	 }
+	 .menuPrincipal-fondoplantacote {
+	    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d25d12+70,979797+70 */
+	    background: #007934 !important; /* Old browsers */
+	    padding: 2px 1px 1px 1px;
+	 }
+
+	/*VISTA PRODUCTOS*/
+	.producto-sacos {
+		max-width: 50%;
+	}
+	.cultivo-img-bg-pimiento{
+		background-image: url("../src/img/fondo/marcas/pimiento-fondo.png");
+	}
+
+	.producto-img-bg-ultrasol{
+		background-image: url("../src/img/fondo/marcas/ultrasol-fondo.png");
+	}
+	.producto-img-bg-qrop{
+		background-image: url("../src/img/fondo/marcas/qrop-fondo.png");
+	}
+	.producto-img-bg-speedfol{
+		background-image: url("../src/img/fondo/marcas/speedfol-fondo.png");
+	}
+	.producto-img-bg-allganic{
+		background-image: url("../src/img/fondo/marcas/allganic-fondo.png");
+	}
+	.producto-img-bg-plantacote{
+		background-image: url("../src/img/fondo/marcas/plantacote-fondo.png");
+	}
+	
+	.cultivo-img-bg{
+	  background:#477626;
+	  background-size: cover !important;
+	}
+	#menuPrincipal-popup.toggled{
+		width: 100%;
+		right: 0%;
+		height: 100%;
+
+
+	}
+
+	/*VISTA BUSQUEDA*/
+          #vistaBusqueda{
+            position: relative;
+            width:100%;
+            
+            overflow: auto;
+            left: 0;
+            top: -4.1em;
+
+          }
+	.mainModal-central > .modal-dialog, .lateralModal-central > .modal-dialog, .mainModal-cultivo > .modal-dialog{
+		width:90% !important;
+		
+	}
+	.mainModal-cultivo > .modal-dialog{
+		left: 2.188%;
+		
+
+}
+
+/* Small devices (tablets, 768px and up) */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 240px) and (max-device-width : 600px)  and (orientation: landscape) {
+	/* Styles */
+
+	/*HEADER*/
+	#btn-nav-app-buscar{
+            top:.5em;
+            right:.5em;
+          }
+
+	/*LATERAL*/
+	.lateralMenu.toggled{
+		display: block;
+		visibility: visible;
+		position: fixed;
+		top: 0em;
+		width: 100%;
+		padding-bottom: 22em;
+
+	}
+	/*VISTA MENU PRINCIPAL*/
+	.menuPrincipal-fondoultrasol {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#477626+70,979797+70 */
+		background: #477626 !important; /* Old browsers */
+		
+		
+		padding: 4px 2px 1px 2px;
+	}
+	.menuPrincipal-fondoqrop {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#76bd1e+70,979797+70 */
+		background: #76bd1e !important; /* Old browsers */
+		
+		
+		padding: 4px 2px 1px 2px;
+	}
+
+	.menuPrincipal-fondospeedfol {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#047832+70,979797+70 */
+		background: #047832 !important; /* Old browsers */
+		padding: 2px 1px 1px 1px;
+	}
+
+	.menuPrincipal-fondoallganic {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d25d12+70,979797+70 */
+		background: #d25d12 !important; /* Old browsers */
+		padding: 2px 1px 1px 1px;
+	}
+	.menuPrincipal-fondovferti {
+	  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d25d12+70,979797+70 */
+	  background: #131c4e !important; /* Old browsers */
+	  padding: 2px 1px 1px 1px;
+	}
+	.menuPrincipal-fondobulldog {
+	    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d25d12+70,979797+70 */
+	    background: #0B5C9A !important; /* Old browsers */
+	    padding: 2px 1px 1px 1px;
+	 }
+	 .menuPrincipal-fondoplantacote {
+	    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d25d12+70,979797+70 */
+	    background: #007934 !important; /* Old browsers */
+	    padding: 2px 1px 1px 1px;
+	 }
+
+	/*VISTA PRODUCTOS*/
+	.producto-sacos {
+		max-width: 50%;
+	}
+	.cultivo-img-bg-pimiento{
+		background-image: url("../src/img/fondo/marcas/pimiento-fondo.png");
+	}
+
+	.producto-img-bg-ultrasol{
+		background-image: url("../src/img/fondo/marcas/ultrasol-fondo.png");
+	}
+	.producto-img-bg-qrop{
+		background-image: url("../src/img/fondo/marcas/qrop-fondo.png");
+	}
+	.producto-img-bg-speedfol{
+		background-image: url("../src/img/fondo/marcas/speedfol-fondo.png");
+	}
+	.producto-img-bg-allganic{
+		background-image: url("../src/img/fondo/marcas/allganic-fondo.png");
+	}
+	.producto-img-bg-allganic{
+		background-image: url("../src/img/fondo/marcas/plantacote-fondo.png");
+	}
+	.cultivo-img-bg{
+	  background:#477626;
+	  background-size: cover !important;
+	}
+
+	#menuPrincipal-popup.toggled{
+		width: 100%;
+		right: 0%;
+		height: 100%;
+
+
+	}
+
+	/*VISTA BUSQUEDA*/
+          #vistaBusqueda{
+            position: relative;
+            width:100%;
+            
+            overflow: auto;
+            left: 0;
+            top: -4.1em;
+
+          }
+	.mainModal-central > .modal-dialog, .lateralModal-central > .modal-dialog, .mainModal-cultivo > .modal-dialog{
+		width:90% !important;
+		
+	}
+	.mainModal-cultivo > .modal-dialog{
+		left: 2.188%;
+		
+
+}
+
+
+
+
+
+/* Small devices (tablets, 600px and up) */
+/* tablets (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 600px) and (max-device-width : 1024px) and (orientation: landscape) {
+	/* Styles */
+
+
+	/*HEADER*/
+	#btn-nav-app-buscar{
+     
+          }
+	/*LATERAL*/
+	.lateralMenu.toggled{
+		width: 70%;
+	}
+
+
+	/*VISTA MENU PRINCIPAL*/
+	.menuPrincipal-fondoultrasol {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#477626+70,979797+70 */
+		background: #477626 !important; /* Old browsers */
+		
+		padding: 4px 2px 1px 2px;
+	}
+	.menuPrincipal-fondoqrop {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#76bd1e+70,979797+70 */
+		background: #76bd1e; /* Old browsers */
+
+		padding: 4px 2px 1px 2px;
+	}
+
+	.menuPrincipal-fondospeedfol {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#047832+70,979797+70 */
+		background: #047832 !important; /* Old browsers */
+		padding: 2px 1px 1px 1px;
+	}
+
+	.menuPrincipal-fondoallganic {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d25d12+70,979797+70 */
+		background: #d25d12 !important; /* Old browsers */
+
+		padding: 2px 1px 1px 1px;
+	}
+	.menuPrincipal-fondovferti {
+	  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d25d12+70,979797+70 */
+	  background: #131c4e !important; /* Old browsers */
+	 padding: 2px 1px 1px 1px;
+	}
+	.menuPrincipal-fondobulldog {
+	            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d25d12+70,979797+70 */
+	            background: #0B5C9A !important;
+	            padding: 2px 1px 1px 1px;
+	 }
+	 .menuPrincipal-fondoplantacote {
+	            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d25d12+70,979797+70 */
+	            background: #007934 !important;
+	            padding: 2px 1px 1px 1px;
+	 }
+
+
+	/*VISTA PRODUCTOS*/
+	.producto-sacos {
+		max-height: 250px;
+	}
+	.cultivo-img-bg-pimiento{
+		background-image: url("../src/img/fondo/marcas/pimiento-fondo.png");
+	}
+
+	.producto-img-bg-ultrasol{
+		background-image: url("../src/img/fondo/marcas/ultrasol-fondo.png");
+	}
+	.producto-img-bg-qrop{
+		background-image: url("../src/img/fondo/marcas/qrop-fondo.png");
+	}
+	.producto-img-bg-speedfol{
+		background-image: url("../src/img/fondo/marcas/speedfol-fondo.png");
+	}
+	.producto-img-bg-allganic{
+		background-image: url("../src/img/fondo/marcas/allganic-fondo.png");
+	}
+	.producto-img-bg-plantacote{
+		background-image: url("../src/img/fondo/marcas/plantacote-fondo.png");
+	}
+	
+	.cultivo-img-bg{
+	  background:#477626;
+	  background-size: cover !important;
+	}
+	#menuPrincipal-popup.toggled{
+              top: 5.6em;
+              width: 70%;
+              right: 15%;
+              height:100%;
+
+	}
+	/*Busqueda*/
+	#vistaBusqueda{
+		top: -3.6em;
+            left: -4em;
+	}
+
+	.mainModal-central > .modal-dialog, .lateralModal-central > .modal-dialog, .mainModal-cultivo > .modal-dialog{
+		width:90% !important;
+		
+	}
+	.mainModal-cultivo > .modal-dialog{
+		left: 2.188%;
+		
+}
+
+
+/* Small devices (tablets, 600px and up) */
+/* tablets (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 600px) and (max-device-width : 1024px) and (orientation: portrait) {
+	/* Styles */
+
+	/*Busqueda*/
+	#vistaBusqueda{
+		top: -3.6em;
+            left: -2em;
+	}
+	.mainModal-central > .modal-dialog, .lateralModal-central > .modal-dialog, .mainModal-cultivo > .modal-dialog{
+		width:90% !important;
+		
+	}
+	.mainModal-cultivo > .modal-dialog{
+		left: 2.188%;
+		
+
+}
+
+

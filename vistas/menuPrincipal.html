@@ -1,0 +1,50 @@
+<!-- Menu Principal-->
+<!--Content protafolio productos-->
+<div  ng-controller="menuController">
+<div ng-include = "'templates/menuPrincipal.html'"></div>
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<h4><span class="glyphicon glyphicon-stop"></span>{{strings.menu_portafolio_productos}} {{mercado.nombre}}</h4>
+		
+		<!--Fila Marca -->            
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 menuPrincipal-producto-cotainer" ng-repeat="marca in marcasMenu.lista" ng-include = "'templates/menuPrincipal/mp_marcaContainer.html'">
+			<!--template mp_marcaContainer-->
+			{{marca.nombre}}
+		</div>
+		<!--Fila Marca -->	
+		
+		<!--allganic especial -->
+		<div ng-if="mercado.id !='us'">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 menuPrincipal-producto-cotainer" ng-include = "'templates/menuPrincipal/mp_allganicContainer.html'">
+			<!--template mp_marcaContainer-->
+			{{marca.nombre}}
+			</div>
+		</div>
+
+		
+	</div><!-- end content portafolio Productos-->
+
+
+	<!--Content protafolio cultivos-->
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<h4>
+			<span class="glyphicon glyphicon-stop"></span>
+			{{strings.menu_portafolio_cultivos}} {{mercado.nombre}}
+		</h4>
+		<!--cultivos row1-->
+		<div class="row">
+			<!-- cultivo Col-->
+			<div class="col-xs-6 col-sm-4 col-md-3 col-lg-2 inline-btn" ng-repeat="cultivo in cultivos | orderObjectBy:'nombre'" ng-include = "'templates/menuPrincipal/mp_cultivoBtn.html'">
+				<!--template mp_cultivoBtn-->	       	     
+			</div>
+			<!-- cultivo Col-->
+
+			
+		</div>
+		<!--cultivos row1-->
+		
+	</div>
+
+</div>
+
+<!-- Menu Principal-->
+

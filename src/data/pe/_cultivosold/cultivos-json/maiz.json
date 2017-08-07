@@ -1,0 +1,55 @@
+{   
+  "id":"0011",
+  "nombre" :"Maiz",
+  "background":"maiz.jpg",
+  
+  "descripcion":"<p>Solicite a su agrónomo local de SQM asesoría para formular un programa de nutrición vegetal de especialidad de acuerdo con sus necesidades locales y requerimientos de cultivo.</p>",
+  "etapas":[
+    {
+      "nombre":"V1",
+      "id":"etapa1",
+      "img":"maiz-01.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"V4",
+      "id":"etapa2",
+      "img":"maiz-02.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"V6",
+      "id":"etapa3",
+      "img":"maiz-03.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"V8",
+      "id":"etapa4",
+      "img":"maiz-04.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"VT",
+      "id":"etapa5",
+      "img":"maiz-05.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"R1",
+      "id":"etapa6",
+      "img":"maiz-06.jpg",
+      "descripcion":""
+    },
+    {
+      "nombre":"R6",
+      "id":"etapa7",
+      "img":"maiz-07.jpg",
+      "descripcion":""
+    }
+  ]
+  ,
+  "desordenes":[],
+  "variedadesTecnicas":[],
+  "variedades":[]
+}

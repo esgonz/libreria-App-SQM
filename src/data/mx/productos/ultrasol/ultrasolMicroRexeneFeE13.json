@@ -1,0 +1,15 @@
+{   "id":"0039",
+    "nombre" :"Ultrasol micro Rexene FeE13",
+    "presentacion":["1kg","25kg"],
+    "descripcionCorta":"Producto Estrella",
+    "img":"ultrasol-microfee13.png",
+    "marcaID":"ultrasol",
+    "marca":"Ultrasol micro",
+    "lineaID":"micro",
+    "linea":"Rexene FeE13",
+    "metaTags":["ultrasol","Hierro"],
+    "descripcion":"<p> Producto quelatado en EDTA libre de sulfatos. Es ideal para la corrección y prevención de deficiencias de Fierro en condiciones de pH ácido, o ligeramente ácidos, en una amplia gama de cultivos. </p> <p> Puede ser aplicado en forma foliar o a través de la fertirrigación. </p>",
+    "informacionTecnica": "<table class='table table-striped'>  <tbody> <tr> <td colspan=\"3\"> <p> Riqueza Porcentual </p> </td> </tr> <tr> <td> <p> Fierro </p> </td> <td> <p> EDTA-Fe </p> </td> <td> <p> 13.3% </p> </td> </tr> <tr> <td colspan=\"3\"> <p> Especificaciones de Disolución </p> </td> </tr> <tr> <td> <p> CE (1 g / L a 20º C) </p> </td> <td colspan=\"2\"> <p> 0.1 mS / cm </p> </td> </tr> <tr> <td> <p> pH (1 g / L a 20º C) </p> </td> <td colspan=\"2\"> <p> 4.0 - 5.5 </p> </td> </tr> <tr> <td> <p> Solubilidad (20º C) </p> </td> <td colspan=\"2\"> <p> 90 g/L agua </p> </td> </tr> </tbody> </table>",
+    "hojaProducto":"<table class='table table-striped table-bordered table-condensed'> <tr> <td> Sin Información.</td> </tr> </table>",
+    "informacionBasicaNutrientes":"<div> <table class='table table-striped'>  <tbody> <tr> <td colspan=\"3\"> <p> Riqueza Porcentual </p> </td> </tr> <tr> <td> <p> Fierro </p> </td> <td> <p> EDTA-Fe </p> </td> <td> <p> 13.3% </p> </td> </tr> <tr> <td colspan=\"3\"> <p> Especificaciones de Disolución </p> </td> </tr> <tr> <td> <p> CE (1 g / L a 20º C) </p> </td> <td colspan=\"2\"> <p> 0.1 mS / cm </p> </td> </tr> <tr> <td> <p> pH (1 g / L a 20º C) </p> </td> <td colspan=\"2\"> <p> 4.0 - 5.5 </p> </td> </tr> <tr> <td> <p> Solubilidad (20º C) </p> </td> <td colspan=\"2\"> <p> 90 g/L agua </p> </td> </tr> </tbody> </table> </div>"
+}

@@ -1,0 +1,188 @@
+{
+    "id":"0020",
+    "nombre" :"Pepper",
+    "background":"pimiento.jpg",
+    "productos":["producto_id","producto_id2"],
+    "descripcion":"<p>Aspectos Fisiológicos del Pepino(Cucumis Sativus)</p><p>Pepper belongs to the solanaceas family. There are five domesticated species from the Capsicum genera: Capsicum annuum (sweet pepper, 'chile Serrano', 'chile jalapeño'); Capsicum chinense ('habanero'); Capsicum frutenscen ('tabasco'); Capsicum baccatum ('Christmas bells') and Capsicum bubescens ('rocoto').</p><p>Peppers can be classified according their flavor: sweet or spicy. Sweet peppers vary their shape and size; also present different color when reaching maturity, being yellow, orange or purple at maturity. Among the spicy peppers or 'ajíes' (chile peppers), there is the Capsicum annuum, slightly spicy, used as well as fresh consumption than processed.</p><p>Pepper is a warm season horticulture, susceptible to frosts, and requires warmer days than tomato, even though less warm than eggplant (aubergine). Its ideal growing temperature range from 18 to 28° C. Generally, night temperatures determine the flowering and fruit setting processes, influencing the fruit size and number of seeds per fruit.</p>",
+    "etapas":[
+        {
+            "nombre":"Transplant",
+            "id":"etapa1",
+            "img":"pimiento-01.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Establishment",
+            "id":"etapa2",
+            "img":"pimiento-02.jpg",
+            "descripcion":"<p>1- Ultrasol&reg; Calcium, Days 7, kg/ha/aplic 5, Total kg/ha 35.</p><p>2- Ultrasol&reg; Initial, Days 7, kg/ha/aplic 9, Total kg/ha 63.</p>"
+        },
+        {
+            "nombre":"Vegetative Growth",
+            "id":"etapa3",
+            "img":"pimiento-03.jpg",
+            "descripcion":"<p>1- Ultrasol&reg; Development, Days 20, kg/ha/aplic 20, Total kg/ha 400.</p><p>2- Ultrasol&reg; Nit One, Days 20, kg/ha/aplic 8, Total kg/ha 160.</p><p>3- Ultrasol&reg; Calcium, Days 20, kg/ha/aplic 4, Total kg/ha 80.</p><p>4- Ultrasol&reg; Magnit, Days 20, kg/ha/aplic 6, Total kg/ha 120.</p>"
+        },
+        {
+            "nombre":"Flowering",
+            "id":"etapa4",
+            "img":"pimiento-04.jpg",
+            "descripcion":"<p>1- Ultrasol&reg; Development, Days 15, kg/ha/aplic 20, Total kg/ha 300.</p><p>2- Ultrasol&reg; Nit One, Days 15, kg/ha/aplic 6, Total kg/ha 90.</p><p>3- Ultrasol&reg; Calcium, Days 15, kg/ha/aplic 6, Total kg/ha 90.</p><p></p>"
+        },
+        {
+            "nombre":"Fruit Development",
+            "id":"etapa5",
+            "img":"pimiento-05.jpg",
+            "descripcion":"<p>1- Ultrasol&reg; Production, Days 30, kg/ha/aplic 18, Total kg/ha 540.</p><p>2- Ultrasol&reg; Calcium, Days 30, kg/ha/aplic 2, Total kg/ha 60.</p>"
+        },
+        {
+            "nombre":"Maturity",
+            "id":"etapa5",
+            "img":"pimiento-06.jpg",
+            "descripcion":"<p>1- Ultrasol&reg; K Acid, Days 20, kg/ha/aplic 4, Total kg/ha 80.</p>"
+        }
+    ],
+    "desordenes":[
+        {
+            "elemento":"nitrogen",
+            "imagenes":[
+                {
+                    "img":"n_01_pepper-big.jpg",
+                    "span":"Nitrogen deficiency imbalance, shown as stuted growth, the leaves being small and light yellowish green."
+                }
+            ]
+        },
+        {
+            "elemento":"phosphorus",
+            "imagenes":[
+                {
+                    "img":"p_01_pepper-big.jpg",
+                    "span":"Phosphorus deficiency umbalance."
+                },
+                {
+                    "img":"p_02_pepper-big.jpg",
+                    "span":"Phosphorus deficiency umbalance."
+                }
+            ]
+        },
+        {
+            "elemento":"potassium",
+            "imagenes":[
+                {
+                    "img":"k_01_pepper-big.jpg",
+                    "span":"Potassium deficiency imbalance."
+                },
+                {
+                    "img":"k_02_pepper-big.jpg",
+                    "span":"Potassium deficiency imbalance."
+                },
+                {
+                    "img":"k_03_pepper-big.jpg",
+                    "span":"Potassium deficiency imbalance."
+                }
+            ]
+        },
+        {
+            "elemento":"calcium",
+            "imagenes":[
+                {
+                    "img":"ca_01_pepper-big.jpg",
+                    "span":"Calcium deficiency imbalance."
+                }
+            ]
+        },
+        {
+            "elemento":"magnesium",
+            "imagenes":[
+                {
+                    "img":"mg_01_pepper-big.jpg",
+                    "span":"Magnesium deficiency imbalance."
+                }
+            ]
+        },
+        {
+            "elemento":"sulphur",
+            "imagenes":[
+                {
+                    "img":"s_01_pepper-big.jpg",
+                    "span":"Sulphur deficiency imbalance (pepper plant on the right)."
+                }
+            ]
+        },
+        {
+            "elemento":"iron",
+            "imagenes":[
+                {
+                    "img":"fe_01_pepper-big.jpg",
+                    "span":"Iron deficiency imbalance."
+                }
+            ]
+        },
+        {
+            "elemento":"zinc",
+            "imagenes":[
+                {
+                    "img":"zn_01_pepper-big.jpg",
+                    "span":"Zinc deficiency imbalance."
+                }
+            ]
+        },
+        {
+            "elemento":"manganese",
+            "imagenes":[
+                {
+                    "img":"mn_01_pepper-big.jpg",
+                    "span":"Manganese deficiency imbalance, shown in the leaf as diffuse yellow areas within a uniform dark green veinal network."
+                },
+                {
+                    "img":"mn_02_pepper-big.jpg",
+                    "span":"Manganese excess imbalance."
+                }
+            ]
+        },
+        {
+            "elemento":"boron",
+            "imagenes":[
+                {
+                    "img":"b_01_pepper-big.jpg",
+                    "span":"Boron deficiency imbalance."
+                },
+                {
+                    "img":"b_02_pepper-big.jpg",
+                    "span":"Boron deficiency imbalance."
+                },
+                {
+                    "img":"b_03_pepper-big.jpg",
+                    "span":"Boron deficiency imbalance."
+                },
+                {
+                    "img":"b_04_pepper-big.jpg",
+                    "span":"Boron deficiency imbalance."
+                },
+                {
+                    "img":"b_05_pepper-big.jpg",
+                    "span":"Boron deficiency imbalance."
+                }
+            ]
+        },
+        {
+            "elemento":"sodio",
+            "imagenes":[
+                {
+                    "img":"na_01_pepper-big.jpg",
+                    "span":"NaCl (salt water) excess imbalance."
+                },
+                {
+                    "img":"na_02_pepper-big.jpg",
+                    "span":"NaCl (salt water) excess imbalance."
+                },
+                {
+                    "img":"na_03_pepper-big.jpg",
+                    "span":"Na (sodium carbonate) excess imbalance."
+                }
+            ]
+        }
+    ],
+"variedadesTecnicas":[],
+"variedades":[]
+}

@@ -1,0 +1,43 @@
+<div  ng-controller="menuLateralController"> 
+  <div class="col-md-12 hidden-md hidden-lg">
+    <a type="button" class="close-lateral" ng-click="cerrarMenu();">
+        <span aria-hidden="true">&nbsp;
+          <img style="height:1.5em !important;" src="src/img/icons/ui/cerrar-blanco.png" />
+        </span>
+      </a>
+
+
+  </div>
+  
+  <div class="row menuLateral-marca-container color-light-{{marcax.id}}" ng-class="{hidden: menuType == 'cultivos'}" ng-repeat="marcax in marcasMenuLateral.lista">
+    <div class="menuLateral-marca-box color-{{marcax.id}}" >
+      <img class="center-block" src="src/img/icons/marcas/{{mercado.id}}/img_{{marcax.id}}1.png">
+    </div>
+
+    <div ng-repeat="lineax in marcax.lineas">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">                       
+        <a class="btn btn-link lateralModal-linea-btn-link" role="button" data-toggle="collapse" href="#collapse-{{marcax.id}}-{{lineax.id}}" target="_self" aria-expanded="false" aria-controls="collapse-{{marcax.id}}-{{lineax.id}}">
+          {{lineax.nombre}}
+        </a>
+        <div class="collapse" id="collapse-{{marcax.id}}-{{lineax.id}}">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" ng-repeat="producto in lineax.productos | orderBy:'id'">
+
+            <a class="btn btn-block btn-link btn-link-block-white  btn-link-min  link-producto-{{producto.id}}" ng-href="#/producto/{{producto.id}}"   id="lateralModal-producto-{{producto.id}}">{{producto.nombre}}
+            </a>
+          </div>
+        </div>
+
+
+      </div>                
+    </div>
+
+  </div>
+
+  <div class="row" ng-class="{hidden: menuType != 'cultivos'}">
+    <div class="col-md-3" ng-repeat="cultivo in cultivos | orderObjectBy:'nombre'" ng-include = "'templates/menuPrincipal/mp_cultivoBtn.html'">
+    </div>
+
+  </div>
+</div>
+
+

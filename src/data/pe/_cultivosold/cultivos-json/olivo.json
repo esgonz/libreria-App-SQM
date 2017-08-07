@@ -1,0 +1,122 @@
+{   
+  "id":"0017",
+  "nombre" :"Olivo",
+  "background":"olivo.jpg",
+  
+  "etapas":[
+   {
+      "nombre":"Receso Invernal",
+      "id":"etapa1",
+      "img":"olivo-01.jpg",
+      "descripcion":""
+   },
+   {
+      "nombre":"Brotación",
+      "id":"etapa2",
+      "img":"olivo-02.jpg",
+      "descripcion":""
+   },
+   {
+      "nombre":"Crecimiento año anterior",
+      "id":"etapa3",
+      "img":"olivo-03.jpg",
+      "descripcion":""
+   },
+   {
+      "nombre":"Cáliz visible",
+      "id":"etapa4",
+      "img":"olivo-04.jpg",
+      "descripcion":""
+   },
+   {
+      "nombre":"Corola verde visible",
+      "id":"etapa5",
+      "img":"olivo-05.jpg",
+      "descripcion":""
+   },
+   {
+      "nombre":"Estambr visible",
+      "id":"etapa6",
+      "img":"olivo-06.jpg",
+      "descripcion":""
+   },
+   {
+      "nombre":"Inicio de Floración",
+      "id":"etapa7",
+      "img":"olivo-07.jpg",
+      "descripcion":""
+   },
+   {
+      "nombre":"Termino de Floración",
+      "id":"etapa8",
+      "img":"olivo-08.jpg",
+      "descripcion":""
+   },
+   {
+      "nombre":"Cuajado",
+      "id":"etapa9",
+      "img":"olivo-09.jpg",
+      "descripcion":""
+   },
+   {
+      "nombre":"Establecimiento de Verano",
+      "id":"etapa10",
+      "img":"olivo-10.jpg",
+      "descripcion":""
+   },
+   {
+      "nombre":"Envero",
+      "id":"etapa11",
+      "img":"olivo-11.jpg",
+      "descripcion":""
+   },
+   {
+      "nombre":"Madurez",
+      "id":"etapa12",
+      "img":"olivo-12.jpg",
+      "descripcion":""
+   }
+],
+  "desordenes":[
+   {
+      "elemento":"potasio",
+      "imagenes":[
+         {
+            "img":"k_01_olive-big.jpg",
+            "span":"Sistema de deficiencia de potasio en las hojas del olivo."
+            
+         },
+         {
+            "img":"k_02_olive-big.jpg",
+            "span":"Deficiencia de potasio en las hojas del olivo (aumenta la severidad de izquierda a derecha)."
+            
+         },
+         {
+            "img":"k_03_olive-big.jpg",
+            "span":"Sintomas de iniciales de deficiencia de potasio en olivo."
+            
+         },
+         {
+            "img":"k_04_olive-big.jpg",
+            "span":"Sintomas avanzados de deficiencia de potasio en olivo."
+            
+         }
+      ]
+
+   },
+   {
+      "elemento":"Hierro",
+      "imagenes":[
+         {
+            "img":"fe_01_olive-big.jpg",
+            "span":"Hojas de Olivo. Izquierda- hojas de un árbol sano. Derecha- hojas de un árbol con deficiencia de Hierro."
+            
+         }
+      ]
+
+   }
+
+],
+  "variedadesTecnicas":[],
+  "variedades":[]
+}

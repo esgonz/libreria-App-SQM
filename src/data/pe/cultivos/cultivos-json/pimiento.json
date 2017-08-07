@@ -1,0 +1,210 @@
+{   
+  "id":"0020",
+  "nombre" :"Pimiento",
+  "background":"pimiento.jpg",
+  
+  "descripcion":"<p>Aspectos Fisiológicos del Pepino(Cucumis Sativus)</p><p>La duración de cada estado fenológico del cultivo del pepino es muy variable dependiendo del tipo (Caipira, Aodai, Japonés o de Conserva); del método de cultivo y conducción (campo abierto o invernadero, cultivo tutorado o rastrero). En este cultivo, al contrario de lo que sucede con la mayoría de los cultivos anuales, las fases fenológicas se confunden. El desarrollo vegetal, la floración y crecimiento, y la madurez de los frutos ocurren simultáneamente después del inicio del florecimiento. La senescencia ocurre mientras el cultivo aún se encuentra en fase de producción y el final del ciclo es definido por la reducción y no por la paralización de la producción.</p>",
+  "etapas":"pimiento.jpg",
+  "desordenes":[
+   {
+      "elemento":"nitrogeno",
+      "imagenes":[
+         {
+            "img":"n_01_pepper-big.jpg",
+            "span":"Desequilibrio por deficiencia de nitrógeno demostrado como crecimiento enano, hojas pequeñas con el color amarillo-verde."
+            
+         }
+      ]
+
+   },
+   {
+      "elemento":"fosforo",
+      "imagenes":[
+         {
+            "img":"p_01_pepper-big.jpg",
+            "span":"Desequilibrio por deficiencia de fósforo."
+            
+         },
+         {
+            "img":"p_02_pepper-big.jpg",
+            "span":"Desequilibrio por deficiencia de fósforo."
+            
+         }
+      ]
+
+   },
+   {
+      "elemento":"potasio",
+      "imagenes":[
+         {
+            "img":"k_01_pepper-big.jpg",
+            "span":"Desequilibrio por deficiencia de potasio."
+            
+         },
+         {
+            "img":"k_02_pepper-big.jpg",
+            "span":"Desequilibrio por deficiencia de potasio."
+            
+         },
+         {
+            "img":"k_03_pepper-big.jpg",
+            "span":"Desequilibrio por deficiencia de potasio."
+            
+         }
+      ]
+
+   },
+   {
+      "elemento":"calcio",
+      "imagenes":[
+         {
+            "img":"ca_01_pepper-big.jpg",
+            "span":"Desequilibrio por deficiencia de calcio."
+            
+         }
+      ]
+
+   },
+   {
+      "elemento":"magnesio",
+      "imagenes":[
+         {
+            "img":"mg_01_pepper-big.jpg",
+            "span":"Desequilibrio por deficiencia de magnesio."
+            
+         }
+      ]
+
+   },
+   {
+      "elemento":"azufre",
+      "imagenes":[
+         {
+            "img":"s_01_pepper-big.jpg",
+            "span":"Desequilibrio por deficiencia de azufre (planta de la derecha)."
+            
+         }
+      ]
+
+   },
+   {
+      "elemento":"hierro",
+      "imagenes":[
+         {
+            "img":"fe_01_pepper-big.jpg",
+            "span":"Desequilibrio por deficiencia de hierro."
+            
+         }
+      ]
+
+   },
+   {
+      "elemento":"zinc",
+      "imagenes":[
+         {
+            "img":"zn_01_pepper-big.jpg",
+            "span":"Desequilibrio por deficiencia de zinc."
+            
+         }
+      ]
+
+   },
+   {
+      "elemento":"manganeso",
+      "imagenes":[
+         {
+            "img":"mn_01_pepper-big.jpg",
+            "span":"Desequilibrio por deficiencia de manganeso. En la hoja se presentan áreas difusas y amarillas con una red de venas uniformes de color verde oscuro."
+            
+         },
+         {
+            "img":"mn_02_pepper-big.jpg",
+            "span":"Desequilibrio por deficiencia de manganeso."
+            
+         }
+      ]
+
+   },
+   {
+      "elemento":"boro",
+      "imagenes":[
+         {
+            "img":"b_01_pepper-big.jpg",
+            "span":"Desequilibrio por deficiencia de boro."
+            
+         },
+         {
+            "img":"b_02_pepper-big.jpg",
+            "span":"Desequilibrio por deficiencia de boro."
+            
+         },
+         {
+            "img":"b_03_pepper-big.jpg",
+            "span":"Desequilibrio por deficiencia de boro."
+            
+         },
+         {
+            "img":"b_04_pepper-big.jpg",
+            "span":"Desequilibrio por deficiencia de boro."
+            
+         },
+         {
+            "img":"b_05_pepper-big.jpg",
+            "span":"Desequilibrio por deficiencia de boro."
+            
+         }
+      ]
+
+   },
+   {
+      "elemento":"sodio",
+      "imagenes":[
+         {
+            "img":"na_01_pepper-big.jpg",
+            "span":"Desequilibrio por exceso de NaCl (agua salina)."
+            
+         },
+         {
+            "img":"na_02_pepper-big.jpg",
+            "span":"Desequilibrio por exceso de NaCl (agua salina)."
+            
+         },
+         {
+            "img":"na_03_pepper-big.jpg",
+            "span":"Desequilibrio por exceso de Sodio (carbonato de sodio)."
+            
+         }
+      ]
+
+   }
+
+],
+  "variedadesTecnicas": [
+    {   
+      "variedadTecnicaId":"7",
+      "condicionId":"2",
+      "tecnificacionId":"1",
+      "fertilizacion":false  
+   },
+   {   
+      "variedadTecnicaId":"8",
+      "condicionId":"5",
+      "tecnificacionId":"1",
+      "fertilizacion":false  
+   },
+   {   
+      "variedadTecnicaId":"9",
+      "condicionId":"2",
+      "tecnificacionId":"5",
+      "fertilizacion":false  
+   },
+   {   
+      "variedadTecnicaId":"10",
+      "condicionId":"5",
+      "tecnificacionId":"5",
+      "fertilizacion":false  
+   }
+
+],
+  "variedades":[]
+}

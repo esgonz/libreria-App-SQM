@@ -1,0 +1,233 @@
+{
+   "id":"0012",
+   "nombre" :"Mango",
+   "background":"mango.jpg",
+   "productos":["producto_id","producto_id2"],
+   "descripcion":"<p>Its scientific name is Mangifera indica L. belonging to the Anacardiaceae family.</p><p>Mango is a perennial tree with a height ranking from 8 to 25 m. Its fruit grow during summer which is originated from inflorescences developed in spring.</p><p>These trees grow in a discontinue way; the size increase comes from vegetative shoots which are constantly originating. This grow is restricted in the flowering stage, since inflorescences are determined and the vegetative growth is inhibited when the reproductive organs are developing. The extension of the inhibited period is proportionally to the flowering intensity and the load of the crop.</p><p>The development of the terminal inflorescence occurs after a cold period associated to a degree of drought stress. In locations where winter is not cold enough for an adequate flowering induction (minimum daily T° above 15°C), it is common to produce this induction by exposing trees to soil moisture deficiencies (drought stress) before flowering.</p><p>The mango tree is drought tolerant and can sustain temporarily flooding. The rainfall distribution has a drastic effect in the crop cycle.</p><p>Rainfalls during flowering and fruit development are detrimental for the risk of disease incidence.</p><p>Temperatures between 20 to 30°C favor vegetative shoot development while temperatures between 6 to 18°C incentive the initiation of the inflorescence development.</p><p>The tree nutritional status has a remarkable effect in fruit quality. Then it is necessary to know the soil and its management practices, such as irrigation and fertilizer program for obtaining a good nutritional balance. The nutrient concentration in the leaves is a proper indicator as reference of this.</p><p>The moisture demand during the season is variable in relation to the crop growth stage. So it is important to constantly monitoring the water available in the soil and the irrigation applied in each crop stage to avoid wilting of the inflorescence or fruit drop. This moisture demand is high when new shoots are developing, at flowering and at fruit set.</p><p>Leaves are susceptible to high salinity. In saline soils (CE &lt; 2ds/m) the irrigation management should be controlled to avoid salt burns. Trees can grow in a wide rage of soils, except in high pH soils since nutritional deficiencies occur and a lower quality fruit is produced. The ideal pH is from 5.5 – 7.0.</p><p>Some known mango varieties are Tommy Atkins, Keitt, Kent, Haden and Sensation.</p>",
+   "etapas":[
+      {
+         "nombre":"Bud break",
+         "id":"etapa1",
+         "img":"mango-01.jpg",
+         "descripcion":""
+      },
+      {
+         "nombre":"Inforescence Dev. & Flowering",
+         "id":"etapa2",
+         "img":"mango-02.jpg",
+         "descripcion":""
+      },
+      {
+         "nombre":"Fruit set",
+         "id":"etapa3",
+         "img":"mango-03.jpg",
+         "descripcion":""
+      },
+      {
+         "nombre":"Fruit development",
+         "id":"etapa4",
+         "img":"mango-04.jpg",
+         "descripcion":""
+      },
+      {
+         "nombre":"Maturation & harvest",
+         "id":"etapa5",
+         "img":"mango-05.jpg",
+         "descripcion":""
+      }
+   ],
+   "desordenes":[
+      {
+         "elemento":"nitrogen",
+         "imagenes":[
+            {
+               "img":"n_01_mango-big.jpg",
+               "span":"Mango tree deficient in N."
+            },
+            {
+               "img":"all_10-mango.jpg",
+               "span":"Yellowing (chlorosis) and marginal necrosis of leaves resulting from nitrogen and potassium deficiency."
+            },
+            {
+               "img":"all_11-mango.jpg",
+               "span":"General leaf yellowing and wilting resulting from nitrogen deficiency and prolonged soil water stress."
+            }
+         ]
+      },
+      {
+         "elemento":"boron",
+         "imagenes":[
+            {
+               "img":"b_01_mango-big.jpg",
+               "span":"Leaf symptoms of B- excess in mango."
+            },
+            {
+               "img":"all_08-mango.jpg",
+               "span":"General chlorosis and leaf deformation resulting from copper, iron, manganese, zinc and boron deficiency."
+            },
+            {
+               "img":"all_13-mango.jpg",
+               "span":"Leaf symptoms of B- excess in mango."
+            }
+         ]
+      },
+      {
+         "elemento":"cloruro",
+         "imagenes":[
+            {
+               "img":"cl_01_mango-big.jpg",
+               "span":"Chloride ecess symptoms in mango leaves resulting from high chloride levels in the irrigation water."
+            },
+            {
+               "img":"all_14-mango.jpg",
+               "span":"Leaf margin necrosis resulting from excess chloride uptake."
+            },
+            {
+               "img":"all_16-mango.jpg",
+               "span":"Stunted new shoot development and leaf drop and branch die-back resulting from excess sodium and chloride uptake."
+            }
+         ]
+      },
+      {
+         "elemento":"copper",
+         "imagenes":[
+            {
+               "img":"all_01-mango.jpg",
+               "span":"Symptoms resulting from manganese and copper deficiency."
+            },
+            {
+               "img":"all_03-mango.jpg",
+               "span":"Leaf curling and stunted growth resulting from manganese and copper deficiency."
+            },
+            {
+               "img":"all_05-mango.jpg",
+               "span":"Stunted leaf growth and curling resulting from zinc, copper and manganese deficiency."
+            },
+            {
+               "img":"all_06-mango.jpg",
+               "span":"Ribbed, small, marginally curled, chlorotic leaves resulting from iron, zinc, copper and iron deficiency."
+            },
+            {
+               "img":"all_07-mango.jpg",
+               "span":"Leaf back- bending and ribbing resulting from manganese and copper deficiency."
+            },
+            {
+               "img":"all_08-mango.jpg",
+               "span":"General chlorosis and leaf deformation resulting from copper, iron, manganese, zinc and boronn deficiency."
+            },
+            {
+               "img":"all_09-mango.jpg",
+               "span":"Leaf curling and ribbing resulting from manganese and copper deficiency."
+            }
+         ]
+      },
+      {
+         "elemento":"iron",
+         "imagenes":[
+            {
+               "img":"all_02-mango.jpg",
+               "span":"Iron, zinc and manganese deficiency in mango."
+            },
+            {
+               "img":"all_04-mango.jpg",
+               "span":"Reduced leaf size and chlorosis resulting from zinc and iron deficiency."
+            },
+            {
+               "img":"all_06-mango.jpg",
+               "span":"Ribbed, small, marginally curled, chlorotic leaves resulting from iron, zinc, copper and iron deficiency."
+            },
+            {
+               "img":"all_08-mango.jpg",
+               "span":"General chlorosis and leaf deformation resulting from copper, iron, manganese, zinc and boronn deficiency."
+            }
+         ]
+      },
+      {
+         "elemento":"zinc",
+         "imagenes":[
+            {
+               "img":"all_02-mango.jpg",
+               "span":"Mangos con deficiencia de iron, zinc y manganese."
+            },
+            {
+               "img":"all_04-mango.jpg",
+               "span":"Reduced leaf size and chlorosis resulting from zinc and iron deficiency."
+            },
+            {
+               "img":"all_05-mango.jpg",
+               "span":"Stunted leaf growth and curling resulting from zinc, copper and manganese deficiency."
+            },
+            {
+               "img":"all_06-mango.jpg",
+               "span":"Ribbed, small, marginally curled, chlorotic leaves resulting from iron, zinc and copper deficiency."
+            },
+            {
+               "img":"all_08-mango.jpg",
+               "span":"General chlorosis and leaf deformation resulting from copper, iron, manganese, zinc and boronn deficiency."
+            }
+         ]
+      },
+      {
+         "elemento":"manganese",
+         "imagenes":[
+            {
+               "img":"all_02-mango.jpg",
+               "span":"Iron, zinc and manganese deficiency in mango."
+            },
+            {
+               "img":"all_03-mango.jpg",
+               "span":"Leaf curling and stunted growth resulting from manganese and copper deficiency."
+            },
+            {
+               "img":"all_05-mango.jpg",
+               "span":"Stunted leaf growth and curling resulting from zinc, copper and manganese deficiency."
+            },
+            {
+               "img":"all_07-mango.jpg",
+               "span":"Ribbed, small, marginally curied, chlorotic leaves resulting from iron, zinc and copper deficiency."
+            },
+            {
+               "img":"all_08-mango.jpg",
+               "span":"General chlorosis and leaf deformation resulting from copper, iron, manganese, zinc and boron deficiency."
+            },
+            {
+               "img":"all_09-mango.jpg",
+               "span":"Leaf curling and ribbing resulting from manganese and copper deficiency."
+            }
+         ]
+      },
+      {
+         "elemento":"potassium",
+         "imagenes":[
+            {
+               "img":"all_10-mango.jpg",
+               "span":"Yellowing (chlorosis) and marginal necrosis of leaves resulting from nitrogen and potassium deficiency."
+            }
+         ]
+      },
+      {
+         "elemento":"calcium",
+         "imagenes":[
+            {
+               "img":"all_12-mango.jpg",
+               "span":"Internal breakdown ('jelly seed') resulting form calcium deficiency within the fruits themselves."
+            }
+         ]
+      },
+      {
+         "elemento":"sodio",
+         "imagenes":[
+            {
+               "img":"all_15-mango.jpg",
+               "span":"Inhibited tree growth resulting from excess sodium uptake."
+            },
+            {
+               "img":"all_16-mango.jpg",
+               "span":"Stunted new shoot development and leaf drop and branch die-back from excess sodium and chloride uptake."
+            }
+         ]
+      }
+   ],
+"variedadesTecnicas":[],
+"variedades":[]
+}

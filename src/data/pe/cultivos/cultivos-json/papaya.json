@@ -1,0 +1,12 @@
+{   
+	"id":"0030",
+	"nombre" :"Papaya",
+	"background":"papaya.jpg",
+	
+	"descripcion":"<p>Use of fertigation for obtaining high yields and quality in the papaya crop.<br /><br />Fertigation consists in applying irrigation and fertilizers at the same moment. With this technology it is possible to provide all nutrients to the plant roots, which implies an energy saving by the plant in the nutrients absorption resulting in greater fruit yield.<br /><br />Humidity bulb with dissolved nutrients<br />To be able to inject fertilizers into the irrigation system, it is necessary to have a Basic injection system, which allows to dose according to the phenological crop’s stage the required fertilizer quantities for that phase. With this system, a fertilizer saving is achieved, better assimilation and distribution of nutrients, fertilizer supply according the phenological stage needs, fertilizers distribution economy since the unnecessary hand labor is avoided (backpack sprayer application).</p>",
+	"etapas":"",
+	"desordenes":[
+	],
+	"variedadesTecnicas":[],
+	"variedades":[]
+}

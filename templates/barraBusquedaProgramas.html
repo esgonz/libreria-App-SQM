@@ -1,0 +1,148 @@
+	<!-- BARRA PROGRAMAS -->
+	<div id="cultivo-barra-busqueda" class="row">
+		<div class="col-xs-12">
+				<h6><span class="glyphicon glyphicon-stop"></span>{{strings.cultivo_buscar_programa}}</h6>
+		</div>
+		<div class="cultivo-inner container">
+			
+			<!-- Zona -->
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4  cultivo-div-select">
+				<div class="btn-group center-block">
+					<a  class="btn btn-default  btn-select" ng-if="filtrosActivosPrograma.zona == null ">{{strings.cultivo_seleccionar_zona}}</a>
+					<a  class="btn btn-default  btn-select" ng-if="filtrosActivosPrograma.zona != null ">{{filtrosActivosPrograma.zona}}</a>
+					<a  target="_self" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><span class="caret"></span></a>
+					<ul class="dropdown-menu">
+
+						<li>
+							&nbsp;
+						</li>
+						<li>
+							<a href="" class="btn-list-cultuvo" ng-click="aplicarFiltroZona(1);" >
+								ZONA CENTRAL
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- /Zona -->
+
+
+			<!-- Cultivo -->
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4  cultivo-div-select">
+				<div class="btn-group center-block">
+					<a  class="btn btn-default  btn-select" ng-if="filtrosActivosPrograma.cultivo == null ">{{strings.cultivo_seleccionar_cultivo}}</a>
+					<a  class="btn btn-default  btn-select" ng-if="filtrosActivosPrograma.cultivo != null ">{{filtrosActivosPrograma.cultivo.nombre}}</a>
+
+
+					<a  target="_self" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><span class="caret"></span></a>
+					<ul class="dropdown-menu">							
+						<li>
+							&nbsp;
+						</li>
+						
+						<li ng-repeat="cultivo in cultivosPrograma">
+							<a href="" class="btn-list-cultuvo" ng-click="aplicarFiltroCultivo(cultivo)" >
+								{{cultivo.nombre}}
+							</a>
+						</li>
+
+
+					</ul>
+				</div>
+			</div>
+			<!-- /Cultivo -->
+			
+
+
+			<!-- Variedad -->
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4  cultivo-div-select">
+				<div class="btn-group center-block">
+					<a  class="btn btn-default  btn-select" ng-if="filtrosActivosPrograma.variedad == null ">{{strings.cultivo_seleccionar_variedad}}</a>
+					<a  class="btn btn-default  btn-select" ng-if="filtrosActivosPrograma.variedad != null ">{{filtrosActivosPrograma.variedad.nombre}}</a>
+
+					<a  target="_self" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><span class="caret"></span></a>
+
+					<ul class="dropdown-menu">
+
+						<li>
+							<a href="" class="btn-list-cultuvo" ng-click="aplicarFiltroVariedad(-1);" >
+								{{opcionesFiltroCultivo.nombre}}
+							</a>
+						</li>
+						<li ng-repeat="variedadIndex in opcionesFiltroVariedad">
+							<a href="" class="btn-list-cultuvo" ng-click="aplicarFiltroVariedad($index);" >
+								{{variedadIndex.nombre}}
+							</a>
+						</li>
+					</ul>
+
+
+				</div>
+			</div>
+			<!-- /Variedad -->
+			
+
+
+			<!-- Condicion -->
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4  cultivo-div-select">
+				<div class="btn-group center-block">
+					<a  class="btn btn-default  btn-select" ng-if="filtrosActivosPrograma.condicion == null ">{{strings.cultivo_seleccionar_condicion}}</a>
+					<a  class="btn btn-default  btn-select" ng-if="filtrosActivosPrograma.condicion != null ">{{filtrosActivosPrograma.condicion.condicion}}</a>
+
+
+					<a  target="_self" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><span class="caret"></span></a>
+
+					<ul class="dropdown-menu">
+
+						<li>
+							&nbsp;
+						</li>
+						<li ng-repeat="condicion in opcionesFiltroCondicion">
+							<a href="" class="btn-list-cultuvo" ng-click="aplicarFiltroCondicion(condicion.id);" >
+								{{condicion.condicion}}
+							</a>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+			<!-- / Condicion -->
+
+
+
+			<!-- Tecnificacion -->
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4  cultivo-div-select">
+				<div class="btn-group center-block">
+
+					<a  class="btn btn-default  btn-select" ng-if="filtrosActivosPrograma.tecnificacion == null ">{{strings.cultivo_seleccionar_tecnificacion}}</a>
+					<a  class="btn btn-default  btn-select" ng-if="filtrosActivosPrograma.tecnificacion != null ">{{filtrosActivosPrograma.tecnificacion.tecnificacion}}</a>
+
+					<a target="_self" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><span class="caret"></span></a>
+
+					<ul class="dropdown-menu">
+
+						<li>
+							&nbsp;
+						</li>
+						<li ng-repeat="tecnificacion in opcionesFiltroTecnificacion">
+							<a href="" class="btn-list-cultuvo" ng-click="aplicarFiltrotecnificacion(tecnificacion.id);" >
+								{{ tecnificacion.tecnificacion }}
+							</a>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+			<!-- / Tecnificacion -->
+			
+		
+
+			<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 cultivo-div-select" >
+				<a class="btn btn-success btn-block" id="revelar-programaContent" href="#/programa/">
+					{{ strings.app_buscar }}
+				</a>					
+			</div>
+		</div>
+
+	</div>
+	<!-- BARRA PROGRAMAS -->

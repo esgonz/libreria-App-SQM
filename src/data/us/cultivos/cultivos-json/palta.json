@@ -1,0 +1,183 @@
+{
+    "id":"0001",
+    "nombre" :"Avocado",
+    "background":"palta.jpg",
+    "productos":["producto_id","producto_id2"],
+    "descripcion":"<p>The avocado tree is a perennial type fruit specie, which presents a different growing behavior from other fruit trees.</p><p>The length and season of phenological stages depend on the variety, climate and geographic place. For the Hass variety, the most cultivated in Chile.</p>",
+    "etapas":[
+        {
+            "nombre":"Swollen bud",
+            "id":"etapa1",
+            "img":"palta-01.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Col stage",
+            "id":"etapa2",
+            "img":"palta-02.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Bud development",
+            "id":"etapa3",
+            "img":"palta-01.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Flower opening",
+            "id":"etapa4",
+            "img":"palta-03.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Fruit set",
+            "id":"etapa5",
+            "img":"palta-04.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Fruit growth",
+            "id":"etapa6",
+            "img":"palta-05.jpg",
+            "descripcion":""
+        },
+        {
+            "nombre":"Maturation",
+            "id":"etapa7",
+            "img":"palta-06.jpg",
+            "descripcion":""
+        }
+    ],
+    "desordenes":[
+        {
+            "elemento":"nitrogen",
+            "imagenes":[
+                {
+                    "img":"n_01_aguacate-big.jpg",
+                    "span":"Avocado leaves: Left- N- deficient leaf. Center leaf low in N. Right- normal leaf concerning N status."
+                },
+                {
+                    "img":"n_02_aguacate-big.jpg",
+                    "span":"Avocado nursery: Fornt- plants growing in a substrate devoid of N. Back- plants having been supplied with N fertilizer."
+                },
+                {
+                    "img":"n_03_aguacate-big.jpg",
+                    "span":"Avocado leaves. Left, normal. Right, nitrogen deficient."
+                }
+            ]
+        },
+        {
+            "elemento":"potassium",
+            "imagenes":[
+                {
+                    "img":"k_01_aguacate-big.jpg",
+                    "span":"Fruits and leaves of 'Hass' avocado. Left- From a non nutrient deficiency tree. Right- From a tree deficient in both K and Zn."
+                }
+            ]
+        },
+        {
+            "elemento":"magnesium",
+            "imagenes":[
+                {
+                    "img":"mg_01_aguacate-big.jpg",
+                    "span":"Avocado leaf showing symptoms of Mg- deficiency and excess chloride (Cl- uptake (necrosis))."
+                },
+                {
+                    "img":"mg_02_aguacate-big.jpg",
+                    "span":"Mg- deficiency symptoms in an avocado branch."
+                },
+                {
+                    "img":"mg_03_aguacate-big.jpg",
+                    "span":"Avocado with Magnesium deficiency."
+                }
+            ]
+        },
+        {
+            "elemento":"iron",
+            "imagenes":[
+                {
+                    "img":"fe_01_aguacate-big.jpg",
+                    "span":"'Hass' avocado fruits. Left- fruits taken from a healthy tree. Center- fruits taken from a tree showing moderate Fe- deficiency. Right- fruits from a tree showing severe Fe- deficiency."
+                },
+                {
+                    "img":"fe_02_aguacate-big.jpg",
+                    "span":"Fe- chlorosis in young avocado trees."
+                },
+                {
+                    "img":"fe_03_aguacate-big.jpg",
+                    "span":"Avocado leaf showing symptoms of Fe- deficiency and Cl- toxicity (tip burn)."
+                },
+                {
+                    "img":"fe_04_aguacate-big.jpg",
+                    "span":"Leaf symptoms of Fe- chlorosis in avocado."
+                },
+                {
+                    "img":"fe_05_aguacate-big.jpg",
+                    "span":"Avocado with iron chlorosis"
+                }
+            ]
+        },
+        {
+            "elemento":"manganese",
+            "imagenes":[
+                {
+                    "img":"mn_01_aguacate-big.jpg",
+                    "span":"Leaf symptoms of Mn- deficiency in avocado."
+                },
+                {
+                    "img":"mn_02_aguacate-big.jpg",
+                    "span":"Avocado leaf showing symptoms of Mn- deficiency and Cl- toxicity (leaf border necrosis)."
+                }
+            ]
+        },
+        {
+            "elemento":"zinc",
+            "imagenes":[
+                {
+                    "img":"zn_01_aguacate-big.jpg",
+                    "span":"Avocado leaves: Right- leaves showing symptoms of Zn- deficiency. Left- healthy leaf."
+                },
+                {
+                    "img":"zn_02_aguacate-big.jpg",
+                    "span":"Avocado fruit bearing shoots. Left- from a healthy tree. Right- from a Zn- deficient tree."
+                },
+                {
+                    "img":"zn_03_aguacate-big.jpg",
+                    "span":"'Hass' avocados: Right- harvested from a Zn- deficient tree. Leaf- havested from a normal tree."
+                },
+                {
+                    "img":"zn_04_aguacate-big.jpg",
+                    "span":"'Hass' avocado. Right, fruit harvested from a tree with Zn deficiency. Left, fruits harvested from a normal tree."
+                }
+            ]
+        },
+        {
+            "elemento":"boron",
+            "imagenes":[
+                {
+                    "img":"b_01_aguacate-big.jpg",
+                    "span":"B- deficient 'Hass' avocado fruits and shoot."
+                },
+                {
+                    "img":"b_02_aguacate-big.jpg",
+                    "span":"'Hass' avocado fruits. Left- from a B- deficient tree. Right- from a healthy tree."
+                }
+            ]
+        },
+        {
+            "elemento":"chloride",
+            "imagenes":[
+                {
+                    "img":"cl_01_aguacate-big.jpg",
+                    "span":"Avocado shoot whose older leaves are affected by chloride excess."
+                },
+                {
+                    "img":"cl_02_aguacate-big.jpg",
+                    "span":"Leaf symptoms of chloride excess in avovado."
+                }
+            ]
+        }
+    ],
+"variedadesTecnicas":[],
+"variedades":[]
+}

@@ -1,0 +1,78 @@
+{
+  "id":"0004",
+  "nombre" :"Raspberry",
+  "background":"frambuesa.jpg",
+  "productos":["producto_id","producto_id2"],
+  "descripcion":"<p>Raspberry belongs to the Rubus genera, with about 500 species, but the cultivated species are 3 due to their fruit quality: raspberry, blackberry and blackberry hybrids.</p><p>There are two type of raspberry: day neutral variety and non day neutral variety. The first is characterized by producing flowers twice per year, the first flowering at beginning of summer and the second at autumn, lasting until the first rains and winter cold conditions allow this flowering process. Spring flowers are developed in lateral branches from the two year stems, while autumn flowers are developed in the shoots terminal branches.</p><p>The non neutral day varieties produce only flowers in the two year stems. Two years old stems die on both varieties and must be eliminated and replaced by shoots.</p><p>Production levels, depending on the climate, soil and variety, can reach until 30 ton/ha.</p><p>Soil: Soil characteristics are determinant for a good raspberries´ development. Soil physical features define the root development and the water retention for the crop. Chemical characteristics determine the essential nutrients´ availability for growing and production and, in certain occasions, toxicity problems by the presence of some elements noxious to the crop.</p><p>The pH is a soil characteristic that determines the nutrients´ availability for the crop. The greater nutrients´ availability happens at pH near neutrality (6.5 to 7.5), and the larger retention of these occurs as the pH moves away from 7.0. In alkaline pH, soils deficiencies of iron, copper and zinc are produced by the reaction with OH groups, then, iron, copper and zinc hydroxides are produced which are absorbed by the crops. In soils pH near 5.0 important deficiencies of phosphorus are produced, generating compounds of low solubility and difficult absorption by the roots. Similarly, under acid soil conditions the soluble aluminum presence is increased, generating alterations in the plant and reducing production.</p><p>Raspberries are adapted to various type of soils, to pH levels from 6-7.8. Only, high clay soils are limited and those with bad drainage, especially under wet and cold conditions and with water table at 50 cm depth. High sandy soils, due to their low water retention, require a larger organic matter supply and frequently irrigation.</p><p>Excess and lack of water produce a negative effect in the plants´ growth and development. The greatest water absorption by raspberries, under good water availability conditions, is produced near the trunk or stem in the first 20 to 30 cm of the soil profile. Water requirements vary according to the agro-climatic areas.</p><p>Specific considerations of the crop in relation to irrigation:</p><p>A good moisture level control in Raspberry plant allows a greater yield, due to more number of stems, with greater diameter and size, a better floral induction and also improved fruits´ size. Raspberries are generally very sensible crops to a high Electric Conductivity (Table). This produces damage to the crop due to an excessive concentrated salts´ solution, which causes interference in the root absorption. Normally salts´ concentration is greater within the cell than in the soil water. If this occurs, there is no water absorption and the plant wilts.</p>",
+  "etapas":[],
+  "desordenes":[
+    {
+      "elemento":"phosphorus",
+      "imagenes":[
+        {
+          "img":"p_01_berries-big.jpg",
+          "span":"Symptoms of P- deficiency in blueberry."
+        }
+      ]
+    },
+    {
+      "elemento":"nitrogen",
+      "imagenes":[
+        {
+          "img":"n_01_berries-big.jpg",
+          "span":"Front- strawberry plant growing in a N- deficient substrate. Back- strawberry plants having benn fertilized with N."
+        },
+        {
+          "img":"n_02_berries-big.jpg",
+          "span":"Raspberry bush. Left, normal. Right, nitrogen deficient."
+        }
+      ]
+    },
+    {
+      "elemento":"potassium",
+      "imagenes":[
+        {
+          "img":"k_01_berries-big.jpg",
+          "span":"Leaf K- deficiency symptoms in cherry."
+        }
+      ]
+    },
+    {
+      "elemento":"magnesium",
+      "imagenes":[
+        {
+          "img":"mg_01_berries-big.jpg",
+          "span":"Leaf Mg- deficiency symptoms in greenhouse grown 'Mahaleb' cherry rootstock. The nutrient solution applied to the trees was devoid of Mg."
+        }
+      ]
+    },
+    {
+      "elemento":"iron",
+      "imagenes":[
+        {
+          "img":"fe_01_berries-big.jpg",
+          "span":"Symptoms of Fe- deficiency in strawberry."
+        },
+        {
+          "img":"fe_02_berries-big.jpg",
+          "span":"Leaf symptoms of Fe- deficiency in raspberry."
+        },
+        {
+          "img":"fe_03_berries-big.jpg",
+          "span":"Fe- deficiency in a young blueberry plant."
+        }
+      ]
+    },
+    {
+      "elemento":"manganese",
+      "imagenes":[
+        {
+          "img":"mn_01_berries-big.jpg",
+          "span":"Leaf Mn- defiency symptoms in raspberry."
+        }
+      ]
+    }
+  ],
+  "variedadesTecnicas":[],
+  "variedades":[]
+}

@@ -1,0 +1,11 @@
+{
+	"id":"0021",
+	"nombre" :"Quinoa",
+	"background":"quinua.jpg",
+	"productos":["producto_id","producto_id2"],
+	"descripcion":"<p>Ask your local SQM agronomist for a Specialty Plant Nutrition programme in accordance with your local needs and requirements.</p><h4>Ventajas Diferenciales</h4><p>\"src/img/cultivos/ventajadiferencial.jpg\"</p><h4>Asegurando la Calidad</h4><p>\"src/img/cultivos/asegurandocalidad.jpg\"</p>",
+	"etapas":[],
+	"desordenes":[],
+	"variedadesTecnicas":[],
+	"variedades":[]
+}

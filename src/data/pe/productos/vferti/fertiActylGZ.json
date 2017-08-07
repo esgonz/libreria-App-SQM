@@ -1,0 +1,16 @@
+{   "id":"0047",
+    "nombre" :"Fertiactyl GZ",
+    "presentacion":"25kg",
+    "descripcionCorta":"Producto Estrella",
+    "img":"vferti-fertiactylGZ.png",
+    "marcaID":"vferti",
+    "marca":"vferti",
+    "lineaID":"vfAntiestres",
+    "linea":"Antiestres",
+    "cultivos":[],
+    "metaTags":["ultrasol","Oxido de Fosforo","Fosfato Monoamonico","Nitrogeno"],
+    "descripcion":"<p>Es un bioestimulante líquido radicular con efecto anti estrés específicamente diseñado para optimizar el comportamiento de las plantas sometidas a condiciones extremas de cultivo.</p><p>Fertiactyl® GZ está potenciado por el complejo FERTIACTYL® (Patente Europea 945000107 y P9001813). El macrocomplejo FERTIACTYL® es la suma de 3 complejos moleculares diferentes: un complejo de sustancias húmicas-fulvicas seleccionadas específicamente, un complejo natural de citoquininas, y un complejo anti estrés. Su mecanismo de acción incluye efectos a nivel molecular (expresión genética y actividad enzimática), a nivel fisiológico (aumento funcionalidad de la raíz, y actividad fotosintética), y a nivel productivo (aumento rendimiento y calidad, así como crecimiento aún bajo condiciones de estrés).<p>",
+    "informacionTecnica":"<table class='table table-striped'>  <tr> <th>Caracteristicas</th> <th>Valores</th> </tr> <tr> <td>Fertirriego</td> <td>16 - 0 - 6</td> </tr> <tr> <td>Apariencia</td> <td>Liquido de color marrón</td> </tr> <tr> <td>Presentación</td> <td>5 y 1 litro</td> </tr> <tr> <td>Nitrogeno N%</td> <td>13p/p y 15,7p/v</td> </tr> <tr> <td>Potasio K<sub>2</sub>O%</td> <td>5p/p y 6,1p/v</td> </tr> <tr> <td>Extracto Humico %</td> <td>15p/p y 18,2p/v</td> </tr> <tr> <td>pH</td> <td>11</td> </tr> <tr> <td>Densidad kg/L</td> <td>1,21</td> </tr> </table> ",
+    "hojaProducto":"<table class='table table-striped'>  <tr> <td> Sin Información.</td> </tr> </table>"
+
+}

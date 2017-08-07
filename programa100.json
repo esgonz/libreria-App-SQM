@@ -1,0 +1,134 @@
+{
+	"programaId": 100,
+	"tipo": 2,
+	"nombre": "Tomate Cubierta en Hidroponia",
+	"programasEtapas": 
+	[
+		{
+			"etapaId": 1,
+			"semanasDesde": null,
+			"semanasHasta": null,
+			"diasAcumulados": null,
+			"fertilizantes": [
+
+				{
+					"id": "1001",
+					"nombre": "Ultrasol MKP",
+					"productoId": null,
+					"conMe": "0",
+					"contN": "0",
+					"contP2O5": "52",
+					"contK2O": "34",
+					"contCaO": "0",
+					"contMgO": "0",
+					"snVegetativa": "25",
+					"snMedia": "15",
+					"snGenerativa1": "10",
+					"snGenerativa2": "15"
+				}, {
+					"id": "1002",
+					"nombre": "Ultrasol Sop Diamante",
+					"productoId": null,
+					"conMe": "0",
+					"contN": "0",
+					"contP2O5": "0",
+					"contK2O": "52",
+					"contCaO": "0",
+					"contMgO": "0",
+					"snVegetativa": "0",
+					"snMedia": "0",
+					"snGenerativa1": "0",
+					"snGenerativa2": "35"
+				}, {
+					"id": "1003",
+					"nombre": "Ultrasol Solucion Nutritiva",
+					"productoId": null,
+					"conMe": "true",
+					"contN": "8",
+					"contP2O5": "7",
+					"contK2O": "30",
+					"contCaO": "0",
+					"contMgO": "7",
+					"snVegetativa": "55",
+					"snMedia": "90",
+					"snGenerativa1": "100",
+					"snGenerativa2": "60"
+				}
+			]
+		}, {
+			"etapaId": 2,
+			"semanasDesde": null,
+			"semanasHasta": null,
+			"diasAcumulados": null,
+			"fertilizantes": 
+			[
+				{
+					"id": "1004",
+					"nombre": "Sulfato de Magnesio",
+					"productoId": null,
+					"conMe": "0",
+					"contN": "0",
+					"contP2O5": "0",
+					"contK2O": "0",
+					"contCaO": "0",
+					"contMgO": "16",
+					"snVegetativa": "0",
+					"snMedia": "0",
+					"snGenerativa1": "10",
+					"snGenerativa2": "25"
+				}, {
+					"id": "1005",
+					"nombre": "Yara Liva Calcinit",
+					"productoId": null,
+					"conMe": "0",
+					"contN": "15.5",
+					"contP2O5": "0",
+					"contK2O": "0",
+					"contCaO": "26.3",
+					"contMgO": "0",
+					"snVegetativa": "65",
+					"snMedia": "65",
+					"snGenerativa1": "65",
+					"snGenerativa2": "65"
+				}
+			]
+		}, {
+			"etapaId": 3,
+			"semanasDesde": null,
+			"semanasHasta": null,
+			"diasAcumulados": null,
+			"fertilizantes": 
+			[
+				{
+					"id": "1006",
+					"nombre": "Ultrasol Micro Mix",
+					"productoId": null,
+					"conMe": "true",
+					"contN": "0",
+					"contP2O5": "0",
+					"contK2O": "0",
+					"contCaO": "0",
+					"contMgO": "0",
+					"snVegetativa": "1.6",
+					"snMedia": "1.8",
+					"snGenerativa1": "2",
+					"snGenerativa2": "2.5"
+				}, {
+					"id": "1007",
+					"nombre": "Ultrasol Micro Zn",
+					"productoId": null,
+					"conMe": "true",
+					"contN": "0",
+					"contP2O5": "0",
+					"contK2O": "0",
+					"contCaO": "0",
+					"contMgO": "0",
+					"snVegetativa": "0.4",
+					"snMedia": "0.4",
+					"snGenerativa1": "0.4",
+					"snGenerativa2": "0.4"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,341 @@
+<div id="vistaCultivo" ng-controller="cultivoController">
+
+	<!--templates/Vistas CODE HERE-->
+	<div class="row titulo-producto">
+		<h4>{{cultivo.nombre | uppercase}}</h4>
+	</div>
+	<div class="row basicContent">
+		<div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+			<img src="src/img/fondo/cultivos/{{cultivo.background}}" style="max-width:100%;" alt="">
+
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7">
+			<h4><span class="glyphicon glyphicon-stop"></span> {{strings.cultivo_seleccionar_productos_relacionados}}</h4>
+			<!--productos relacionados -->
+			<div class="row row-clear">
+
+
+				<!-- producto -->
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" ng-repeat="productos in cultivo.productos">
+					<a href="index.html#/producto/{{productos.id}}" class="btn btn-link btn-block vistaCultivo-btn-productoRef">
+						{{productos.nombre}}
+					</a>
+				</div>
+
+				<div class="col-md-12" ng-if="cultivo.productos.length < 1">
+					<h5>{{strings.cultivo_no_existen_productos}}</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- PROGRAMAS-->
+	<div id="cultivo-barra-busqueda" class="row" >
+		<div class="cultivo-inner">
+
+
+			<div class="col-xs-12">
+				<h6><span class="glyphicon glyphicon-stop"></span>{{strings.cultivo_buscar_programa}}</h6>
+			</div>
+
+
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3  cultivo-div-select">
+				<div class="btn-group center-block">
+					<a  class="btn btn-default  btn-select" ng-if="filtroProgramaVariedad===null">{{strings.cultivo_seleccionar_variedad}}</a>
+					<a  class="btn btn-default  btn-select" ng-if="filtroProgramaVariedad!==null">{{filtroProgramaVariedad.nombre}}</a>
+					<a  target="_self" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><span class="caret"></span></a>
+					<ul class="dropdown-menu">							
+						<li>
+							&nbsp;
+						</li>
+						<li>
+							<a href="" class="btn-list-cultuvo"  ng-click="filtrarProgramaCultivo(-1,'variedades');">
+								{{cultivo.nombre}}
+							</a>
+						</li>
+						<li class="divider"></li>
+
+						<li ng-repeat="variedad in cultivo.variedades">
+							<a href="" class="btn-list-cultuvo" ng-click="filtrarProgramaCultivo($index,'variedades');" >
+								{{variedad.nombre}}
+							</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3  cultivo-div-select">
+				<div class="btn-group center-block">
+					<a  class="btn btn-default  btn-select" ng-if="filtrosProgramaActivos.condicion==''">{{strings.cultivo_seleccionar_condicion}}</a>
+					<a  class="btn btn-default  btn-select" ng-if="filtrosProgramaActivos.condicion!=''">{{filtroProgramaCondicion[filtrosProgramaActivos.condicion].condicion}}</a>
+
+
+					<a  target="_self" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><span class="caret"></span></a>
+
+					<ul class="dropdown-menu">
+
+						<li>
+							&nbsp;
+						</li>
+						<li ng-repeat="condicion in filtroProgramaCondicion">
+							<a href="" class="btn-list-cultuvo" ng-click="filtrarProgramaCultivo(condicion.id,'condiciones');" >
+								{{condicion.condicion}}
+							</a>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3  cultivo-div-select">
+				<div class="btn-group center-block">
+
+					<a  class="btn btn-default  btn-select" ng-if="filtrosProgramaActivos.tecnificacion==''"> {{strings.cultivo_seleccionar_tecnificacion}}</a>
+					<a  class="btn btn-default  btn-select" ng-if="filtrosProgramaActivos.tecnificacion!=''">{{filtroProgramaTecnica[filtrosProgramaActivos.tecnificacion].tecnificacion}}</a>
+
+					<a target="_self" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><span class="caret"></span></a>
+
+					<ul class="dropdown-menu">
+
+						<li>
+							&nbsp;
+						</li>
+						<li ng-repeat="tecnificacion in filtroProgramaTecnica">
+							<a href="" class="btn-list-cultuvo" ng-click="filtrarProgramaCultivo(tecnificacion.id,'tecnificaciones');" >
+								{{ tecnificacion.tecnificacion }}
+							</a>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+			
+		</div>
+		<!--/inner-->
+		<div class="col-xs-12 col-sm-6 col-md-2 col-lg-2  cultivo-div-select"  ng-click="setVolver('cultivo',cultivo.id, 'programaContent');">
+			<a class="btn btn-success btn-block" id="revelar-programaContent" ng-controller="programaController" ng-click="buscarPrograma()">
+				{{ strings.app_buscar }}</a>					
+		</div>
+	</div>
+	<!-- programas-->
+
+		<!--Programa cultivos-->
+		<div class="row"  id="programaContent" style="margin-top:2em;margin-bottom:2em;" >
+			<!-- encabezado-->
+			<div class="row">
+
+
+				<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+
+					<h4><img src="src/img/icons/cultivos/{{cultivoIndexData.iconColor}}" alt="" class="cultivo-icon"> 
+					{{ strings.cultivo_programa_nutricional }} : {{ cultivo.nombre }}</h4>
+				</div>
+				<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+				<!--<a class="btn btn-default pull-right" id="revelar-extraContent" data-estado="false" data-toggle="collapse" aria-expanded="false" aria-controls="#extraContent" data-target="#extraContent">
+					<span class="pull-right" id=""><span class="glyphicon glyphicon-download"></span>{{strings.cultivo_descargar_programa}}</span>
+				</a>-->
+				</div>
+			</div>
+			<!-- tabla-->
+			<div class="row" ng-if="busquedaProgramaIsActive" ng-controller="programaController" >
+				<div class="col-md-12" ng-if="programaTipo == 1" ng-include="'templates/cultivo/clvo_tablaSuelo.html'" scope="" onload="">
+					
+				</div>				
+			</div>
+			<!-- /tabla-->
+
+
+			<!-- tabla 2-->
+			<div class="row" ng-if="busquedaProgramaIsActive" ng-controller="programaController">
+				
+				<div class="col-md-12" ng-if="programaTipo == 2" ng-include="'templates/cultivo/clvo_tablaHidroponica.html'" scope="" onload=""></div>
+
+				<div class="col-md-12" ng-if="programaTipo == 2" ng-include="'templates/cultivo/clvo_tablaHidroponicaSN.html'" scope="" onload=""></div>				
+			</div>
+			<!-- /tabla 2-->
+			
+			<!-- boton-->
+			<div class="row">
+				<div class="col-md-12">
+					<!--<a class="btn btn-success" id="btn-esconder-programaContent" data-estado="false" data-toggle="collapse" aria-expanded="false" aria-controls="#programaContent" data-target="#programaContent">
+						<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+						<span class="" id="cultivo-btn-volver-span">{{strings.app_volver}}</span>
+
+					</a>-->
+					<a class="btn btn-success" id="btn-imprimir-programaContent">
+						<span class="glyphicon glyphicon-paperclip" aria-hidden="true"></span>
+						<span class="" id="cultivo-btn-volver-spans" ng-click="tablaPDF2();">Enviar por Correo</span>
+					</a>
+
+
+				</div>
+			</div>
+			<!-- /boton -->
+		</div>
+		<!--Programa cultivos-->
+
+		<!--/ Botones Revelar Etapas /Desordenes-->
+		<div class="row basicContent" id="cultivos-ver-btn-div" style="margin-top:2em;margin-bottom:2em;">
+			<!--/ Boton Etapas-->
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+				<span></span>
+
+				<div>
+					<h4><span class="glyphicon glyphicon-stop" style="color:#649d37;"></span> {{strings.cultivo_ver_fase_fenologica}}</h4>
+				</div>
+				
+				<a class="btn btn-default btn-block" id="revelar-etapasContent" ng-click="setVolver('cultivo',cultivo.id, 'etapasContent');">
+				<img src="src/img/icons/ui/verfasefenologica.png"  class="img-responsive" alt="">
+				</a>
+			</div>
+			<!--/ Boton Etapas-->
+			<!--/ Boton Desordenes-->
+			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" >
+				<span></span>
+
+				<div>
+					<h4><span class="glyphicon glyphicon-stop" style="color:#649d37;"></span>{{strings.cultivo_ver_desordenes}}</h4>
+				</div>
+
+				<a class="btn btn-default btn-block" id="revelar-desordenesContent" >
+
+					<img src="src/img/icons/ui/verdesordenesnutricionales.png" class="img-responsive" alt=""  ng-click="setVolver('cultivo',cultivo.id, 'desordenesContent');">
+				</a>
+
+			</div>
+			<!--/ Boton Desordenes-->
+		</div>
+		<!--/ Botones Revelar Etapas /Desordenes-->
+
+
+
+		<!--Desordenes cultivos-->
+		<div class="row esconder" id="desordenesContent" style="margin-top:2em;margin-bottom:2em;">
+
+			<h4 ><span class="glyphicon glyphicon-stop"></span> {{strings.cultivo_desordenes}}  - {{cultivo.nombre}}</h4>
+
+			<h5  ng-if="(cultivo.desordenes.length <=0)"><span class="glyphicon glyphicon-stop"></span>{{strings.app_sin_informacion}}</h5>
+			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3" >
+
+				<div class="row" >
+
+					<div class="list-group table-of-contents">
+						<a class="list-group-item" target="_self" ng-repeat="desorden in cultivo.desordenes" ng-click="cambiarSlideDesorden($index);">
+							{{desorden.elemento  | uppercase}}<span class="glyphicon glyphicon-chevron-right"></span>
+						</a>
+
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-sm-8 col-md-9 col-lg-9">
+				<h5   ng-if="(cultivo.desordenes.length >0)">{{desorden.elemento  | uppercase}}</h5>
+				<div id="carousel-{{desorden.elemento}}" class="carousel slide" data-ride="carousel" style="display:block !important;">
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner" role="listbox">
+						<div class="item" ng-repeat="imagen in desorden.imagenes"    ng-class="{active: $index ==0 }" >
+							<img src="src/img/deficiencia/{{imagen.img}}" class="img-responsive" alt="{{imagen.span}}">
+
+							<div class="carousel-caption" style="background:rgba(0,0,0,.4);padding:.5em 1em .5em 1em;font-size:16px;color:#fff;font-weight:bold;">
+								{{imagen.span}}
+							</div>
+						</div>
+					</div>
+
+					<!-- Controls -->
+
+					<a class="left carousel-control" href="#carousel-{{desorden.elemento}}" target="_self" role="button" data-slide="prev" ng-if="desorden.imagenes.length > 1">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">{{strings.app_anterior}}</span>
+					</a>
+					<a class="right carousel-control" href="#carousel-{{desorden.elemento}}" target="_self"  role="button" data-slide="next" ng-if="desorden.imagenes.length > 1">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">{{strings.app_siguiente}}</span>
+					</a >
+				</div>
+
+				<br>
+
+				<!--<a class="btn btn-success" id="btn-esconder-desordenesContent" data-estado="false" data-toggle="collapse" aria-expanded="false" aria-controls="#desordenesContent" data-target="#desordenesContent">
+					<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+					<span class="" id="cultivo-btn-volver-span">{{strings.app_volver}}</span>
+				</a>-->
+			</div>
+		</div>
+		<!--/ Desordenes cultivos-->
+
+		<!--Etapas cultivos-->
+		<div class="row esconder"  id="etapasContent" style="margin-top:2em;margin-bottom:2em;">
+
+			<h5  ng-if="(cultivo.etapas.length <1)"><span class="glyphicon glyphicon-stop"></span>{{strings.app_sin_informacion}}</h5>
+			<!--<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 cultivo-etapas-div" ng-repeat="etapa in cultivo.etapas" >
+
+				<span class="label label-primary center-block cultivo-etapas-label">
+					{{etapa.nombre | uppercase}}
+				</span>
+
+				<img src="src/img/fenologia/{{etapa.img}}" class="img-responsive center-block cultivo-etapas-img">
+
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<a class="btn btn-success" id="btn-esconder-etapasContent" data-estado="false" data-toggle="collapse" aria-expanded="false" aria-controls="#etapasContent" data-target="#etapasContent">
+				<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+				<span class="" id="cultivo-btn-volver-span">{{strings.app_volver}}</span>
+				</a>
+			</div>-->
+			<style type="text/css" media="screen">
+				#span-desliza{
+					position: absolute;
+					top: 50%;
+					left: 40%;
+				}
+				.showbox {
+					float: right;
+					-webkit-transition: 400ms ease-in-out;
+					-moz-transition: 400ms ease-in-out;
+					-o-transition: 400ms ease-in-out;
+					transition: 400ms ease-in-out;
+				}
+				.showbox.slideright {
+					-webkit-transform: translate(-10em,0);
+					-moz-transform: translate(-10em,0);
+					-o-transform: translate(-10em,0);
+					-ms-transform: translate(-10em,0);
+					transform: translate(-10em,0);
+
+				}
+
+			</style>
+			<div class="col-md-12">
+				<div class="cultivo-fenologia-block" ng-if="cultivo.etapas!=''">
+					<img  id="img-fenologia" src="src/img/fenologia/{{cultivo.etapas}}" alt="">	
+					<!--<span id="span-desliza" class="showbox">
+						<img src="src/img/icons/ui/mano.png" alt="">	
+					</span>-->
+				</div>
+				<div class="cultivo-fenologia-block" ng-if="cultivo.etapas==''">
+					Sin Información
+				</div>
+			</div>
+			<!--<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+				<a class="btn btn-success" id="btn-esconder-etapasContent" data-estado="false" data-toggle="collapse" aria-expanded="false" aria-controls="#etapasContent" data-target="#etapasContent">
+				<span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+				<span class="" id="cultivo-btn-volver-span">{{strings.app_volver}}</span>
+				</a>
+			</div>-->
+		</div>
+		<!--Etapas cultivos-->
+
+
+
+
+
+	<!--templates/Vistas CODE HERE-->
+</div>
+<!--templates/Vistas-->
+
+
+
+

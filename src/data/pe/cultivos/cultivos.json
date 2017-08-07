@@ -1,0 +1,435 @@
+{ 
+    "0001":
+    {
+        "id":"0001",
+        "verbose":"palta",
+        "nombre":"Aguacate",
+        "icon":"img_avocado1.png",
+        "iconColor":"img_avocado2.png",
+        "file":"palta.json"
+    },
+
+    "0002":
+    {
+        "id":"0002",
+        "verbose":"banana",
+        "nombre":"Banana",
+        "icon":"img_banana1.png",
+        "iconColor":"img_banana2.png",
+        "file":"banana.json"
+
+    },
+
+    "0003":
+    {
+        "id":"0003",
+        "verbose":"arandano",
+        "nombre":"Arándano",
+        "icon":"img_arandano1.png",
+        "iconColor":"img_arandano2.png",
+        "file":"arandano.json"
+
+    },
+
+
+
+    "0004":
+    {     
+        "id":"0004",
+        "verbose":"frambuesa",
+        "nombre":"Frambuesa",
+        "icon":"img_frambuesa1.png",
+        "iconColor":"img_frambuesa2.png",
+        "file":"frambuesa.json"
+    },
+
+    "0005":
+    {     
+        "id":"0005",
+        "verbose":"cebolla",
+        "nombre":"Cebolla",
+        "icon":"img_cebolla1.png",
+        "iconColor":"img_cebolla2.png",
+        "file":"cebolla.json"
+    },
+
+    "0006":
+    {     
+        "id":"0006",
+        "verbose":"cereza",
+        "nombre":"Cereza",
+        "icon":"img_cereza1.png",
+        "iconColor":"img_cereza2.png",
+        "file":"cereza.json"
+    },
+
+    "0007":
+    {     
+        "id":"0007",
+        "verbose":"durazno",
+        "nombre":"Durazno",
+        "icon":"img_carozo1.png",
+        "iconColor":"img_carozo2.png",
+        "file":"durazno.json"
+    },
+    "0008":
+
+    {     
+        "id":"0008",
+        "verbose":"citricos",
+        "nombre":"Cítricos",
+        "icon":"img_citrico1.png",
+        "iconColor":"img_citrico2.png",
+        "file":"citricos.json"
+    },
+
+
+
+    "0009":
+    {     
+        "id":"0009",
+        "verbose":"esparrago",
+        "nombre":"Espárrago",
+        "icon":"img_esparrago1.png",
+        "iconColor":"img_esparrago2.png",
+        "file":"esparrago.json"
+    },
+
+
+
+    "0010":
+    {     
+        "id":"0010",
+        "verbose":"kiwi",
+        "nombre":"Kiwi",
+        "icon":"img_kiwi1.png",
+        "iconColor":"img_kiwi2.png",
+        "file":"kiwi.json"
+    },
+
+    "0011":
+    {     
+        "id":"0011",
+        "verbose":"maiz",
+        "nombre":"Maiz",
+        "icon":"img_maiz1.png",
+        "iconColor":"img_maiz2.png",
+        "file":"maiz.json"
+    },
+
+    "0012":
+    {     
+        "id":"0012",
+        "verbose":"mango",
+        "nombre":"Mango",
+        "icon":"img_mango1.png",
+        "iconColor":"img_mango2.png",
+        "file":"mango.json"
+    },
+
+    "0013":
+    {     
+        "id":"0013",
+        "verbose":"manzano",
+        "nombre":"Manzano",
+        "icon":"img_pomacea1.png",
+        "iconColor":"img_pomacea2.png",
+        "file":"manzano.json"
+    },
+
+    "0014":
+    {     
+        "id":"0014",
+        "verbose":"pera",
+        "nombre":"Pera",
+        "icon":"img_pera1.png",
+        "iconColor":"img_pera2.png",
+        "file":"pera.json"
+    },
+
+    "0015":
+    {
+        "id":"0015",
+        "verbose":"melon",
+        "nombre":"Melón",
+        "icon":"img_melon1.png",
+        "iconColor":"img_melon2.png",
+        "file":"melon.json"
+    },
+
+
+    "0016":
+    {
+        "id":"0016",
+        "verbose":"frutossecos",
+        "nombre":"Frutos Secos",
+        "icon":"img_frutossecos1.png",
+        "iconColor":"img_frutossecos2.png",
+        "file":"frutosSecos.json"
+    },
+
+    "0017":
+    {     
+        "id":"0017",
+        "verbose":"olivo",
+        "nombre":"Olivo",
+        "icon":"img_olivo1.png",
+        "iconColor":"img_olivo2.png",
+        "file":"olivo.json"
+    },
+
+    "0018":
+    {     
+        "id":"0018",
+        "verbose":"papa",
+        "nombre":"Papa",
+        "icon":"img_papa1.png",
+        "iconColor":"img_papa2.png",
+        "file":"papa.json"
+    },
+
+    "0019":
+    {
+        "id":"0019",
+        "verbose":"pepino",
+        "nombre":"Pepino",
+        "icon":"img_pepino1.png",
+        "iconColor":"img_pepino2.png",
+        "file":"pepino.json"
+    },
+
+
+
+    "0020":
+    {     
+        "id":"0020",
+        "verbose":"pimiento",
+        "nombre":"Pimiento",
+        "icon":"img_pimiento1.png",
+        "iconColor":"img_pimiento2.png",
+        "file":"pimiento.json"
+    },
+
+    "0021":
+    {     
+        "id":"0021",
+        "verbose":"quinua",
+        "nombre":"Quinua",
+        "icon":"img_quinua1.png",
+        "iconColor":"img_quinua2.png",
+        "file":"quinua.json"
+    },
+
+    "0022":
+    {     
+        "id":"0022",
+        "verbose":"sandia",
+        "nombre":"Sandia",
+        "icon":"img_sandia1.png",
+        "iconColor":"img_sandia2.png",
+        "file":"sandia.json"
+    },
+
+    "0023":
+    {
+        "id":"0023",
+        "verbose":"tomate",
+        "nombre":"Tomate",
+        "icon":"img_tomate1.png",
+        "iconColor":"img_tomate2.png",
+        "file":"tomate.json"
+    },
+
+    "0024":
+    {     
+        "id":"0024",
+        "verbose":"trigo",
+        "nombre":"Trigo",
+        "icon":"img_trigo1.png",
+        "iconColor":"img_trigo2.png",
+        "file":"trigo.json"
+    },
+
+
+    "0025":
+    {     
+        "id":"0025",
+        "verbose":"uva",
+        "nombre":"Uva",
+        "icon":"img_uva1.png",
+        "iconColor":"img_uva2.png",
+        "file":"uva.json"
+    },
+
+    "0026":
+    {     
+        "id":"0026",
+        "verbose":"ajo",
+        "nombre":"Ajo",
+        "icon":"img_ajo1.png",
+        "iconColor":"img_ajo2.png",
+        "file":"ajo.json"
+    },
+
+    "0027":
+    {     
+        "id":"0027",
+        "verbose":"brocoli",
+        "nombre":"Brócoli",
+        "icon":"img_brocoli1.png",
+        "iconColor":"img_brocoli2.png",
+        "file":"brocoli.json"
+    },
+
+    "0028":
+    {     
+        "id":"0028",
+        "verbose":"cafe",
+        "nombre":"Café",
+        "icon":"img_cafe1.png",
+        "iconColor":"img_cafe2.png",
+        "file":"cafe.json"
+    },
+
+    "0029":
+    {     
+        "id":"0029",
+        "verbose":"lechuga",
+        "nombre":"Lechuga",
+        "icon":"img_lechuga1.png",
+        "iconColor":"img_lechuga2.png",
+        "file":"lechuga.json"
+    },
+
+    "0030":
+    {     
+        "id":"0030",
+        "verbose":"papaya",
+        "nombre":"Papaya",
+        "icon":"img_papaya1.png",
+        "iconColor":"img_papaya2.png",
+        "file":"papaya.json"
+    },
+
+    "0031":
+    {     
+        "id":"0031",
+        "verbose":"cranberry",
+        "nombre":"Cranberry",
+        "icon":"img_cranberry1.png",
+        "iconColor":"img_cranberry2.png",
+        "file":"cranberry.json"
+    },
+
+    "0032":
+    {     
+        "id":"0032",
+        "verbose":"ciruela",
+        "nombre":"Ciruela",
+        "icon":"img_ciruela1.png",
+        "iconColor":"img_ciruela2.png",
+        "file":"ciruela.json"
+
+    },
+
+    "0033":
+    {     
+        "id":"0033",
+        "verbose":"limon",
+        "nombre":"Limón",
+        "icon":"img_limon1.png",
+        "iconColor":"img_limon2.png",
+        "file":"limon.json"
+    },
+
+    "0034":
+    {     
+        "id":"0034",
+        "verbose":"lima",
+        "nombre":"Lima",
+        "icon":"img_lima1.png",
+        "iconColor":"img_lima2.png",
+        "file":"lima.json"
+    },
+    "0035":
+    {     
+        "id":"0035",
+        "verbose":"algodon",
+        "nombre":"Algodón",
+        "icon":"img_algodon1.png",
+        "iconColor":"img_algodon2.png",
+        "file":"algodon.json"
+    },
+
+    "0036":
+    {     
+        "id":"0036",
+        "verbose":"mandarina",
+        "nombre":"Mandarina",
+        "icon":"img_citrico1.png",
+        "iconColor":"img_citrico2.png",
+        "file":"mandarina.json"
+    },
+
+    "0037":
+    {     
+        "id":"0037",
+        "verbose":"naranja",
+        "nombre":"Naranja",
+        "icon":"img_citrico1.png",
+        "iconColor":"img_citrico2.png",
+        "file":"naranja.json"
+    },
+
+    "0038":
+    {     
+        "id":"0038",
+        "verbose":"pomelo",
+        "nombre":"Pomelo",
+        "icon":"img_citrico1.png",
+        "iconColor":"img_citrico2.png",
+        "file":"pomelo.json"
+    },
+
+    "0039":
+    {     
+        "id":"0039",
+        "verbose":"flores",
+        "nombre":"Flores",
+        "icon":"img_flores1.png",
+        "iconColor":"img_flores2.png",
+        "file":"flores.json"
+    },
+
+    "0040":
+    {     
+        "id":"0040",
+        "verbose":"chile",
+        "nombre":"Chile",
+        "icon":"img_chile1.png",
+        "iconColor":"img_chile2.png",
+        "file":"chile.json"
+    },
+
+    "0041":
+    {     
+        "id":"0041",
+        "verbose":"chirimoya",
+        "nombre":"Chirimoya",
+        "icon":"img_chirimoya1.png",
+        "iconColor":"img_chirimoya2.png",
+        "file":"chirimoya.json"
+    },
+
+    "0042":
+    {     
+        "id":"0042",
+        "verbose":"fresa",
+        "nombre":"Fresa",
+        "icon":"img_fresa1.png",
+        "iconColor":"img_fresa2.png",
+        "file":"fresa.json"
+    }
+
+}
+

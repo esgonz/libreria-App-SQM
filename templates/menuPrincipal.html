@@ -1,0 +1,57 @@
+<!--<div id="menuPrincipal-popup" class="UI-gris"> 
+  <div class="row">
+    <div class="col-md-12">
+      <a type="button" class="close">
+        <span aria-hidden="true">&nbsp;
+          <img style="height:1.4em;" src="src/img/icons/ui/cerrar-blanco.png" />
+        </span>
+      </a>
+      <img class="popup-central-icon" src="src/img/icons/marcas/{{mercado.id}}/{{lineaActiva.img}}">
+      <h2 class="popup-title" id="mainModalCentralLabel">
+        {{lineaActiva.nombre | to_trusted}}
+      </h2>
+    </div>
+    <div class="col-md-12">
+      <a class="btn btn-block btn-link btn-link-block-white btn-link-min" ng-href="#/producto/{{producto.id}}" ng-repeat="producto in lineaActiva.productos" id="mainModal-producto-{{producto.id}}">
+          {{producto.nombre | to_trusted}}
+        </a>
+    </div>
+  </div>
+</div>
+
+<script  type="text/javascript" charset="utf-8">
+  $(".close").click(function(e) {
+          //e.preventDefault();
+          $("#menuPrincipal-popup").toggleClass("toggled");
+          
+        }); 
+ </script>-->
+
+
+ <div id="menuPrincipal-popup" class="UI-gris"> 
+  <div class="row">
+    <div class="col-md-12">
+      <a type="button" class="close">
+        <span aria-hidden="true">&nbsp;
+          <img style="height:1.4em;" src="src/img/icons/ui/cerrar-blanco.png" />
+        </span>
+      </a>
+      <img class="popup-central-icon" src="src/img/icons/marcas/{{mercado.id}}/{{lineaActiva.imgColor}}">
+      <h2 class="popup-title color-text-{{marcaActiva.id}}" id="mainModalCentralLabel">
+        {{lineaActiva.nombre | to_trusted}}
+      </h2>
+    </div>
+    <div class="col-md-12">
+      <a class="btn btn-block btn-link btn-link-block-white btn-link-min  color-text-{{marcaActiva.id}}" ng-href="#/producto/{{producto.id}}" ng-repeat="producto in lineaActiva.productos" id="mainModal-producto-{{producto.id}}">
+          {{producto.nombre | to_trusted}}
+        </a>
+    </div>
+  </div>
+</div>
+
+
+<script  type="text/javascript" charset="utf-8">
+  $(".close").click(function(e) {
+          $("#menuPrincipal-popup").toggleClass("toggled");          
+  }); 
+ </script>

@@ -1,0 +1,15 @@
+{   "id":"0042",
+    "nombre" :"Speedfol B SP",
+    "presentacion":"25kg",
+    "descripcionCorta":"Producto Estrella",
+    "img":"speedfol-bsp.png",
+    "marcaID":"speedfol",
+    "marca":"Speedfol",
+    "lineaID":"spfMicro",
+    "linea":"micronutrientes",
+    "cultivos":[],
+    "metaTags":["ultrasol","Oxido de Fosforo","Fosfato Monoamonico","Nitrogeno"],
+    "descripcion":"<p>Speedfol® B SP mejora la floración y cuaja, aumenta el rendimiento e influye positivamente en la calidad frutal.</p><p>El Boro (B) es esencial para la formación de la pared celular (formación de la pectina y la lignina) y es un componente estructural de la pared celular. Se requiere de B para el metabolismo y transporte de azúcares. Se necesita B para la apropiada germinación del polen, también es necesario un nivel adecuado de B en los estigmas para el crecimiento del tubo polínico (factor clave para el desarrollo de la semilla y de la fruta). La falta de Boro puede motivar el aborto de la flor y la fruta.</p><corte><ul> <li>Es aplicado al follaje para mejorar la cuaja y productividad de vegetales, frutos y nueces, cereales y otros cultivos. <li>Es una formulación de poliborato con contenido de B de 17% en combinación con su sistema de penetración y antilavado por lluvia, favorecen su solubilidad y absorción por la planta. <li>Es derivado a partir del ácido bórico, el cual es la única forma de boro absorbido por la planta, haciendo de ésta la más eficiente fuente de boro. <li>Su acidez de pH 5 reduce el pH de aguas alcalinas, lo cual hace que Speedfol® B SP sea idealmente propicio para aplicaciones con la mayoría de pesticidas agrícolas por su mayor estabilidad y efectividad. <li>No contiene sodio, cloruro, ni metales pesados, de tal manera que minimiza el riesgo de contaminación, quemadura o fitotoxicidad. <li>Speedfol® B SP cumple con las normas establecidas por EPA, EUREPGAP y BPA para fertilizantes foliares.</li> </ul>",
+    "informacionTecnica":"<table class='table table-striped'>  <tr> <th colspan=\"2\">ESPECIFICACIONES</th> </tr> <tr> <td>Apariencia</td> <td>Polvo</td> </tr> <tr> <td>Boro (B)</td> <td>17%</td> </tr> <tr> <td>Solubilidad</td> <td>Soluble en Agua</td> </tr> <tr> <td>pH</td> <td>5</td> </tr> </table> ",
+    "hojaProducto": "<table class='table table-striped'>  <tr> <th>Caracteristicas</th> <th>Valores</th> </tr> <tr> <td>Grado Agrícola - Soluble</td> <td>17 B</td> </tr> <tr> <td>Apariencia</td> <td>Polvo</td> </tr> <tr> <td>Codigo Interno</td> <td>Speedfol&trade; B SP</td> </tr> <tr> <td>Boro B</td> <td>17%</td> </tr> <tr> <td>Solubilidad</td> <td>Solubilidad en Agua</td> </tr> <tr> <td>Densidad</td> <td>SG=0,60 g/l</td> </tr> <tr> <td>pH</td> <td>5</td> </tr> </table> "
+}

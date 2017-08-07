@@ -1,0 +1,465 @@
+.iso-usuario, .iso-password, .iso-go, .iso-macronutriente, .iso-micronutriente, .iso-lineaacida, .iso-poretapa, .iso-cultivo, .iso-bioestimulante, .iso-complejo, .iso-home1, .iso-login1, .iso-buscar1, .iso-antiestres, .iso-inductorcuajado, .iso-aguacate1, .iso-banana1, .iso-berries1, .iso-cebolla1, .iso-carozos1, .iso-citricos1, .iso-melon1, .iso-pomaceas1, .iso-esparrago1, .iso-kiwi1, .iso-maiz1, .iso-mango1, .iso-pepino1, .iso-pimiento1, .iso-frutossecos1, .iso-olivo1, .iso-papa1, .iso-trigo1, .iso-quinua1, .iso-tomate1, .iso-uva1, .iso-sandia1, .iso-speedfol1, .iso-ultrasol1, .iso-qrop1, .iso-allganic1, .iso-element, .iso-atras, .iso-hojaproducto, .iso-aguacate2, .iso-banana2, .iso-berries2, .iso-cebolla2, .iso-carozos2, .iso-citricos2, .iso-melon2, .iso-pomaceas2, .iso-esparrago2, .iso-kiwi2, .iso-maiz2, .iso-mango2, .iso-pepino2, .iso-pimiento2, .iso-frutossecos2, .iso-olivo2, .iso-papa2, .iso-trigo2, .iso-quinua2, .iso-tomate2, .iso-uva2, .iso-sandia2, .iso-speedfol2, .iso-ultrasol2, .iso-qrop2, .iso-allganic2, .iso-ulnks46, .iso-ul13244, .iso-ulsop52, .iso-ulsopdiamante, .iso-ulmagnump44, .iso-ulmagnit, .iso-ulmap, .iso-ulmkp, .iso-yaraliva, .iso-ulboro, .iso-ulmix, .iso-ulfexq58, .iso-ulfeq48, .iso-ulfed11, .iso-ulfee13, .iso-ulmn13, .iso-ulzn15, .iso-ulinicial, .iso-uldesarrollo, .iso-ulcrecimiento, .iso-ulproduccion, .iso-ulmultiproposito, .iso-ul191919, .iso-ulsolnutritiva, .iso-ulazulspecial, .iso-ulfep, .iso-ultomate, .iso-ul124412, .iso-ulchile, .iso-ulflorcorte, .iso-ulflormaceta, .iso-ulmanzana, .iso-qrks, .iso-qrsopg, .iso-qrboronat, .iso-qrmpopg, .iso-spcelealsp, .iso-spflowerfruit, .iso-spstarter, .iso-spkalisp, .iso-spplantgrow, .iso-sppecano, .iso-spbalance, .iso-spmultigrow, .iso-spbsp, .iso-spinduccion, .iso-allgpotassium, .iso-allgspecial, .iso-allgnitrogen {
+  background-image: url('../src/img/icons/isotipos_mexico.png');
+  background-repeat: no-repeat;
+  transform: scale(.5);
+}
+
+/*quinta linea*/
+.iso-quinua1 {
+    height: 115px;
+    width: 115px;
+    background-position: -6px -535px;
+    display: inline-block;
+    position: relative;
+}
+.iso-tomate1 {
+    height: 115px;
+    width: 115px;
+    background-position: -125px -535px;
+    display: inline-block;
+    position: relative;
+}
+.iso-uva1 {
+    height: 115px;
+    width: 115px;
+    background-position: -245px -535px;
+    display: inline-block;
+    position: relative;
+}
+.iso-sandia1 {
+  height: 115px;
+  width: 115px;
+  background-position: -364px -535px;
+  display: inline-block;
+  position: relative;
+}
+.iso-hojaproducto {
+  height: 115px;
+  width: 115px;
+  background-position: -484px -535px;
+  display: inline-block;
+  position: relative;
+}
+.iso-quinua2 {
+  height: 115px;
+  width: 115px;
+  background-position: -1085px -535px;
+  display: inline-block;
+  position: relative;
+}
+.iso-tomate2 {
+  height: 115px;
+  width: 115px;
+  background-position: -1206px -535px;
+  display: inline-block;
+  position: relative;
+}
+.iso-uva2 {
+  height: 115px;
+  width: 115px;
+  background-position: -1324px -535px;
+  display: inline-block;
+  position: relative;
+}
+.iso-sandia2 {
+  height: 115px;
+  width: 115px;
+  background-position: -1444px -535px;
+  display: inline-block;
+  position: relative;
+}
+
+
+/*cuarta linea*/
+.iso-kiwi1 {
+    height: 115px;
+    width: 115px;
+    background-position: -6px -408px;
+    display: inline-block;
+    position: relative;
+}
+.iso-maiz1 {
+    height: 115px;
+    width: 115px;
+    background-position: -125px -408px;
+    display: inline-block;
+    position: relative;
+}
+.iso-mango1 {
+    height: 115px;
+    width: 115px;
+    background-position: -245px -408px;
+    display: inline-block;
+    position: relative;
+}
+.iso-pepino1 {
+  height: 115px;
+  width: 115px;
+  background-position: -364px -408px;
+  display: inline-block;
+  position: relative;
+}
+.iso-pimiento1 {
+  height: 115px;
+  width: 115px;
+  background-position: -484px -408px;
+  display: inline-block;
+  position: relative;
+}
+.iso-frutossecos1 {
+  height: 115px;
+  width: 115px;
+  background-position: -605px -408px;
+  display: inline-block;
+  position: relative;
+}
+.iso-olivo1 {
+  height: 115px;
+  width: 115px;
+  background-position: -725px -408px;
+  display: inline-block;
+  position: relative;
+}
+.iso-papa1 {
+  height: 115px;
+  width: 115px;
+  background-position: -844px -408px;
+  display: inline-block;
+  position: relative;
+}
+.iso-trigo1 {
+  height: 115px;
+  width: 115px;
+  background-position: -964px -408px;
+  display: inline-block;
+  position: relative;
+}
+.iso-kiwi2 {
+  height: 115px;
+  width: 115px;
+  background-position: -1085px -408px;
+  display: inline-block;
+  position: relative;
+}
+.iso-maiz2 {
+  height: 115px;
+  width: 115px;
+  background-position: -1206px -408px;
+  display: inline-block;
+  position: relative;
+}
+.iso-mango2 {
+  height: 115px;
+  width: 115px;
+  background-position: -1324px -408px;
+  display: inline-block;
+  position: relative;
+}
+.iso-pepino2 {
+  height: 115px;
+  width: 115px;
+  background-position: -1444px -408px;
+  display: inline-block;
+  position: relative;
+}
+.iso-pimiento2 {
+  height: 115px;
+  width: 115px;
+  background-position: -1564px -408px;
+  display: inline-block;
+  position: relative;
+}
+.iso-frutossecos2 {
+  height: 115px;
+  width: 115px;
+  background-position: -1684px -408px;
+  display: inline-block;
+  position: relative;
+}
+.iso-olivo2 {
+  height: 115px;
+  width: 115px;
+  background-position: -1804px -408px;
+  display: inline-block;
+  position: relative;
+}
+.iso-papa2 {
+  height: 115px;
+  width: 115px;
+  background-position: -1924px -408px;
+  display: inline-block;
+  position: relative;
+}
+.iso-trigo2 {
+  height: 115px;
+  width: 115px;
+  background-position: -2044px -408px;
+  display: inline-block;
+  position: relative;
+}
+
+/*tercera linea*/
+.iso-aguacate1 {
+    height: 115px;
+    width: 115px;
+    background-position: -6px -284px;
+    display: inline-block;
+    position: relative;
+}
+.iso-banana1 {
+    height: 115px;
+    width: 115px;
+    background-position: -125px -284px;
+    display: inline-block;
+    position: relative;
+}
+.iso-berries1 {
+    height: 115px;
+    width: 115px;
+    background-position: -245px -284px;
+    display: inline-block;
+    position: relative;
+}
+.iso-cebolla1 {
+  height: 115px;
+  width: 115px;
+  background-position: -364px -284px;
+  display: inline-block;
+  position: relative;
+}
+.iso-carozos1 {
+  height: 115px;
+  width: 115px;
+  background-position: -484px -284px;
+  display: inline-block;
+  position: relative;
+}
+.iso-citricos1 {
+  height: 115px;
+  width: 115px;
+  background-position: -605px -284px;
+  display: inline-block;
+  position: relative;
+}
+.iso-melon1 {
+  height: 115px;
+  width: 115px;
+  background-position: -725px -284px;
+  display: inline-block;
+  position: relative;
+}
+.iso-pomaceas1 {
+  height: 115px;
+  width: 115px;
+  background-position: -844px -284px;
+  display: inline-block;
+  position: relative;
+}
+.iso-esparrago1 {
+  height: 115px;
+  width: 115px;
+  background-position: -964px -284px;
+  display: inline-block;
+  position: relative;
+}
+.iso-aguacate2 {
+  height: 115px;
+  width: 115px;
+  background-position: -1085px -284px;
+  display: inline-block;
+  position: relative;
+}
+.iso-banana2 {
+  height: 115px;
+  width: 115px;
+  background-position: -1206px -284px;
+  display: inline-block;
+  position: relative;
+}
+.iso-berries2 {
+  height: 115px;
+  width: 115px;
+  background-position: -1324px -284px;
+  display: inline-block;
+  position: relative;
+}
+.iso-cebolla2 {
+  height: 115px;
+  width: 115px;
+  background-position: -1444px -284px;
+  display: inline-block;
+  position: relative;
+}
+.iso-carozos2 {
+  height: 115px;
+  width: 115px;
+  background-position: -1564px -284px;
+  display: inline-block;
+  position: relative;
+}
+.iso-citricos2 {
+  height: 115px;
+  width: 115px;
+  background-position: -1684px -284px;
+  display: inline-block;
+  position: relative;
+}
+.iso-melon2 {
+  height: 115px;
+  width: 115px;
+  background-position: -1804px -284px;
+  display: inline-block;
+  position: relative;
+}
+.iso-pomaceas2 {
+  height: 115px;
+  width: 115px;
+  background-position: -1924px -284px;
+  display: inline-block;
+  position: relative;
+}
+.iso-esparrago2 {
+  height: 115px;
+  width: 115px;
+  background-position: -2044px -284px;
+  display: inline-block;
+  position: relative;
+}
+
+/*segunda linea*/
+.iso-macronutriente {
+  height: 115px;
+  width: 115px;
+  background-position: -11px -162px;
+  display: inline-block;
+  position: relative;
+}
+
+.iso-micronutriente {
+    height: 115px;
+    width: 115px;
+    background-position: -115px -162px;
+    display: inline-block;
+    position: relative;
+}
+
+.iso-lineaacida {
+    height: 115px;
+    width: 115px;
+    background-position: -223px -162px;
+    display: inline-block;
+    position: relative;
+}
+
+.iso-poretapa {
+    height: 115px;
+    width: 115px;
+    background-position: -333px -162px;
+    display: inline-block;
+    position: relative;
+}
+
+.iso-cultivo {
+    height: 115px;
+    width: 115px;
+    background-position: -440px -162px;
+    display: inline-block;
+    position: relative;
+}
+
+.iso-bioestimulante {
+    height: 115px;
+    width: 115px;
+    background-position: -545px -162px;
+    display: inline-block;
+    position: relative;
+}
+
+.iso-complejo {
+    height: 115px;
+    width: 115px;
+    background-position: -656px -162px;
+    display: inline-block;
+    position: relative;
+}
+
+.iso-antiestres {
+    height: 115px;
+    width: 115px;
+    background-position: -762px -162px;
+    display: inline-block;
+    position: relative;
+}
+
+.iso-inductorcuajado {
+    height: 115px;
+    width: 115px;
+    background-position: -868px -162px;
+    display: inline-block;
+    position: relative;
+}
+
+/*primera linea*/
+.iso-usuario {
+  height: 153px;
+  width: 153px;
+  background-position: -8px -5px;
+  display: inline-block;
+  position: relative;
+}
+
+.iso-password {
+  height: 153px;
+  width: 153px;
+  background-position: -162px -5px;
+  display: inline-block;
+  position: relative;
+}
+
+.iso-go {
+  height: 153px;
+  width: 153px;
+  background-position: -318px -5px;
+  display: inline-block;
+  position: relative;
+}
+
+.iso-home1 {
+  height: 153px;
+  width: 112px;
+  background-position: -486px -5px;
+  display: inline-block;
+  position: relative;
+}
+
+.iso-login1 {
+  height: 153px;
+  width: 93px;
+  background-position: -608px -5px;
+  display: inline-block;
+  position: relative;
+}
+
+.iso-buscar1 {
+  height: 153px;
+  width: 106px;
+  background-position: -710px -5px;
+  display: inline-block;
+  position: relative;
+}
+
+.iso-atras {
+  height: 153px;
+  width: 110px;
+  background-position: -835px -5px;
+  display: inline-block;
+  position: relative;
+}
+
+.iso-element {
+  height: 260px;
+  width: 166px;
+  background-position: -987px -5px;
+  display: inline-block;
+  position: relative;
+}

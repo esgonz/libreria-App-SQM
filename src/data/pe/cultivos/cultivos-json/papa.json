@@ -1,0 +1,156 @@
+{   
+  "id":"0018",
+  "nombre" :"Papa",
+  "background":"papa.jpg",
+  
+  "descripcion":"<p>Su nombre científico es Solanum tuberosum L. Pertenece a la familia Solanaceae.</p><p>Es una planta herbácea anual, que presenta un sistema radicular es fibroso y ramificado, con raíces superficiales concentradas en los primeros 60 cm del suelo. Desarrolla estolones (tallos laterales subterráneos), originados en los nudos más basales por debajo del nivel del suelo. Estos estolones o tallos modificados, se convierten en sus extremidades en tubérculos, presentando estos así las mismas estructuras que los estolones (lenticelas, entrenudos, nudos y hojas escamiformes).</p><p>Aunque la papa puede multiplicarse por semillas, en la práctica, la multiplicación es siempre vegetativa, realizándose por medio de los tubérculos, los cuales producen brotes en las yemas u ojos.</p><p>Son cultivadas en un amplio rango de tipos de suelos, estando bien adaptados para suelos ácidos. Los suelos preferidos para el cultivo de la papa, son suelos de texturas ligeras, arenosos o francos, bien drenados y con alto contenido de materia orgánica. Suelos muy pesados pueden limitar el desarrollo del tubérculo e impedir la absorción de algunos nutrientes como es el caso del potasio.</p><p>El pH óptimo varía entre 5,0 y 6,5; fuera de estos rangos algunos elementos suelen volverse menos disponibles para la planta. Es moderadamente tolerante a la salinidad, considerándose el umbral para un óptimo rendimiento de 1,7 dS/m; sobre esto los rendimientos decrecen.</p><p>La temperatura ideal de almacenamiento para la papa es de 4°C, ya que a esta temperatura la brotación posterior será más rápida. La iniciación de tubérculos requiere temperaturas entre 15-20°C y en la fase de crecimiento requieren temperaturas entre los 18 y 20°C en el día y bajas en la noche (12-14°C). Con temperaturas diurnas superiores a 25°C, la tasa de respiración aumenta mucho y disminuye la tasa de asimilación neta, afectando el proceso fotosintético.</p><p>Las horas de luz del día inciden en la tasa de llenado del tubérculo, siendo esta tasa por ende más rápida en las zonas más templadas (lejos del Ecuador) ya que cuentan con más horas de luz diaria.</p><p>Es importante evitar variaciones importantes en los niveles de humedad del suelo durante el crecimiento del cultivo, y contar con humedad constante al inicio de la tuberización. Esto incidirá en un aumento del crecimiento de los tallos, área foliar, peso seco y número de tubérculos. Una tensión de 40 kPa al momento de la tuberización proporciona rendimientos altos. El consumo de agua puede variar entre 4000 a 6000 m3 de agua/ha/temporada, dependiendo de la variedad, condiciones climáticas, textura del suelo, etc. Manteniendo adecuados niveles de agua durante la fase de tuberización, se puede minimizar el riesgo de enfermedades como la sarna común (Streptomyces scabies). Por otro lado, cercano a la cosecha, hay que cuidar aplicar un exceso de agua para evitar la aparición de sarna y lenticelas en la piel.</p><p>Dentro de las variedades de papa, se encuentran las de ciclo corto (entre 120 y 150 días de siembra a cosecha) y variedades de ciclo largo (entre 180 y 210 días), y de acuerdo a su utilización, se pueden identificar variedades para mercado fresco, para producción de semilla y para industria (papas Chips y Crips).</p>",
+  "etapas":"papa.jpg",
+  "desordenes":[
+   {
+      "elemento":"nitrogeno",
+      "imagenes":[
+         {
+            "img":"n_01_potato-big.jpg",
+            "span":"Ejemplo de deficiencia de nitrógeno."
+            
+         },
+         {
+            "img":"n_02_potato-big.jpg",
+            "span":"Ejemplo de deficiencia de nitrógeno."
+            
+         }
+      ]
+
+   },
+   {
+      "elemento":"fosforo",
+      "imagenes":[
+         {
+            "img":"p_01_potato-big.jpg",
+            "span":"Ejemplo de deficiencia de fósforo."
+            
+         }
+      ]
+
+   },
+   {
+      "elemento":"potasio",
+      "imagenes":[
+         {
+            "img":"k_01_potato-big.jpg",
+            "span":"Ejemplo de deficiencia de potasio (Gentileza de The American Phytopathological Society)."
+            
+         },
+         {
+            "img":"k_02_potato-big.jpg",
+            "span":"Ejemplo de deficiencia de potasio (Gentileza de The American Phytopathological Society)."
+            
+         }
+      ]
+
+   },
+   {
+      "elemento":"calcio",
+      "imagenes":[
+         {
+            "img":"ca_01_potato-big.jpg",
+            "span":"Ejemplo de deficiencia de calcio. (Fuente: Weir y Cresswell, 1993)."
+            
+         },
+         {
+            "img":"ca_02_potato-big.jpg",
+            "span":"Ejemplo de deficiencia de calcio. (Fuente: Weir y Cresswell, 1993)."
+            
+         }
+      ]
+
+   },
+   {
+      "elemento":"magnesio",
+      "imagenes":[
+         {
+            "img":"mg_01_potato-big.jpg",
+            "span":"Ejemplo de deficiencia de magnesio. (Fuente: Weir y Cresswell, 1993)."
+            
+         }
+      ]
+
+   },
+   {
+      "elemento":"manganeso",
+      "imagenes":[
+         {
+            "img":"mn_01_potato-big.jpg",
+            "span":"Ejemplo de deficiencia de manganeso."
+            
+         }
+      ]
+
+   },
+   {
+      "elemento":"zinc",
+      "imagenes":[
+         {
+            "img":"zn_01_potato-big.jpg",
+            "span":"Ejemplo de deficiencia de zinc. (Gentileza de The American Phytopathological Society)"
+            
+         }
+      ]
+
+   },
+   {
+      "elemento":"azufre",
+      "imagenes":[
+         {
+            "img":"s_01_potato-big.jpg",
+            "span":"Ejemplo de deficiencia de azufre. (Gentileza de The American Phytopathological Society)"
+            
+         }
+      ]
+
+   },
+   {
+      "elemento":"hierro",
+      "imagenes":[
+         {
+            "img":"fe_01_potato-big.jpg",
+            "span":"Deficiencia de hierro."
+            
+         }
+      ]
+
+   },
+   {
+      "elemento":"boro",
+      "imagenes":[
+         {
+            "img":"b_01_potato-big.jpg",
+            "span":"Ejemplo de deficiencia de boro. (Gentileza de UFRO y The American Phytopathological Society)"
+            
+         },
+         {
+            "img":"b_02_potato-big.jpg",
+            "span":"Ejemplo de deficiencia de boro."
+            
+         }
+      ]
+
+   }
+
+],
+  "variedadesTecnicas": [
+    {   
+      "variedadTecnicaId":"35",
+      "condicionId":"1",
+      "tecnificacionId":"1",
+      "fertilizacion":false  
+   },
+   {   
+      "variedadTecnicaId":"36",
+      "condicionId":"2",
+      "tecnificacionId":"1",
+      "fertilizacion":false  
+   }
+],
+  "variedades":[]
+}

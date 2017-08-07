@@ -1,0 +1,15 @@
+{   "id":"0024",
+    "nombre" :"Ultrasol Olivo I",
+    "presentacion":"25kg",
+    "descripcionCorta":"Producto Estrella",
+    "img":"ultrasol-olivoi.png",
+    "marcaID":"ultrasol",
+    "marca":"Ultrasol",
+    "lineaID":"ultCultivos",
+    "linea":"cultivos",
+    "cultivos":["olivo"],
+    "metaTags":["ultrasol","Oxido de Fosforo","Fosfato Monoamonico","Nitrogeno"],
+    "descripcion":"<p>Fertilizante formulado especialmente para las etapas de formación de raíces, floración y cuajado de frutos. Formulado específicamente para las condiciones de aguas de la costa Peruana (alcalinas), ya que al disolver el producto genera un nivel de acidez que podría llegar hasta un pH de 2 (solución al 10%). Ultrasol® Olivo I tiene una solubilidad de hasta 1,041 g/L (a 23° C), pero su fuerte efecto ácido hace que la velocidad de disolución sea más rápida que lo normal.</p><p>Posee dentro de su formulación no solo N y P; sino también K y algo de B, elementos que ayudan a mejorar la viabilidad del polen, favoreciendo una mayor floración y cuajado del fruto.</p><corte><ul> <li>Es la fuente nutricional con un alto nivel en Nitrógeno, elemento fundamental para los procesos de crecimiento y fotosíntesis.</li> <li>Contiene la cantidad adecuada de Fósforo para el olivo, el cual es un elemento importante que participa en todos los procesos que requieren energía y contribuye a la formación de raíces, floración y cuajado.</li> <li>Ultrasol® Olivo I contribuye en los procesos de polinización, fecundación y cuajado del olivo, gracias a su contenido de Boro y Potasio.</li> <li>Entrega completa de las 3 formas de Nitrógeno necesarias para el crecimiento del olivo (N-Nítrico, N- Amoniacal y N- Amídico).</li> <li>Aumenta el grado de acidez de la solución de fertirriego (pH ácido).</li> </ul>",
+    "informacionTecnica":"<table class='table table-striped'>  <tr> <th colspan=\"2\">ESPECIFICACIONES</th> </tr> <tr> <td>Apariencia</td> <td>Sólido Soluble Cristalizado</td> </tr> <tr> <td>Nitrógeno (N)</td> <td>22%</td> </tr> <tr> <td>Pentóxido de Fósforo (P<sub>2</sub>O<sub>5</sub>)</td> <td>17%</td> </tr> <tr> <td>Oxido de Potasio (K<sub>2</sub>O)</td> <td>11%</td> </tr> <tr> <td>Boro (B)</td> <td>0,3%</td> </tr> <tr> <td>Solubilidad (T = 23° C)</td> <td>1.941,2 g/l</td> </tr> <tr> <td>pH (a 10 g/l 24° C)</td> <td>2,06%</td> </tr> <tr> <td>CE (1/1000 a 25° C)</td> <td>1,15 dS/m</td> </tr> </table> ",
+    "hojaProducto": "<table class='table table-striped'>  <tr> <th>Caracteristicas</th> <th>Valores</th> </tr> <tr> <td>Grado Agrícola - Soluble</td> <td>22 - 17 - 11</td> </tr> <tr> <td>Apariencia</td> <td>Sólido Soluble Cristalizado</td> </tr> <tr> <td>Código Interno</td> <td>UOLI</td> </tr> <tr> <td>Nitrogeno Total N</td> <td>22%</td> </tr> <tr> <td>Fosforo P<sub>2</sub>O<sub>5</sub></td> <td>17%</td> </tr> <tr> <td>Potasio K<sub>2</sub>O</td> <td>11%</td> </tr> <tr> <td>Boro B</td> <td>0,3%</td> </tr> <tr> <td>Solubilidad T=23&deg;C</td> <td>1.041,2 g/l</td> </tr> <tr> <td>pH a 10 g/l 24°C</td> <td>2,06</td> </tr> <tr> <td>C.E. 1/1000 a 25&deg; C</td> <td>1,15 dS/m</td> </tr> </table> "
+     }

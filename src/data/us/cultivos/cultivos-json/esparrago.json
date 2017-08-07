@@ -1,0 +1,48 @@
+ {   
+    "id":"0009",
+    "nombre" :"Asparagus",
+    "background":"esparrago.jpg",
+    "productos":["producto_id","producto_id2"],
+    "descripcion":"<p>Asparagus (Asparagus officinalis L.) is a vegetable crop of the Liliaceous family. It is a perennial plant which is cultivated mainly on temperate climate and with moderate winter.</p><p>Its production cycle depends on the variety, climatic conditions and principally on the cultural management applied to the crop. It prefers long days and high light intensity mainly from high temperatures; even though, observations made have indicated that light does not have any direct effect on the stalk (shoot or spear) growing.</p><p>The optimum growing average temperature is 19°C with a variation range of +-7°C, being the asparagus growing affected in colder zones (under 10 – 15°C).</p><p>The crop has a useful life between 6 and 12 years, depending on the harvest number performed per year. With one annual harvest, usually the plant last between 8 and 10 years. Besides, the plant in older crops, but with two harvests per year, has a life span between 6 and 7 years.</p><p>The plant is composed in two parts: the aerial part or canopy, formed by stalks, branches, leaves, flowers, fruits and seeds; and the subterraneous part, which is presented with two types of roots: the principals, which act as storage organs of carbohydrates and the secondary roots or rootles, responsible to the water and nutrients absorption. The crown is found between the root and the stem, which is the connection between both parts. This is a sort of subterraneous horizontal stem (rhizome) over which the vegetative buds sprout that will produce spears (edible part).</p><p>The reserves formed in the aerial part are accumulated in the main roots. These reserves play a fundamental role in the spears’ emission for the next season. This, due to that the asparagus yield is not the result of the photosynthetic products generated in the actual season, since it is in direct function of the accumulate reserve quantity of the previous season.</p><p>Asparagus is cultivated on a wide range of soil types, obtaining the best results in loam, sandy loam, tilled and soft or spongy or loose soil with good drainage. This crop is tolerant to saline soils, but it is susceptible to acid soils.</p>",
+        "etapas":[
+      {
+            "nombre":"Sprouting",
+            "id":"etapa1",
+            "img":"esparrago-01.jpg",
+            "descripcion":""
+      },
+      {
+            "nombre":"Branching",
+            "id":"etapa2",
+            "img":"esparrago-02.jpg",
+            "descripcion":""
+      },
+      {
+            "nombre":"Flowering",
+            "id":"etapa3",
+            "img":"esparrago-03.jpg",
+            "descripcion":""
+      },
+      {
+            "nombre":"Fruit Dev.",
+            "id":"etapa4",
+            "img":"esparrago-04.jpg",
+            "descripcion":""
+      },
+      {
+            "nombre":"Maturation",
+            "id":"etapa5",
+            "img":"esparrago-05.jpg",
+            "descripcion":""
+      },
+      {
+            "nombre":"Harvest",
+            "id":"etapa6",
+            "img":"esparrago-06.jpg",
+            "descripcion":""
+      }
+    ],
+    "desordenes":[],
+  "variedadesTecnicas":[],
+  "variedades":[]
+}

@@ -1,0 +1,107 @@
+{
+    "id":"0010",
+    "nombre" :"Kiwi",
+    "background":"kiwi.jpg",
+    "descripcion":"<p>El kiwi (Actinidia deliciosa var. deliciosa C. Liang y A. R. Ferguson) es un arbusto caducifolio trepador dioico (sexos separados en plantas masculinas y femeninas), que produce un fruto de tipo baya con numerosas semillas y que vive por muchos años (planta perenne, plantaciones comerciales viven sobre 20 años).</p>",
+    "desordenes":[
+      {
+         "elemento":"potasio",
+         "imagenes":[
+            {
+               "img":"k_01_kiwi-big.jpg",
+               "span":"Hijas de kiwi con síntomas incipientes de deficiencia de potasio."
+
+            },
+            {
+               "img":"k_02_kiwi-big.jpg",
+               "span":"Sintomas de deficiencia de potasio en kiwi en el período de cuaja de frutos."
+
+            }
+         ]
+
+      },
+      {
+         "elemento":"hierro",
+         "imagenes":[
+            {
+               "img":"fe_01_kiwi-big.jpg",
+               "span":"Hojas de kiwi con síntomas de deficiencia de Fe (izquierda)."
+
+            },
+            {
+               "img":"fe_02_kiwi-big.jpg",
+               "span":"Hojas de kiwi con síntomas de deficiencia de Fe."
+
+            },
+            {
+               "img":"fe_03_kiwi-big.jpg",
+               "span":"Hojas de frutos de kiwi. Izquierda- desde una planta sana. Derecha- planta con deficiencia de Fe. Hojas de kiwi con síntomas de deficiencia de Mn."
+
+            }
+         ]
+
+      },
+      {
+         "elemento":"manganeso",
+         "imagenes":[
+            {
+               "img":"mn_01_kiwi-big.jpg",
+               "span":"Hoja de kiwi con leve deficiencia de manganeso."
+
+            },
+            {
+               "img":"mn_03_kiwi-big.jpg",
+               "span":"Hoka de kiwi con sintoma de deficiencia severa de manganeso."
+
+            },
+            {
+               "img":"mn_02_kiwi-big.jpg",
+               "span":"Hojas de kiwi con síntomas de deficiencia de Mn."
+
+            },
+            {
+               "img":"mn_04_kiwi-big.jpg",
+               "span":"Kiwi afectado por deficiencia de manganeso y toxicidadde cloruro."
+
+            }
+         ]
+
+      },
+      {
+         "elemento":"Nitrogeno",
+         "imagenes":[
+            {
+               "img":"n_01_kiwi-big.jpg",
+               "span":"Hojas de kiwi con fitotoxicidad por exceso de fertilización nitrogenada al suelo."
+
+            }
+         ]
+
+      },
+      {
+         "elemento":"boro",
+         "imagenes":[
+            {
+               "img":"b_01_kiwi-big.jpg",
+               "span":"Toxicidad de boro en kiwi."
+
+            }
+         ]
+
+      },
+      {
+         "elemento":"cloro",
+         "imagenes":[
+            {
+               "img":"cl_01_kiwi-big.jpg",
+               "span":"Hojas de kiwi con síntomas de toxicidad de cloruro."
+
+            }
+         ]
+
+      }
+
+   ],
+    "variedadesTecnicas":[],
+    "variedades":[]
+}

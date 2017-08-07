@@ -1,0 +1,15 @@
+{   "id":"0010",
+    "nombre" :"Ultrasol micro Rexene FeQ48",
+    "presentacion":"25kg",
+    "descripcionCorta":"Producto Estrella",
+    "img":"ultrasol-microrexenefeq48.png",
+    "marcaID":"ultrasol",
+    "marca":"Ultrasol",
+    "lineaID":"ultMicro",
+    "linea":"micronutrientes",
+    "cultivos":["palta","algodon","arandano","cafe","cereza","ciruela","cranberry","durazno","esparrago","flores","frambuesa","fresa","kiwi","lima","limon","mandarina","mango","manzano","melon","naranja","pera","pimiento","pomelo","sandia","tomate","uva"],
+"metaTags":["ultrasol","Oxido de Fosforo","Fosfato Monoamonico","Nitrogeno"],
+    "descripcion":"<p>Ultrasol® micro Rexene® FeQ48 es un quelato de hierro microgranular de color rojo oscuro, que ha sido desarrollado para la corrección y prevención de deficiencias de hierro en un amplio rango de cultivos agrícolas, particularmente en suelos alcalinos y calcáreos. Para óptimos resultados se recomienda disolver Ultrasol® micro Rexene® FeQ48 en agua antes de su aplicación al suelo o a la zona de las raíces.</p><corte><p>Ultrasol® micro Rexene® FeQ48 tiene 4,8% (48 gramos) de Hierro en posición orto-orto de 6 % (60 gramos) de hierro por kilo de producto quelatado como Fe-EDDHA (ácido etilen – diamino N,N's bis (2 hidroxifenil-acético).</p> <p>Rexene® es una marca registrada de los grupos de empresas AkzoNobel.</p> <ul> <li>El comportamiento de Ultrasol® micro Rexene® FeQ48 es independiente del tipo de suelo y su pH. Además contiene un muy alto grado de EDDHA y funciona incluso en suelos muy alcalinos (pH < 12).</li> <li>Es absorbido fácilmente por las raíces, lo que resulta en una rápida recuperación del cultivo.</li> <li>Ultrasol® micro Rexene® FeQ48 permite la total recuperación de las plantas que han sufrido clorosis férrica.</li> <li>Su acción permanece a través de las temporadas al ser aplicado en las dosis recomendadas.</li> </ul>",
+    "informacionTecnica":"<table class='table table-striped'>  <tr> <th colspan=\"2\">ESPECIFICACIONES</th> </tr> <tr> <td>Apariencia</td> <td>Microgránulos color rojo oscuro</td> </tr> <tr> <td>Fierro quelatado EDDHA (Fe)</td> <td>6%</td> </tr> <tr> <td>Fierro quelatado EDDHA en posición Orto - Orto</td> <td>4,8%</td> </tr> <tr> <td>CE (1 g/l 20° C)</td> <td>0,539 dS/m</td> </tr> <tr> <td>pH (1% solución)</td> <td>7 - 9</td> </tr> <tr> <td>Solubilidad (20° C)</td> <td>50 g/l</td> </tr> <tr> <td>Solubilidad Sugerida</td> <td>40 g/l</td> </tr> </table> ",
+
+    "hojaProducto": "<table class='table table-striped'>  <tr> <th>Caracteristicas</th> <th>Valores</th> </tr> <tr> <td>Fórmula Química</td> <td>C<sub>18</sub>H<sub>18</sub>N<sub>2</sub>O<sub>6</sub> FeNa</td> </tr> <tr> <td>Apariencia</td> <td>Microgranulos color rojo oscuro</td> </tr> <tr> <td>Fierro EDDHA Fe</td> <td>6,0%</td> </tr> <tr> <td>Fierro EDDHA (en posición Orto-Orto)</td> <td>4,8%</td> </tr> <tr> <td>CE (1 g/l 20&deg; C)</td> <td>0,539 dS/m</td> </tr> <tr> <td>pH (1% solución)</td> <td>7 - 9</td> </tr> <tr> <td>Solubilidad (20&deg; C)</td> <td>50 g/l</td> </tr> <tr> <td>Solubilidad Sugerida</td> <td>40 g/l</td> </tr> </table> "}

@@ -1,0 +1,121 @@
+{   
+    "id":"0002",
+    "nombre" :"Banana",
+    "background":"banana.jpg",
+    
+    "descripcion":"<p>Solicite a su agrónomo local de SQM asesoría para formular un programa de nutrición vegetal de especialidad de acuerdo con sus necesidades locales y requerimientos de cultivo.</p>",
+        "etapas":"banana.jpg",
+        "desordenes":[
+            {
+                  "elemento":"nitrogeno",
+                  "imagenes":[
+                     {
+                        "img":"n_01_banana-big.jpg",
+                        "span":"Parte de las hojas de un bananero: Izquierdo- parte de las hojas de una planta carente de N. Derecha- parte de las hojas de una planta con estado N normal."
+                     
+                     }
+                  ]
+
+            },
+            {
+                  "elemento":"potasio",
+                  "imagenes":[
+                     {
+                        "img":"k_01_banana-big.jpg",
+                        "span":"K- deficiencia de una hoja de banana (foto, por cortesía de CORBANA e INPOFOS)."
+                     
+                     },
+                     {
+                        "img":"k_02_banana-big.jpg",
+                        "span":"Hojas de bananero con síntomas de deficiencia de K (foto, por cotesía de CORBANA e INPOFOS)."
+                     
+                     },
+                     {
+                        "img":"k_03_banana-big.jpg",
+                        "span":"Hojas de bananero con síntomas de deficiencia severo de K."
+                     
+                     }
+                  ]
+
+            },
+            {
+                  "elemento":"magnesio",
+                  "imagenes":[
+                     {
+                        "img":"mg_01_banana-big.jpg",
+                        "span":"Hojas de bananero con deficiencia de Mg (foto, por cotesia de CORBANA e INPOFOS)."
+                     
+                     },
+                     {
+                        "img":"mg_01_banana-big.jpg",
+                        "span":"Hojas de bananero con deficiencia de Mg (foto, por cotesia de CORBANA e INPOFOS)."
+                     
+                     }
+                  ]
+
+            },
+            {
+                  "elemento":"hierro",
+                  "imagenes":[
+                     {
+                        "img":"fe_01_banana-big.jpg",
+                        "span":"Hojas de bananero con deficiencia de Fe (foto, por cortesia de CORBANA e INPOFOS)."
+                     
+                     }
+                  ]
+
+            },
+            {
+                  "elemento":"manganeso",
+                  "imagenes":[
+                     {
+                        "img":"mn_01_banana-big.jpg",
+                        "span":"Hojas de bananero con deficiencia de Mn (foto, por cortesía de CORBANA e INPOFOS)."
+                     
+                     }
+                  ]
+
+            },
+            {
+                  "elemento":"zinc",
+                  "imagenes":[
+                     {
+                        "img":"zn_01_banana-big.jpg",
+                        "span":"Hojas de bananero con deficiencia de Zn (foto, por cortesía de CORBANA e INPOFOS)."
+                     
+                     },
+                     {
+                        "img":"zn_02_banana-big.jpg",
+                        "span":"Racimo de bananas que revelan síntomas de deficiencia de Zn (foto, por cotesía de CORBANA e INPOFOS)."
+                     
+                     }
+                  ]
+
+            },
+            {
+                  "elemento":"boro",
+                  "imagenes":[
+                     {
+                        "img":"b_01_banana-big.jpg",
+                        "span":"Racimo de bananas que revelan síntomas de deficiencia de B (foto, por cortesía de CORBANA e INPOFOS)."
+                     
+                     }
+                  ]
+
+            },
+            {
+                  "elemento":"cloro",
+                  "imagenes":[
+                     {
+                        "img":"cl_01_banana-big.jpg",
+                        "span":"Toxicidad de cloruro de bananeros."
+                     
+                     }
+                  ]
+
+            }
+
+        ],
+        "variedadesTecnicas":[],
+        "variedades":[]
+}

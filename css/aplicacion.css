@@ -1,0 +1,1291 @@
+/*||||||||||||||||||||||||||||||||||||||||||| Override Bootsrap ||||||||||||||||||||||||||||||||||||||||||| */
+.white, .white a {
+  color: #fff;
+}
+h4 {
+  color: #666;
+  font-size: 18px;
+}
+.navbar-default{
+  background:#e0e0e0;
+  color:white;
+}
+.navbar{
+ /* -webkit-box-shadow: none !important;
+  box-shadow: none !important; */
+}
+.btn-link:hover, .btn-link:active:hover, .btn-link:focus, .btn-link:active, .btn-link:active, .btn-home:hover, .btn-home:active:hover, .btn-home:focus, .btn-home:active, .btn-home:active{
+/*background-color: transparent !important;
+background-image: none !important;*/
+}
+.btn-link:active:hover, .btn-link:focus, .btn-link:active{
+  background-color: transparent !important;
+
+}
+
+.btn-link {
+  width: 100%;
+}
+
+.btn-link-min{
+  text-transform: capitalize !important;
+}
+.container-fluid{
+  padding-right: 60px;
+  /*"max-height: 100vh !important;"*/
+  /*overflow: auto !important;*/
+}
+
+.modal-content{
+  /*overflow:auto !important;*/
+  padding-bottom: 2em;
+}
+
+
+.col-no-margin{
+  margin:0 0 0 0;
+  padding: 0 0 0 0;
+}
+body, h1, h2, h3, h4, h5, h6, p, span, small, strong, a, button, input, {
+  font-family: "Roboto",Roboto, "Lucida Sans", "Open Sans", "Fira Sans",  "Lucida Sans Unicode", "Trebuchet MS", "Liberation Sans", "Nimbus Sans L" !important;
+
+}
+
+body{
+  background-color: #fff;
+}
+
+
+#content-wrapper{
+  position: relative;
+  top: 9em;
+}
+
+.table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
+    border: 1px solid #dddddd;
+    padding: .1em .6em .2em .9em !important;
+    line-height: normal;
+}
+
+/*||||||||||||||||||||||||||||||||||||||||||| Globales*/
+/* Code for Chrome, Safari and Opera */
+.body-espera-pe{
+  background:url("../res/screen/android/screen-xhdpi-landscape-pe.png");
+}
+.body-espera-mx{
+  background:url("../res/screen/android/screen-xhdpi-landscape-mx.png");
+}
+.body-espera-us{
+  background:url("../res/screen/android/screen-xhdpi-landscape-us.png");
+}
+
+.UI-gris{
+  background: #EAEAEA !important;
+}
+.body-espera{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #DADADA;
+
+}
+.deviceready-espera{
+  visibility:hidden !important;
+  display:none !important;
+}
+.row-clear{
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav-app-left{
+  margin-left: 90px;
+}
+
+
+.li-nav-buscar{
+  width: 300px;
+}
+.btn-nav-app{
+  min-width: 100px;
+  min-height: 5em;
+}
+.btn-nav-app img{
+  max-height: 4em !important;
+  float: left;
+  top: -1em;
+  position: relative;
+}
+
+.nav-input-buscar{
+  position:relative;
+  background:white;
+  color:#ccc;
+  width: 100% !important;
+  display:block;
+  padding:.5em .8em .5em .8em;
+  height:3em !important;
+  margin-top: 1em;
+  -webkit-border-radius: 3em !important;
+  -moz-border-radius: 3em !important;
+  border-radius: 3em !important;
+}
+#btn-nav-app-buscar{
+  position: absolute;
+  top:1.5em;
+  right:.5em;
+}
+.page-header {
+  margin: 60px 0 45px !important;
+  padding-bottom: 0px !important;
+}
+
+
+.navbar-brand {
+  padding: 5px 15px !important;
+}
+
+
+.nav-logo-icon{
+  max-height: 2.8em;
+  display:block;
+  position:absolute;
+}
+
+.nav-logo-icon-allganic{
+  max-height: 4em;
+  display:block;
+  position:absolute;
+  width: 7em;
+}
+.nav-btn-icon{
+  word-wrap: break-word !important;
+  white-space:initial !important;
+  font-size: 9px;
+  color:#fff;
+  font-weight: bold;
+}
+.texto{
+  font-size: 17px;
+}
+
+.element-icon{
+  max-height: 6em;
+  max-width: 5em;
+  bottom: 1em;
+  right: 50px;
+  position: fixed;
+  z-index: 1069;
+  opacity: .3;
+}
+
+
+.btn-cultivo{
+  display: inline-block;
+}
+.btn-cultivo img{
+  max-width: 4em;
+}
+
+.lateralMenu .btn-cultivo small{
+  font-size: .7em;
+  white-space: nowrap !important;
+  overflow: hidden;
+}
+.esconder{
+  display:none !important;
+  visibility: hidden !important;
+}
+.mostrar{
+  display:block!important;
+  visibility: visible !important;
+}
+
+
+
+.bg-color-palta{
+  background: #017701;
+  color: white !important;
+}
+.bg-color-arandano{
+  background: #263c85;
+  color: white !important;
+}
+.bg-color-banana{
+  background: #a7b411;
+  color: white !important;
+}
+.bg-color-cebolla{
+  background: #95905a;
+  color: white !important;
+}
+.bg-color-cereza{
+  background: #8d0101;
+  color: white !important;
+}
+.bg-color-citricos{
+  background: #e67d03;
+  color: white !important;
+}
+.bg-color-durazno{
+  background: #ed6033;
+  color: white !important;
+
+}
+.bg-color-esparrago{
+  background: #198400;
+  color: white !important;
+}
+.bg-color-frambuesa{
+  background: #9a0000;
+  color: white !important;
+}
+.bg-color-frutossecos{
+  background: #8c2e14;
+  color: white !important;
+}
+.bg-color-kiwi{
+  background: #897a01;
+  color: white !important;
+}
+.bg-color-maiz{
+  background: #9f7a00;
+  color: white !important;
+}
+.bg-color-mango{
+  background: #ab121e;
+  color: white !important;
+}
+.bg-color-manzano{
+  background: #a30000;
+  color: white !important;
+}
+.bg-color-melon{
+  background: #ef8128;
+  color: white !important;
+}
+.bg-color-olivo{
+  background: #778d01;
+  color: white !important;
+}
+.bg-color-papa{
+  background: #af5d0b;
+  color: white !important;
+}
+.bg-color-pepino{
+  background: #25410e;
+  color: white !important;
+}
+.bg-color-pera{
+  background: #9e9f29;
+  color: white !important;
+}
+.bg-color-pimiento{
+  background: #db1417;
+  color: white !important;
+}
+.bg-color-quinua{
+  background: #a31d42;
+  color: white !important;
+}
+.bg-color-sandia{
+  background: #a30000;
+  color: white !important;
+}
+.bg-color-tomate{
+  background: #bf0c0c;
+  color: white !important;
+}
+.bg-color-trigo{
+  background: #b98e22;
+  color: white !important;
+}
+.bg-color-uva{
+  background: #98bb2a;
+  color: white !important;
+}
+.bg-color-ajo{
+  background: #67351a;
+  color: white !important;
+}
+.bg-color-brocoli{
+  background: #335c20;
+  color: white !important;
+}
+.bg-color-cafe{
+  background: #67381c;
+  color: white !important;
+}
+.bg-color-lechuga{
+  background: #048800;
+  color: white !important;
+}
+.bg-color-papaya{
+  background: #fc9203;
+  color: white !important;
+}
+.bg-color-cranberry{
+  background: #a50006;
+  color: white !important;
+}
+.bg-color-ciruela{
+  background: #5d1d2e;
+  color: white !important;
+}
+.bg-color-limon{
+  background: #e6e86c;
+
+}
+.bg-color-lima{
+  background: #e6e86c;
+
+}
+.bg-color-algodon{
+  background: #d1c498;
+}
+.bg-color-mandarina{
+  background: #e67d03;
+  color: white !important;
+}
+.bg-color-naranja{
+  background: #e67d03;
+  color: white !important;
+}
+.bg-color-pomelo{
+  background: #e67d03;
+  color: white !important;
+}
+.bg-color-flores{
+  background: #b1035c;
+  color: white !important;
+}
+.bg-color-chile{
+  background: #b51a15;
+  color: white !important;
+}
+.bg-color-chirimoya{
+  background: #dac6a5;
+}
+.bg-color-fresa{
+  background: #9a0000;
+  color: white !important;
+}
+
+.titulo-producto {
+  border-bottom: 5px solid #1f6528;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.basicContent {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.collapse.in{
+  width: 95%;
+  margin: 0 auto;
+}
+
+/*|||||||||||||||||||||||||||||||||||||||||||Modal Cultivo*/
+.mainModal-cultivo > .modal-dialog {
+  background:#555;
+  width:50%;
+  height:100%;
+  position: fixed;
+  top: 36px;
+  left: 25%;
+
+}
+.mainModal-cultivo > .modal-dialog > .modal-content{
+  background:none;
+  height:100%;
+  color: white;
+  /*overflow:auto !important;*/
+
+}
+.mainModal-cultivo > .modal-dialog > .modal-content > .modal-header{
+  color: white;
+
+}
+.mainModal-cultivo > .modal-dialog > .modal-content > .modal-header > .modal-title{
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+
+}
+.mainModal-cultivo > .modal-dialog > .modal-content > .modal-header >.mainModal-cultivo-title-icon{
+  max-height: 4em;
+}
+.mainModal-cultivo > .modal-dialog > .modal-content > .modal-body{
+  color: white;
+}
+
+/*|||||||||||||||||||||||||||||||||||||||||||BARRA LATERAL*/
+
+
+.menuLateral-marca-container{
+  min-height: 0px;
+  padding-bottom: 0em;
+  margin-left: 0;
+  margin-right: 0;
+}
+.lateralMenu{
+  display: none;
+  visibility: hidden;
+}
+.lateralMenu.toggled{
+  display: block;
+  visibility: visible;
+  position: fixed;
+  top: 5.6em;
+  width: 40%;
+  right: 0px;
+  height: 100%;
+  background: #EAEAEA;
+  z-index: 1055;
+  box-shadow: 1px 1px 32px #555;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-bottom: 10em;
+}
+
+.menuLateral-marca-box{
+  padding:1em .4em 2em .4em;
+  display:block;
+  width:100%;
+}
+.menuLateral-marca-box img {
+  max-height: 2em;
+}
+
+.close-lateral span{
+  font-size: 1.6em;
+  float: right;
+}
+
+/*|||||||||||||||||||||||||||||||||||||||||||Modal Lateral*/
+
+
+
+
+.lateral-linea-title{
+  color: white !important;
+}
+
+.btn-link-block-white{
+  border-bottom: 1px solid white;
+  color:white !important;
+  font-weight: 500;
+  font-size: 1em;
+}
+.lateralModal-linea-btn-link{
+  font-size: 1.1em;
+  border-bottom: 1px solid #DCDCDC;
+  color:white !important;
+  font-weight: 500;
+}
+
+/*|||||||||||||||||||||||||||||||||||||||||||Vista Menu principal*/
+.color-ultrasol{
+  background: #477626 !important; /* Old browsers */
+}
+.color-text-ultrasol{
+  color: #477626 !important; /* Old browsers */
+}
+
+.borde-ultrasol{
+  border-left: #477626 1em solid !important; 
+}
+
+.color-qrop{
+  background: #76bd1e !important; /* Old browsers */
+}
+.color-text-qrop{
+  color: #76bd1e !important; /* Old browsers */
+}
+.borde-qrop{
+  border-left: #76bd1e 1em solid !important; 
+}
+
+.color-speedfol{
+  background: #047832 !important; /* Old browsers */
+}
+.color-text-speedfol{
+  color: #047832 !important; /* Old browsers */
+}
+.borde-speedfol{
+  border-left: #047832 1em solid !important; 
+}
+
+
+.color-allganic{
+  background: #d25d12 !important; /* Old browsers */
+}
+.color-text-allganic{
+  color: #d25d12 !important; /* Old browsers */
+}
+.borde-allganic{
+  border-left: #d25d12 1em solid !important; 
+}
+
+
+.color-vferti{
+  background: #131c4e !important; /* Old browsers */
+}
+.color-text-vferti{
+  color: #131c4e !important; /* Old browsers */
+}
+.borde-vferti{
+  border-left: #131c4e 1em solid !important; 
+}
+
+
+ .color-plantacote{
+    background: #007934 !important; /* Old browsers */
+ }
+ .color-text-plantacote{
+  color: #007934 !important; /* Old browsers */
+}
+ .borde-plantacote{
+    border-left: #007934 1em solid !important; 
+}
+
+.color-nutrilake{
+  background: #271d67 !important; /* Old browsers */
+}
+.color-text-nutrilake{
+  color: #271d67 !important; /* Old browsers */
+}
+
+
+.borde-nutrilake{
+  border-left: #271d67 1em solid !important; 
+}
+
+
+
+.color-bulldog{
+  background: #0B5C9A !important; /* Old browsers */
+}
+.color-text-bulldog{
+  color: #0B5C9A !important; /* Old browsers */
+}
+.borde-bulldog{
+  border-left: #0B5C9A 1em solid !important; 
+}
+
+
+
+.color-light-ultrasol{
+  background: #809e66 !important; /* Old browsers */
+}
+.borde-light-ultrasol{
+  border-left: #809e66 1em solid !important; 
+}
+
+.color-light-qrop{
+  background: #a4d16c !important; /* Old browsers */
+}
+.borde-light-qrop{
+  border-left: #477626 1em solid !important; 
+}
+
+.color-light-speedfol{
+  background: #50a26d !important; /* Old browsers */
+}
+.borde-light-speedfol{
+  border-left: #477626 1em solid !important; 
+}
+
+.color-light-allganic{
+  background: #E08850 !important; /* Old browsers */
+}
+.borde-light-allganic{
+  border-left: #477626 1em solid !important; 
+}
+
+.color-light-vferti{
+  background: #3b52cf !important; /* Old browsers */
+}
+.borde-light-vferti{
+  border-left: #477626 1em solid !important; 
+}
+
+.color-light-bulldog{
+  background: #466f8e !important; /* Old browsers */
+ }
+ .borde-light-bulldog{
+  border-left: #466f8e 1em solid !important; 
+}
+
+.color-light-plantacote{
+  background: #02af48 !important; /* Old browsers */
+}
+
+.borde-light-plantacote{
+  border-left: #477626 1em solid !important; 
+}
+
+.color-light-nutrilake{
+  background: #809e66 !important; /* Old browsers */
+}
+
+.borde-light-nutrilake{
+  border-left: #477626 1em solid !important; 
+}
+
+.menuPrincipal-fondoultrasol {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#477626+70,979797+70 */
+  background: #477626; /* Old browsers */
+  background: -moz-linear-gradient(top,  #477626 70%, #979797 70%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #477626 70%,#979797 70%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #477626 70%,#979797 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#477626', endColorstr='#979797',GradientType=0 ); /* IE6-9 */
+  padding: 4px 2px 1px 2px;
+}
+
+.menuPrincipal-fondoqrop {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#76bd1e+70,979797+70 */
+  background: #76bd1e; /* Old browsers */
+  background: -moz-linear-gradient(top,  #76bd1e 70%, #979797 70%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #76bd1e 70%,#979797 70%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #76bd1e 70%,#979797 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#76bd1e', endColorstr='#979797',GradientType=0 ); /* IE6-9 */
+  padding: 4px 2px 1px 2px;
+}
+
+.menuPrincipal-fondospeedfol {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#047832+70,979797+70 */
+  background: #047832; /* Old browsers */
+  background: -moz-linear-gradient(top,  #047832 70%, #979797 70%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #047832 70%,#979797 70%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #047832 70%,#979797 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#047832', endColorstr='#979797',GradientType=0 ); /* IE6-9 */
+  padding: 4px 2px 1px 2px;
+}
+
+.menuPrincipal-fondoallganic {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d25d12+70,979797+70 */
+  background: #d25d12; /* Old browsers */
+  background: -moz-linear-gradient(top,  #d25d12 70%, #979797 70%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #d25d12 70%,#979797 70%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #d25d12 70%,#979797 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d25d12', endColorstr='#979797',GradientType=0 ); /* IE6-9 */
+  padding: 4px 2px 1px 2px;
+}
+
+.menuPrincipal-fondovferti {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d25d12+70,979797+70 */
+  background: #131c4e; /* Old browsers */
+  background: -moz-linear-gradient(top,  #131c4e 70%, #979797 70%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #131c4e 70%,#979797 70%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #131c4e 70%,#979797 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#131c4e', endColorstr='#979797',GradientType=0 ); /* IE6-9 */
+  padding: 4px 2px 1px 2px;
+}
+.menuPrincipal-fondobulldog {
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d25d12+70,979797+70 */
+            background: #0B5C9A; /* Old browsers */
+            background: -moz-linear-gradient(top,  #0B5C9A 70%, #979797 70%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top,  #0B5C9A 70%,#979797 70%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom,  #0B5C9A 70%,#979797 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0B5C9A', endColorstr='#979797',GradientType=0 ); /* IE6-9 */
+             padding: 4px 2px 1px 2px;
+ }
+ .menuPrincipal-fondoplantacote {
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d25d12+70,979797+70 */
+            background: #007934; /* Old browsers */
+            background: -moz-linear-gradient(top,  #007934 70%, #979797 70%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top,  #007934 70%,#979797 70%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom,  #007934 70%,#979797 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0B5C9A', endColorstr='#979797',GradientType=0 ); /* IE6-9 */
+             padding: 4px 2px 1px 2px;
+ }
+.menuPrincipal-producto-cotainer {
+  padding-top: 20px;
+}
+.menuPrincipal-producto-col{
+  padding: 0em;
+}
+.menuPrincipal-btn-productos{
+  padding: 0em;
+  margin:0em;
+  display: block;
+}
+.menuPrincipal-productos-marca-icon{
+  display: block;
+  max-height: 4em;
+  max-width: 10em;
+  margin: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.menuPrincipal-productos-linea-icon{
+  max-height: 4em;
+  max-width: 4em;
+  display: block;
+  padding-bottom: 4px;
+  margin: 0 auto;
+}
+
+.menuPrincipal-productos-logo-icon{
+  max-height: 4em;
+}
+
+.menuPrincipal-productos-element-icon{
+  max-height: 6em;
+  float: right;
+  /*overflow: auto !important;*/
+}
+
+.menuPrincipal-cultivo-text{
+  word-wrap: break-word !important;
+  white-space:initial !important;
+  background-color: #494949;
+  color: #ffffff;
+  width: 100%;
+  display: inline-block;
+}
+/*popup*/
+#menuPrincipal-popup{
+  display: none;
+  visibility: hidden;
+
+
+}
+#menuPrincipal-popup.toggled{
+  display: block;
+  visibility: visible;
+  position: fixed;
+  top: 5.6em;
+  width: 50%;
+  right: 25%;
+  height: 100%;
+  background: #555;
+  z-index: 1055;
+  box-shadow: 1px 3px 24px #555;
+  padding: 1em;
+  padding-bottom: 8em;
+  overflow: auto;
+}
+
+
+
+#menuPrincipal-popup .popup-title{
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+
+}
+#menuPrincipal-popup .popup-central-icon{
+  max-height: 4em;
+}
+
+
+
+
+/*///menu principal Mex*/
+
+.menuPrincipalCard{
+    height: 72px;
+    box-shadow: 0.1em 0.2em 0.4em rgba(0, 0, 0, 0.3);
+    margin-bottom: 2em;
+    padding: 0.8em;
+}
+
+.cardContenedor{
+    display: block;
+    height: 55px;
+    position: relative;
+    width: 100%;
+}
+.cardImgIcon{
+    /*aqui*/
+    max-height: 55px;
+    max-width: 80%;
+}
+.textCard{
+    color: #477626;
+    font-weight: bold;
+    margin-left: 1em;
+    position: relative;
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+.menuPrincipalCard.nogutten{
+  /*todo here*/
+  margin-left: 0px;
+}
+
+.cardUltrasol{
+  border-left: #477626 1em solid;
+  margin-bottom: 3em !important;    
+}
+.cardUltrasolLinea{
+  border-left: none !important;
+  
+}
+
+.cardUltrasolB{
+  border-right: #809e66 1em solid;    
+}
+
+.cardQrop{
+  border-left: #76bd1e 1em solid;    
+}
+.cardSpeedfol{
+  border-left: #047832 1em solid;    
+}
+.cardAllganic{
+  border-left: #d35e13 1em solid;    
+}
+.cardNutrilake{
+  border-left: #271d67 1em solid;    
+}
+.cardNutrilake .cardImgIcon{
+  float: none;   
+}
+
+
+/*|||||||||||||||||||||||||||||||||||||||||||Vista Producto*/
+#vistaProducto{
+  /*overflow:auto !important;*/
+}
+
+/*Pagina Producto*/
+
+.producto-icon-verHoja{
+  max-height: 3em;
+  width: 3em;
+  padding: .3em;
+  display: inline-block;
+}
+.producto-img-bg{
+  background:#477626;
+  background-size: contain !important;
+}
+.producto-img-bg-ultrasol{
+  background-image: url("../src/img/fondo/marcas/ultrasol-fondo.png");
+  background-repeat: no-repeat;
+  border-right-style: solid;
+  border-right-color: #4A7628;
+  border-right-width: 10px;
+  background-size: contain !important;
+}
+.producto-img-bg-yaraliva{
+  background-image: url("../src/img/fondo/marcas/ultrasol-fondo.png");
+  background-repeat: no-repeat;
+  border-right-style: solid;
+  border-right-color: #4A7628;
+  border-right-width: 10px;
+  background-size: contain !important;
+}
+.producto-img-bg-qrop{
+  background-image: url("../src/img/fondo/marcas/qrop-fondo.png");
+  background-repeat: no-repeat;
+  border-right-style: solid;
+  border-right-color: #4A7628;
+  border-right-width: 10px;
+  background-size: contain !important;
+}
+.producto-img-bg-speedfol{
+  background-image: url("../src/img/fondo/marcas/speedfol-fondo.png");
+  background-repeat: no-repeat;
+  border-right-style: solid;
+  border-right-color: #4A7628;
+  border-right-width: 10px;
+  background-size: contain !important;
+}
+.producto-img-bg-allganic{
+  background-image: url("../src/img/fondo/marcas/allganic-fondo.png");
+  background-repeat: no-repeat;
+  border-right-style: solid;
+  border-right-color: #4A7628;
+  border-right-width: 10px;
+  background-size: contain !important;
+}
+          .producto-img-bg-bulldog{
+            background-image: url("../src/img/fondo/marcas/bulldog-fondo.jpg");
+            background-repeat: no-repeat;
+            border-right-style: solid;
+            border-right-color: #4A7628;
+            border-right-width: 10px;
+            background-size: contain !important;
+          }
+          .producto-img-bg-bulldogstablen{
+            background-image: url("../src/img/fondo/marcas/bulldogstablen-fondo.jpg");
+             background-repeat: no-repeat;
+             border-right-style: solid;
+             border-right-color: #4A7628;
+           }
+    .producto-img-bg-plantacote{
+                background-image: url("../src/img/fondo/marcas/plantacote-fondo.png");
+                 background-repeat: no-repeat;
+                 border-right-style: solid;
+                 border-right-color: #4A7628;
+               }
+.cultivo-img-bg{
+  background:#477626;
+  background-size: contain !important;
+}
+.p
+.cultivo-img-bg-pimiento{
+  background-image: url("../src/img/fondo/cultivos/pimiento.jpg");
+  background-repeat: no-repeat;
+  border-right-style: solid;
+  border-right-color: #A31718;
+  border-right-width: 10px;
+  background-size: contain !important;
+}
+
+.cultivo-img-bg-arandano{
+  background-image: url("../src/img/fondo/cultivos/arandano.jpg");
+  background-repeat: no-repeat;
+  border-right-style: solid;
+  border-right-color: #A31718;
+  border-right-width: 10px;
+  background-size: contain !important;
+}
+
+.cultivo-fenologia-block{
+  display: block;
+  overflow-x: auto;
+  padding: auto;
+}
+.cultivo-fenologia-block img{
+  max-height: 500px;
+  width: auto;
+}
+
+.ultrasol-logo {
+  max-height: 2em;
+  min-height: 2em;
+  margin: 10px 0px;
+}
+
+.cultivos-titulos {
+  width: 20%;
+  margin: 10px 0px;
+}
+
+.producto-sacos {
+  /*width: 45%;*/
+  max-height: 220px;
+  width: auto;
+  margin-left: 1em;
+
+
+}
+/*.producto-sacos-mx {
+  width: 45%;
+  max-height: 220px;
+  width: auto;
+  margin-left: 1em;
+
+
+}*/
+
+.productos-cultivos-menu-productos-element-icon{
+  max-height: 6em;
+  float: right;
+  /*overflow: auto;*/
+}
+
+
+/*||||||||||||||||||||||||||||||||||||||||||| Vista Busqueda*/
+
+
+#vistaBusqueda{
+  position: relative;
+  overflow: auto;
+  margin-left:    0px !important;
+  margin-right:   0px !important;
+  margin-top:     0px !important;
+  padding-top:    0px !important;
+  padding-left:   0px !important;
+  padding-right:  0px !important;
+  padding-bottom: 0px !important;
+  /*top: -3.6em;
+  left: -5em;*/
+
+}
+#busqueda-filtro-toggle{
+  color: white !important;
+}
+.busqueda-filtros-container.toggled{
+  height: 10em;
+}
+
+#busqueda-filtros-wrapper.toggled{
+  display: none;
+  visibility: hidden;
+}
+.busqueda-filtros-container{
+  background:#555;
+  color: white !important;
+  height: 100vh;
+  overflow: auto;
+  box-shadow: inset 0px -27px 33px -10px rgba(0,0,0,0.46);
+  padding: 2em;
+  padding-bottom: .5em;
+
+}
+.busqueda-filtros-container h4, .busqueda-filtros-container h3,.busqueda-filtros-container p,.busqueda-filtros-container span{
+  color:white !important;
+
+}
+.filtro-subtitulo{
+  color:white !important;
+  border-bottom: .08em solid #fefefe;
+  padding-bottom: .7em;
+  padding-top: .7em;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.filtro-titulo{
+  color:white !important;
+  padding-bottom: 1em;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+.busqueda-btn-filtro {
+/*max-height: 50px;
+opacity: .7;
+display: inline-flex;
+color:white;
+position: relative;
+padding: .3em;*/
+opacity: .7;
+
+}
+
+.busqueda-btn-filtro img{
+  max-height: 3em;
+  display: block;
+  max-width: 60%;
+  margin: 0 0 0 .4em;
+
+}
+.busqueda-btn-filtro-marca img{
+  max-height: 3em;
+  display: inline-block;
+  max-width: 60%;
+  margin: 0 0 0 .4em;
+
+}
+
+.busqueda-btn-filtro-linea img,.busqueda-btn-filtro-cultivo  img{
+  max-height: 3em;
+  display: inline-block;
+  max-width: 60%;
+  margin: 0 0 0 .4em;
+
+}
+.busqueda-btn-filtro span{
+  font-weight: bold;
+  display: inline-block;
+  font-size: 1.1em;
+
+}
+.busqueda-btn-filtro small{
+  font-weight: bold;
+  display: inline-block;
+  font-size: .95em;
+  border-left: .2em solid white;
+  padding-left: .3em;
+  margin-left: .3em;
+  color:white;
+
+}
+
+.busqueda-btn-filtro-active {
+  opacity:1;
+}
+.busqueda-btn-filtro-active img{
+  max-height: 3em;
+  display: inline-block;
+  max-width: 60%;
+  margin: 0 0 0 .4em;
+  border-bottom: .3em solid white;
+}
+
+
+/*resultado*/
+
+.busqueda-resultado-container{
+  background:#fcc;
+  background:#8cc;
+}
+
+.busqueda-resultado-container-inner{
+  background:white;
+  height: 100vh;
+  overflow: auto;
+
+}
+
+.busqueda-resultado-btn-link{
+  border-bottom: .1em solid #555;
+    color:#555 !important;
+    max-width: 80%;
+    margin: auto;
+}
+
+.menuPrincipal-linea-text{
+  word-wrap: break-word !important;
+  white-space:initial !important;
+  font-size: 9px;
+  color:#fff;
+  font-weight: bold;
+}
+
+#filtro-btn-collapse{
+  background: #555;
+  height: 2em;
+  position: absolute;
+  bottom: 1px;
+}
+
+/*|||||||||||||||||||||||||||||||||||||||||||Vista Cultivo*/
+#vistaCultivo{
+
+}
+.vistaCultivo-btn-productoRef{
+  border-bottom: 1px solid #555;
+  color:#555 !important;
+  font-weight: 500;
+
+}
+.cultivo-icon{
+  height: 2em;
+  width: 2em;
+  max-width: 2em;
+  max-height: 2em;
+  margin-right: .6em;
+}
+
+.vistaCultivo-header-icon{
+  padding-right: 1.5em;
+  max-height: 2em;
+}
+
+#cultivo-barra-busqueda {
+    /*background: #e0e0e0;*/
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    min-height: 2em;
+    height: auto;
+    /* border: solid 0.1em rgb(216, 216, 216); 
+    box-shadow: 0em 0.2em 0.8em #858585;*/
+    /*box-shadow: 0 1px 3px rgba(0,0,0,0.4);*/
+}
+#cultivo-barra-busqueda .cultivo-inner div h6{
+  color :white;
+}
+
+#cultivo-barra-busqueda .cultivo-inner{
+  width: 95%;
+  margin: 0 auto;
+}
+#cultivo-barra-busqueda .cultivo-inner  .cultivo-div-select{
+  padding-bottom: 1em;
+  padding-left: 0em;
+  padding-right: 0em;
+}
+
+#cultivo-barra-busqueda .cultivo-inner  .cultivo-div-select div a{
+  font-size: .75em;
+  padding: 1.3em .4em 1.3em .4em;
+}
+.btn-list-cultuvo{
+    font-weight: 500 !important;
+    line-height: 1.1em !important;
+    /*white-space: pre-wrap !important;*/
+    margin: 0 auto !important;
+    text-align: center;
+}
+
+#cultivo-barra-busqueda .cultivo-inner  .cultivo-div-select .btn-group .btn-select{
+  display: block;
+  width: 80%;
+  float: left;
+  overflow: hidden;
+}
+#cultivo-barra-busqueda .cultivo-inner  .cultivo-div-select .btn-group ul{
+  width: 80%;
+  float: left;
+}
+#cultivo-barra-busqueda .cultivo-inner  .cultivo-div-select .btn-group .dropdown-toggle{
+  display: block;
+  width: 15%;
+  float: left;
+}
+
+.cultivo-etapas-div{
+  max-height: 350px;
+  height: 350px;
+  margin-top: 2em;
+
+}
+.cultivo-etapas-label{
+  white-space: normal;
+   background: #0c672f;
+  padding: .1em;
+}
+.cultivo-etapas-img{
+  margin: 0 auto;
+  max-height:350px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+.cultivo-table-programa{
+
+}
+.cultivo-table-programa-head{
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1.1em;
+}
+.cultivo-table-programa-etapa{
+  background: #555;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  vertical-align:  middle;
+  font-size: 1.1em;
+
+}
+
+.cultivo-table-programa-etapa.impar{
+  background: #909090;
+}
+
+.cultivo-table-programa-producto{
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.1em;
+
+}
+.cultivo-table-programa-separador{
+  border-right: .2em solid  #bbb !important;
+}
+.cultivo-table-programa-total {
+  /*border-top: .2em solid  #bbb !important;*/
+  font-weight: 500 !important;
+  font-size: 1.3em !important;
+  color: #000;
+}
+
+.programa-img{
+  max-width: 100%;
+}

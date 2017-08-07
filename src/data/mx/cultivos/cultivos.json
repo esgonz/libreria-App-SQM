@@ -1,0 +1,91 @@
+{ 
+    "0005":
+    {     
+        "id":"0005",
+        "verbose":"cebolla",
+        "nombre":"Cebolla",
+        "icon":"img_cebolla1.png",
+        "iconColor":"img_cebolla2.png",
+        "file":"cebolla.json"
+    },
+
+
+
+
+
+    "0019":
+    {
+        "id":"0019",
+        "verbose":"pepino",
+        "nombre":"Pepino",
+        "icon":"img_pepino1.png",
+        "iconColor":"img_pepino2.png",
+        "file":"pepino.json"
+    },
+
+    "0020":
+    {     
+        "id":"0020",
+        "verbose":"pimiento",
+        "nombre":"Pimiento",
+        "icon":"img_pimiento1.png",
+        "iconColor":"img_pimiento2.png",
+        "file":"pimiento.json"
+    },
+
+    "0023":
+    {
+        "id":"0023",
+        "verbose":"tomate",
+        "nombre":"Tomate",
+        "icon":"img_tomate1.png",
+        "iconColor":"img_tomate2.png",
+        "file":"tomate.json"
+    },
+
+    "0026":
+    {     
+        "id":"0026",
+        "verbose":"ajo",
+        "nombre":"Ajo",
+        "icon":"img_ajo1.png",
+        "iconColor":"img_ajo2.png",
+        "file":"ajo.json"
+    },
+
+    "0027":
+    {     
+        "id":"0027",
+        "verbose":"brocoli",
+        "nombre":"Brócoli",
+        "icon":"img_brocoli1.png",
+        "iconColor":"img_brocoli2.png",
+        "file":"brocoli.json"
+    },
+
+    "0029":
+    {     
+        "id":"0029",
+        "verbose":"lechuga",
+        "nombre":"Lechuga",
+        "icon":"img_lechuga1.png",
+        "iconColor":"img_lechuga2.png",
+        "file":"lechuga.json"
+    },
+
+
+
+    "0040":
+    {     
+        "id":"0040",
+        "verbose":"chile",
+        "nombre":"Chile",
+        "icon":"img_chile1.png",
+        "iconColor":"img_chile2.png",
+        "file":"chile.json"
+    }
+
+
+
+}
+

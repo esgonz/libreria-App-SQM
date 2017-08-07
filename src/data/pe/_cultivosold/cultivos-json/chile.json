@@ -1,0 +1,87 @@
+{   
+	"id":"0040",
+	"nombre" :"Chile",
+	"background":"chile.jpg",
+	
+	"descripcion":"<p>Solicite a su agrónomo local de SQM asesoría para formular un programa de nutrición vegetal de especialidad de acuerdo con sus necesidades locales y requerimientos de cultivo.</p>",
+	"etapas":[
+	],
+	"desordenes":[
+
+	],
+	"variedadesTecnicas": [],
+	"variedades":[
+		{
+			"variedadId": "4001",
+			"variedadNombre":"Chiles Anchos",
+			"verbose":"chilesanchos",
+			"variedadesTecnicas": [
+				{   
+					"variedadTecnicaId":"17",
+					"condicionId":"1",
+					"tecnificacionId":"1",
+					"fertilizacion":false  
+				},
+				{   
+					"variedadTecnicaId":"18",
+					"condicionId":"2",
+					"tecnificacionId":"1",
+					"fertilizacion":false  
+				},
+				{   
+					"variedadTecnicaId":"19",
+					"condicionId":"1",
+					"tecnificacionId":"2",
+					"fertilizacion":false  
+				},
+				{   
+					"variedadTecnicaId":"20",
+					"condicionId":"2",
+					"tecnificacionId":"2",
+					"fertilizacion":false  
+				}
+			]                 
+		},
+		{
+			"variedadId": "4002",
+			"variedadNombre":"Chiles Mirasol (Guajillo) y Pasilla (Chilaca)",
+			"verbose":"chilesmirasolpasilla",
+			"variedadesTecnicas": [
+				
+				{   
+					"variedadTecnicaId":"21",
+					"condicionId":"1",
+					"tecnificacionId":"1",
+					"fertilizacion":false  
+				},
+				{   
+					"variedadTecnicaId":"22",
+					"condicionId":"2",
+					"tecnificacionId":"1",
+					"fertilizacion":false  
+				}
+
+			]                 
+		},
+		{
+			"variedadId": "4003",
+			"variedadNombre":"Chiles Serranos Jalapeños Caloros",
+			"verbose":"chilesserranosjalapenos",
+			"variedadesTecnicas": [
+				{   
+					"variedadTecnicaId":"23",
+					"condicionId":"1",
+					"tecnificacionId":"1",
+					"fertilizacion":false  
+				},
+				{   
+					"variedadTecnicaId":"24",
+					"condicionId":"2",
+					"tecnificacionId":"1",
+					"fertilizacion":false  
+				}
+			]                 
+		}
+
+	]
+}

@@ -1,0 +1,952 @@
+{
+    "indice": {
+        "ultrasol": [
+            0, {
+                "ultMacro": 0,
+                "ultNpkMe": 1,
+                "ultColor": 2,
+                "ultNpks": 3,
+                "ultCultivos": 4,
+                "ultMicro": 5
+            }
+        ],
+        "qrop": [
+            1, {
+                "qrop": 0
+            }
+        ],
+        "speedfol": [
+            2, {
+                "speedfol": 0
+            }
+        ],
+        "allganic": [
+            3, {
+                "allganic": 0
+            }
+        ],
+        "nutrilake": [
+            4, {
+                "nutrilake": 0
+            }
+        ]
+    },
+    "lista": [{
+        "id": "ultrasol",
+        "nombre": "Ultrasol®",
+        "baseUrl": "src/data/mx/productos/ultrasol/",
+        "cssclass": "menuPrincipal-fondoultrasol",
+        "img": "img_ultrasol3.png",
+        "imgBlanco": "img_ultrasol1.png",
+        "lineas": [{
+            "id": "ultMacro",
+            "nombre": "Macronutrientes",
+            "tipo": "macronutrientes",
+            "img": "img_macro.png",
+            "productos": [
+            {
+                "id": "0001",
+                "nombre": "Ultrasol® NKS 46",
+                "file": "ultrasolNKS46.json",
+                "verbose": "ultrasolNKS46",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "ultrasol",
+                    "potasio",
+                    "calcio",
+                    "magnesio",
+                    "oxido potasio",
+                    "oxido fosforo"
+                ]
+            },{
+                "id": "0002",
+                "nombre": "Ultrasol® 13-2-44",
+                "file": "ultrasol13244.json",
+                "verbose": "ultrasol13244",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "ultrasol",
+                    "potasio",
+                    "calcio",
+                    "magnesio",
+                    "oxido potasio",
+                    "oxido fosforo"
+                ]
+            }, {
+                "id": "0003",
+                "nombre": "Ultrasol® SOP 52",
+                "file": "ultrasolSOP52.json",
+                "verbose": "ultrasolSOP52",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+
+                "metaTags": [
+                    "ultrasol",
+                    "Potasio"
+                ]
+            }, {
+                "id": "0004",
+                "nombre": "Ultrasol® SOP Diamante",
+                "file": "ultrasolSOPDiamante.json",
+                "verbose": "ultrasolSOPDiamante",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "ultrasol",
+                    "Potasio"
+                ]
+            }, {
+                "id": "0005",
+                "nombre": "Ultrasol® MAP-T",
+                "file": "ultrasolMapT.json",
+                "verbose": "ultrasolMapT",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+
+                "metaTags": [
+                    "ultrasol",
+                    "Magnesio"
+                ]
+            }, {
+                "id": "0006",
+                "nombre": "Ultrasol® Magnum P44",
+                "file": "ultrasolMagnumP44.json",
+                "verbose": "ultrasolMagnumP44",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "ultrasol",
+                    "Fosforo"
+                ]
+            }, {
+                "id": "0007",
+                "nombre": "Ultrasol® MKP",
+                "file": "ultrasolMKP.json",
+                "verbose": "ultrasolMKP",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+
+                "metaTags": [
+                    "ultrasol",
+                    "Magnesio"
+                ]
+            }, {
+                "id": "0008",
+                "nombre": "YaraLiva® Calcinit",
+                "file": "yaralivacalcinit.json",
+                "verbose": "yaralivacalcinit",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "Yara",
+                    "Magnesio"
+                ]
+            }, {
+                "id": "0009",
+                "nombre": "Ultrasol® Magnit",
+                "file": "ultrasolMagnit.json",
+                "verbose": "ultrasolMagnit",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "ultrasol",
+                    "Magnesio"
+                ]
+            }]
+        }, {
+            "id": "ultNpkMe",
+            "nombre": "NPK+ME",
+            "tipo": "npk + me a la medida",
+            "img": "img_micro.png",
+            "productos": [{
+                "id": "0010",
+                "nombre": "Ultrasol® FEP Vegetativa",
+                "file": "ultrasolFEPvegetativa.json",
+                "verbose": "ultrasolFEPvegetativa",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "ultrasol",
+                    "Magnesio"
+                ]
+            }, {
+                "id": "0011",
+                "nombre": "Ultrasol® FEP Generativa",
+                "file": "ultrasolFEPgenerativa.json",
+                "verbose": "ultrasolFEPgenerativa",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "ultrasol",
+                    "Fierro"
+                ]
+            }, {
+                "id": "0012",
+                "nombre": "Ultrasol® FEP Por agricola y cultivo",
+                "file": "ultrasolFEP.json",
+                "verbose": "ultrasolFEPAgricolaCultivo",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+
+                "metaTags": [
+                    "ultrasol",
+                    "Hierro"
+                ]
+            }, {
+                "id": "0013",
+                "nombre": "Ultrasol® Solucion Nutritiva",
+                "file": "ultrasolSolucionNutritiva.json",
+                "verbose": "ultrasolSolucionNutritiva",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+
+                "metaTags": [
+                    "ultrasol",
+                    "Fierro"
+                ]
+            }]
+        }, {
+            "id": "ultColor",
+            "nombre": "COLOR",
+            "tipo": "Color",
+            "img": "img_micro.png",
+            "productos": [{
+                "id": "0014",
+                "nombre": "Ultrasol® 12-12-18 con y sin ME",
+                "file": "ultrasolColor121218.json",
+                "verbose": "ultrasolColor121218",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "ultrasol",
+                    "Magnesio"
+                ]
+            }, {
+                "id": "0015",
+                "nombre": "Ultrasol® 13-40-13 + ME",
+                "file": "ultrasolColor134013.json",
+                "verbose": "ultrasolColor134013",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "ultrasol",
+                    "Fierro"
+                ]
+            }, {
+                "id": "0016",
+                "nombre": "Ultrasol® 18-18-18 + ME",
+                "file": "ultrasolColor181818.json",
+                "verbose": "ultrasolColor181818",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+
+                "metaTags": [
+                    "ultrasol",
+                    "Hierro"
+                ]
+            }, {
+                "id": "0017",
+                "nombre": "Ultrasol® 15-5-30 + ME",
+                "file": "ultrasolColor15530.json",
+                "verbose": "ultrasolColor15530",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+
+                "metaTags": [
+                    "ultrasol",
+                    "Fierro"
+                ]
+            }, {
+                "id": "0018",
+                "nombre": "Ultrasol® 7-12-40 + ME",
+                "file": "ultrasolColor71240.json",
+                "verbose": "ultrasolColor71240",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+
+                "metaTags": [
+                    "ultrasol",
+                    "Fierro"
+                ]
+            }]
+        }, {
+            "id": "ultNpks",
+            "nombre": "NPK's",
+            "tipo": "npks",
+            "img": "img_poretapa.png",
+            "productos": [{
+                "id": "0019",
+                "nombre": "Ultrasol® Inicial",
+                "file": "ultrasolInicial.json",
+                "verbose": "ultrasolInicial",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "ultrasol",
+                    "Fosforo"
+                ]
+            }, {
+                "id": "0020",
+                "nombre": "Ultrasol® Desarrollo",
+                "file": "ultrasolDesarrollo.json",
+                "verbose": "ultrasolDesarrollo",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "ultrasol",
+                    "Fosforo"
+                ]
+            }, {
+                "id": "0021",
+                "nombre": "Ultrasol® Crecimiento",
+                "file": "ultrasolCrecimiento.json",
+                "verbose": "ultrasolCrecimiento",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+
+                "metaTags": [
+                    "ultrasol",
+                    "nitrogeno"
+                ]
+            }, {
+                "id": "0022",
+                "nombre": "Ultrasol® Produccion",
+                "file": "ultrasolProduccion.json",
+                "verbose": "ultrasolProduccion",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+
+                "metaTags": [
+                    "ultrasol"
+
+                ]
+            }, {
+                "id": "0023",
+                "nombre": "Ultrasol® Multiproposito",
+                "file": "ultrasolMultiproposito.json",
+                "verbose": "ultrasolMultiproposito",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+
+                "metaTags": [
+                    "ultrasol"
+
+                ]
+            }, {
+                "id": "0024",
+                "nombre": "Ultrasol® 19-19-19 Multiproposito",
+                "file": "ultrasol191919.json",
+                "verbose": "ultrasol191919",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+
+                "metaTags": [
+                    "ultrasol",
+                    "Fosforo"
+                ]
+            }, {
+                "id": "0025",
+                "nombre": "Ultrasol® 12-44-12 Desarrollo",
+                "file": "ultrasol124412.json",
+                "verbose": "ultrasol124412",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+
+                "metaTags": [
+                    "ultrasol",
+                    "Fosforo"
+                ]
+            }]
+        }, {
+            "id": "ultCultivos",
+            "nombre": "Cultivos",
+            "tipo": "cultivos",
+            "img": "img_porcultivo.png",
+            "productos": [{
+                "id": "0026",
+                "nombre": "Ultrasol® Tomate",
+                "file": "ultrasolTomate.json",
+                "verbose": "ultrasolTomate",
+                "estado": "activado",
+                "cultivos": ["tomate"],
+                "metaTags": [
+                    "ultrasol"
+
+                ]
+            }, {
+                "id": "0027",
+                "nombre": "Ultrasol® Chile",
+                "file": "ultrasolChile.json",
+                "verbose": "ultrasolChile",
+                "estado": "activado",
+                "cultivos": ["chile"],
+                "metaTags": [
+                    "ultrasol"
+
+                ]
+            }, {
+                "id": "0028",
+                "nombre": "Ultrasol® Flor de Corte",
+                "file": "ultrasolFlordeCorte.json",
+                "verbose": "ultrasolFlordeCorte",
+                "estado": "activado",
+                "cultivos": ["flor"],
+                "metaTags": [
+                    "ultrasol"
+
+                ]
+            }, {
+                "id": "0029",
+                "nombre": "Ultrasol® Flor de Maceta",
+                "file": "ultrasolFlorDeMaceta.json",
+                "verbose": "ultrasolFlorDeMaceta",
+                "estado": "activado",
+                "cultivos": ["flor"],
+                "metaTags": [
+                    "ultrasol",
+                    "tomate"
+                ]
+            }, {
+                "id": "0030",
+                "nombre": "Ultrasol® Cebolla Crecimiento",
+                "file": "ultrasolCebollaCrecimiento.json",
+                "verbose": "ultrasolCebollaCrecimiento",
+                "estado": "activado",
+                "cultivos": ["cebolla"],
+                "metaTags": [
+                    "ultrasol",
+                    "chile"
+                ]
+            }, {
+                "id": "0031",
+                "nombre": "Ultrasol® Cebolla Finalizador",
+                "file": "ultrasolCebollaFinalizador.json",
+                "verbose": "ultrasolCebollaFinalizador",
+                "estado": "activado",
+                "cultivos": ["cebolla"],
+                "metaTags": [
+                    "ultrasol",
+                    "chile"
+                ]
+            }, {
+                "id": "0032",
+                "nombre": "Ultrasol® Piña",
+                "file": "ultrasolPina.json",
+                "verbose": "ultrasolPina",
+                "estado": "activado",
+                "cultivos": ["piña"],
+                "metaTags": [
+                    "ultrasol",
+                    "chile"
+                ]
+            }, {
+                "id": "0033",
+                "nombre": "Ultrasol® Papaya",
+                "file": "ultrasolPapaya.json",
+                "verbose": "ultrasolPapaya",
+                "estado": "activado",
+                "cultivos": ["papaya"],
+                "metaTags": [
+                    "ultrasol",
+                    "chile"
+                ]
+            }, {
+                "id": "0034",
+                "nombre": "Ultrasol® Manzana",
+                "file": "ultrasolManzana.json",
+                "verbose": "ultrasolManzana",
+                "estado": "activado",
+                "cultivos": ["manzana"],
+                "metaTags": [
+                    "ultrasol",
+                    "chile"
+                ]
+            }]
+        }, {
+            "id": "ultMicro",
+            "nombre": "Micronutrientes",
+            "tipo": "micronutrientes",
+            "img": "img_micro.png",
+            "productos": [{
+                "id": "0035",
+                "nombre": "Ultrasol® micro Mix EDTA",
+                "file": "ultrasolMicroMix.json",
+                "verbose": "ultrasolMicroMix",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "ultrasol",
+                    "Magnesio"
+                ]
+            }, {
+                "id": "0036",
+                "nombre": "Ultrasol® micro Rexene® Fe Q48 EDDHA",
+                "file": "ultrasolMicroRexeneFeQ48.json",
+                "verbose": "ultrasolMicroRexeneFeQ48",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "ultrasol",
+                    "Fierro"
+                ]
+            }, {
+                "id": "0037",
+                "nombre": "Ultrasol® micro Fe XQ58 EDDHA",
+                "file": "ultrasolMicroFeXQ58.json",
+                "verbose": "ultrasolMicroFeXQ58",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+
+                "metaTags": [
+                    "ultrasol",
+                    "Hierro"
+                ]
+            }, {
+                "id": "0038",
+                "nombre": "Ultrasol® micro Rexene® Fe D11 DTPA",
+                "file": "ultrasolMicroRexeneFeD11.json",
+                "verbose": "ultrasolMicroRexeneFeD11",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+
+                "metaTags": [
+                    "ultrasol",
+                    "Fierro"
+                ]
+            }, {
+                "id": "0039",
+                "nombre": "Ultrasol® micro Rexene® Fe E13 EDTA",
+                "file": "ultrasolMicroRexeneFeE13.json",
+                "verbose": "ultrasolMicroRexeneFeE13",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "ultrasol",
+                    "hierro"
+                ]
+            }, {
+                "id": "0040",
+                "nombre": "Ultrasol® micro Rexene® Mn E13 EDTA",
+                "file": "ultrasolMicroRexeneMnE13.json",
+                "verbose": "ultrasolMicroRexeneMnE13",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "ultrasol",
+                    "Magnesio"
+                ]
+            }, {
+                "id": "0041",
+                "nombre": "Ultrasol® micro Rexene® Zn E15 EDTA",
+                "file": "ultrasolMicroRexeneZnE15.json",
+                "verbose": "ultrasolMicroRexeneZnE15",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+
+                "metaTags": [
+                    "ultrasol",
+                    "Manganeso"
+                ]
+            }, {
+                "id": "0042",
+                "nombre": "Ultrasol® micro Boro",
+                "file": "ultrasolMicroBoro.json",
+                "verbose": "ultrasolMicroBoro",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "ultrasol",
+                    "Zinc"
+                ]
+            }]
+        }]
+    }, {
+        "id": "qrop",
+        "nombre": "Qrop®",
+        "baseUrl": "src/data/mx/productos/qrop/",
+        "cssclass": "menuPrincipal-fondoqrop",
+        "img": "img_qrop2.png",
+        "imgBlanco": "img_qrop1.png",
+        "lineas": [{
+            "id": "qrop",
+            "nombre": "Macronutrientes",
+            "tipo": "macronutrientes",
+            "img": "img_macro.png",
+            "productos": [{
+                "id": "0043",
+                "nombre": "Qrop® KS",
+                "file": "qropKS.json",
+                "verbose": "qropKS",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "qrop",
+                    "Calcio"
+                ]
+            }, {
+                "id": "0044",
+                "nombre": "Qrop® TOP K",
+                "file": "qropTOPK.json",
+                "verbose": "qropTOPK",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "qrop",
+                    "cloro",
+                    "nitrato de potasio"
+                ]
+            }, {
+                "id": "0045",
+                "nombre": "Qrop® Boronat 30",
+                "file": "qropBoronat30.json",
+                "verbose": "qropBoronat30",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "qrop",
+                    "cloro",
+                    "nitrato de potasio"
+                ]
+            }, {
+                "id": "0046",
+                "nombre": "Qrop® MOP-G",
+                "file": "qropMOPG.json",
+                "verbose": "qropMOPG",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "qrop",
+                    "cloro",
+                    "nitrato de potasio"
+                ]
+            }]
+        }]
+    }, {
+        "id": "speedfol",
+        "nombre": "Speedfol®",
+        "baseUrl": "src/data/mx/productos/speedfol/",
+        "cssclass": "menuPrincipal-fondospeedfol",
+        "img": "img_speedfol2.png",
+        "imgBlanco": "img_speedfol1.png",
+        "lineas": [{
+            "id": "speefol",
+            "nombre": "Speedfol®",
+            "tipo": "speedfol",
+            "img": "img_fasefenologica.png",
+            "productos": [{
+                    "id": "0047",
+                    "nombre": "Speedfol® Cereal SP",
+                    "file": "speedfolCerealSP.json",
+                    "verbose": "speedfolCerealSP",
+                    "estado": "activado",
+                    "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                    "metaTags": [
+                        "speedfol",
+                        "nitrogeno",
+                        "oxido de fosforo",
+                        "oxido de potasio",
+                        "hierro",
+                        "zinc",
+                        "manganeso",
+                        "cobre",
+                        "molibedno",
+                        "boro"
+                    ]
+                }, {
+                    "id": "0048",
+                    "nombre": "Speedfol® Induccion",
+                    "file": "speedfolInduccion.json",
+                    "verbose": "speedfolInduccion",
+                    "estado": "activado",
+                    "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                    "metaTags": [
+                        "speedfol",
+                        "oxido de potasio",
+                        "oxido de fosforo",
+                        "oxido de magnesio",
+                        "hierro",
+                        "manganeso",
+                        "zinc",
+                        "boro",
+                        "cobre",
+                        "molibdeno"
+                    ]
+                }, {
+                    "id": "0049",
+                    "nombre": "Speedfol® Kali SP",
+                    "file": "speedfolKaliSP.json",
+                    "verbose": "speedfolKaliSP",
+                    "estado": "activado",
+                    "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                    "metaTags": [
+                        "speedfol",
+                        "oxido de potasio",
+                        "oxido de fosforo",
+                        "oxido de magnesio",
+                        "hierro",
+                        "manganeso",
+                        "zinc",
+                        "boro",
+                        "cobre",
+                        "molibdeno"
+                    ]
+                }, {
+                    "id": "0050",
+                    "nombre": "Speedfol® Balance SP",
+                    "file": "speedfolBalanceSP.json",
+                    "verbose": "speedfolBalanceSP",
+                    "estado": "activado",
+                    "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                    "metaTags": [
+                        "speedfol",
+                        "oxido de fosforo",
+                        "oxido de potasio",
+                        "magnesio",
+                        "hierro",
+                        "manganeso",
+                        "zinc",
+                        "boro",
+                        "cobre",
+                        "molibdeno"
+                    ]
+                }, {
+                    "id": "0051",
+                    "nombre": "Speedfol® Flower & Fruit SP",
+                    "file": "speedfolPFlowerFruitSP.json",
+                    "verbose": "speedfolFlowerFruitSP",
+                    "estado": "activado",
+                    "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                    "metaTags": [
+                        "speedfol",
+                        "oxido de potasio",
+                        "oxido de fosforo",
+                        "magnesio",
+                        "hierro",
+                        "manganeso",
+                        "zinc",
+                        "boro",
+                        "cobre",
+                        "molibdeno"
+                    ]
+                }, {
+                    "id": "0052",
+                    "nombre": "Speedfol® Multigrow SP",
+                    "file": "speedfolMultigrowSP.json",
+                    "verbose": "speedfolMultigrowSP",
+                    "estado": "activado",
+                    "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                    "metaTags": [
+                        "speedfol",
+                        "oxido de potasio",
+                        "oxido de fosforo",
+                        "magnesio",
+                        "hierro",
+                        "manganeso",
+                        "zinc",
+                        "boro",
+                        "cobre",
+                        "molibdeno"
+                    ]
+                }, {
+                    "id": "0053",
+                    "nombre": "Speedfol® Starter SP",
+                    "file": "speedfolStarterSP.json",
+                    "verbose": "speedfolStarterSP",
+                    "estado": "activado",
+                    "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                    "metaTags": [
+                        "speedfol",
+                        "oxido de potasio",
+                        "oxido de fosforo",
+                        "magnesio",
+                        "hierro",
+                        "manganeso",
+                        "zinc",
+                        "boro",
+                        "cobre",
+                        "molibdeno"
+                    ]
+                }, {
+                    "id": "0054",
+                    "nombre": "Speedfol® Plant Grow SP",
+                    "file": "speedfolPlantGrowSP.json",
+                    "verbose": "speedfolPlantGrowSP",
+                    "estado": "activado",
+                    "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                    "metaTags": [
+                        "speedfol",
+                        "oxido de potasio",
+                        "oxido de fosforo",
+                        "magnesio",
+                        "hierro",
+                        "manganeso",
+                        "zinc",
+                        "boro",
+                        "cobre",
+                        "molibdeno"
+                    ]
+                }, {
+                    "id": "0055",
+                    "nombre": "Speedfol® Pecano SP",
+                    "file": "speedfolPecanoSP.json",
+                    "verbose": "speedfolPecanoSP",
+                    "estado": "activado",
+                    "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                    "metaTags": [
+                        "speedfol",
+                        "oxido de potasio",
+                        "oxido de fosforo",
+                        "magnesio",
+                        "hierro",
+                        "manganeso",
+                        "zinc",
+                        "boro",
+                        "cobre",
+                        "molibdeno"
+                    ]
+                }, {
+                    "id": "0056",
+                    "nombre": "Speedfol® B SP",
+                    "file": "speedfolBSP.json",
+                    "verbose": "speedfolBSP",
+                    "estado": "activado",
+                    "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                    "metaTags": [
+                        "speedfol",
+                        "oxido de potasio",
+                        "oxido de fosforo",
+                        "magnesio",
+                        "hierro",
+                        "manganeso",
+                        "zinc",
+                        "boro",
+                        "cobre",
+                        "molibdeno"
+                    ]
+                }]
+            }]
+        }, {
+        "id": "allganic",
+        "nombre": "Allganic®",
+        "baseUrl": "src/data/mx/productos/allganic/",
+        "cssclass": "menuPrincipal-fondoallganic",
+        "img": "img_allganic2.png",
+        "imgBlanco": "img_allganic1.png",
+        "lineas": [{
+            "id": "allganic",
+            "nombre": "Allganic®",
+            "tipo": "allganic",
+            "img": "img_allganic1.png",
+            "productos": [{
+                "id": "0057",
+                "nombre": "Allganic® Potassium",
+                "file": "allganicPotassium.json",
+                "verbose": "allganicPotassium",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": ["allganic",
+                    "nitrogeno",
+                    "oxido de fosforo",
+                    "oxido de potasio",
+                    "hierro",
+                    "zinc",
+                    "manganeso",
+                    "cobre",
+                    "molibedno",
+                    "boro"
+                ]
+            }, {
+                "id": "0058",
+                "nombre": "Allganic® Special",
+                "file": "allganicSpecial.json",
+                "verbose": "allganicSpecial",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "allganic",
+                    "nitrogeno",
+                    "oxido de fosforo",
+                    "oxido de potasio",
+                    "hierro",
+                    "zinc",
+                    "manganeso",
+                    "cobre",
+                    "molibedno",
+                    "boro"
+                ]
+            }, {
+                "id": "0059",
+                "nombre": "Allganic® Nitrogen Plus",
+                "file": "allganicNitrogenPlus.json",
+                "verbose": "allganicNitrogenPlus",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "allganic",
+                    "nitrogeno",
+                    "oxido de fosforo",
+                    "oxido de potasio",
+                    "hierro",
+                    "zinc",
+                    "manganeso",
+                    "cobre",
+                    "molibedno",
+                    "boro"
+                ]
+            }]
+        }]
+    }, {
+        "id": "nutrilake",
+        "nombre": "NutriLake®",
+        "baseUrl": "src/data/mx/productos/nutrilake/",
+        "cssclass": "menuPrincipal-fondonutrilake",
+        "img": "img_nutrilake2.png",
+        "imgBlanco": "img_nutrilake1.png",
+        "lineas": [{
+            "id": "nutrilake",
+            "nombre": "NutriLake®",
+            "tipo": "nutrilake",
+            "img": "img_nutrilake1.png",
+            "productos": [{
+                "id": "0060",
+                "nombre": "Nutrilake® STD",
+                "file": "nutrilakeSTD.json",
+                "verbose": "nutrilakeSTD",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": ["allganic",
+                    "nitrogeno",
+                    "oxido de fosforo",
+                    "oxido de potasio",
+                    "hierro",
+                    "zinc",
+                    "manganeso",
+                    "cobre",
+                    "molibedno",
+                    "boro"
+                ]
+            }, {
+                "id": "0061",
+                "nombre": "Nutrilake® P",
+                "file": "nutrilakeP.json",
+                "verbose": "nutrilakeP",
+                "estado": "activado",
+                "cultivos": ["ajo", "brocoli", "cebolla", "chile", "lechuga", "pepino", "pimiento", "tomate"],
+                "metaTags": [
+                    "allganic",
+                    "nitrogeno",
+                    "oxido de fosforo",
+                    "oxido de potasio",
+                    "hierro",
+                    "zinc",
+                    "manganeso",
+                    "cobre",
+                    "molibedno",
+                    "boro"
+                ]
+            }]
+        }]
+    }]
+}

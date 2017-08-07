@@ -1,0 +1,134 @@
+{   
+	"id":"0040",
+	"nombre" :"Chile",
+	"background":"chile.jpg",
+	
+	"descripcion":"<p>Solicite a su agrónomo local de SQM asesoría para formular un programa de nutrición vegetal de especialidad de acuerdo con sus necesidades locales y requerimientos de cultivo.</p>",
+	"etapas":"",
+	"desordenes":[
+
+	],
+	"variedadesTecnicas": [],
+	"variedades":[
+		{
+			"variedadId": "4001",
+			"variedadNombre":"Chiles Anchos",
+			"verbose":"chilesanchos",
+			"variedadesTecnicas": [
+				{   
+					"variedadTecnicaId":"17",
+					"condicionId":"2",
+					"tecnificacionId":"1",
+					"fertilizacion":false  
+				},
+				{   
+					"variedadTecnicaId":"18",
+					"condicionId":"5",
+					"tecnificacionId":"1",
+					"fertilizacion":false  
+				}
+				
+			]                 
+		},
+		{
+			"variedadId": "4002",
+			"variedadNombre":"Chiles Mirasol (Guajillo)",
+			"verbose":"chilesmirasol",
+			"variedadesTecnicas": [
+				
+				{   
+					"variedadTecnicaId":"19",
+					"condicionId":"2",
+					"tecnificacionId":"1",
+					"fertilizacion":false  
+				},
+				{   
+					"variedadTecnicaId":"20",
+					"condicionId":"5",
+					"tecnificacionId":"1",
+					"fertilizacion":false  
+				}
+
+			]                 
+		},
+		{
+			"variedadId": "4003",
+			"variedadNombre":"Pasilla (Chilaca)",
+			"verbose":"chilespasilla",
+			"variedadesTecnicas": [
+				
+				{   
+					"variedadTecnicaId":"21",
+					"condicionId":"2",
+					"tecnificacionId":"1",
+					"fertilizacion":false  
+				},
+				{   
+					"variedadTecnicaId":"22",
+					"condicionId":"5",
+					"tecnificacionId":"1",
+					"fertilizacion":false  
+				}
+
+			]                 
+		},
+		{
+			"variedadId": "4004",
+			"variedadNombre":"Chiles Serranos",
+			"verbose":"chilesserranos",
+			"variedadesTecnicas": [
+				{   
+					"variedadTecnicaId":"23",
+					"condicionId":"2",
+					"tecnificacionId":"1",
+					"fertilizacion":false  
+				},
+				{   
+					"variedadTecnicaId":"24",
+					"condicionId":"5",
+					"tecnificacionId":"1",
+					"fertilizacion":false  
+				}
+			]                 
+		},
+		{
+			"variedadId": "4005",
+			"variedadNombre":"Chiles Jalapeños ",
+			"verbose":"chilesjalapenos",
+			"variedadesTecnicas": [
+				{   
+					"variedadTecnicaId":"25",
+					"condicionId":"2",
+					"tecnificacionId":"1",
+					"fertilizacion":false  
+				},
+				{   
+					"variedadTecnicaId":"26",
+					"condicionId":"5",
+					"tecnificacionId":"1",
+					"fertilizacion":false  
+				}
+			]                 
+		},
+		{
+			"variedadId": "4006",
+			"variedadNombre":"Chiles Caloros",
+			"verbose":"chilescaloros",
+			"variedadesTecnicas": [
+				{   
+					"variedadTecnicaId":"27",
+					"condicionId":"2",
+					"tecnificacionId":"1",
+					"fertilizacion":false  
+				},
+				{   
+					"variedadTecnicaId":"28",
+					"condicionId":"5",
+					"tecnificacionId":"1",
+					"fertilizacion":false  
+				}
+			]                 
+		}
+
+	]
+}

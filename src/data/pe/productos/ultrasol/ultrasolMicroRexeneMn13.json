@@ -1,0 +1,15 @@
+{   "id":"0014",
+    "nombre" :"Ultrasol micro Rexene Mn13",
+    "presentacion":"25kg",
+    "descripcionCorta":"Producto Estrella",
+    "img":"ultrasol-microrexenemn13.png",
+    "marcaID":"ultrasol",
+    "marca":"Ultrasol",
+    "lineaID":"ultMicro",
+    "linea":"micronutrientes",
+   "cultivos":["palta","ajo","arandano","brocoli","cebolla","cereza","chile","ciruela","cranberry","durazno","frambuesa","kiwi","lima","limon","mandarina","mango","manzano","naranja","papa","pepino","pera","pimiento","pomelo","tomate","trigo","uva"],
+    "metaTags":["ultrasol","Oxido de Fosforo","Fosfato Monoamonico","Nitrogeno"],
+    "descripcion":"<p>Ultrasol® micro Rexene® Mn13 es un producto desarrollado para la corrección y la prevención de deficiencia en manganeso en la aplicación foliar, en sistemas hidropónicos, y en suelos pobres en manganeso. Para otras aplicaciones, por favor preguntar por nuestros otros productos Micronutrientes SQM VITAS. Contiene 128 gramos de Manganeso por Kg de producto como Mn-EDTA derivado del ácido etilen diamino tetracético.</p><p>Instrucciones de Uso</p><p>Ultrasol® micro Rexene® Mn13 está dirigido para su aplicación a las plantas, como una solución en agua.</p><p>Rexene® es una marca registrada de los grupos de empresas AkzoNobel.</p>",
+    "informacionTecnica":"<table class='table table-striped'>  <tr> <th colspan=\"2\">ESPECIFICACIONES</th> </tr> <tr> <td>Apariencia</td> <td>Sólidos / Microgránulos</td> </tr> <tr> <td>Manganeso agente quelatante EDTA (Mn)</td> <td>12,8%</td> </tr> <tr> <td>pH (1%)</td> <td>6 - 7</td> </tr> <tr> <td>Solubilidad (20° C)</td> <td>1000 g/l</td> </tr> <tr> <td>Solubilidad Sugerida</td> <td>800 g/l</td> </tr> </table> ", 
+    "hojaProducto": "<table class='table table-striped'>  <tr> <th>Caracteristicas</th> <th>Valores</th> </tr> <tr> <td>Fórmula Química</td> <td>C<sub>10</sub>H<sub>12</sub>N<sub>2</sub>O<sub>8</sub> MnNa<sub>2</sub></td> </tr> <tr> <td>Apariencia</td> <td>Solidos / Microgránulos</td> </tr> <tr> <td>Manganeso EDTA Mn</td> <td>12,8%</td> </tr> <tr> <td>pH (1%)</td> <td>6 - 7</td> </tr> <tr> <td>Solubilidad (20&deg; C)</td> <td>1000 g/l</td> </tr> <tr> <td>Solubilidad Sugerida</td> <td>800 g/l</td> </tr> </table> "
+}

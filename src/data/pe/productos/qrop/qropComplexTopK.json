@@ -1,0 +1,15 @@
+{   "id":"0055",
+    "nombre" :"Qrop complex TOP K",
+    "presentacion":"25kg",
+    "descripcionCorta":"Producto Estrella",
+    "img":"qrop-complextopk.png",
+    "marcaID":"qrop",
+    "marca":"Qrop",
+    "lineaID":"qropComp",
+    "linea":"complejos",
+    "cultivos":[],
+    "metaTags":["ultrasol","Oxido de Fosforo","Fosfato Monoamonico","Nitrogeno"],
+    "descripcion":"<p>Qrop® complex Top K contiene todos los nutrientes esenciales como magnesio y calcio. El magnesio es importante en la síntesis de clorofila, y el calcio es un componente vital de las paredes celulares. El contenido óptimo de calcio garantiza una mayor vida útil y la calidad de los productos cosechados.</p><corte><ul> <li>Qrop® complex Top K libera rápidamente sus nutrientes al entrar en contacto con el agua, proporcionando un suministro equilibrado de nitrógeno, fósforo, potasio, calcio, magnesio y azufre.</li> <li>El Nitrógeno presente en el Qrop® complex Top K está en forma de N-nitrato (59%) y N-amonio (41%).</li> <li>El Nitrato es absorbido inmediatamente, y por tanto, favorece rápidamente la absorción de macronutrientes catiónicos (K+, Ca<sub>2</sub>+, Mg<sub>2</sub>+) y también algunos micronutrientes.</li> <li>El potasio (K) presente en Qrop® complex Top K proviene del uso de Nitrato de Potasio como materia prima, la fuente de K preferida por las plantas.</li><li>Qrop® complex Top K no contiene urea.</li><li>Qrop® complex Top K tiene bajo contenido de sulfatos. La acumulación de sulfato en el suelo puede provocar un desbalance de nutrientes, y en algunos casos estrés de salinidad.</li> </ul>",
+    "informacionTecnica":"<table class='table table-striped'>  <tr> <th colspan=\"2\">ESPECIFICACIONES</th> </tr> <tr> <td>Apariencia</td> <td>Gránulos sólidos color granate</td> </tr> <tr> <td>Nitrógeno Total (N)</td> <td>12%</td> </tr> <tr><td>Nitrógeno Nítrico (NO<sub>3</sub>-)</td><td>7,1 %</td></tr> <tr><td>Nitrógeno Amonical (NH<sub>4</sub>+)</td><td>4,9 %</td></tr> <tr><td>Fósforo (P<sub>2</sub>O<sub>5</sub>)</td><td>6,0 %</td></tr> <tr><td>Potasio (K<sub>2</sub>O)</td><td>24,0 %</td></tr> <tr><td>Azufre (S)</td><td>5,6 %</td></tr> <tr><td>Magnesio (MgO)</td><td>2,0 %</td></tr> <tr><td>Calcio (CaO)</td><td>3,0 %</td></tr> </table> ",
+    "hojaProducto": "<table class='table table-striped'>  <tr> <th>Caracteristicas</th> <th>Valores</th> </tr> <tr> <td>Grado Agrícola - Granulado</td> <td>12 - 06 - 24</td> </tr> <tr> <td>Descripción</td> <td>Complejo Químico Monograno NPK</td> </tr> <tr> <td>Fórmula Química</td> <td>No aplica</td> </tr> <tr> <td>Apariencia</td> <td>Granos sólidos color verde</td> </tr> <tr> <td>Nitrogeno total N</td> <td>12%</td> </tr> <tr><td>N Nítrico NO<sub>3</sub></td><td>7,1%</td></tr> <tr><td>N Amoniacal NH<sub>4</sub></td><td>4,9%</td></tr> <tr><td>Fosforo como P<sub>2</sub>O<sub>5</sub></td><td>6%</td></tr> <tr><td>Potasio como K<sub>2</sub>O</td><td>24%</td></tr> <tr><td>Sulfato SO<sub>3</sub></td><td>14%</td></tr> <tr><td>Magnesio Mg</td><td>1,2%</td></tr> <tr><td>Calcio Ca</td><td>2,14%</td></tr> </table> "
+}

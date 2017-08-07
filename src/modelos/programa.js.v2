@@ -1,0 +1,294 @@
+/*
+    Class Programa
+    Technical variable of cultivos 
+*/
+
+
+function Programa() {
+
+        this.id             = null;
+        this.etapas         = [];
+
+
+    
+
+    this.setId = function(id){
+        this.id = id;
+    };
+
+    this.setEtapa = function(etapaData){
+       var etapaNueva = new ProgramaEtapa();
+            etapaNueva.setId(etapaData.id);
+            etapaNueva.setEtapaId(etapaData.etapaId);            
+            etapaNueva.setSemanasDesde(etapaData.semanasDesde);
+            etapaNueva.setSemanasHasta(etapaData.semanasHasta);
+            etapaNueva.setDiasAcumulados(etapaData.diasAcumulados);           
+
+        for (var i = 0; i < etapaData.fertilizantes.length; i++) {
+            var auxFertilizante = etapaData.fertilizantes[i];
+            etapaNueva.setFertilizante(auxFertilizante);
+            console.log("call: setFertilizante");
+            console.log(auxFertilizante);
+        }
+        this.addEtapa(etapaNueva);
+    };
+    
+    this.addEtapa = function(etapaObj){
+        this.etapas.push(etapaObj);
+    };
+
+    /*
+    Function getTotales
+        min Description text of Cultivo
+
+    Return String
+    */
+    this.getTotalesDetalleSemanas = function(){
+        console.log("ProgramaEtapa.getTotalesDetalleSemanas");
+
+        var totales =[
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ];
+
+        //recorro todas las etapas
+        for (var i = 0; i < this.etapas.length; i++) {
+            //auxiliar de etapa
+            var auxEtapa = this.etapas[i];
+            //console.log("totalessem etapa"+i);
+
+            //recorro todos los fetilizantes en esa etapa
+            for (var j = 0; j < auxEtapa.fertilizantes.length; j++) {
+                //console.log("totalessem fertilizante"+j);
+                
+                //auxiliar de fertilizante
+                var auxFertilizante = auxEtapa.fertilizantes[j];
+                
+                //recorro todos los datos por semana en el fertilizante
+                for (var k = 0; k < auxFertilizante.KgPorSemanas.length; k++) {
+                    //console.log("totalessem semana"+k);
+                    //auxliar de kg inicializado en 0
+                    var auxKgSem = 0;
+                    
+                    //si el dato no es null o vacio, lo asigno
+                    if (auxFertilizante.KgPorSemanas[k]!="") {
+                        auxKgSem = parseInt(auxFertilizante.KgPorSemanas[k]);
+                    }
+
+                    //sumo el total de la semana (apuntada por el indice K) + el dato del fertilizante
+                    totales[k]=totales[k] + auxKgSem;
+                    //console.log(totales[k]);
+                }               
+            }
+        }
+        console.log(totales);
+       return totales;
+    };
+
+
+     this.crearTabla= function (programaActivo){
+
+        console.log("tablaPDF");
+        if (programaActivo ===undefined) {
+            console.log("sin Programa");
+            alert("No se encontró un Programa para enviar por correo.\nAsegúrese de seleccionar variedad de Cultivo, condición y tecnificación.");
+            return false;
+        }else{
+            console.log("existe un Programa");
+            console.log(programaActivo);
+            var makeid =Math.random().toString(36).substring(5);
+           
+            //console.log("cultivo a buscar:");
+            //console.log( $scope.filtroProgramaVariedad);         
+            //console.log( $scope.filtroProgramaCondicion[$scope.filtrosProgramaActivos.condicion]);   
+            //console.log( $scope.filtroProgramaTecnica[$scope.filtrosProgramaActivos.tecnificacion]);
+
+            //var tituloPrograma = $scope.filtroProgramaVariedad.nombre + '-' + $scope.filtroProgramaCondicion[$scope.filtrosProgramaActivos.condicion].condicion + '-' + $scope.filtroProgramaTecnica[$scope.filtrosProgramaActivos.tecnificacion].tecnificacion;
+            //var nombreProgramaAux = Date.now()+'_'+tituloPrograma;
+            //var nombrePrograma = nombreProgramaAux.substring(0, 45);
+            
+            //console.log(">> "+nombrePrograma);
+            
+            var tabla=[];
+            var totalesPrograma ={
+                "totalN":0,
+                "totalP2O5":0,
+                "totalK2O":0,
+                "totalCa0":0,
+                "totalMg0":0,
+                "totalMe":"-"
+            };
+
+            //
+            //
+            //
+            //
+            //
+            //
+            //
+            //llenado tabla 
+            
+            //para cada etapa
+            for (var etapaIndex = 0; etapaIndex < programaActivo.etapas.length; etapaIndex++) {
+                
+                //console.log("for Etapa");
+                var auxEtapa = programaActivo.etapas[etapaIndex];
+                var filaEtapa={
+                     etapa:         auxEtapa.nombre,     
+                     producto:      "", 
+                     contN:         auxEtapa.semanasDesde,
+                     contP2O5:      auxEtapa.semanasHasta,
+                     contK2O:       auxEtapa.diasAcumulados  , 
+                     contCaO:       ""  ,
+                     contMgO:           ""  , 
+                     kgEtapa:       ""  , 
+                     kgN:       ""  , 
+                     kgP2O5:    ""  ,
+                     kgK2O:     ""  ,
+                     kgCaO:     ""  ,
+                     kgMgO:     "" 
+                };
+                //console.log(filaEtapa);
+                tabla.push(filaEtapa);
+                var auxTotalesEtapa = auxEtapa.getTotales();
+
+
+                    //recorrer productos fertilizantes
+                    for (var productsIndex = 0; productsIndex < auxEtapa.fertilizantes.length; productsIndex++) {
+                        //console.log("for Productos");
+                        var auxProductos = auxEtapa.fertilizantes[productsIndex];
+                            auxProductos["semanasDesde"]=auxEtapa.semanasDesde;
+                            auxProductos["semanasHasta"]=auxEtapa.semanasHasta;
+                            auxProductos["diasAcumulados"]=auxEtapa.diasAcumulados;
+                        
+                        /*var auxMe= "No";
+                        if (auxProductos.conMe) {
+                            auxMe ="Si";
+                        }*/
+                        var filaProducto={
+                             etapa:         "",     
+                             producto:      auxProductos.nombre, 
+                             contN:         auxProductos.contenidoN,
+                             contP2O5:      auxProductos.contenidoP2O5,
+                             contK2O:       auxProductos.contenidoK2O  , 
+                             contCaO:       auxProductos.contenidoCaO  ,
+                             contMgO:       auxProductos.contenidoMgO  , 
+                             kgEtapa:       auxProductos.kgEtapa  , 
+                             kgN:           auxProductos.kgN  ,
+                             kgP2O5:        auxProductos.kgP2O5  , 
+                             kgK2O:         auxProductos.kgK2O  ,
+                             kgCaO:         auxProductos.kgCaO  ,
+                             kgMgO:         auxProductos.kgMgO  ,
+
+                        };
+                        //console.log(filaProducto);
+                        tabla.push(filaProducto);
+                    }
+
+                
+
+                var filaTotal={
+                    etapa:    "Total Aporte Etapa",     
+                    producto:      "", 
+                    contN:         "",
+                    contP2O5:      "",
+                    contK2O:       "" , 
+                    contCaO:       "" ,
+                    contMgO:       ""  , 
+                    kgEtapa:       "" , 
+                    kgN:     auxTotalesEtapa.totalN, 
+                    kgP2O5:     auxTotalesEtapa.totalP2O5, 
+                    kgK2O:     auxTotalesEtapa.totalK2O,
+                    kgCaO:    auxTotalesEtapa.totalCa0,
+                    kgMgO:    auxTotalesEtapa.totalMg0
+                };
+
+                //console.log( auxTotalesEtapa);
+
+                totalesPrograma.totalN              = parseFloat(totalesPrograma.totalN     + auxTotalesEtapa.totalN);
+                totalesPrograma.totalP2O5           = parseFloat(totalesPrograma.totalP2O5  + auxTotalesEtapa.totalP2O5);
+                totalesPrograma.totalK2O            = parseFloat(totalesPrograma.totalK2O   + auxTotalesEtapa.totalK2O);
+                totalesPrograma.totalCa0            = parseFloat(totalesPrograma.totalCa0   + auxTotalesEtapa.totalCa0);
+                totalesPrograma.totalMg0            = parseFloat(totalesPrograma.totalMg0   + auxTotalesEtapa.totalMg0);
+                
+                var filaSeparador={
+                    etapa:          "Total Aporte Etapa",     
+                    producto:       "", 
+                    contN:          "",
+                    contP2O5:       "",
+                    contK2O:        "", 
+                    contCaO:        "",
+                    contMgO:        "", 
+                    kgEtapa:        "", 
+                    n:              "", 
+                    p:              "", 
+                    k:              "",
+                    ca:             "",
+                    mg:             "" 
+                };
+
+
+                tabla.push(filaTotal);
+                //tabla.push(filaSeparador);
+            }
+
+            //console.log( "totalesPrograma");
+            //console.log( totalesPrograma);
+            var filaTotalesPrograma={
+                    etapa:    "Total Aporte Programa" ,     
+                    producto:      "", 
+                    contN:         "",
+                    contP2O5:      "",
+                    contK2O:       "" , 
+                    contCaO:       "" ,
+                    contMgO:       ""  , 
+                    kgEtapa:       "" , 
+                    kgN:     totalesPrograma.totalN, 
+                    kgP2O5:     totalesPrograma.totalP2O5, 
+                    kgK2O:     totalesPrograma.totalK2O,
+                    kgCaO:    totalesPrograma.totalCa0,
+                    kgMgO:    totalesPrograma.totalMg0
+                };
+            tabla.push(filaTotalesPrograma);
+            //$scope.programaTablaData=tabla;
+            console.log("tabla programa:");
+            console.log(tabla);
+            return tabla;
+            //console.log(" $scope.programaTablaData");
+            //console.log( $scope.programaTablaData);
+
+            //console.log("tabla imprimir:");
+            //console.log(tabla);
+            
+
+            //Pulgadas: 8.5 x 11.
+            //Pixeles: 2550 x 3300.
+            //Puntos: 612 x 792
+                //AQUI DOC
+            //doc.save('table.pdf');
+            
+            //para android   
+            //$scope.savePDF(nombrePrograma, doc);
+            
+        }
+    };
+}
+
+
+
