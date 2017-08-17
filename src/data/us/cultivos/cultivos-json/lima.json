@@ -4,44 +4,7 @@
     "background":"lima.jpg",
     "productos":["producto_id","producto_id2"],
     "descripcion":"<p>Citrus crops, particularly lemon trees, are sensible to frosts. This damage can be very detrimental at fruit formation initiation stage, being affected with temperatures between -0.9°C and -1.4°C. The rest of citrus crops (mandarins, grape fruits and orange tress) are tolerant to temperatures until approximately -2.5°C.</p><p>The location of crops is important, since the optimum temperature accumulation (degree days) for growing species directly influences the fruits soluble solid content (sugar content); consequently in warm spring locations, an early and excellent fruit quality is possible to obtain.</p><p>In relation to soil requirements, citrus crops need good drainage soils and with an effective depth of 80 cm to develop normal roots, being common to utilize ridges, which allow to establish these crops in thinner soils.</p><p>For citrus crops, it is common to utilize technified irrigation for controlling moisture stress, which is particularly damaging at the flowering stage. Also, the utilization of drippers and permanent soil washing to avoid excess salinity at the root zone, due to these crops are very sensible to salinity, being important to avoid water with salt concentration higher than 2mmhos/cm.</p><p>Besides, in the irrigation water, carbonates and bicarbonates’ concentrations superior to 2 meq/l requires to acidifying the water to avoid drippers’ blockage. Under the technified irrigation system, it is required about 6.000 m3/ha/year of water in the Quillota zone, Chile.</p><p>For a correct rootstock selection, some important criteria to be considered are: the adaptation to the present soil conditions, the productivity looking for, fruit caliber and frost resistance and/or resistance to certain diseases that affect the crop. The rootstock diversity existing in Chile allows finding the best combination to be adapted to different soil conditions in the country.</p>",
-    "etapas":[
-        {
-            "nombre":"Pre- Bloom",
-            "id":"etapa1",
-            "img":"limon-01.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Full- Bloom",
-            "id":"etapa2",
-            "img":"limon-02.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Post Bloom (Fruit set)",
-            "id":"etapa3",
-            "img":"limon-03.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Fruit Growth",
-            "id":"etapa4",
-            "img":"limon-04.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Fruit Growth (Until colour change)",
-            "id":"etapa5",
-            "img":"limon-05.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Post Fruit Colouring",
-            "id":"etapa6",
-            "img":"limon-06.jpg",
-            "descripcion":""
-        }
-    ],
+    "etapas":"citricos.jpg",
     "desordenes":[
         {
             "elemento":"nitrogen",

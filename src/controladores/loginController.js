@@ -3,7 +3,7 @@ LibreriaAppSQM.controller("loginController", function($scope, $rootScope, localS
     $rootScope.currentPage="login";
     $scope.inputUsuario = "";
     
-    if ($rootScope.mercado.id =="mx" || $rootScope.mercado.id =="pe") {
+    if ($rootScope.mercado.id =="mx" || $rootScope.mercado.id =="pe" || $rootScope.mercado.id =="us") {
         window.location = "index.html#/menu";
     }
 

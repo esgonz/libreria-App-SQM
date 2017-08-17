@@ -4,38 +4,7 @@
     "background":"melon.jpg",
     "productos":["producto_id","producto_id2"],
     "descripcion":"<p>Ask your local SQM agronomist for a Specialty Plant Nutrition programme in accordance with your local needs and requirements.</p>",
-    "etapas":[
-        {
-            "nombre":"Transplant",
-            "id":"etapa1",
-            "img":"melon-01.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Establishment & foliar dev.",
-            "id":"etapa2",
-            "img":"melon-02.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Foliage expansion",
-            "id":"etapa3",
-            "img":"melon-03.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Flowering and fruit set",
-            "id":"etapa4",
-            "img":"melon-04.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Maturation",
-            "id":"etapa5",
-            "img":"melon-05.jpg",
-            "descripcion":""
-        }
-    ],
+    "etapas":"melon.jpg",
     "desordenes":[],
     "variedadesTecnicas":[],
     "variedades":[]

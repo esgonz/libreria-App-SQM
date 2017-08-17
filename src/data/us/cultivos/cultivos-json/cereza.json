@@ -4,56 +4,7 @@
    "background":"cereza.jpg",
    "productos":["producto_id","producto_id2"],
    "descripcion":[],
-   "etapas":[
-      {
-         "nombre":"Dormant",
-         "id":"etapa1",
-         "img":"cerezo-01.jpg",
-         "descripcion":""
-      },
-      {
-         "nombre":"Green tip",
-         "id":"etapa2",
-         "img":"cerezo-02.jpg",
-         "descripcion":""
-      },
-      {
-         "nombre":"First white",
-         "id":"etapa3",
-         "img":"cerezo-03.jpg",
-         "descripcion":""
-      },
-      {
-         "nombre":"First bloom",
-         "id":"etapa4",
-         "img":"cerezo-04.jpg",
-         "descripcion":""
-      },
-      {
-         "nombre":"Full bloom",
-         "id":"etapa5",
-         "img":"cerezo-05.jpg",
-         "descripcion":""
-      },
-      {
-         "nombre":"Fruit set",
-         "id":"etapa6",
-         "img":"cerezo-06.jpg",
-         "descripcion":""
-      },
-      {
-         "nombre":"Calyx fall",
-         "id":"etapa7",
-         "img":"cerezo-07.jpg",
-         "descripcion":""
-      },
-      {
-         "nombre":"Tender fruit / maturity",
-         "id":"etapa8",
-         "img":"cerezo-08.jpg",
-         "descripcion":""
-      }
-   ],
+   "etapas":"cereza.jpg",
    "desordenes":[
       {
          "elemento":"nitrogen",

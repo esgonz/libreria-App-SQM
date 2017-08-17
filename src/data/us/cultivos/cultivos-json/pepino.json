@@ -4,32 +4,7 @@
     "background":"pepino.jpg",
     "productos":["producto_id","producto_id2"],
     "descripcion":"<p>Physiological Aspects of the Cucumber crop (Cucumis Sativus)</p><p>The length of each phenologic condition in cucumber crop is very variable, depending on the type (Caipira, Aodai, Japanese, or for Preserves) and on the cultivation and conduction method (open field or greenhouse, wiring or creeping cultivation). Contrary to the majority of annual crops, in this crop phenologic stages overlap. Vegetal development, blooming, growth, and fruit ripening occur simultaneously after blooming starts. Senescence occurs while the crop is still in the production stage, and the cycle end is defined by the reduction of the production instead the termination of the production.</p>",
-    "etapas":[
-        {
-            "nombre":"Germination",
-            "id":"etapa1",
-            "img":"pepino-01.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Vegetative Development",
-            "id":"etapa2",
-            "img":"pepino-02.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Flowering",
-            "id":"etapa3",
-            "img":"pepino-03.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Maturity",
-            "id":"etapa4",
-            "img":"pepino-04.jpg",
-            "descripcion":""
-        }
-    ],
+    "etapas":"pepino.jpg",
     "desordenes":[],
     "variedadesTecnicas":[],
     "variedades":[]

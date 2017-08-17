@@ -4,38 +4,7 @@
     "background":"banana.jpg",
     "productos":["producto_id","producto_id2"],
     "descripcion":"<p>Ask your local SQM agronomist for a Specialty Plant Nutrition programme in accordance with your local needs and requirements.</p>",
-    "etapas":[
-        {
-            "nombre":"Sucker growth",
-            "id":"etapa1",
-            "img":"banana-01.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Inflorescence",
-            "id":"etapa2",
-            "img":"banana-02.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Flowering",
-            "id":"etapa3",
-            "img":"banana-03.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Bunch Development",
-            "id":"etapa4",
-            "img":"banana-04.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Maturation & Sucker Development",
-            "id":"etapa5",
-            "img":"banana-05.jpg",
-            "descripcion":""
-        }
-    ],
+    "etapas":"banana.jpg",
     "desordenes":[
         {
             "elemento":"nitrogen",

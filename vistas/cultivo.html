@@ -153,7 +153,8 @@
 				</style>
 				<div class="col-md-12">
 					<div class="cultivo-fenologia-block" ng-if="cultivoFicha.etapas!=''">
-						<img  id="img-fenologia" src="src/img/fenologia/{{cultivoFicha.etapas}}" alt="">	
+						<img  id="img-fenologia" ng-if="mercado.id !='us'" src="src/img/fenologia/{{cultivoFicha.etapas}}" alt="">
+						<img  id="img-fenologia" ng-if="mercado.id =='us'" src="src/img/fenologia/en/{{cultivoFicha.etapas}}" alt="">	
 						<!--<span id="span-desliza" class="showbox">
 							<img src="src/img/icons/ui/mano.png" alt="">	
 						</span>-->

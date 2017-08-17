@@ -1,53 +1,11 @@
+
 {
     "id":"0001",
     "nombre" :"Avocado",
     "background":"palta.jpg",
     "productos":["producto_id","producto_id2"],
     "descripcion":"<p>The avocado tree is a perennial type fruit specie, which presents a different growing behavior from other fruit trees.</p><p>The length and season of phenological stages depend on the variety, climate and geographic place. For the Hass variety, the most cultivated in Chile.</p>",
-    "etapas":[
-        {
-            "nombre":"Swollen bud",
-            "id":"etapa1",
-            "img":"palta-01.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Col stage",
-            "id":"etapa2",
-            "img":"palta-02.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Bud development",
-            "id":"etapa3",
-            "img":"palta-01.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Flower opening",
-            "id":"etapa4",
-            "img":"palta-03.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Fruit set",
-            "id":"etapa5",
-            "img":"palta-04.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Fruit growth",
-            "id":"etapa6",
-            "img":"palta-05.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Maturation",
-            "id":"etapa7",
-            "img":"palta-06.jpg",
-            "descripcion":""
-        }
-    ],
+    "etapas":"palta.jpg",
     "desordenes":[
         {
             "elemento":"nitrogen",

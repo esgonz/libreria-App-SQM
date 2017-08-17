@@ -4,38 +4,7 @@
     "background":"papa.jpg",
     "productos":["producto_id","producto_id2"],
     "descripcion":"<p>Its scientific name is Solanum tuberosum L. belonging to the Solanaceae family.</p><p>Potato is an herbaceous annual plant which has a fibrous and branching root system, with superficial roots concentrated in the first 60 cm of the soil. It develops stolons (subterraneous lateral stems) originated in the basal nodes near the soil surface. These stolons or modified stems are converted in tubers in their extremes, presenting these the same structures than the stolons (lenticels, internodes and scamiform leaves).</p><p>Even though potato can be reproduced by seeds, actually, the reproduction is always vegetative, performed by mean of tubers, which produces sprouts in the buds.</p><p>This crop is grown in a wide rage of soil types, being well adapted in acid soils. Prefer soils for potato cultivation are with light texture, sandy or loam, well drainage and high in organic matter content. Heavy soils can limit tuber development and prevent the absorption of some nutrients such potassium.</p><p>The optimum pH varies between 5.0 and 6.5; outside this range some elements usually became less available for the plant. Potato is moderately tolerant to salinity, being 1.7 dS/m the maximum for good yield; above this, the yield decreases.</p><p>The ideal storage temperature for potato is 4°C, since at this temperature the later sprouting will be more rapid. The tuber initiation requires temperatures between 18° to 20°C and in the growing phase these should be between 18° to 20° C during the days and lower at night (12° to 14° C). With day temperatures over 25° C the respiration rate increases substantially and decreases the net assimilation rate, affecting the photosynthetic process.</p><p>Day light hours influence the tuber filling rate, consequently this rate is maximum in temperate zones (away for the Equator) since they have greater light hours during the day.</p><p>It is important to avoid drastic variation in the soil humidity levels during the crop growing period, particularly at the phase of tuber initiation, when good humidity level should be constant. This will influence the increment of stems, foliar area, dry weight and tubers´ number. A 40 kPa tension at the tuberization moment produce high yields. The water consumption could vary between 4,000 to 6,000 m3 of water/ha/season, depending on the variety, climatic conditions, soil texture, etc. Maintaining adequate water levels during the tuberization phase, disease risks such as common scab (Streptomyces scabies) could be minimized. Besides, approaching harvest, an excess of water should be avoided to prevent skin scab and lenticels.</p><p>Among potato varieties, there are with short cycle (between 120 to 150 days from planting to harvest) and long cycle varieties (between 180 to 210 days), and according to their use, they can identify as varieties for fresh market, for seed production and for industry (potato chips and crisp).</p>",
-    "etapas":[
-        {
-            "nombre":"Sprouting initiation and emergence",
-            "id":"etapa1",
-            "img":"papa-01.jpg",
-            "descripcion":"<p>1- Fosfato Diamónico Nº Applications 1, kg/ha/aplic 250, Total kg/ha 250.</p><p>2- Qrop&reg; SOP G Nº Applications 1 kg/ha/aplic 100, Total kg/ha 100.</p>"
-        },
-        {
-            "nombre":"Leaf Dev.",
-            "id":"etapa2",
-            "img":"papa-02.jpg",
-            "descripcion":"<p>1- Ultrasol&reg; Growth Nº Applications 40, kg/ha/aplic 60, Total kg/ha 250.</p><p>2- Ultrasol&reg; Mag KB Nº Applications 40, kg/ha/aplic 3.5, Total kg/ha 140.</p>"
-        },
-        {
-            "nombre":"Tubers Initiation",
-            "id":"etapa3",
-            "img":"papa-03.jpg",
-            "descripcion":"<p>1- Ultrasol&reg; Calcium Nº Applications 30, kg/ha/aplic 2, total kg/ha 60.</p><p>2- Ultrasol&reg; Growth Nº Applications 30, kg/ha/aplic 6, Total kg/ha 180.</p><p>3- Ultrasol&reg; Mag KB Nº Applications 30, kg/ha/aplic 6, Total kg/ha 180.</p><p>4- Ultrasol&reg; K Acid Nº Applications 30, kg/ha/aplic 3, Total kg/ha 90.</p>"
-        },
-        {
-            "nombre":"Tubers Filling",
-            "id":"etapa4",
-            "img":"papa-04.jpg",
-            "descripcion":"<p>1- Ultrasol&reg; Calcium Nº Applications 30, kg/ha/aplic 3, Total kg/ha 90.</p><p>2- Ultrasol&reg; Magnum P44 Nº Applications 30, kg/ha/aplic 2, Total kg/ha 60.</p><p>3- Ultrasol&reg; SOP 52 Nº Applications 30, kg/ha/aplic 4, Total kg/ha 120.</p>"
-        },
-        {
-            "nombre":"Maturity and Harvesting",
-            "id":"etapa5",
-            "img":"papa-05.jpg",
-            "descripcion":"1- Ultrasol&reg; SOP 52 Nº Applications 30, kg/ha/aplic 4, Total kg/ha 120."
-        }
-    ],
+    "etapas":"papa.jpg",
     "desordenes":[
         {
             "elemento":"nitrogen",

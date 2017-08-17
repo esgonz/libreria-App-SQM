@@ -3,56 +3,7 @@
    "nombre" :"Peach",
    "background":"durazno.jpg",
    "productos":["producto_id","producto_id2"],
-   "etapas":[
-      {
-         "nombre":"Dormant",
-         "id":"etapa1",
-         "img":"durazno-01.jpg",
-         "descripcion":""
-      },
-      {
-         "nombre":"Swollen bud",
-         "id":"etapa2",
-         "img":"durazno-02.jpg",
-         "descripcion":""
-      },
-      {
-         "nombre":"Pink",
-         "id":"etapa3",
-         "img":"durazno-03.jpg",
-         "descripcion":""
-      },
-      {
-         "nombre":"Bloom",
-         "id":"etapa4",
-         "img":"durazno-04.jpg",
-         "descripcion":""
-      },
-      {
-         "nombre":"Petal fall",
-         "id":"etapa5",
-         "img":"durazno-05.jpg",
-         "descripcion":""
-      },
-      {
-         "nombre":"Fruit set",
-         "id":"etapa6",
-         "img":"durazno-06.jpg",
-         "descripcion":""
-      },
-      {
-         "nombre":"Fructification",
-         "id":"etapa7",
-         "img":"durazno-07.jpg",
-         "descripcion":""
-      },
-      {
-         "nombre":"Maturity",
-         "id":"etapa8",
-         "img":"durazno-08.jpg",
-         "descripcion":""
-      }
-   ],
+   "etapas":"durazno.jpg",
    "desordenes":[
       {
          "elemento":"nitrogen",

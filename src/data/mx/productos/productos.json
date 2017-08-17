@@ -389,8 +389,8 @@
             }, {
                 "id": "0028",
                 "nombre": "Ultrasol® Flor de Corte",
-                "file": "ultrasolFlordeCorte.json",
-                "verbose": "ultrasolFlordeCorte",
+                "file": "ultrasolFlorDeCorte.json",
+                "verbose": "ultrasolFlorDeCorte",
                 "estado": "activado",
                 "cultivos": ["flor"],
                 "metaTags": [

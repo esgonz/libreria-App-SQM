@@ -4,44 +4,7 @@
     "background":"pimiento.jpg",
     "productos":["producto_id","producto_id2"],
     "descripcion":"<p>Aspectos Fisiológicos del Pepino(Cucumis Sativus)</p><p>Pepper belongs to the solanaceas family. There are five domesticated species from the Capsicum genera: Capsicum annuum (sweet pepper, 'chile Serrano', 'chile jalapeño'); Capsicum chinense ('habanero'); Capsicum frutenscen ('tabasco'); Capsicum baccatum ('Christmas bells') and Capsicum bubescens ('rocoto').</p><p>Peppers can be classified according their flavor: sweet or spicy. Sweet peppers vary their shape and size; also present different color when reaching maturity, being yellow, orange or purple at maturity. Among the spicy peppers or 'ajíes' (chile peppers), there is the Capsicum annuum, slightly spicy, used as well as fresh consumption than processed.</p><p>Pepper is a warm season horticulture, susceptible to frosts, and requires warmer days than tomato, even though less warm than eggplant (aubergine). Its ideal growing temperature range from 18 to 28° C. Generally, night temperatures determine the flowering and fruit setting processes, influencing the fruit size and number of seeds per fruit.</p>",
-    "etapas":[
-        {
-            "nombre":"Transplant",
-            "id":"etapa1",
-            "img":"pimiento-01.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Establishment",
-            "id":"etapa2",
-            "img":"pimiento-02.jpg",
-            "descripcion":"<p>1- Ultrasol&reg; Calcium, Days 7, kg/ha/aplic 5, Total kg/ha 35.</p><p>2- Ultrasol&reg; Initial, Days 7, kg/ha/aplic 9, Total kg/ha 63.</p>"
-        },
-        {
-            "nombre":"Vegetative Growth",
-            "id":"etapa3",
-            "img":"pimiento-03.jpg",
-            "descripcion":"<p>1- Ultrasol&reg; Development, Days 20, kg/ha/aplic 20, Total kg/ha 400.</p><p>2- Ultrasol&reg; Nit One, Days 20, kg/ha/aplic 8, Total kg/ha 160.</p><p>3- Ultrasol&reg; Calcium, Days 20, kg/ha/aplic 4, Total kg/ha 80.</p><p>4- Ultrasol&reg; Magnit, Days 20, kg/ha/aplic 6, Total kg/ha 120.</p>"
-        },
-        {
-            "nombre":"Flowering",
-            "id":"etapa4",
-            "img":"pimiento-04.jpg",
-            "descripcion":"<p>1- Ultrasol&reg; Development, Days 15, kg/ha/aplic 20, Total kg/ha 300.</p><p>2- Ultrasol&reg; Nit One, Days 15, kg/ha/aplic 6, Total kg/ha 90.</p><p>3- Ultrasol&reg; Calcium, Days 15, kg/ha/aplic 6, Total kg/ha 90.</p><p></p>"
-        },
-        {
-            "nombre":"Fruit Development",
-            "id":"etapa5",
-            "img":"pimiento-05.jpg",
-            "descripcion":"<p>1- Ultrasol&reg; Production, Days 30, kg/ha/aplic 18, Total kg/ha 540.</p><p>2- Ultrasol&reg; Calcium, Days 30, kg/ha/aplic 2, Total kg/ha 60.</p>"
-        },
-        {
-            "nombre":"Maturity",
-            "id":"etapa5",
-            "img":"pimiento-06.jpg",
-            "descripcion":"<p>1- Ultrasol&reg; K Acid, Days 20, kg/ha/aplic 4, Total kg/ha 80.</p>"
-        }
-    ],
+    "etapas":"pimiento.jpg",
     "desordenes":[
         {
             "elemento":"nitrogen",

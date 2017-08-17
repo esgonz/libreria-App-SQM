@@ -4,8 +4,7 @@
    "background":"ciruela.jpg",
    "productos":["producto_id","producto_id2"],
    "descripcion":"<p>Ask your local SQM agronomist for a Specialty Plant Nutrition programme in accordance with your local needs and requirements.</p>",
-   "etapas":[
-   ],
+   "etapas":"",
    "desordenes":[
       {
          "elemento":"nitrogen",

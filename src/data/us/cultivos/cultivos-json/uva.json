@@ -4,44 +4,7 @@
     "background":"uva.jpg",
     "productos":["producto_id","producto_id2"],
     "descripcion":"<p>Grape is shrub belonging to the Ampelidaceas family, from the Vitis vinifera L. genera.</p><p>Grape is a woody plant, with woody, short and thick stems, very crooked and with many knots. Leaves are opposed, etiolated, with five or seven lobes and have polished and waxy skin. The root system is rather deep, observing true roots (deeper) and the adventitious roots (at soil surface). The fruit is a berry with seeds inside, and the endosperm occupies the greatest part of the pericarp (locule).</p><p>Grape produces woody stems per year (vine shoots), and this branches are the only capable of producing fruitful shoots, commonly named mix shoots, due to that bear shoots and fruits from axillary buds (ready bud).</p><p>Vine shoots are originated from winter buds. These are composed from various structures (primary and secondary buds, scales, beginnings of stipules and bracts, beginnings of leaves and inflorescence and scale trichomes). The apical meristem of the primary bud differentiates beginnings of leaves, stipules, inflorescence and bracts before starting dormancy. The induction and differentiation of buds that will produce productive buds of the next year, coincides with the last fruit growing stage of this year season, developing a vegetative and reproductive cycle simultaneously in the same year. Therefore, this is a critical stage in the grape cycles, in which a carbohydrates and nutrients competence is originated. Then, the reserve substances stored by the winter buds in this developing stage, represent an important factor for the next season productivity, also the environmental conditions present during the winter recess (Figure 1).</p><p>Frost could affects early sprouting in the season. The minimum daily temperature for sprouting is 10,5°C, for flowering 18.4°C and for fruit maturity, 22,5°C. The accumulation of degree days (effective temperature for promoting development) is an important factor for grape, requiring to accumulate between 3,200 to 4,000 degree days from beginning sprouting to complete maturity. The plant prefers lighter and deep soils with good drainage, being frequent the utilization of ridges for protecting the root system from diseases which affect the roots and the crown of the plant. Rainfalls in key periods such as flowering and fruit set, can produce considerable losses in fruit production. Besides, in periods from veraison to harvest, humid condition and high temperatures can favor the development of grape rotting, caused by Botrytis cinerea (grey mould).</p><p>The conduction systems used are the following: shape pruning (during the first year), shape and production pruning (in the first and third year), and the green pruning.</p><p>• Shape pruning: the objective is to incentive rapid development of 2 to 4 main branches.<br>• Shape and maturity pruning: it is a winter operation; the cutting length is defined by the fertility of the fruit buds that were induced already and the ones differentiated during the previous season.<br>• Green pruning: the objective is to reduce the excess of vigor for avoiding the bushy growth. This improves buds fertility of the fruit branches since there is a greater light penetration to the vine shoots, at same time improving the fruit condition (aeration and color).</p>",
-    "etapas":[
-        {
-            "nombre":"Bud swelling",
-            "id":"etapa1",
-            "img":"uva-01.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Bud opening",
-            "id":"etapa2",
-            "img":"uva-02.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Inflorescence Development",
-            "id":"etapa3",
-            "img":"uva-03.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Flowering",
-            "id":"etapa4",
-            "img":"uva-04.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Fruit development",
-            "id":"etapa5",
-            "img":"uva-05.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Maturation",
-            "id":"etapa6",
-            "img":"uva-06.jpg",
-            "descripcion":""
-        }
-    ],
+    "etapas":"uva.jpg",
     "desordenes":[
         {
             "elemento":"nitrogen",

@@ -4,56 +4,7 @@
     "background":"pera.jpg",
     "productos":["producto_id","producto_id2"],
     "descripcion":"<p>Apple tree (Malus domestica Borkh.) belongs to the rosaceous family. They are trees with a round shape canopy, straight truck reaching 2 – 2.5 m height, with a smooth bark of green ash color. Branches are inserted in a wide angle to the stem. The tree has oval shape leaves and hermaphrodite flowers with pale rose or white color. Flowering occurs in spring and the fruit is a round pome with short peduncle and many seeds inside of bright brown color. The root system is superficial; as a result trees can survive in shallow soils.</p><p>Apple is once of the sweet fruit species of larger distribution at the world level, due to its easily adaptation to different climates and soils types. It has a large nutritional and therapeutic value, and has a great industrial use.</p><p>The most known varieties are: Royal Gala, Fuji, Pink lady, Granny Smith, Galiaxis, Red Delicious and Golden Delicious, among others. It is planted during the resting sap period, which goes from leaf fall (autumn) until the new sprouting time (spring). The planting frame would depend on the selected variety and formation system, being the most common 2 to 3 m distance. Planting densities fluctuate between 1.500 and 3.000 trees/ha in the axis systems and 1.000 to 1.700 trees/ha in the trellis systems.</p><p>The apple tree withstand low temperatures, it prefers humid climates instead of dried ones. Flowers are sensible to late spring frosts. It requires around 1.000 hours of cold temperature for flowering induction.</p><p>Regarding irrigation, it is important an adequate supply of moisture with frequent irrigations from sprouting initiation to the autumn, avoiding the risk of leaves fall and premature fruits drop.</p><p>Moisture requirements of the apple tree have a critical period, since the flower formation temporarily coincides with buds and fruit formation, consequently the plant needs considerable amount of water between the complete fructification and maturity initiation.</p><p>When fruits have reached their maximum weight and flower buds have finished the first developing phase, it is necessary to detain the year growing which is favors by temperature declining.</p><p>An adult tree requires, in general terms, between 200 and 300 l of water per kg of fruit produced per year.</p>",
-    "etapas":[
-        {
-            "nombre":"Bud swelling",
-            "id":"etapa1",
-            "img":"pera-01.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Bud opening",
-            "id":"etapa2",
-            "img":"pera-02.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Flower bud",
-            "id":"etapa3",
-            "img":"pera-03.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Flowering",
-            "id":"etapa4",
-            "img":"pera-04.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Fruit set",
-            "id":"etapa5",
-            "img":"pera-05.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Fruit development",
-            "id":"etapa6",
-            "img":"pera-06.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Maturation",
-            "id":"etapa7",
-            "img":"pera-07.jpg",
-            "descripcion":""
-        },
-        {
-            "nombre":"Harvest",
-            "id":"etapa8",
-            "img":"pera-08.jpg",
-            "descripcion":""
-        }
-    ],
+    "etapas":"pera.jpg",
     "desordenes":[
         {
             "elemento":"nitrogen",

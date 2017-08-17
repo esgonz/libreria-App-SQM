@@ -4,50 +4,7 @@
   "background":"cebolla.jpg",
   "productos":["producto_id","producto_id2"],
   "descripcion":"<p>Ask your local SQM agronomist for a Specialty Plant Nutrition programme in accordance with your local needs and requirements.</p>",
-  "etapas":[
-    {
-      "nombre":"Transplanting 4th leaf",
-      "id":"etapa1",
-      "img":"cebolla-01.jpg",
-      "descripcion":""
-    },
-    {
-      "nombre":"Formation of Leaf 5",
-      "id":"etapa2",
-      "img":"cebolla-02.jpg",
-      "descripcion":""
-    },
-    {
-      "nombre":"Formation of leaf 6 & 7",
-      "id":"etapa3",
-      "img":"cebolla-03.jpg",
-      "descripcion":""
-    },
-    {
-      "nombre":"Initiation of bulb formation",
-      "id":"etapa4",
-      "img":"cebolla-04.jpg",
-      "descripcion":""
-    },
-    {
-      "nombre":"Bulb thickening",
-      "id":"etapa4",
-      "img":"cebolla-05.jpg",
-      "descripcion":""
-    },
-    {
-      "nombre":"Formed bulb to maturity",
-      "id":"etapa4",
-      "img":"cebolla-06.jpg",
-      "descripcion":""
-    },
-    {
-      "nombre":"Fall or soft neck / harvest",
-      "id":"etapa4",
-      "img":"cebolla-07.jpg",
-      "descripcion":""
-    }
-  ],
+  "etapas":"cebolla.jpg",
   "desordenes":[],
   "variedadesTecnicas":[],
   "variedades":[]

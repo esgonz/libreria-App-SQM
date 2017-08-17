@@ -25,7 +25,7 @@ LibreriaAppSQM.controller('cultivoController', function($scope,$rootScope, $http
         $rootScope.cultivoFicha.setNombre(dataCultivo.nombre);
         $rootScope.cultivoFicha.setBackground(dataCultivo.background);
         $rootScope.cultivoFicha.setDescripcion(dataCultivo.descripcion);
-        $rootScope.cultivoFicha.setEtapas(dataCultivo.etapas);
+        $rootScope.cultivoFicha.setEtapas(dataCultivo.etapas);//
         $rootScope.cultivoFicha.setDesordenes(dataCultivo.desordenes);
         $rootScope.cultivoFicha.setVariedadesTecnicas(dataCultivo.variedadesTecnicas);
         $rootScope.cultivoFicha.setVariedades(dataCultivo.variedades);

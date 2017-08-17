@@ -4,7 +4,7 @@
    "background":"kiwi.jpg",
    "productos":["producto_id","producto_id2"],
    "descripcion":"<p>Kiwi (Actinidia deliciosa var. deliciosa C. Liang and A. R. Ferguson) is a climbing deciduous dioecious brush (separate sexes in male and female plants), that produces a berry type fruit with numerous seeds and that live for many years (perennial plant, commercial plantings can produce over 20 years).</p>",
-   "etapas":[],
+   "etapas":"",
    "desordenes":[
       {
          "elemento":"potassium",

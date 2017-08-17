@@ -4,41 +4,7 @@
     "background":"cafe.jpg",
     "productos":["producto_id","producto_id2"],
     "descripcion":"<p>El café pertenece a la familia Rubiaceae. Comprende más de 100 especies, dentro de las principales son dos: arabica (Coffea arabica, con un 80% del total de la producción mundial) y robusta (Coffea Canephora, con un 20% del total). Su fruto es una baya, y sus semillas son un producto de gran valor económico, utilizándose principalmente como bebida nutritiva y estimulante.<br /><br />El café es un arbusto de porte mediano y de forma semi-cónica, cuyas ramas opuestas y alternas pueden autosombrearse. Las raíces están presentes hasta los 60 cm, pero el 90% del total del volumen de raíces están sobre los 30 cm de profundidad del suelo. La raíz es leñosa y pivotante, con raíces secundarias, terciarias y absorbentes. El tallo es leñoso y de crecimiento vertical.<br /><br />El arbusto de café crece bajo una amplia gama de condiciones de precipitación; las lluvias óptimas son aquellas que reportan entre 1,200 y 2,800 mm y se registran con una buena distribución durante todo el año. Un periodo corto de sequía se considera favorable al desarrollo y floración del café.<br /><br />En relación a los requerimientos de suelo, el café es un cultivo que se comporta bien en suelos moderadamente ácidos. No obstante, es frecuente ver que se cultive en suelos de pH muy ácido a extremadamente ácido, producto de las características climáticas (alta precipitación y muy concentrada), de la extracción de nutrientes sin reposición, y del alto uso de fertilizantes nitrogenados amoniacales. Es importante tener un suelo con buen drenaje, estructura física y con un rangos de pH entre 5.5 y 6.5. Cuando el valor del pH sea menor a 5.5, se hace necesario evaluar los contenidos de manganese (Mn) y de aluminio (Al), pues en estos niveles se encuentran en concentraciones altas y provocan desórdenes fisiológicos. Se recomienda aplicación de enmiendas como cal agrícola, o idealmente cal dolomítica.<br /><br />Con relación al riego, éste debe ser adecuado para lograr un alto rendimiento y calidad de café, pudiendo utilizarse diferentes tipos de riego, pero con un buen manejo del agua (pivote central, por surcos y riego por goteo). Por otro lado, como el sistema radicular del café está concentrado debajo de la copa de la planta, se puede utilizar fertirriego para poner los nutrientes directamente en la zona de absorción de raíces.<br /><br />La obtención de un café de calidad dependerá de: La selección de una variedad de alto potencial genético, elección de una localidad adecuada, la implementación de buenos manejos de cultivo y la práctica de adecuados procesos post-cosecha.</p>",
-        "etapas":[
-      {
-            "nombre":"Hinchazón de Yemas",
-            "id":"etapa1",
-            "img":"cafe-01.jpg",
-            "descripcion":""
-      },
-      {
-            "nombre":"Botón Floral",
-            "id":"etapa2",
-            "img":"cafe-02.jpg",
-            "descripcion":""
-      },
-      {
-            "nombre":"Floración",
-            "id":"etapa3",
-            "img":"cafe-03.jpg",
-            "descripcion":""
-      },
-      {
-            "nombre":"Fructificación",
-            "id":"etapa4",
-            "img":"cafe-04.jpg",
-            "descripcion":""
-      },
-      {
-            "nombre":"Maduración",
-            "id":"etapa4",
-            "img":"cafe-05.jpg",
-            "descripcion":""
-      }
-    ],
-        "desordenes":[
-
-        ],
+        "etapas":"cafe.jpg",
   "variedadesTecnicas":[],
   "variedades":[]
 }

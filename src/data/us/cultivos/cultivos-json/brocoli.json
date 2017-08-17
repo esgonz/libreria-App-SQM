@@ -4,38 +4,7 @@
   "background":"brocoli.jpg",
   "productos":["producto_id","producto_id2"],
   "descripcion":"<p>Ask your local SQM agronomist for a Specialty Plant Nutrition programme in accordance with your local needs and requirements.</p>",
-  "etapas":[
-    {
-      "nombre":"Emergence",
-      "id":"etapa1",
-      "img":"brocoli-01.jpg",
-      "descripcion":""
-    },
-    {
-      "nombre":"3rd True leaf unfolded",
-      "id":"etapa2",
-      "img":"brocoli-02.jpg",
-      "descripcion":""
-    },
-    {
-      "nombre":"Rossette development",
-      "id":"etapa3",
-      "img":"brocoli-03.jpg",
-      "descripcion":""
-    },
-    {
-      "nombre":"Harvestable parts dev.",
-      "id":"etapa4",
-      "img":"brocoli-04.jpg",
-      "descripcion":""
-    },
-    {
-      "nombre":"Harvest",
-      "id":"etapa4",
-      "img":"brocoli-05.jpg",
-      "descripcion":""
-    }
-  ],
+  "etapas":"",
   "desordenes":[],
   "variedadesTecnicas":[],
   "variedades":[]
