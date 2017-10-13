@@ -10,9 +10,9 @@
         ],
         "variedadesTecnicas": [
                     {   
-                        "variedadTecnicaId":"27",
-                        "condicionId":"5",
-                        "tecnificacionId":"1",
+                        "variedadTecnicaId":"30",
+                        "condicionId":"6",
+                        "tecnificacionId":"7",
                         "fertilizacion":false  
                     }
         ],

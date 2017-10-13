@@ -1,6 +1,6 @@
 var LibreriaAppSQM = angular.module('LibreriaAppSQM', ['LocalStorageModule','ngRoute']);
 var debugMode = false;
-var varMercado = "usa";
+var varMercado = "mexico";
 
 //Configurar localstorage
 LibreriaAppSQM.config(function (localStorageServiceProvider) {
@@ -193,7 +193,7 @@ LibreriaAppSQM.run(function($rootScope, $http) {
         /*Lista con todos los cultivos*/     
 
         $rootScope.cultivos = dataCultivos;
-        $rootScope.cultivosPrograma =
+        $rootScope.cultivosPrograma = dataCultivos;
                 [
                     {     
                         "id":"0020",
@@ -475,10 +475,11 @@ LibreriaAppSQM.controller("mainController", function($scope, $rootScope, $http, 
     $rootScope.aplicarFiltroZona = function (indexZona){
         
         console.log("controlador.aplicarFiltroZona");
-        
+
+
         //SOLO PARA PRUEBAS INCIALES, REMPLAZAR POR BUSQUEDA Y REFERENCIA A LAS ZONAS DE LOS PROGRAMAS NUTRICIONALES
         //filtro activo - variedad 
-        $rootScope.filtrosActivosPrograma.zona = "zona central";
+        $rootScope.filtrosActivosPrograma.zona = "Sin Especificar.";
 
         
 
@@ -495,6 +496,19 @@ LibreriaAppSQM.controller("mainController", function($scope, $rootScope, $http, 
     $rootScope.aplicarFiltroCultivo = function (cultivoIndexObj){
         
         console.log("controlador.aplicarFiltroCultivo");
+        $rootScope.filtrosActivosPrograma       = {
+        "zona"          :     null,
+        "cultivo"       :     null,
+        "variedad"      :     null,
+        "condicion"     :     null,
+        "tecnificacion" :     null
+        };
+        $rootScope.opcionesFiltroCultivo        = {};
+        $rootScope.opcionesFiltroVariedad       = {};
+        $rootScope.opcionesFiltroCondicion      = {};
+        $rootScope.opcionesFiltroTecnificacion  = {};
+
+
         $http.get(  $rootScope.baseUrlCultivos   +  cultivoIndexObj.file).success (function(dataCultivo){      
             
             var cultivoObj =  new CultivoNuevo();
@@ -545,6 +559,10 @@ LibreriaAppSQM.controller("mainController", function($scope, $rootScope, $http, 
     $rootScope.aplicarFiltroVariedad      = function (indexVariedad){               
 
         console.log("controlador.aplicarFiltroVariedad");
+        
+
+        $rootScope.opcionesFiltroCondicion      = {};
+        $rootScope.opcionesFiltroTecnificacion  = {};
         //  inspeccionar el cultivo base en busqueda de variedades tecnicas
         $rootScope.cultivoObjetivoFiltro = $rootScope.opcionesFiltroCultivo; //desde indexParametro seteado en cultivo anteriormente       
 
@@ -590,7 +608,7 @@ LibreriaAppSQM.controller("mainController", function($scope, $rootScope, $http, 
      */
     $rootScope.aplicarFiltroCondicion      = function (idCondicion){
         console.log("controlador.aplicarFiltroCondicion");
-
+        $rootScope.opcionesFiltroTecnificacion  = {};
         //filtro activo - condicion 
         $rootScope.filtrosActivosPrograma.condicion = $rootScope.opcionesFiltroCondicion[idCondicion];        
         var auxOpcionesTecnificaciones =[];
@@ -600,20 +618,29 @@ LibreriaAppSQM.controller("mainController", function($scope, $rootScope, $http, 
 
             var auxVariedadTecnica  =  $rootScope.cultivoObjetivoFiltro.variedadesTecnicas[varIndex];
             //variedad tecnica.condicionId  ==  a la seleccionada, variedad tecnica.tecnificacion se agrega al selectbox        
+            console.log("auxVariedadTecnica",auxVariedadTecnica);
+            console.log("aux condicionID: ",auxVariedadTecnica.condicionId);
+            console.log("condicionID parametro: ",idCondicion);
             
-            if (auxVariedadTecnica.condicionId  ==  idCondicion) {
-
+            if (parseInt(auxVariedadTecnica.condicionId)  ==  parseInt(idCondicion)) {
+                console.log("condicion OK");
                 auxOpcionesTecnificaciones.push(auxVariedadTecnica.tecnificacionId);
+            }else{
+                console.log("la condicion no se encuentra");
             }
         }
         
-
+        console.log("tecnificacionesDisponibles: ",auxOpcionesTecnificaciones);
         //Buscar en el arreglo de tecnificaciones, para mostrar en el selectbox
-        for (var tecIndex  =  0; tecIndex < $rootScope.cultivoObjetivoFiltro.condiciones.length; tecIndex++) {
+        for (var tecIndex  =  0; tecIndex < $rootScope.cultivoObjetivoFiltro.tecnificaciones.length; tecIndex++) {
             var auxTecnificacion = $rootScope.cultivoObjetivoFiltro.tecnificaciones[tecIndex];
             var existsTecnificacion = auxOpcionesTecnificaciones.indexOf(auxTecnificacion.id);
 
+            console.log("auxTecnificacion",auxTecnificacion);
+
+
             if (existsTecnificacion >= 0) {
+                console.log("tecnificacion OK");
                 $rootScope.opcionesFiltroTecnificacion[auxTecnificacion.id] = auxTecnificacion; 
             }
         }

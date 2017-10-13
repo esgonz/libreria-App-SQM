@@ -145,18 +145,18 @@
             "fertilizacion": false
         }, {
             "variedadTecnicaId": "8",
-            "condicionId": "2",
+            "condicionId": "5",
             "tecnificacionId": "1",
             "fertilizacion": false
         }, {
             "variedadTecnicaId": "9",
             "condicionId": "1",
-            "tecnificacionId": "2",
+            "tecnificacionId": "5",
             "fertilizacion": false
         }, {
             "variedadTecnicaId": "10",
-            "condicionId": "2",
-            "tecnificacionId": "2",
+            "condicionId": "5",
+            "tecnificacionId": "5",
             "fertilizacion": false
         }, {
             "variedadTecnicaId": "11",
@@ -165,7 +165,7 @@
             "fertilizacion": false
         }, {
             "variedadTecnicaId": "12",
-            "condicionId": "2",
+            "condicionId": "5",
             "tecnificacionId": "3",
             "fertilizacion": false
         }

@@ -11,7 +11,15 @@
 
 
 
-
+    "0018":
+    {
+        "id":"0018",
+        "verbose":"papa",
+        "nombre":"Papa",
+        "icon":"img_papa1.png",
+        "iconColor":"img_papa2.png",
+        "file":"papa.json"
+    },
 
     "0019":
     {

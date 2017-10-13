@@ -150,18 +150,18 @@
             "fertilizacion": false
         }, {
             "variedadTecnicaId": "2",
-            "condicionId": "2",
+            "condicionId": "5",
             "tecnificacionId": "1",
             "fertilizacion": false
         }, {
             "variedadTecnicaId": "3",
             "condicionId": "1",
-            "tecnificacionId": "2",
+            "tecnificacionId": "8",
             "fertilizacion": false
         }, {
             "variedadTecnicaId": "4",
-            "condicionId": "2",
-            "tecnificacionId": "2",
+            "condicionId": "5",
+            "tecnificacionId": "8",
             "fertilizacion": false
         }, {
             "variedadTecnicaId": "5",
@@ -170,10 +170,25 @@
             "fertilizacion": false
         }, {
             "variedadTecnicaId": "6",
-            "condicionId": "2",
+            "condicionId": "5",
             "tecnificacionId": "3",
             "fertilizacion": false
         }
         ],
-        "variedades": []
+        "variedades": [{
+            "variedadId": "2302",
+            "variedadNombre": "Tomate Verde (tomate de Cascara)",
+            "verbose": "tomateverde",
+            "variedadesTecnicas": [{
+                "variedadTecnicaId": "27",
+                "condicionId": "1",
+                "tecnificacionId": "7",
+                "fertilizacion": false
+            }, {
+                "variedadTecnicaId": "28",
+                "condicionId": "5",
+                "tecnificacionId": "7",
+                "fertilizacion": false
+            }]
+        }]
 }

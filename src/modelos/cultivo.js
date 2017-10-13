@@ -41,12 +41,12 @@ function CultivoNuevo() {
             {
                 "id":"2",
                 "medio":"agua",
-                "Nombre":"Agua",
+                "Nombre":"Agua"
             },
             {
                 "id":"1",
                 "medio":"suelo",
-                "Nombre":"Suelo",
+                "Nombre":"Suelo"
             }
         ];
     this.aplicaciones       = 
@@ -54,22 +54,22 @@ function CultivoNuevo() {
             {
                 "id":"1",
                 "aplicaciones":"goteo",
-                "Nombre":"Goteo",
+                "Nombre":"Goteo"
             },
             {
                 "id":"2",
                 "aplicaciones":"suelo",
-                "Nombre":"Suelo",
+                "Nombre":"Suelo"
             },
             {
                 "id":"3",
                 "aplicaciones":"hidroponia",
-                "Nombre":"Hidroponia",
+                "Nombre":"Hidroponia"
             },
             {
                 "id":"4",
                 "aplicaciones":"riego",
-                "Nombre":"Riego",
+                "Nombre":"Riego"
             }
         ];
     this.tecnicas           = 
@@ -77,22 +77,22 @@ function CultivoNuevo() {
             {
                 "id":"1",
                 "tecnicas":"campo-abierto",
-                "Nombre":"Campo Abierto",
+                "Nombre":"Campo Abierto"
             },
             {
                 "id":"2",
                 "tecnicas":"invernadero",
-                "Nombre":"Invernadero",
+                "Nombre":"Invernadero"
             },
             {
                 "id":"3",
                 "tecnicas":"macrotunel",
-                "Nombre":"Macrotunel",
+                "Nombre":"Macrotunel"
             },
             {
                 "id":"4",
                 "tecnicas":"cubierta",
-                "Nombre":"Cubierta",
+                "Nombre":"Cubierta"
             }
         ];
     this.condiciones        = 
@@ -131,7 +131,15 @@ function CultivoNuevo() {
                 "tipoId": "3",
                 "elementoId":"0",
                 "medioId":"1"
-            }
+            },
+            
+            {
+                "id":"6",
+                "condicion": "Sin especificar",
+                "tipoId": "3",
+                "elementoId":"0",
+                "medioId":"1"
+            },
         ];
     this.tecnificaciones    = 
         [
@@ -139,42 +147,56 @@ function CultivoNuevo() {
                 "id":"1",
                 "tecnificacion": "Campo Abierto",
                 "tecnicaId": "1",
-                "aplicacionId":"1",
+                "aplicacionId":"1"
             },
             
             {
                 "id":"5",
-                "tecnificacion": "Cubierta en Suelo",
+                "tecnificacion": "Cubierta",
                 "tecnicaId": "4",
-                "aplicacionId":"2",
+                "aplicacionId":"2"
             },
             
             {
                 "id":"2",
                 "tecnificacion": "Invernadero Suelo",
                 "tecnicaId": "2",
-                "aplicacionId":"2",
+                "aplicacionId":"2"
             },
             
             {
                 "id":"3",
-                "tecnificacion": "Invernadero Hidroponia",
+                "tecnificacion": "Hidroponia",
                 "tecnicaId": "2",
-                "aplicacionId":"3",
+                "aplicacionId":"3"
             },
             
             {
                 "id":"4",
                 "tecnificacion": "Macrotunel",
                 "tecnicaId": "3",
-                "aplicacionId":"4",
+                "aplicacionId":"4"
             },
             
             {
-                "id":"5",
+                "id":"6",
                 "tecnificacion": "Cubierta en Hidroponia",
                 "tecnicaId": "4",
-                "aplicacionId":"3",
+                "aplicacionId":"3"
+            },
+            
+            {
+                "id":"7",
+                "tecnificacion": "Sin especificar",
+                "tecnicaId": "1",
+                "aplicacionId":"1"
+            },
+            
+            {
+                "id":"8",
+                "tecnificacion": "Suelo",
+                "tecnicaId": "1",
+                "aplicacionId":"1"
             }
         ];    
     

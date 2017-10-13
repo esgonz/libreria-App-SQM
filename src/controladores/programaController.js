@@ -135,10 +135,11 @@ LibreriaAppSQM.controller('programaController', function($scope,$rootScope, $htt
 
         
            //si todo esta bien, cambiar estadoPrograma
-            if($rootScope.filtrosActivosPrograma.cultivo.nombre =='Tomate' || $rootScope.filtrosActivosPrograma.cultivo.nombre =='Pimiento'  ){
+            /*if($rootScope.filtrosActivosPrograma.cultivo.nombre =='Tomate' || $rootScope.filtrosActivosPrograma.cultivo.nombre =='Pimiento'  ){
               
                $scope.estadoPograma = true;               
-            }
+            }*/
+        $scope.estadoPograma = true; 
         
         
     };

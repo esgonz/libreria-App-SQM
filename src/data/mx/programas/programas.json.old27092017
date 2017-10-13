@@ -1,0 +1,92 @@
+[{
+		"programaId": "1",
+		"programaFile": "img01.jpg",
+		"programaCultivos": ["0023"],
+		"programasEtapas": [0, 1, 2, 3, 4],
+		"programaCondiciones": [1],
+		"programaTecnificaciones": [1]
+	}, {
+		"programaId": "2",
+		"programaFile": "img02.jpg",
+		"programaCultivos": ["0023"],
+		"programasEtapas": [0, 1, 2, 3, 4],
+		"programaCondiciones": [2],
+		"programaTecnificaciones": [1]
+	}, {
+		"programaId": "3",
+		"programaFile": "img03.jpg",
+		"programaCultivos": ["0023"],
+		"programasEtapas": [0, 1, 2, 3, 4],
+		"programaCondiciones": [1],
+		"programaTecnificaciones": [2]
+	}, {
+		"programaId": "4",
+		"programaFile": "img04.jpg",
+		"programaCultivos": ["0023"],
+		"programasEtapas": [0, 1, 2, 3, 4],
+		"programaCondiciones": [2],
+		"programaTecnificaciones": [2]
+	}, {
+		"programaId": "5",
+		"programaFile": "img05.jpg",
+		"programaCultivos": ["0023"],
+		"programasEtapas": [0, 1, 2, 3, 4],
+		"programaCondiciones": [1],
+		"programaTecnificaciones": [3]
+	}, {
+		"programaId": "6",
+		"programaFile": "img06.jpg",
+		"programaCultivos": ["0023"],
+		"programasEtapas": [0, 1, 2, 3, 4],
+		"programaCondiciones": [2],
+		"programaTecnificaciones": [3]
+	},
+
+	{
+		"programaId": "7",
+		"programaFile": "img07.jpg",
+		"programaCultivos": ["0020"],
+		"programasEtapas": [0, 1, 2, 3, 4],
+		"programaCondiciones": [1],
+		"programaTecnificaciones": [1]
+	}, {
+		"programaId": "8",
+		"programaFile": "img08.jpg",
+		"programaCultivos": ["0020"],
+		"programasEtapas": [0, 1, 2, 3, 4],
+		"programaCondiciones": [2],
+		"programaTecnificaciones": [1]
+	}, {
+		"programaId": "9",
+		"programaFile": "img09.jpg",
+		"programaCultivos": ["0020"],
+		"programasEtapas": [0, 1, 2, 3, 4],
+		"programaCondiciones": [1],
+		"programaTecnificaciones": [2]
+	}, {
+		"programaId": "10",
+		"programaFile": "img10.jpg",
+		"programaCultivos": ["0020"],
+		"programasEtapas": [0, 1, 2, 3, 4],
+		"programaCondiciones": [2],
+		"programaTecnificaciones": [2]
+	}, {
+		"programaId": "11",
+		"programaFile": "img11.jpg",
+		"programaCultivos": ["0020"],
+		"programasEtapas": [0, 1, 2, 3, 4],
+		"programaCondiciones": [1],
+		"programaTecnificaciones": [3]
+	}, {
+		"programaId": "12",
+		"programaFile": "img12.jpg",
+		"programaCultivos": ["0020"],
+		"programasEtapas": [0, 1, 2, 3, 4],
+		"programaCondiciones": [2],
+		"programaTecnificaciones": [3]
+	}
+
+
+
+
+]

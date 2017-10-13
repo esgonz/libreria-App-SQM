@@ -141,14 +141,8 @@
   "variedadesTecnicas": [
     {   
       "variedadTecnicaId":"35",
-      "condicionId":"1",
-      "tecnificacionId":"1",
-      "fertilizacion":false  
-   },
-   {   
-      "variedadTecnicaId":"36",
-      "condicionId":"2",
-      "tecnificacionId":"1",
+      "condicionId":"6",
+      "tecnificacionId":"7",
       "fertilizacion":false  
    }
 ],

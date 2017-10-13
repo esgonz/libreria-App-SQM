@@ -1,92 +1,210 @@
-[{
-		"programaId": "1",
-		"programaFile": "img01.jpg",
-		"programaCultivos": ["0023"],
-		"programasEtapas": [0, 1, 2, 3, 4],
-		"programaCondiciones": [1],
-		"programaTecnificaciones": [1]
-	}, {
-		"programaId": "2",
-		"programaFile": "img02.jpg",
-		"programaCultivos": ["0023"],
-		"programasEtapas": [0, 1, 2, 3, 4],
-		"programaCondiciones": [2],
-		"programaTecnificaciones": [1]
-	}, {
-		"programaId": "3",
-		"programaFile": "img03.jpg",
-		"programaCultivos": ["0023"],
-		"programasEtapas": [0, 1, 2, 3, 4],
-		"programaCondiciones": [1],
-		"programaTecnificaciones": [2]
-	}, {
-		"programaId": "4",
-		"programaFile": "img04.jpg",
-		"programaCultivos": ["0023"],
-		"programasEtapas": [0, 1, 2, 3, 4],
-		"programaCondiciones": [2],
-		"programaTecnificaciones": [2]
-	}, {
-		"programaId": "5",
-		"programaFile": "img05.jpg",
-		"programaCultivos": ["0023"],
-		"programasEtapas": [0, 1, 2, 3, 4],
-		"programaCondiciones": [1],
-		"programaTecnificaciones": [3]
-	}, {
-		"programaId": "6",
-		"programaFile": "img06.jpg",
-		"programaCultivos": ["0023"],
-		"programasEtapas": [0, 1, 2, 3, 4],
-		"programaCondiciones": [2],
-		"programaTecnificaciones": [3]
-	},
-
-	{
-		"programaId": "7",
-		"programaFile": "img07.jpg",
-		"programaCultivos": ["0020"],
-		"programasEtapas": [0, 1, 2, 3, 4],
-		"programaCondiciones": [1],
-		"programaTecnificaciones": [1]
-	}, {
-		"programaId": "8",
-		"programaFile": "img08.jpg",
-		"programaCultivos": ["0020"],
-		"programasEtapas": [0, 1, 2, 3, 4],
-		"programaCondiciones": [2],
-		"programaTecnificaciones": [1]
-	}, {
-		"programaId": "9",
-		"programaFile": "img09.jpg",
-		"programaCultivos": ["0020"],
-		"programasEtapas": [0, 1, 2, 3, 4],
-		"programaCondiciones": [1],
-		"programaTecnificaciones": [2]
-	}, {
-		"programaId": "10",
-		"programaFile": "img10.jpg",
-		"programaCultivos": ["0020"],
-		"programasEtapas": [0, 1, 2, 3, 4],
-		"programaCondiciones": [2],
-		"programaTecnificaciones": [2]
-	}, {
-		"programaId": "11",
-		"programaFile": "img11.jpg",
-		"programaCultivos": ["0020"],
-		"programasEtapas": [0, 1, 2, 3, 4],
-		"programaCondiciones": [1],
-		"programaTecnificaciones": [3]
-	}, {
-		"programaId": "12",
-		"programaFile": "img12.jpg",
-		"programaCultivos": ["0020"],
-		"programasEtapas": [0, 1, 2, 3, 4],
-		"programaCondiciones": [2],
-		"programaTecnificaciones": [3]
-	}
-
-
-
-
+[
+{
+  "programaId": "1",
+  "programaFile": "tomate_ca_ac.jpg",
+  "programaCultivos": ["0023"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [1],
+  "programaTecnificaciones": [1]
+ },
+{
+  "programaId": "2",
+  "programaFile": "tomate_ca.jpg",
+  "programaCultivos": ["0023"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [5],
+  "programaTecnificaciones": [1]
+ },
+{
+  "programaId": "3",
+  "programaFile": "tomate_su_ac.jpg",
+  "programaCultivos": ["0023"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [1],
+  "programaTecnificaciones": [8]
+ },
+{
+  "programaId": "4",
+  "programaFile": "tomate_su.jpg",
+  "programaCultivos": ["0023"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [5],
+  "programaTecnificaciones": [8]
+ },
+{
+  "programaId": "5",
+  "programaFile": "tomate_hi_ac.jpg",
+  "programaCultivos": ["0023"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [1],
+  "programaTecnificaciones": [3]
+ },
+{
+  "programaId": "6",
+  "programaFile": "tomate_hi.jpg",
+  "programaCultivos": ["0023"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [5],
+  "programaTecnificaciones": [3]
+ },
+{
+  "programaId": "7",
+  "programaFile": "pimiento_ca_ac.jpg",
+  "programaCultivos": ["0020"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [1],
+  "programaTecnificaciones": [1]
+ },
+{
+  "programaId": "8",
+  "programaFile": "pimiento_ca.jpg",
+  "programaCultivos": ["0020"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [5],
+  "programaTecnificaciones": [1]
+ },
+{
+  "programaId": "9",
+  "programaFile": "pimiento_cu_ac.jpg",
+  "programaCultivos": ["0020"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [1],
+  "programaTecnificaciones": [5]
+ },
+{
+  "programaId": "10",
+  "programaFile": "pimiento_cu.jpg",
+  "programaCultivos": ["0020"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [5],
+  "programaTecnificaciones": [5]
+ },
+{
+  "programaId": "11",
+  "programaFile": "pimiento_hi_ac.jpg",
+  "programaCultivos": ["0020"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [1],
+  "programaTecnificaciones": [3]
+ },
+{
+  "programaId": "12",
+  "programaFile": "pimiento_hi.jpg",
+  "programaCultivos": ["0020"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [5],
+  "programaTecnificaciones": [3]
+ },
+{
+  "programaId": "13",
+  "programaFile": "pepino_ca_ac.jpg",
+  "programaCultivos": ["0019"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [1],
+  "programaTecnificaciones": [1]
+ },
+{
+  "programaId": "14",
+  "programaFile": "pepino_cu_ac.jpg",
+  "programaCultivos": ["0019"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [1],
+  "programaTecnificaciones": [5]
+ },
+{
+  "programaId": "15",
+  "programaFile": "pepino_cu.jpg",
+  "programaCultivos": ["0019"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [5],
+  "programaTecnificaciones": [5]
+ },
+{
+  "programaId": "16",
+  "programaFile": "chile_ancho_na_ac.jpg",
+  "programaCultivos": ["0040","4001","4002","4003"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [1],
+  "programaTecnificaciones": [7]
+ },
+{
+  "programaId": "17",
+  "programaFile": "chile_ancho_na.jpg",
+  "programaCultivos": ["0040","4001","4002","4003"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [5],
+  "programaTecnificaciones": [7]
+ },
+{
+  "programaId": "18",
+  "programaFile": "chile_serrano_na_ac.jpg",
+  "programaCultivos": ["0040", "4004", "4005"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [1],
+  "programaTecnificaciones": [7]
+ },
+{
+  "programaId": "19",
+  "programaFile": "chile_serrano_na.jpg",
+  "programaCultivos": ["0040", "4004", "4005"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [5],
+  "programaTecnificaciones": [7]
+ },
+{
+  "programaId": "20",
+  "programaFile": "tomate_cascara_na_ac.jpg",
+  "programaCultivos": ["0023","2302"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [1],
+  "programaTecnificaciones": [7]
+ },
+{
+  "programaId": "21",
+  "programaFile": "tomate_cascara_na.jpg",
+  "programaCultivos": ["0023","2302"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [5],
+  "programaTecnificaciones": [7]
+ },
+{
+  "programaId": "22",
+  "programaFile": "brocoli_na.jpg",
+  "programaCultivos": ["0027"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [6],
+  "programaTecnificaciones": [7]
+ },
+{
+  "programaId": "23",
+  "programaFile": "ajo_na.jpg",
+  "programaCultivos": ["0026"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [6],
+  "programaTecnificaciones": [7]
+ },
+{
+  "programaId": "24",
+  "programaFile": "cebolla_na.jpg",
+  "programaCultivos": ["0005"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [6],
+  "programaTecnificaciones": [7]
+ },
+{
+  "programaId": "25",
+  "programaFile": "lechuga_na.jpg",
+  "programaCultivos": ["0029"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [6],
+  "programaTecnificaciones": [7]
+ },
+{
+  "programaId": "26",
+  "programaFile": "papa_na.jpg",
+  "programaCultivos": ["0018"],
+  "programasEtapas": [0, 1, 2, 3, 4],
+  "programaCondiciones": [6],
+  "programaTecnificaciones": [7]
+ }
 ]

@@ -17,14 +17,14 @@
 			"variedadesTecnicas": [
 				{   
 					"variedadTecnicaId":"17",
-					"condicionId":"2",
-					"tecnificacionId":"1",
+					"condicionId":"1",
+					"tecnificacionId":"7",
 					"fertilizacion":false  
 				},
 				{   
 					"variedadTecnicaId":"18",
 					"condicionId":"5",
-					"tecnificacionId":"1",
+					"tecnificacionId":"7",
 					"fertilizacion":false  
 				}
 				
@@ -38,14 +38,14 @@
 				
 				{   
 					"variedadTecnicaId":"19",
-					"condicionId":"2",
-					"tecnificacionId":"1",
+					"condicionId":"1",
+					"tecnificacionId":"7",
 					"fertilizacion":false  
 				},
 				{   
 					"variedadTecnicaId":"20",
 					"condicionId":"5",
-					"tecnificacionId":"1",
+					"tecnificacionId":"7",
 					"fertilizacion":false  
 				}
 
@@ -59,14 +59,14 @@
 				
 				{   
 					"variedadTecnicaId":"21",
-					"condicionId":"2",
-					"tecnificacionId":"1",
+					"condicionId":"1",
+					"tecnificacionId":"7",
 					"fertilizacion":false  
 				},
 				{   
 					"variedadTecnicaId":"22",
 					"condicionId":"5",
-					"tecnificacionId":"1",
+					"tecnificacionId":"7",
 					"fertilizacion":false  
 				}
 
@@ -79,14 +79,14 @@
 			"variedadesTecnicas": [
 				{   
 					"variedadTecnicaId":"23",
-					"condicionId":"2",
-					"tecnificacionId":"1",
+					"condicionId":"1",
+					"tecnificacionId":"7",
 					"fertilizacion":false  
 				},
 				{   
 					"variedadTecnicaId":"24",
 					"condicionId":"5",
-					"tecnificacionId":"1",
+					"tecnificacionId":"7",
 					"fertilizacion":false  
 				}
 			]                 
@@ -98,33 +98,14 @@
 			"variedadesTecnicas": [
 				{   
 					"variedadTecnicaId":"25",
-					"condicionId":"2",
-					"tecnificacionId":"1",
+					"condicionId":"1",
+					"tecnificacionId":"7",
 					"fertilizacion":false  
 				},
 				{   
 					"variedadTecnicaId":"26",
 					"condicionId":"5",
-					"tecnificacionId":"1",
-					"fertilizacion":false  
-				}
-			]                 
-		},
-		{
-			"variedadId": "4006",
-			"variedadNombre":"Chiles Caloros",
-			"verbose":"chilescaloros",
-			"variedadesTecnicas": [
-				{   
-					"variedadTecnicaId":"27",
-					"condicionId":"2",
-					"tecnificacionId":"1",
-					"fertilizacion":false  
-				},
-				{   
-					"variedadTecnicaId":"28",
-					"condicionId":"5",
-					"tecnificacionId":"1",
+					"tecnificacionId":"7",
 					"fertilizacion":false  
 				}
 			]                 
